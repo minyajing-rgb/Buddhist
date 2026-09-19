@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Browser smoke checks against an actual local/public HTTP URL, not set_content."""
+"""Browser smoke checks against actual HTTP, with explicit DOM readiness waits."""
 from __future__ import annotations
 import argparse, datetime, hashlib, json, pathlib, urllib.request
 from playwright.sync_api import sync_playwright
@@ -45,21 +45,27 @@ def main():
             page.locator('[data-action="complete-story"]').click();page.locator('#closeModal').click();page.reload(wait_until='load')
             check('Reading progress persists after reload',page.evaluate('completed.has(0)'))
             page.locator('nav a[href="#atlas"]').click()
+            page.wait_for_function("document.querySelectorAll('#eventList .eventitem').length===D.events.length")
             before=page.locator('#eventList .eventitem').count()
             page.locator('#yearRange').fill('868')
+            page.locator('#yearRange').dispatch_event('input')
+            page.wait_for_function("document.querySelectorAll('#eventList .eventitem').length===D.events.filter(e=>e.start<=868).length")
             check('Year filter changes event count',page.locator('#eventList .eventitem').count()<before)
             page.locator('[data-map="libraries"]').click();check('Modern libraries not filtered by ancient date',page.locator('#yearRange').is_disabled())
             page.locator('nav a[href="#library"]').click();page.locator('[data-lib="media"]').click()
-            page.wait_for_function('D.figures.length===6')
+            page.wait_for_function("document.querySelectorAll('#libraryGrid [data-figure]').length===6")
             check('Six PNG guides available',page.locator('#libraryGrid [data-figure]').count()==6)
             page.locator('#libraryGrid [data-figure]').first.click();check('PNG enlarges in modal',page.locator('#modal img').count()==1);page.locator('#closeModal').click()
-            page.locator('nav a[href="#research"]').click();check('33 methods render',page.locator('#researchBody .methodrow').count()==33)
+            page.locator('nav a[href="#research"]').click()
+            page.wait_for_function("document.querySelectorAll('#researchBody .methodrow').length===33")
+            check('33 methods render',page.locator('#researchBody .methodrow').count()==33)
             page.locator('[data-research="sources"]').click();check('44 source cards render',page.locator('#sourceGrid .card').count()==44)
             page.locator('[data-research="quality"]').click();check('QA visible',page.locator('#researchBody .notebox').count()>=4)
             for width in [390,768]:
                 page.set_viewport_size({'width':width,'height':844})
                 for route in ['home','works','atlas','library']:
                     page.evaluate('(route)=>{location.hash=route;navigate()}',route)
+                    page.wait_for_function('(route)=>!document.getElementById(route).hidden',arg=route)
                     check(f'No page overflow {width}px {route}',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
             page.set_viewport_size({'width':390,'height':844});page.evaluate("location.hash='home';navigate()")
             page.screenshot(path=str(out/'mobile-home.png'),full_page=True)
