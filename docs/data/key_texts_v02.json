@@ -1,0 +1,819 @@
+{
+  "version": "0.2",
+  "generated_for": "Dharma Atlas",
+  "schema_note": "IDs are identifiers for surviving editions/traditions. A Taisho text and a Tibetan/Pali text listed under one work may be translations, parallels, recensions, or related collections rather than identical texts.",
+  "texts": [
+    {
+      "id": "DA-W-0001",
+      "type": "collection",
+      "tradition": [
+        "Early Buddhist",
+        "Chinese"
+      ],
+      "title_zh": "长阿含经",
+      "title_en": "Dīrgha Āgama",
+      "title_sa": "Dīrghāgama",
+      "ids": {
+        "taisho": "T01n0001",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Chinese Dīrgha Āgama collection; compare discourse-by-discourse with Dīgha Nikāya and other parallels rather than treating the collections as identical.",
+      "themes": [
+        "early Buddhism",
+        "cosmology",
+        "ethics",
+        "Buddha biography"
+      ],
+      "confidence": "high",
+      "why_it_matters": "汉译早期长篇经集，是跨传统比较早期佛教的重要入口。"
+    },
+    {
+      "id": "DA-W-0002",
+      "type": "collection",
+      "tradition": [
+        "Early Buddhist",
+        "Chinese"
+      ],
+      "title_zh": "中阿含经",
+      "title_en": "Madhyama Āgama",
+      "title_sa": "Madhyamāgama",
+      "ids": {
+        "taisho": "T01n0026",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Chinese Madhyama Āgama; many individual discourses have parallels in the Majjhima Nikāya and elsewhere.",
+      "themes": [
+        "practice",
+        "meditation",
+        "ethics",
+        "early doctrine"
+      ],
+      "confidence": "high",
+      "why_it_matters": "适合和巴利《中部》逐经对读，观察共同核心与版本差异。"
+    },
+    {
+      "id": "DA-W-0003",
+      "type": "collection",
+      "tradition": [
+        "Early Buddhist",
+        "Chinese"
+      ],
+      "title_zh": "杂阿含经",
+      "title_en": "Saṃyukta Āgama",
+      "title_sa": "Saṃyuktāgama",
+      "ids": {
+        "taisho": "T02n0099",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Chinese Saṃyukta Āgama; closely comparable at discourse/group level with the Saṃyutta Nikāya.",
+      "themes": [
+        "dependent arising",
+        "aggregates",
+        "sense bases",
+        "early doctrine"
+      ],
+      "confidence": "high",
+      "why_it_matters": "研究缘起、五蕴、无我等早期教义时的核心汉译资料。"
+    },
+    {
+      "id": "DA-W-0004",
+      "type": "collection",
+      "tradition": [
+        "Early Buddhist",
+        "Chinese"
+      ],
+      "title_zh": "增壹阿含经",
+      "title_en": "Ekottarika Āgama",
+      "title_sa": "Ekottarikāgama",
+      "ids": {
+        "taisho": "T02n0125",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Chinese Ekottarika Āgama; not a simple one-to-one equivalent of the Pāli Aṅguttara Nikāya.",
+      "themes": [
+        "numbered teachings",
+        "ethics",
+        "practice"
+      ],
+      "confidence": "high",
+      "why_it_matters": "能直接看见“按数字组织教法”这一古老记忆技术。"
+    },
+    {
+      "id": "DA-W-0005",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "转法轮经",
+      "title_en": "Setting the Dhamma Wheel in Motion",
+      "title_pi": "Dhammacakkappavattana Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "SN 56.11",
+        "toh": null
+      },
+      "relation_note": "Pāli recension with parallels in other early Buddhist traditions.",
+      "themes": [
+        "four noble truths",
+        "middle way",
+        "eightfold path"
+      ],
+      "confidence": "high",
+      "why_it_matters": "传统上视为佛陀成道后的第一次正式说法，是理解四谛与中道的起点。"
+    },
+    {
+      "id": "DA-W-0006",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "无我相经",
+      "title_en": "The Characteristic of Not-Self",
+      "title_pi": "Anattalakkhaṇa Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "SN 22.59",
+        "toh": null
+      },
+      "relation_note": "Pāli recension; early parallels exist across traditions.",
+      "themes": [
+        "nonself",
+        "five aggregates",
+        "liberation"
+      ],
+      "confidence": "high",
+      "why_it_matters": "最直接讨论“五蕴非我”的早期经典之一。"
+    },
+    {
+      "id": "DA-W-0007",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "大般涅槃经（巴利长部）",
+      "title_en": "The Great Discourse on the Buddha’s Extinguishment",
+      "title_pi": "Mahāparinibbāna Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "DN 16",
+        "toh": null
+      },
+      "relation_note": "Pāli version of an early parinirvāṇa cycle; extant parallels differ substantially in places. Do not confuse with the later Mahāyāna Mahāparinirvāṇa Sūtra.",
+      "themes": [
+        "Buddha's final journey",
+        "impermanence",
+        "community",
+        "relics"
+      ],
+      "confidence": "high",
+      "why_it_matters": "特别适合做版本比较：不同传承保存了明显不同的增删与编排。"
+    },
+    {
+      "id": "DA-W-0008",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "念处经",
+      "title_en": "Mindfulness Meditation",
+      "title_pi": "Satipaṭṭhāna Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "MN 10",
+        "toh": null
+      },
+      "relation_note": "Pāli recension; related material appears in other early traditions and in DN 22.",
+      "themes": [
+        "mindfulness",
+        "body",
+        "feeling",
+        "mind",
+        "phenomena"
+      ],
+      "confidence": "high",
+      "why_it_matters": "现代 mindfulness 讨论绕不开，但应回到古典语境而不是只看现代减压版本。"
+    },
+    {
+      "id": "DA-W-0009",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "迦摩罗经",
+      "title_en": "To the Kālāmas",
+      "title_pi": "Kesamutti/Kālāma Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "AN 3.65",
+        "toh": null
+      },
+      "relation_note": "Pāli text often simplified in modern quotation; context matters.",
+      "themes": [
+        "inquiry",
+        "ethics",
+        "epistemology"
+      ],
+      "confidence": "high",
+      "why_it_matters": "经常被现代人概括成“不要相信任何权威”，实际文本比口号复杂得多。"
+    },
+    {
+      "id": "DA-W-0010",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "善生经 / 教授尸伽罗越经（巴利对应）",
+      "title_en": "Advice to Sigālaka",
+      "title_pi": "Sigālovāda Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "DN 31",
+        "toh": null
+      },
+      "relation_note": "Pāli recension with Chinese parallels; titles and framing differ by tradition.",
+      "themes": [
+        "family",
+        "friendship",
+        "work",
+        "social ethics"
+      ],
+      "confidence": "high",
+      "why_it_matters": "非常适合现代大众：讲家庭、朋友、雇佣关系、财富和社会责任。"
+    },
+    {
+      "id": "DA-W-0011",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "慈经",
+      "title_en": "The Discourse on Loving-Kindness",
+      "title_pi": "Karaṇīyametta Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "Snp 1.8 / Khp 9",
+        "toh": null
+      },
+      "relation_note": "Pāli text preserved in more than one Pāli collection context.",
+      "themes": [
+        "loving-kindness",
+        "meditation",
+        "ethics"
+      ],
+      "confidence": "high",
+      "why_it_matters": "短、可读、适合小白直接进入早期佛教的慈心训练。"
+    },
+    {
+      "id": "DA-W-0012",
+      "type": "verse_collection",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli",
+        "Chinese"
+      ],
+      "title_zh": "法句经 / 法句",
+      "title_en": "Dhammapada and Chinese Dharmapada collections",
+      "title_pi": "Dhammapada",
+      "ids": {
+        "taisho": "T04n0210",
+        "suttacentral": "Dhp",
+        "toh": null
+      },
+      "relation_note": "The Pāli Dhammapada and Chinese 法句 collections are related verse traditions, not one mechanically identical text.",
+      "themes": [
+        "ethics",
+        "mind",
+        "wisdom",
+        "practice"
+      ],
+      "confidence": "high",
+      "why_it_matters": "最适合做“同一句格言在不同语言传统里如何变化”的入口。"
+    },
+    {
+      "id": "DA-W-0013",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Prajñāpāramitā",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "金刚般若波罗蜜经",
+      "title_en": "Diamond Sūtra",
+      "title_sa": "Vajracchedikā Prajñāpāramitā",
+      "ids": {
+        "taisho": "T08n0235",
+        "suttacentral": null,
+        "toh": "Toh 16"
+      },
+      "relation_note": "Chinese and Tibetan translations belong to the wider Vajracchedikā textual tradition; Sanskrit witnesses also survive.",
+      "themes": [
+        "emptiness",
+        "non-attachment",
+        "bodhisattva"
+      ],
+      "confidence": "high",
+      "why_it_matters": "短篇般若经典的代表，也是最适合展示梵/汉/藏多版本对读的经典之一。"
+    },
+    {
+      "id": "DA-W-0014",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Prajñāpāramitā",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "般若波罗蜜多心经",
+      "title_en": "Heart Sūtra",
+      "title_sa": "Prajñāpāramitāhṛdaya",
+      "ids": {
+        "taisho": "T08n0251",
+        "suttacentral": null,
+        "toh": "Toh 21; duplicate Toh 531"
+      },
+      "relation_note": "Multiple Sanskrit, Chinese and Tibetan witnesses/recensions; short and long forms are part of the textual history.",
+      "themes": [
+        "emptiness",
+        "five aggregates",
+        "prajñā"
+      ],
+      "confidence": "high",
+      "why_it_matters": "全球最知名佛经之一，非常适合用来教“作品、版本、译本、写本不是同一层”。"
+    },
+    {
+      "id": "DA-W-0015",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "妙法莲华经",
+      "title_en": "Lotus Sūtra",
+      "title_sa": "Saddharmapuṇḍarīka",
+      "ids": {
+        "taisho": "T09n0262",
+        "suttacentral": null,
+        "toh": "Toh 113"
+      },
+      "relation_note": "Several Chinese translations/recensions survive; T262 is Kumārajīva’s influential translation.",
+      "themes": [
+        "one vehicle",
+        "skillful means",
+        "buddhahood",
+        "devotion"
+      ],
+      "confidence": "high",
+      "why_it_matters": "东亚影响巨大，同时保留梵文、汉文、藏文证据，适合做完整传播史案例。"
+    },
+    {
+      "id": "DA-W-0016",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "维摩诘所说经",
+      "title_en": "The Teaching of Vimalakīrti",
+      "title_sa": "Vimalakīrtinirdeśa",
+      "ids": {
+        "taisho": "T14n0475",
+        "suttacentral": null,
+        "toh": "Toh 176"
+      },
+      "relation_note": "Multiple Chinese translations and a Tibetan version survive; Sanskrit manuscript evidence is also important for modern study.",
+      "themes": [
+        "nonduality",
+        "lay bodhisattva",
+        "emptiness",
+        "dialogue"
+      ],
+      "confidence": "high",
+      "why_it_matters": "故事性极强，几乎天然适合做连续剧式内容。"
+    },
+    {
+      "id": "DA-W-0017",
+      "type": "collection",
+      "tradition": [
+        "Mahāyāna",
+        "Avataṃsaka",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "大方广佛华严经（八十华严）",
+      "title_en": "Flower Ornament / Avataṃsaka Collection",
+      "title_sa": "Avataṃsaka",
+      "ids": {
+        "taisho": "T10n0279",
+        "suttacentral": null,
+        "toh": "Toh 44 (Tibetan Avataṃsaka collection)"
+      },
+      "relation_note": "Chinese T279 and Tibetan Toh 44 represent large Avataṃsaka collections whose internal organization is not simply one-to-one.",
+      "themes": [
+        "interdependence",
+        "cosmic buddhology",
+        "bodhisattva path",
+        "Gaṇḍavyūha"
+      ],
+      "confidence": "high",
+      "why_it_matters": "最能展示“宏大佛教宇宙叙事”和大型集合文本如何形成。"
+    },
+    {
+      "id": "DA-W-0018",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Pure Land",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "佛说阿弥陀经",
+      "title_en": "Shorter Sukhāvatīvyūha / Display of Sukhāvatī",
+      "title_sa": "Sukhāvatīvyūha",
+      "ids": {
+        "taisho": "T12n0366",
+        "suttacentral": null,
+        "toh": "Toh 115"
+      },
+      "relation_note": "Shorter Sukhāvatī text with extant Sanskrit, Chinese and Tibetan versions; versions vary in details.",
+      "themes": [
+        "Amitābha",
+        "pure land",
+        "rebirth",
+        "devotion"
+      ],
+      "confidence": "high",
+      "why_it_matters": "非常适合展示“同一文本跨印度—中国—西藏后，细节如何变化”。"
+    },
+    {
+      "id": "DA-W-0019",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Pure Land",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "佛说无量寿经",
+      "title_en": "Longer Sukhāvatīvyūha / Array of Amitābha",
+      "title_sa": "Larger Sukhāvatīvyūha",
+      "ids": {
+        "taisho": "T12n0360",
+        "suttacentral": null,
+        "toh": "Toh 49"
+      },
+      "relation_note": "Longer Sukhāvatī tradition; multiple Chinese translations survive and should be compared as separate versions.",
+      "themes": [
+        "Amitābha",
+        "vows",
+        "pure land",
+        "rebirth"
+      ],
+      "confidence": "high",
+      "why_it_matters": "阿弥陀佛本愿与净土思想的重要文本源头之一。"
+    },
+    {
+      "id": "DA-W-0020",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "大般涅槃经（大乘）",
+      "title_en": "Mahāyāna Mahāparinirvāṇa Sūtra",
+      "title_sa": "Mahāparinirvāṇa Mahāyāna Sūtra",
+      "ids": {
+        "taisho": "T12n0374",
+        "suttacentral": null,
+        "toh": "Toh 119–120"
+      },
+      "relation_note": "Later Mahāyāna parinirvāṇa scripture; do not conflate with the early Pāli DN 16 despite similar English/Chinese naming.",
+      "themes": [
+        "buddha-nature",
+        "nirvana",
+        "Buddhahood"
+      ],
+      "confidence": "high",
+      "why_it_matters": "“名字看起来一样但其实不是同一层文本”的经典教学案例。"
+    },
+    {
+      "id": "DA-W-0021",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Yogācāra",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "楞伽经",
+      "title_en": "Laṅkāvatāra Sūtra",
+      "title_sa": "Laṅkāvatāra Sūtra",
+      "ids": {
+        "taisho": "T16n0670; alt. T16n0671, T16n0672",
+        "suttacentral": null,
+        "toh": "Toh 107–108"
+      },
+      "relation_note": "Several Chinese translations and Tibetan witnesses survive; internal recensional complexity is significant.",
+      "themes": [
+        "mind",
+        "consciousness",
+        "tathāgatagarbha",
+        "Yogācāra"
+      ],
+      "confidence": "high",
+      "why_it_matters": "禅宗与唯识相关讨论的重要文本，也很适合做多译本差异。"
+    },
+    {
+      "id": "DA-W-0022",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Yogācāra",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "解深密经",
+      "title_en": "Unraveling the Intent",
+      "title_sa": "Saṃdhinirmocana Sūtra",
+      "ids": {
+        "taisho": "T16n0676",
+        "suttacentral": null,
+        "toh": "Toh 106"
+      },
+      "relation_note": "Complete extant recensions survive in Chinese and Tibetan; Sanskrit survives fragmentarily/reconstructively in parts.",
+      "themes": [
+        "three natures",
+        "consciousness",
+        "hermeneutics",
+        "emptiness"
+      ],
+      "confidence": "high",
+      "why_it_matters": "84000 对它的版本研究本身就是“如何做佛典文本批判”的优秀范例。"
+    },
+    {
+      "id": "DA-W-0023",
+      "type": "collection",
+      "tradition": [
+        "Mahāyāna",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "大宝积经",
+      "title_en": "Heap of Jewels / Ratnakūṭa Collection",
+      "title_sa": "Mahāratnakūṭa",
+      "ids": {
+        "taisho": "T11n0310",
+        "suttacentral": null,
+        "toh": "Toh 45–93 (Tibetan Ratnakūṭa section)"
+      },
+      "relation_note": "Large anthology/collection; Chinese and Tibetan collection structures are related but not a single one-to-one volume.",
+      "themes": [
+        "bodhisattva",
+        "pure lands",
+        "ethics",
+        "many Mahāyāna themes"
+      ],
+      "confidence": "high",
+      "why_it_matters": "帮助用户理解“大藏经中的一部大经”有时本身就是一个文集。"
+    },
+    {
+      "id": "DA-W-0024",
+      "type": "collection",
+      "tradition": [
+        "Mahāyāna",
+        "Prajñāpāramitā",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "大般若波罗蜜多经",
+      "title_en": "Great Perfection of Wisdom Collection",
+      "title_sa": "Mahāprajñāpāramitā corpus",
+      "ids": {
+        "taisho": "T05–T07n0220",
+        "suttacentral": null,
+        "toh": "Related long Prajñāpāramitā works Toh 8–12"
+      },
+      "relation_note": "Xuanzang’s enormous Chinese compilation is not a one-to-one equivalent of a single Tibetan work; map component works individually.",
+      "themes": [
+        "emptiness",
+        "prajñā",
+        "bodhisattva"
+      ],
+      "confidence": "high",
+      "why_it_matters": "最能说明“Collection-level crosswalk”和“单一作品 crosswalk”必须分开。"
+    },
+    {
+      "id": "DA-W-0025",
+      "type": "treatise",
+      "tradition": [
+        "Madhyamaka",
+        "Chinese"
+      ],
+      "title_zh": "中论",
+      "title_en": "Fundamental Verses on the Middle Way",
+      "title_sa": "Mūlamadhyamakakārikā",
+      "ids": {
+        "taisho": "T30n1564",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Chinese Madhyamaka treatise associated with Nāgārjuna; compare Sanskrit and Tibetan witnesses separately.",
+      "themes": [
+        "emptiness",
+        "dependent arising",
+        "two truths",
+        "middle way"
+      ],
+      "confidence": "high",
+      "why_it_matters": "不是“佛经”狭义 sūtra，而是后世理解空与中观的核心论典。"
+    },
+    {
+      "id": "DA-W-0026",
+      "type": "treatise",
+      "tradition": [
+        "Abhidharma",
+        "Chinese"
+      ],
+      "title_zh": "阿毗达磨俱舍论",
+      "title_en": "Treasury of Abhidharma",
+      "title_sa": "Abhidharmakośabhāṣya",
+      "ids": {
+        "taisho": "T29n1558",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Systematic scholastic treatise by Vasubandhu; not a sūtra and should be separated from Buddha-word collections.",
+      "themes": [
+        "Abhidharma",
+        "cosmology",
+        "karma",
+        "mind"
+      ],
+      "confidence": "high",
+      "why_it_matters": "理解佛教“分析心理学/宇宙论/业论”体系化过程的重要桥梁。"
+    },
+    {
+      "id": "DA-W-0027",
+      "type": "treatise",
+      "tradition": [
+        "Yogācāra",
+        "Chinese"
+      ],
+      "title_zh": "瑜伽师地论",
+      "title_en": "Yogācārabhūmi",
+      "title_sa": "Yogācārabhūmi",
+      "ids": {
+        "taisho": "T30n1579",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Large Yogācāra scholastic corpus with complex composition history.",
+      "themes": [
+        "meditation",
+        "mind",
+        "Yogācāra",
+        "path"
+      ],
+      "confidence": "high",
+      "why_it_matters": "展示后期佛教如何把修行、心理和认识论做成巨大系统工程。"
+    },
+    {
+      "id": "DA-W-0028",
+      "type": "treatise",
+      "tradition": [
+        "Yogācāra",
+        "East Asian",
+        "Chinese"
+      ],
+      "title_zh": "成唯识论",
+      "title_en": "Cheng Weishi Lun / Demonstration of Consciousness-Only",
+      "ids": {
+        "taisho": "T31n1585",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Xuanzang’s Chinese synthesis drawing on multiple Indian Yogācāra commentarial sources; not simply a translation of one surviving Sanskrit book.",
+      "themes": [
+        "consciousness-only",
+        "eight consciousnesses",
+        "Yogācāra"
+      ],
+      "confidence": "high",
+      "why_it_matters": "非常适合解释“翻译”有时其实包含编纂、综合和学派建构。"
+    },
+    {
+      "id": "DA-W-0029",
+      "type": "treatise",
+      "tradition": [
+        "East Asian Mahāyāna",
+        "Chinese"
+      ],
+      "title_zh": "大乘起信论",
+      "title_en": "Awakening of Faith in the Mahāyāna",
+      "title_sa": "Mahāyānaśraddhotpāda (traditional Sanskrit title)",
+      "ids": {
+        "taisho": "T32n1666",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Traditionally attributed to Aśvaghoṣa and translated by Paramārtha; origin/authorship have long been debated in modern scholarship.",
+      "themes": [
+        "one mind",
+        "tathāgatagarbha",
+        "faith",
+        "East Asian Mahāyāna"
+      ],
+      "confidence": "disputed",
+      "why_it_matters": "非常适合网站展示“传统归属”和“现代学术争议”可以同时存在。"
+    },
+    {
+      "id": "DA-W-0030",
+      "type": "sutra_or_chinese_composition",
+      "tradition": [
+        "East Asian Mahāyāna",
+        "Chinese"
+      ],
+      "title_zh": "大佛顶首楞严经",
+      "title_en": "Śūraṅgama Sūtra (East Asian text)",
+      "ids": {
+        "taisho": "T19n0945",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Highly influential in East Asia; questions about provenance and the absence of a securely identified Indic source are central to modern discussions.",
+      "themes": [
+        "mind",
+        "meditation",
+        "cosmology",
+        "demonic states"
+      ],
+      "confidence": "disputed",
+      "why_it_matters": "用来教学‘受传统尊崇’与‘文本来源有争议’并不互相排斥。"
+    },
+    {
+      "id": "DA-W-0031",
+      "type": "chinese_buddhist_text",
+      "tradition": [
+        "Chan",
+        "Chinese"
+      ],
+      "title_zh": "六祖大师法宝坛经",
+      "title_en": "Platform Sūtra of the Sixth Patriarch",
+      "ids": {
+        "taisho": "T48n2008",
+        "suttacentral": null,
+        "toh": null
+      },
+      "relation_note": "Chinese Chan scripture associated with Huineng; multiple historical recensions survive, including Dunhuang and later received forms.",
+      "themes": [
+        "Chan",
+        "sudden awakening",
+        "buddha-nature",
+        "practice"
+      ],
+      "confidence": "high",
+      "why_it_matters": "它不是印度传来的佛经，却成为东亚佛教最重要文本之一，直接打破‘佛经=印度翻译经’的误解。"
+    },
+    {
+      "id": "DA-W-0032",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Buddha biography",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "方广大庄严经 / 普曜经（相关汉译）",
+      "title_en": "The Play in Full",
+      "title_sa": "Lalitavistara",
+      "ids": {
+        "taisho": "T03n0186 / T03n0187 (related Chinese translations)",
+        "suttacentral": null,
+        "toh": "Toh 95"
+      },
+      "relation_note": "Buddha-biography textual tradition preserved in Sanskrit, Tibetan and Chinese versions/related translations.",
+      "themes": [
+        "Buddha biography",
+        "birth",
+        "awakening",
+        "narrative"
+      ],
+      "confidence": "high",
+      "why_it_matters": "故事性强，适合做‘佛陀生平是如何被不同文本逐层叙事化’。"
+    }
+  ]
+}
