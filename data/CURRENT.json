@@ -1,0 +1,57 @@
+{
+  "project": "Dharma Atlas",
+  "database_version": "0.3",
+  "updated_at": "2026-09-19",
+  "phase": "DATABASE_FIRST",
+  "public_site_rebuild": "LOCKED_UNTIL_DB_GATES_PASS",
+  "counts": {
+    "sources": 40,
+    "libraries": 15,
+    "places": 27,
+    "people": 20,
+    "corpus_entrypoints": 15,
+    "works": 100,
+    "work_access_records": 100,
+    "concepts": 20,
+    "witnesses": 20,
+    "research_dossiers": 12,
+    "media_assets": 12,
+    "learning_paths": 5,
+    "search_workflows": 6,
+    "checked_source_links": 32,
+    "season1_full_episodes": 12
+  },
+  "canonical_datasets": {
+    "sources": "data/source_registry_v0.3.json",
+    "physical_holdings": "data/library_holdings_v0.3.json",
+    "geography": "data/places_v0.3.geojson",
+    "people": "data/people_v0.3.json",
+    "corpus_entrypoints": "data/full_canon_entrypoints_v0.3.json",
+    "works": "data/key_works_100_v0.3.json",
+    "work_access": "data/text_access_index_100_v0.3.json",
+    "concepts": "data/concepts_v0.2.json",
+    "witnesses": "data/manuscript_witnesses_v0.3.json",
+    "research_questions": "data/bibliography_positions_v0.3.json",
+    "media": "data/media_registry_v0.3.json",
+    "learning_paths": "data/learning_paths_v0.3.json",
+    "search_strategies": "data/search_strategies_v0.3.json",
+    "source_link_qa": "data/link_qa_v0.3.json",
+    "content_qa": "data/qa_report_v0.3.json",
+    "season1": "docs/stories/season1_full.md"
+  },
+  "historical_snapshots": [
+    "data/key_texts_v0.2.json",
+    "data/text_access_index_v0.3.json",
+    "data/source_checks_v0.2.json",
+    "data/source_registry.json",
+    "docs/data/key_texts_v02.json",
+    "docs/stories/season1_outline.md"
+  ],
+  "rules": [
+    "Website must read canonical_datasets only.",
+    "Historical snapshots must never be treated as current data.",
+    "Discovery-level work metadata must not be presented as verified version-level crosswalk.",
+    "A source link is not evidence that two texts are identical recensions.",
+    "Public visual assets must use PNG/JPG; legacy SVGs are not the final public format."
+  ]
+}
