@@ -1,0 +1,20 @@
+{
+  "version": "0.3",
+  "node_types": [
+    "work",
+    "person",
+    "place",
+    "witness",
+    "corpus",
+    "source",
+    "concept",
+    "media"
+  ],
+  "edge_files": {
+    "person_work": "data/person_work_edges_v0.3.json",
+    "work_witness": "data/work_witness_edges_v0.3.json",
+    "corpus_witness": "data/corpus_witness_edges_v0.3.json",
+    "place_work": "data/place_work_edges_v0.3.json"
+  },
+  "rule": "Every edge carries a semantic relation type and confidence. Do not use generic 'related to' when a more precise relation is known."
+}
