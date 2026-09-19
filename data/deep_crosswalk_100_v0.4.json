@@ -1,5 +1,5 @@
 {
-  "version": "0.4",
+  "version": "0.4.1",
   "updated_at": "2026-09-19",
   "total": 100,
   "purpose_zh": "把100部核心作品全部放进统一的深度Crosswalk结构；字段逐项标注已核验/待深化，避免把authority route误报成完整学术crosswalk。",
@@ -7,7 +7,9 @@
     "structured_deep_crosswalk": "100/100",
     "legacy_stronger_foundation": "32/100",
     "remaining_item_level_witness_and_bibliography_deepening": "68/100",
-    "rule": "结构全 ≠ 每个字段已经学术级完成。任何pending字段必须继续补证据。"
+    "rule": "结构全 ≠ 每个字段已经学术级完成。任何pending字段必须继续补证据。",
+    "version_node_structure": "100/100",
+    "note": "All works now have an explicit version-node strategy; item-level witness + bibliography depth remains field-level pending where marked."
   },
   "records": [
     {
@@ -92,6 +94,10 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -185,6 +191,10 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -278,6 +288,10 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -370,6 +384,10 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -458,6 +476,27 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:SN 56.11",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "SN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/sn56.11",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -545,6 +584,27 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:SN 22.59",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "SN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/sn22.59",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -633,6 +693,27 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:DN 16",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "DN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/dn16",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -722,6 +803,27 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 10",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn10",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -809,6 +911,27 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:AN 3.65",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "AN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/an3.65",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -898,6 +1021,27 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:DN 31",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "DN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/dn31",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -985,6 +1129,27 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:Snp 1.8 / Khp 9",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": null,
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/snp1.8/khp9",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -1078,6 +1243,27 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:Dhp",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": null,
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/dhp",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -1178,6 +1364,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 16",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T08n0235",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -1278,6 +1498,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 21; duplicate Toh 531",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T08n0251",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -1375,6 +1629,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 113",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T09n0262",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -1475,6 +1763,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 176",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T14n0475",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -1577,6 +1899,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 44 (Tibetan Avataṃsaka collection)",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T10n0279",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -1678,6 +2034,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 115",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T12n0366",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -1774,6 +2164,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 49",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T12n0360",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -1869,6 +2293,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 119–120",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T12n0374",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -1968,6 +2426,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 107–108",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T16n0670",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -2069,6 +2561,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 106",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T16n0676",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -2170,6 +2696,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 45–93 (Tibetan Ratnakūṭa section)",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T11n0310",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -2270,6 +2830,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Related long Prajñāpāramitā works Toh 8–12",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T07n0220",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -2367,6 +2961,10 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -2457,6 +3055,10 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -2553,6 +3155,10 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -2647,6 +3253,10 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -2738,6 +3348,10 @@
           "status": "explicit",
           "confidence": "disputed",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -2834,6 +3448,10 @@
           "status": "explicit",
           "confidence": "disputed",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -2923,6 +3541,10 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -3025,6 +3647,40 @@
           "status": "explicit",
           "confidence": "high",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 95",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://cbetaonline.dila.edu.tw/zh/T03n0186",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -3114,6 +3770,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:DN 1",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "DN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/dn1",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -3203,6 +3880,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:DN 2",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "DN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/dn2",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -3292,6 +3990,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:DN 11",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "DN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/dn11",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -3380,6 +4099,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:DN 15",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "DN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/dn15",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -3468,6 +4208,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:DN 22",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "DN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/dn22",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -3557,6 +4318,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 22",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn22",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -3646,6 +4428,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 27",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn27",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -3735,6 +4538,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 36",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn36",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -3824,6 +4648,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 39",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn39",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -3913,6 +4758,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 61",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn61",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4001,6 +4867,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 63",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn63",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4090,6 +4977,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 86",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn86",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4178,6 +5086,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 118",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn118",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4267,6 +5196,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 135",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn135",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4356,6 +5306,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:MN 140",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "MN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mn140",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4445,6 +5416,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:SN 12.15",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "SN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/sn12.15",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4534,6 +5526,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:SN 12.23",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "SN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/sn12.23",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4622,6 +5635,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:SN 35.28",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "SN",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/sn35.28",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4710,6 +5744,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:Snp 1.3",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "SNP",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/snp1.3",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4798,6 +5853,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:Snp 2.1",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "SNP",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/snp2.1",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4887,6 +5963,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:Snp 2.4",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "SNP",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/snp2.4",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -4975,6 +6072,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:Ud 1.10",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": "UD",
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/ud1.10",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -5065,6 +6183,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:thag",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": null,
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/thag",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -5155,6 +6294,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:thig",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": null,
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/thig",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -5245,6 +6405,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:ja",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": null,
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/ja",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -5335,6 +6516,27 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "parallel_discovery": {
+          "status": "authority_platform_supported",
+          "platform": "SuttaCentral",
+          "method": "Open the SuttaCentral relation/parallel layer for this canonical ID and record each Chinese/Sanskrit/Gāndhārī/Tibetan relation separately as close_parallel / partial / resembling.",
+          "caution": "Do not auto-copy all related texts as exact equivalents."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SC:mil",
+              "language": "Pāli",
+              "tradition": "Theravāda / Pāli textual tradition",
+              "collection": null,
+              "authority": "SuttaCentral",
+              "url": "https://suttacentral.net/mil",
+              "relation_to_work": "canonical Pāli recension / collection record",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -5425,6 +6627,10 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "version_nodes": {
+          "status": "pending",
+          "versions": []
         }
       },
       "next_verification_actions": [
@@ -5515,6 +6721,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 12",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh12",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -5604,6 +6844,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 9",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh9",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -5693,6 +6967,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 8",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh8",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -5787,6 +7095,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 44-45",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh44-45",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -5880,6 +7222,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 44-31",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh44-31",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -5974,6 +7350,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 50",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh50",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -6068,6 +7478,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 504",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Tantra",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh504",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -6161,6 +7605,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 92",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh92",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -6254,6 +7732,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 258",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh258",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -6347,6 +7859,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 63",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh63",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -6441,6 +7987,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 127",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh127",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -6535,6 +8115,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 555–557 (Tibetan recensions; Toh 556 direct)",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Tantra",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh556",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -6628,6 +8242,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 132",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh132",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -6722,6 +8370,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 133",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh133",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -6816,6 +8498,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 116",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh116",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -6911,6 +8627,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 287",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh287",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7001,6 +8751,20 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "GRETIL provides a Sanskrit e-text based on E. H. Johnston's Buddhacarita edition and also preserves Tibetan-collation material."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SANSKRIT-WORK:DA-W-0076",
+              "language": "Sanskrit / Buddhist Hybrid Sanskrit as applicable",
+              "tradition": "Indian Buddhist textual tradition",
+              "authority": "GRETIL / DSBC / critical editions",
+              "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/5_poetry/2_kavya/asvbuc2u.htm",
+              "relation_to_work": "electronic/critical-text route; exact edition node must be recorded",
+              "verification": "authority_text_or_index_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7091,6 +8855,20 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "Mahāvastu-Avadāna is present in the GRETIL corpus index; this record remains a work-level route rather than a claim of a single canonical recension."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SANSKRIT-WORK:DA-W-0077",
+              "language": "Sanskrit / Buddhist Hybrid Sanskrit as applicable",
+              "tradition": "Indian Buddhist textual tradition",
+              "authority": "GRETIL / DSBC / critical editions",
+              "url": "https://gretil.sub.uni-goettingen.de/gret_csxbk.htm",
+              "relation_to_work": "electronic/critical-text route; exact edition node must be recorded",
+              "verification": "authority_text_or_index_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7181,6 +8959,20 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "GRETIL provides the Divyāvadāna e-text based on Vaidya's 1959 edition."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SANSKRIT-WORK:DA-W-0078",
+              "language": "Sanskrit / Buddhist Hybrid Sanskrit as applicable",
+              "tradition": "Indian Buddhist textual tradition",
+              "authority": "GRETIL / DSBC / critical editions",
+              "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/divyav_u.htm",
+              "relation_to_work": "electronic/critical-text route; exact edition node must be recorded",
+              "verification": "authority_text_or_index_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7271,6 +9063,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 343",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Kangyur — Discourses",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh343",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7361,6 +9187,20 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "GRETIL lists multiple Āryaśūra Jātakamālā e-text editions; the work-level record intentionally does not force one edition as the canonical original."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "SANSKRIT-WORK:DA-W-0080",
+              "language": "Sanskrit / Buddhist Hybrid Sanskrit as applicable",
+              "tradition": "Indian Buddhist textual tradition",
+              "authority": "GRETIL / DSBC / critical editions",
+              "url": "https://gretil.sub.uni-goettingen.de/gret_utfbk.htm",
+              "relation_to_work": "electronic/critical-text route; exact edition node must be recorded",
+              "verification": "authority_text_or_index_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7450,6 +9290,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 3940",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh3940",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7546,6 +9420,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 3871",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh3871",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7641,6 +9549,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4020",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh4020",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7736,6 +9678,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4021",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh4021",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7825,6 +9801,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4055",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh4055",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -7914,6 +9924,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4056",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/canon/mind-only",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -8017,6 +10061,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4048",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh4048",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -8120,6 +10198,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4049",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh4049",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -8223,6 +10335,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4037",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh4037",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -8326,6 +10472,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4024",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh4024",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -8422,6 +10602,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4203",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/canon/epistemology-and-logic",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -8518,6 +10732,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4210",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/canon/epistemology-and-logic",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -8614,6 +10862,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 3861",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh3861",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -8717,6 +10999,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 3846",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh3846",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -8821,6 +11137,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 3828",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh3828",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -8925,6 +11275,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 4158",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh4158",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -9020,6 +11404,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 3786",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh3786",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -9116,6 +11534,40 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
+        },
+        "cross_language_discovery": {
+          "status": "structured",
+          "Sanskrit": [
+            "GRETIL",
+            "DSBC",
+            "NGMCP where manuscript transmission is relevant"
+          ],
+          "Chinese": [
+            "CBETA",
+            "SAT",
+            "DILA catalog"
+          ],
+          "Tibetan": [
+            "84000",
+            "BDRC/BUDA",
+            "Adarshah"
+          ],
+          "instruction": "Create separate Version nodes when a translation/recension is found; do not merge by title alone."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "Toh:Toh 3947",
+              "language": "Tibetan",
+              "tradition": "Tibetan Buddhist Canon",
+              "collection": "Degé Tengyur / catalog range or later canonical sections",
+              "authority": "84000 / Tohoku catalog",
+              "url": "https://84000.co/translation/toh3947",
+              "relation_to_work": "Tibetan canonical translation/version",
+              "verification": "authority_identifier_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -9207,6 +11659,20 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "Lam rim chen mo is a post-canonical Tibetan work by Tsongkhapa, not a Toh-numbered Indian canonical work. Use Tibetan collected-works/Adarshah/BDRC-style routes rather than inventing a Toh ID."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "TIBETAN-WORK:Lamrim-Chenmo",
+              "language": "Tibetan",
+              "tradition": "Geluk / Tibetan scholastic",
+              "authority": "Adarshah / BDRC",
+              "url": "https://online.adarshah.org/download.html?sutra=JTs149",
+              "relation_to_work": "Tibetan authored work; edition/version nodes required",
+              "verification": "authority_text_route"
+            }
+          ]
         }
       },
       "next_verification_actions": [
@@ -9298,6 +11764,20 @@
           "status": "explicit",
           "confidence": "not_assigned",
           "relation_warning": "Bardo Thödol is treated as a textual/tradition family within Karma Lingpa's treasure cycle, not as a single fixed canonical work with one universal ID. Karma Lingpa has BDRC person ID P5245; individual editions/cycles must be resolved separately."
+        },
+        "version_nodes": {
+          "status": "structured_with_authority_route",
+          "versions": [
+            {
+              "version_id": "TRADITION-FAMILY:Bardo-Thodol",
+              "language": "Tibetan",
+              "tradition": "Nyingma treasure-text / funerary transmission families",
+              "authority": "BDRC / Tibetan bibliographic research",
+              "url": "https://search.worldcat.org/search?q=%22Bardo+Thodol%22",
+              "relation_to_work": "tradition family, not one canonical work",
+              "verification": "family_route_only"
+            }
+          ]
         }
       },
       "next_verification_actions": [
