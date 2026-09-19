@@ -1,7 +1,7 @@
 {
   "version": "0.3.1",
   "run_at": "2026-09-19",
-  "status": "PASS_WITH_OPEN_GATES",
+  "status": "STRUCTURAL_QA_PASS_OPEN_CONTENT_GATES",
   "counts": {
     "sources": 40,
     "libraries": 15,
@@ -16,7 +16,7 @@
     "media_assets": 12,
     "learning_paths": 5,
     "search_workflows": 6,
-    "checked_source_links": 32,
+    "checked_source_links": 40,
     "season1_full_episodes": 12
   },
   "structural_checks": {
@@ -24,7 +24,7 @@
     "library_required_fields": "PASS",
     "witness_required_fields": "PASS",
     "all_100_works_have_access_record": "PASS",
-    "source_registry_links_checked": "FAIL",
+    "source_registry_links_checked": "PASS",
     "season1_has_12_full_episodes": "PASS"
   },
   "verification_depth": {
