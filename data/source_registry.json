@@ -1,0 +1,111 @@
+{
+  "version": "0.1",
+  "sources": [
+    {
+      "id": "cbeta",
+      "name": "CBETA",
+      "type": "digital_canon",
+      "focus": [
+        "Chinese Buddhist canon",
+        "Taishō",
+        "Xuzang",
+        "Jiaxing"
+      ],
+      "url": "https://cbeta.org/"
+    },
+    {
+      "id": "sat",
+      "name": "SAT Daizōkyō Text Database",
+      "type": "digital_canon",
+      "focus": [
+        "Taishō Tripiṭaka",
+        "Japanese Buddhist textual studies"
+      ],
+      "url": "https://21dzk.l.u-tokyo.ac.jp/SAT/"
+    },
+    {
+      "id": "suttacentral",
+      "name": "SuttaCentral",
+      "type": "parallel_text_platform",
+      "focus": [
+        "Early Buddhist Texts",
+        "Pāli",
+        "Chinese",
+        "Sanskrit",
+        "Tibetan",
+        "parallels"
+      ],
+      "url": "https://suttacentral.net/"
+    },
+    {
+      "id": "84000",
+      "name": "84000: Translating the Words of the Buddha",
+      "type": "translation_project",
+      "focus": [
+        "Kangyur",
+        "Tengyur",
+        "English translation"
+      ],
+      "url": "https://84000.co/"
+    },
+    {
+      "id": "bdrc",
+      "name": "Buddhist Digital Resource Center / BUDA",
+      "type": "linked_data_library",
+      "focus": [
+        "Work",
+        "Version",
+        "Person",
+        "Place",
+        "Tibetan texts",
+        "scans"
+      ],
+      "url": "https://www.bdrc.io/"
+    },
+    {
+      "id": "gandhari",
+      "name": "Gāndhārī.org",
+      "type": "manuscript_corpus",
+      "focus": [
+        "Gāndhārī language",
+        "early manuscripts",
+        "inscriptions"
+      ],
+      "url": "https://gandhari.org/"
+    },
+    {
+      "id": "idp",
+      "name": "International Dunhuang Programme",
+      "type": "manuscript_portal",
+      "focus": [
+        "Dunhuang",
+        "Central Asian manuscripts",
+        "images"
+      ],
+      "url": "https://idp.bl.uk/"
+    },
+    {
+      "id": "ntu",
+      "name": "NTU Digital Library of Buddhist Studies",
+      "type": "bibliography",
+      "focus": [
+        "modern Buddhist studies",
+        "articles",
+        "books",
+        "multilingual bibliography"
+      ],
+      "url": "https://buddhism.lib.ntu.edu.tw/"
+    },
+    {
+      "id": "worldcat",
+      "name": "WorldCat",
+      "type": "library_union_catalog",
+      "focus": [
+        "global holdings",
+        "editions",
+        "physical libraries"
+      ],
+      "url": "https://search.worldcat.org/"
+    }
+  ]
+}
