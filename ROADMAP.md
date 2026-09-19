@@ -10,12 +10,17 @@
 - Evidence methodology
 - GitHub Pages workflow
 
-## V0.2 Canon Crosswalk
-- 100 key texts
-- Taishō / CBETA / SuttaCentral / Toh / BDRC IDs
-- Chinese / English / Sanskrit / Pāli / Tibetan titles
-- parallel relationship types
-- traditional vs scholarly chronology
+## V0.2 Canon Crosswalk — IN PROGRESS
+- [x] First 32 key text nodes
+- [x] Taishō / SuttaCentral / Toh identifiers where verified
+- [x] Chinese / English / Sanskrit / Pāli titles where applicable
+- [x] 20 concept → text learning entries
+- [x] searchable website explorer
+- [x] ID verification ledger
+- [ ] expand 32 → 100 key texts
+- [ ] add BDRC work/version IDs
+- [ ] add discourse-level Āgama ↔ Nikāya parallels
+- [ ] add traditional vs scholarly chronology fields at scale
 
 ## V0.3 People & Translation Network
 - Buddha / early disciples
