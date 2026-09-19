@@ -1,0 +1,12 @@
+{
+  "domain": "quantum",
+  "version": "0.1.0",
+  "dataset": "atlas.v0.1.json",
+  "status": "research_preview_not_exhaustive",
+  "public_release_gate": "not_passed_for_full_atlas",
+  "preview_gate": "source_backed_L1_seed_only",
+  "counts": {"concepts": 24, "bridge_questions": 6, "timeline_records": 6, "sources": 20, "learning_paths": 3},
+  "full_atlas_target": 360,
+  "updated": "2026-09-19",
+  "note": "Independent quantum project; does not replace Buddhist data/CURRENT.json. Frontend must load this pointer. An offline export may embed an exact generated snapshot, but must not become the canonical source."
+}
