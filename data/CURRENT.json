@@ -1,6 +1,6 @@
 {
   "project": "Dharma Atlas",
-  "database_version": "0.4",
+  "database_version": "0.6",
   "updated_at": "2026-09-19",
   "phase": "DATABASE_FIRST",
   "public_site_rebuild": "LOCKED_UNTIL_DB_GATES_PASS",
@@ -19,7 +19,9 @@
     "learning_paths": 5,
     "search_workflows": 6,
     "checked_source_links": 40,
-    "season1_full_episodes": 12
+    "season1_full_episodes": 12,
+    "deep_crosswalk_records": 100,
+    "deep_crosswalk_L3": 100
   },
   "canonical_datasets": {
     "sources": "data/source_registry_v0.4.json",
@@ -39,7 +41,10 @@
     "content_qa": "data/qa_report_v0.3.json",
     "season1": "docs/stories/season1_full.md",
     "work_verification": "data/work_verification_status_v0.4.json",
-    "regional_coverage": "data/regional_coverage_matrix_v0.4.json"
+    "regional_coverage": "data/regional_coverage_matrix_v0.4.json",
+    "deep_crosswalk": "data/deep_crosswalk_100_v0.6.json",
+    "deep_crosswalk_qa": "data/deep_crosswalk_qa_v0.6.json",
+    "reusable_skill": "skills/global-knowledge-atlas/SKILL.md"
   },
   "historical_snapshots": [
     "data/key_texts_v0.2.json",
