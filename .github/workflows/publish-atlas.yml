@@ -3,17 +3,18 @@ on:
   push:
     branches: [main]
     paths:
+      - 'web/garden/**'
       - 'site/**'
       - 'scripts/build_atlas.py'
       - 'scripts/finalize_review.py'
       - 'scripts/prepare_public_beta.py'
-      - 'scripts/review_parallel_encoding.py'
+      - 'scripts/build_garden.py'
+      - 'scripts/render_garden.py'
       - 'data/**'
       - 'skills/global-knowledge-atlas/**'
       - 'docs/stories/**'
       - 'docs/infographics/**'
-      - 'docs/updates.html'
-      - 'tests/atlas_public_smoke.py'
+      - 'tests/garden_smoke.py'
       - '.github/workflows/publish-atlas.yml'
   workflow_run:
     workflows: ['Import authority metadata', 'Build complete research preview']
@@ -31,7 +32,7 @@ jobs:
   publish:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 18
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -39,134 +40,108 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Install renderer and HTTP browser test dependencies
+      - name: Install rendering and browser verification
         run: |
           python -m pip install 'CairoSVG==2.8.2' 'playwright==1.57.0'
           sudo apt-get update -qq
           sudo apt-get install -y fonts-noto-cjk
           python -m playwright install --with-deps chromium
-      - name: Reproduce pinned parallel-source corrections
-        run: |
-          if ! python scripts/review_parallel_encoding.py; then
-            echo 'Source refresh failed. Retain previously archived evidence; do not invent new progress.'
-          fi
-      - name: Build current content and promote to public beta
+      - name: Build research inputs, then project only visitor content
         run: |
           python scripts/build_atlas.py
           python scripts/finalize_review.py
           python scripts/prepare_public_beta.py
-      - name: Check public candidate on real local HTTP
+          python scripts/build_garden.py
+          node --check web/garden/garden.js
+      - name: Test the actual public distribution over local HTTP
         run: |
-          python -m http.server 8080 --directory docs > /tmp/atlas-http.log 2>&1 &
+          python -m http.server 8080 --directory build/public > /tmp/garden-http.log 2>&1 &
           SERVER_PID=$!
           trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
-          python tests/atlas_public_smoke.py --url http://127.0.0.1:8080/ --out build/atlas-local
-      - name: Archive public homepage and preserve quantum subsite
+          python tests/garden_smoke.py --url http://127.0.0.1:8080/ --out build/garden-local
+      - name: Archive website source and visitor build without deleting research
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/index.html docs/review/ docs/archive/pre-public-beta/ docs/release.json docs/.nojekyll data/CURRENT.json data/public_beta_manifest.json data/deep_crosswalk_100_v0.7.review.json data/research_audit_v0.7.json
-          if [ -f data/parallel_review_v0.8.json ]; then git add data/parallel_review_v0.8.json; fi
+          python - <<'PY'
+          import json,pathlib
+          p=pathlib.Path('data/CURRENT.json');d=json.loads(p.read_text())
+          d.setdefault('site',{}).update({'public_root':'docs/garden/index.html','distribution':'build/public','style':'luminous illustrated lotus garden and gilded pavilions','languages':['zh','en'],'public_content_policy':'visitor allowlist; no raw research objects, repository links or audit exports','custom_domain_modified':False})
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2))
+          PY
+          git add docs/garden docs/index.html data/CURRENT.json
           if ! git diff --cached --quiet; then
-            git commit -m 'release: archive current Dharma Atlas public beta and evidence updates'
+            git commit -m 'release: archive Garden of Dharma public website and original garden artwork'
+            git stash --include-untracked
             git pull --rebase origin main
             git push origin HEAD:main
+            git stash pop || true
           fi
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: docs
-      - name: Publish the complete site without deleting subdirectories
+          path: build/public
+      - name: Publish only visitor files and preserve quantum subsite
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Verify exact homepage bytes over public HTTPS
+      - name: Verify the exact public homepage and preserved subsite
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           python - <<'PY'
-          import hashlib,json,os,pathlib,time,urllib.request,datetime
-          expected=hashlib.sha256(pathlib.Path('docs/index.html').read_bytes()).hexdigest()
-          url=os.environ['PAGE_URL']
+          import datetime,hashlib,json,os,pathlib,time,urllib.request
+          base=os.environ['PAGE_URL'];expected=hashlib.sha256(pathlib.Path('build/public/index.html').read_bytes()).hexdigest()
           for attempt in range(36):
               try:
-                  req=urllib.request.Request(url+'?release_check='+str(time.time_ns()),headers={'Cache-Control':'no-cache'})
-                  with urllib.request.urlopen(req,timeout=25) as r:
+                  with urllib.request.urlopen(base+'?verify='+str(time.time_ns()),timeout=25) as r:
                       body=r.read()
-                      if r.status==200 and hashlib.sha256(body).hexdigest()==expected:
-                          print('Public HTTPS 200 and exact homepage SHA256 verified:',url)
-                          break
-              except Exception as e: print(type(e).__name__,str(e)[:180])
+                      if r.status==200 and hashlib.sha256(body).hexdigest()==expected:break
+              except Exception as e:print(type(e).__name__,str(e)[:100])
               time.sleep(5)
-          else: raise SystemExit('Public homepage does not yet match this build')
-          preserved={}
-          q=pathlib.Path('docs/quantum/index.html')
+          else:raise SystemExit('Public homepage did not match the tested garden build')
+          report=json.loads(pathlib.Path('build/garden-release.json').read_text())
+          report.update({'url':base,'status':'published_and_https_hash_verified','http_status':200,'verified_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'workflow_run':os.environ['GITHUB_RUN_ID'],'source_commit':os.environ['GITHUB_SHA']})
+          q=pathlib.Path('build/public/quantum/index.html')
           if q.exists():
-              qurl=url.rstrip('/')+'/quantum/?release_check='+str(time.time_ns())
-              with urllib.request.urlopen(qurl,timeout=30) as r:
-                  qb=r.read()
-                  preserved={'quantum_http_status':r.status,'quantum_sha256_matches':hashlib.sha256(qb).hexdigest()==hashlib.sha256(q.read_bytes()).hexdigest()}
-                  assert r.status==200 and preserved['quantum_sha256_matches'], 'Quantum subsite must be preserved'
-          pathlib.Path('build/atlas-public').mkdir(parents=True,exist_ok=True)
-          report={'url':url,'status':'published_and_https_hash_verified','http_status':200,'homepage_sha256':expected,'verified_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'workflow_run':os.environ['GITHUB_RUN_ID'],'source_commit':os.environ['GITHUB_SHA'],'research_complete':False,'custom_dns_modified':False,**preserved}
-          pathlib.Path('build/atlas-public/deployment.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+              with urllib.request.urlopen(base.rstrip('/')+'/quantum/?verify='+str(time.time_ns()),timeout=30) as r:
+                  report['quantum_preserved']=r.status==200 and hashlib.sha256(r.read()).hexdigest()==hashlib.sha256(q.read_bytes()).hexdigest()
+                  assert report['quantum_preserved']
+          pathlib.Path('build/garden-public').mkdir(parents=True,exist_ok=True)
+          pathlib.Path('build/garden-public/deployment.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          print(json.dumps({k:v for k,v in report.items() if k!='public_files'},ensure_ascii=False))
           PY
-      - name: Run interaction and mobile checks on public website
+      - name: Test bilingual interactions and the serving boundary on public HTTPS
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
-        run: python tests/atlas_public_smoke.py --url "$PAGE_URL" --out build/atlas-public
-      - name: Record verified deployment and current user publication policy
+        run: python tests/garden_smoke.py --url "$PAGE_URL" --out build/garden-public
+      - name: Keep test reports in the repository, not in the public distribution
         run: |
-          cp build/atlas-public/deployment.json docs/public_deployment.json
-          cp build/atlas-public/qa.json data/public_beta_qa.json
-          python - <<'PY'
-          import json,pathlib,re
-          report=json.loads(pathlib.Path('docs/public_deployment.json').read_text())
-          note='<!-- LIVE_PREVIEW_POLICY_START -->\n## 当前公开预览：内容与网站并行更新\n\n已上线：['+report['url']+']('+report['url']+')。本次已核验真实HTTPS页面和浏览器交互。\n\n用户于2026-09-19明确要求：已有内容先部署预览，研究和网站并行完善。此规则替代下文历史记录中“全部考证完成后再发布／官网未部署”的旧状态；学术证据仍须诚实标注。\n\n发布结果见 `docs/public_deployment.json`，公网测试见 `data/public_beta_qa.json`。\n'
-          p=pathlib.Path('data/parallel_review_v0.8.json')
-          if p.exists():
-              c=json.loads(p.read_text())['counts']
-              note+='\n本轮另核对'+str(c['reviewed_works'])+'部的官方平行关系编码，旧重复分类目标'+str(c['old_overlapping_targets'])+'项，新映射重叠'+str(c['new_overlapping_targets'])+'项。仅指编码修正，不指独立完成全部经文校勘。\n'
-          note+='\n<!-- LIVE_PREVIEW_POLICY_END -->\n\n'
-          for name in ['README.md','DATABASE_STATUS.md']:
-              p=pathlib.Path(name);body=p.read_text()
-              body=re.sub(r'<!-- LIVE_PREVIEW_POLICY_START -->.*?<!-- LIVE_PREVIEW_POLICY_END -->\s*','',body,flags=re.S)
-              p.write_text(note+body)
-          skill=pathlib.Path('skills/global-knowledge-atlas/SKILL.md');body=skill.read_text()
-          body=body.replace('version: "1.1"','version: "1.2"',1)
-          marker='<!-- LIVING_RELEASE_OVERRIDE -->'
-          if marker not in body:
-              end=body.find('\n---',3)+4
-              override='\n\n'+marker+'\n> **发布规则 v1.2：** 当用户明确要求先预览、边研究边迭代时，先发布已可使用的内容，保留未知/争议/证据等级标签。研究完整性不得阻塞整站预览；功能、安全和隐私检查仍须通过。此条替代旧文中要求学术考证全部完成才允许任何公网预览的表述。每批采用“数据更新→自动构建→功能测试→预览发布→公网核验”，不以发布代替研究完成。\n\n'
-              body=body[:end]+override+body[end:]
-          skill.write_text(body)
-          PY
-          git add docs/public_deployment.json data/public_beta_qa.json README.md DATABASE_STATUS.md skills/global-knowledge-atlas/SKILL.md
-          git commit -m 'qa: verify live beta and persist parallel research/publication policy'
-          git pull --rebase origin main
-          git push origin HEAD:main
-          echo '## Dharma Atlas public beta' >> "$GITHUB_STEP_SUMMARY"
-          cat docs/public_deployment.json >> "$GITHUB_STEP_SUMMARY"
-      - name: Include the verified deployment record in the public site
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: docs
-          name: github-pages-verified
-      - name: Publish unchanged tested pages with their verification record
-        uses: actions/deploy-pages@v4
-        with:
-          artifact_name: github-pages-verified
-      - name: Save public screenshots, reports and release bundle
+          mkdir -p status
+          cp build/garden-public/qa.json status/garden-public-qa.json
+          cp build/garden-public/deployment.json status/garden-deployment.json
+          git add status/garden-public-qa.json status/garden-deployment.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'qa: verify live garden, bilingual flows and hidden research URLs'
+            git stash --include-untracked
+            git pull --rebase origin main
+            git push origin HEAD:main
+            git stash pop || true
+          fi
+          echo '## Garden of Dharma live' >> "$GITHUB_STEP_SUMMARY"
+          cat status/garden-public-qa.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Save actual screenshots, reports and website files
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: dharma-atlas-live-beta
+          name: dharma-garden-website
           path: |
-            build/atlas-local/
-            build/atlas-public/
-            docs/index.html
-            docs/release.json
-            docs/public_deployment.json
-            data/public_beta_manifest.json
-            data/public_beta_qa.json
-            data/parallel_review_v0.8.json
+            build/garden-local/
+            build/garden-public/
+            build/garden-release.json
+            build/public/
+            docs/garden/
+            web/garden/
+            scripts/build_garden.py
+            scripts/render_garden.py
+            tests/garden_smoke.py
           retention-days: 30
           if-no-files-found: warn
