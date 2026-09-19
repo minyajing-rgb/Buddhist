@@ -100,23 +100,28 @@
 
 ## Status
 
-**v0.2 — Canon Crosswalk / Explorer**
-- [x] Repo architecture
-- [x] 6 bilingual infographics
-- [x] HTML single-page atlas
-- [x] Initial canon/source schemas
-- [x] 32 key text nodes (first crosswalk batch)
-- [x] 20 concept → text learning entries
-- [x] searchable Core Text Explorer
-- [x] Season 1 / 12-episode story outline
-- [x] source/ID verification ledger
-- [ ] expand to 100 key texts
-- [ ] 50 key people
-- [ ] manuscript/library atlas
-- [ ] full source ID crosswalk
-- [ ] complete bilingual story episodes
+### v0.3 — DATABASE FIRST
 
----
+Current canonical dataset pointer: **`data/CURRENT.json`**
 
-**Repository:** `minyajing-rgb/Buddhist`  
-**Product name:** **Dharma Atlas｜佛典全球知识地图**
+- [x] 40 authoritative online source / research-tool entries
+- [x] 15 physical library/archive access entries
+- [x] 15 full-corpus / canon entry points
+- [x] 100 representative Buddhist works
+- [x] 100 online/offline access records
+- [x] 54 works at stronger/route-verified level
+- [x] 27 geographic nodes
+- [x] 20 people/transmission nodes
+- [x] 20 landmark physical witnesses
+- [x] 20 concept-learning entries
+- [x] 12 research/dispute dossiers
+- [x] 12 rights-aware media entries/placeholders
+- [x] Season 1: 12 / 12 readable episodes
+- [x] source link QA: 40 / 40 first-pass
+- [ ] remaining 46 work-level version/ID crosswalks
+- [ ] paper/book-level bibliography expansion
+- [ ] witness layer 20 → 50+
+- [ ] PNG/JPG public visual package
+- [ ] new public HTML website
+
+**Important:** the old HTML prototype is archived. Website work is paused until the database gates in `DATABASE_STATUS.md` pass.
