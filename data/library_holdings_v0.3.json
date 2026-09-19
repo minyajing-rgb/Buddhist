@@ -1,7 +1,7 @@
 {
   "version": "0.3",
   "updated_at": "2026-09-19",
-  "note_zh": "线下馆藏索引重点记录：有什么、线上能不能看、如果线上没有怎么查、到馆前做什么。馆藏规模和访问政策会变动，实际访问前必须再查机构官网。",
+  "note_zh": "线下馆藏索引重点记录：有什么、线上能不能看、如果线上没有怎么查、到馆前做什么。馆藏规模和访问政策会变动，实际访问前必须再查机构官网。 本版已补入尼泊尔、斯里兰卡、泰国线下手稿访问链。",
   "libraries": [
     {
       "id": "british_library",
@@ -359,6 +359,94 @@
       ],
       "source_urls": [
         "https://www.bdrc.io/"
+      ]
+    },
+    {
+      "id": "national_archives_nepal_ngmcp",
+      "name": "National Archives of Nepal / NGMCP access chain",
+      "city": "Kathmandu",
+      "country": "Nepal",
+      "coordinates": [
+        85.324,
+        27.7172
+      ],
+      "strengths": [
+        "Sanskrit Buddhist manuscripts",
+        "Newar Buddhist manuscripts",
+        "microfilmed Nepalese manuscript heritage"
+      ],
+      "online_first": [
+        "NGMCP Indic/Tibetan title lists",
+        "descriptive catalogue"
+      ],
+      "onsite_when": "需要查看原件或目录无法解决的物质信息；很多研究可先通过microfilm/复制解决",
+      "access_steps": [
+        "先NGMCP查title/manuscript ID",
+        "确认microfilm信息",
+        "按NGMCP说明从Berlin/Kathmandu申请microfilm",
+        "仅在确有必要时联系National Archives现场"
+      ],
+      "source_urls": [
+        "https://www.aai.uni-hamburg.de/en/forschung/ngmcp",
+        "https://www.aai.uni-hamburg.de/en/forschung/ngmcp/about.html"
+      ]
+    },
+    {
+      "id": "national_library_sri_lanka",
+      "name": "National Library of Sri Lanka",
+      "city": "Colombo",
+      "country": "Sri Lanka",
+      "coordinates": [
+        79.8612,
+        6.9271
+      ],
+      "strengths": [
+        "Palm-leaf manuscripts in Pāli/Sinhala/Sanskrit",
+        "Buddhist Sutras",
+        "Jātaka",
+        "Sri Lankan Buddhist publications"
+      ],
+      "online_first": [
+        "National Library collection pages/catalogue"
+      ],
+      "onsite_when": "贝叶经未数字化、需版本/物质形态研究",
+      "access_steps": [
+        "先按Palm-Leaf Collection确认范围",
+        "邮件/电话咨询具体题名和访问条件",
+        "再安排馆内查阅"
+      ],
+      "source_urls": [
+        "https://www.natlib.lk/NLSL/collection/"
+      ]
+    },
+    {
+      "id": "national_library_thailand",
+      "name": "National Library of Thailand",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "coordinates": [
+        100.5068,
+        13.765
+      ],
+      "strengths": [
+        "Palm-leaf manuscripts",
+        "Thai Buddhist literature",
+        "rare books",
+        "inscriptions and old documents"
+      ],
+      "online_first": [
+        "NLT Single Search",
+        "NLT D-Library"
+      ],
+      "onsite_when": "数字库无全文或需要原件、贝叶经、古文书细节",
+      "access_steps": [
+        "先Single Search/D-Library",
+        "记录馆藏信息",
+        "再联系National Library相关古文献服务"
+      ],
+      "source_urls": [
+        "https://www.nlt.go.th/",
+        "https://digital.nlt.go.th/dlib/"
       ]
     }
   ]
