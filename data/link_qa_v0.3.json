@@ -157,6 +157,18 @@
       "source_id": "sri_lanka_national_library",
       "url": "https://www.natlib.lk/NLSL/",
       "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "dila_catalog",
+      "url": "https://authority.dila.edu.tw/catalog/form.php",
+      "status": "web_fetch_ok"
     }
-  ]
+  ],
+  "summary": {
+    "total": 32,
+    "web_or_search_verified": 32,
+    "dead_links": 0,
+    "migration_fixes": 1,
+    "note_zh": "本轮32个source-registry主入口均未发现明确死链；动态站/抓取失败项通过官方搜索结果另行确认。BuddhaNexus已发现停止服务并迁移到DharmaNexus，数据库已修正。"
+  }
 }
