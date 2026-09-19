@@ -857,6 +857,97 @@
       "downloadable": false,
       "api_or_data": "数字档案与原文/图像模块",
       "verified_from": "https://kabc.dongguk.edu/etc/intro?lang=en&type=02"
+    },
+    {
+      "id": "ngmcp",
+      "name": "尼泊尔-德国手稿目录项目",
+      "name_en": "Nepalese-German Manuscript Cataloguing Project (NGMCP)",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://www.aai.uni-hamburg.de/en/forschung/ngmcp",
+      "search_url": "https://www.aai.uni-hamburg.de/en/forschung/ngmcp",
+      "languages": [
+        "Sanskrit",
+        "Newari",
+        "Nepali",
+        "Tibetan metadata"
+      ],
+      "traditions": [
+        "Nepalese Buddhism",
+        "Sanskrit Buddhist manuscripts"
+      ],
+      "content_types": [
+        "manuscript",
+        "catalog",
+        "bibliography"
+      ],
+      "strengths_zh": "对NGMPP微缩保存的尼泊尔手稿做系统目录；覆盖数量极大的Indic/Tibetan manuscript title records，并提供微缩复制获取说明。",
+      "limitations_zh": "并非所有微缩影像都直接在线浏览；需要根据目录进一步申请microfilm或联系保存机构。",
+      "query_how_zh": "Indic Titles / Tibetan Titles / descriptive catalogue；记录microfilm reel和manuscript identifiers后申请复制。",
+      "downloadable": false,
+      "api_or_data": "目录与描述数据库",
+      "verified_from": "https://www.aai.uni-hamburg.de/en/forschung/ngmcp"
+    },
+    {
+      "id": "nlt_digital",
+      "name": "泰国国家图书馆 D-Library",
+      "name_en": "National Library of Thailand D-Library",
+      "authority_level": "primary_repository",
+      "access": "open",
+      "url": "https://www.nlt.go.th/",
+      "search_url": "https://digital.nlt.go.th/dlib/",
+      "languages": [
+        "Thai",
+        "Pāli",
+        "Khmer/Mon-related historical scripts"
+      ],
+      "traditions": [
+        "Theravāda",
+        "Thai Buddhist heritage"
+      ],
+      "content_types": [
+        "catalog",
+        "image",
+        "rare_book",
+        "manuscript"
+      ],
+      "strengths_zh": "泰国国家级数字馆藏与rare books/古文献入口；馆藏体系包含贝叶经、古文书和佛教相关出版物。",
+      "limitations_zh": "佛教文本需要结合泰文题名、Pāli题名和馆藏分类检索；并非统一Tipiṭaka全文库。",
+      "query_how_zh": "Single Search / D-Library；按题名、古文献、rare book、Pāli或佛教主题检索。",
+      "downloadable": true,
+      "api_or_data": "部分D-Library对象提供PDF/全文",
+      "verified_from": "https://digital.nlt.go.th/dlib/"
+    },
+    {
+      "id": "sri_lanka_national_library",
+      "name": "斯里兰卡国家图书馆",
+      "name_en": "National Library of Sri Lanka",
+      "authority_level": "primary_repository",
+      "access": "mixed",
+      "url": "https://www.natlib.lk/NLSL/",
+      "search_url": "https://www.natlib.lk/NLSL/",
+      "languages": [
+        "Sinhala",
+        "Pāli",
+        "Sanskrit",
+        "English"
+      ],
+      "traditions": [
+        "Theravāda",
+        "Sri Lankan Buddhism"
+      ],
+      "content_types": [
+        "catalog",
+        "manuscript",
+        "palm_leaf",
+        "bibliography"
+      ],
+      "strengths_zh": "收藏Pāli/Sinhala/Sanskrit贝叶手稿与佛教Sutra、Jātaka等资料，是斯里兰卡线下补全的重要入口。",
+      "limitations_zh": "数字化程度有限，很多内容仍需馆藏目录或现场/咨询服务。",
+      "query_how_zh": "先查collection与馆方目录；对palm-leaf manuscripts直接联系馆方确认可用性。",
+      "downloadable": false,
+      "api_or_data": "以馆藏与研究服务为主",
+      "verified_from": "https://www.natlib.lk/NLSL/collection/"
     }
   ]
 }
