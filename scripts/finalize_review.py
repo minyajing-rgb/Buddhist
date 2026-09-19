@@ -4,7 +4,7 @@ No historical reconstruction is asserted. PNGs are exports of existing project S
 not images of ancient objects. CairoSVG is used only for format conversion.
 """
 from __future__ import annotations
-import base64,hashlib,json,pathlib,re
+import base64,hashlib,json,pathlib,re,xml.etree.ElementTree as ET
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 TITLES={'01_timeline':'佛典时间线：不同日期意味着什么','02_geography':'文本传播与地理关系示意','03_textual_tree':'作品、版本与文本关系','04_evidence_chain':'从作品走到实物的证据链','05_learning_map':'小白逐层学习地图','06_crosswalk':'多语言与版本 Crosswalk 示意'}
 RUNTIME=r'''
@@ -45,12 +45,23 @@ def main():
             if not source.exists():continue
             target=assets/f'{stem}.png'
             original_svg=source.read_text(encoding='utf-8')
-            # Legacy diagram labels contain bare ampersands. Escape only invalid
-            # XML entities in the conversion copy; preserve the repository source.
+            # Repair conversion input only; retain the repository's original SVG.
             svg=re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)', '&amp;', original_svg)
-            cairosvg.svg2png(bytestring=svg.encode('utf-8'),write_to=str(target),output_width=1600)
+            # Cairo lacks browser-style glyph fallback. Select fonts per label.
+            ET.register_namespace('', 'http://www.w3.org/2000/svg')
+            tree=ET.fromstring(svg)
+            for node in tree.iter():
+                if node.tag.split('}')[-1] in ['text','tspan']:
+                    if node.text:
+                        node.text=node.text.replace('🌱','01').replace('⚡','02').replace('🔬','03')
+                    label=''.join(node.itertext())
+                    cjk=bool(re.search(r'[\u3400-\u9fff]',label))
+                    if not cjk and node.text:node.text=node.text.replace('｜',' | ')
+                    family='Noto Sans CJK SC' if cjk else 'DejaVu Sans'
+                    node.set('style',node.get('style','')+';font-family:'+family)
+            cairosvg.svg2png(bytestring=ET.tostring(tree,encoding='utf-8'),write_to=str(target),output_width=1600)
             png=target.read_bytes()
-            figures.append({'id':stem,'title':title,'data':'data:image/png;base64,'+base64.b64encode(png).decode(),'source_file':str(source.relative_to(ROOT)),'png_sha256':hashlib.sha256(png).hexdigest(),'conversion_xml_entities_repaired':svg!=original_svg,'status':'project_teaching_diagram_not_historical_object','rights':'Project-authored diagram exported from the existing repository; not a third-party manuscript image.'})
+            figures.append({'id':stem,'title':title,'data':'data:image/png;base64,'+base64.b64encode(png).decode(),'source_file':str(source.relative_to(ROOT)),'png_sha256':hashlib.sha256(png).hexdigest(),'conversion_xml_entities_repaired':svg!=original_svg,'conversion_fonts':'Installed CJK/Latin fonts selected explicitly; decorative emoji rendered as mode numbers; font files not bundled','status':'project_teaching_diagram_not_historical_object','rights':'Project-authored diagram exported from the existing repository; not a third-party manuscript image.'})
     except ImportError:
         raise RuntimeError('Install CairoSVG to create the public PNG exports; do not silently omit promised diagrams.')
     assert len(figures)==6,'All six project diagrams must be available'
@@ -65,6 +76,6 @@ def main():
     release['finalizer_source_sha256']=hashlib.sha256(pathlib.Path(__file__).read_bytes()).hexdigest()
     release['figure_exports']=[{k:v for k,v in f.items() if k!='data'} for f in figures]
     release_path.write_text(json.dumps(release,ensure_ascii=False,indent=2))
-    (assets/'README.md').write_text('# Project infographic PNG exports\n\nSix existing project diagrams, exported to PNG for the review website. These are teaching schematics, not images of manuscripts or independently verified historical maps. Dates and routes must be checked against item-level evidence. Bare XML ampersands are escaped in the conversion copy only; original SVG source is preserved.\n')
+    (assets/'README.md').write_text('# Project infographic PNG exports\n\nSix existing project diagrams, exported to PNG for the review website. These are teaching schematics, not images of manuscripts or independently verified historical maps. Dates and routes must be checked against item-level evidence. Bare XML ampersands are escaped and installed fonts selected in the conversion copy only; original SVG source is preserved. Font files are not bundled.\n')
     print(json.dumps({'png_infographics':len(figures),'standalone_html_bytes':len(html.encode()),'storage_feedback':'unavailable persistence explicitly distinguished from in-session state'},ensure_ascii=False))
 if __name__=='__main__':main()
