@@ -1,0 +1,48 @@
+{
+  "version": "0.3",
+  "updated_at": "2026-09-19",
+  "edges": [
+    {
+      "work_id": "DA-W-0013",
+      "witness_id": "WIT-0003",
+      "relation": "printed_witness",
+      "confidence": "high",
+      "note": "868 Dunhuang Diamond Sutra print, British Library Or.8210/P.2."
+    },
+    {
+      "work_id": "DA-W-0060",
+      "witness_id": "WIT-0010",
+      "relation": "manuscript_witness",
+      "confidence": "high",
+      "note": "Cambridge illustrated Aṣṭasāhasrikā Prajñāpāramitā manuscript tradition."
+    },
+    {
+      "work_id": "DA-W-0015",
+      "witness_id": "WIT-0011",
+      "relation": "collection_contains_witnesses",
+      "confidence": "medium",
+      "note": "Gilgit manuscript corpus includes Lotus-related materials; resolve item-level shelfmark before public display."
+    },
+    {
+      "work_id": "DA-W-0070",
+      "witness_id": "WIT-0011",
+      "relation": "collection_contains_witnesses",
+      "confidence": "medium",
+      "note": "Gilgit corpus includes Samādhirāja materials; item-level record to be added."
+    },
+    {
+      "work_id": "DA-W-0076",
+      "witness_id": "WIT-0012",
+      "relation": "manuscript_tradition_context",
+      "confidence": "medium",
+      "note": "Nepalese Sanskrit manuscript preservation is important for Buddhacarita textual history; add exact NGMCP witness IDs later."
+    },
+    {
+      "work_id": "DA-W-0060",
+      "witness_id": "WIT-0012",
+      "relation": "manuscript_tradition_context",
+      "confidence": "medium",
+      "note": "Nepalese manuscript traditions preserve Prajñāpāramitā witnesses; exact witness IDs to be resolved."
+    }
+  ]
+}
