@@ -1,0 +1,125 @@
+{
+  "url": "https://minyajing-rgb.github.io/Buddhist/",
+  "verification_mode": "actual_http_navigation",
+  "checked_at": "2026-09-19T10:31:53.604085+00:00",
+  "html_sha256": "8e9a7915b1b6546e84278dbf6dda9db64fd048e5c8033a3eab83b5dc9dd22250",
+  "status": "passed",
+  "passed": 27,
+  "total": 27,
+  "checks": [
+    {
+      "name": "Public/local HTTP returns 200",
+      "passed": true
+    },
+    {
+      "name": "Published beta notice visible",
+      "passed": true
+    },
+    {
+      "name": "100 embedded unique works",
+      "passed": true
+    },
+    {
+      "name": "12 readable story bodies",
+      "passed": true
+    },
+    {
+      "name": "Search returns Heart Sutra",
+      "passed": true
+    },
+    {
+      "name": "Work detail opens",
+      "passed": true
+    },
+    {
+      "name": "Empty search state",
+      "passed": true
+    },
+    {
+      "name": "Comparison displays two works",
+      "passed": true
+    },
+    {
+      "name": "All 100 work details open",
+      "passed": true
+    },
+    {
+      "name": "Story text renders",
+      "passed": true
+    },
+    {
+      "name": "Reading progress persists after reload",
+      "passed": true
+    },
+    {
+      "name": "Year filter changes event count",
+      "passed": true
+    },
+    {
+      "name": "Modern libraries not filtered by ancient date",
+      "passed": true
+    },
+    {
+      "name": "Six PNG guides available",
+      "passed": true
+    },
+    {
+      "name": "PNG enlarges in modal",
+      "passed": true
+    },
+    {
+      "name": "33 methods render",
+      "passed": true
+    },
+    {
+      "name": "44 source cards render",
+      "passed": true
+    },
+    {
+      "name": "QA visible",
+      "passed": true
+    },
+    {
+      "name": "No page overflow 390px home",
+      "passed": true
+    },
+    {
+      "name": "No page overflow 390px works",
+      "passed": true
+    },
+    {
+      "name": "No page overflow 390px atlas",
+      "passed": true
+    },
+    {
+      "name": "No page overflow 390px library",
+      "passed": true
+    },
+    {
+      "name": "No page overflow 768px home",
+      "passed": true
+    },
+    {
+      "name": "No page overflow 768px works",
+      "passed": true
+    },
+    {
+      "name": "No page overflow 768px atlas",
+      "passed": true
+    },
+    {
+      "name": "No page overflow 768px library",
+      "passed": true
+    },
+    {
+      "name": "No observed runtime errors",
+      "passed": true
+    }
+  ],
+  "runtime_errors": [],
+  "limitations": [
+    "Functional smoke checks are not scholarly review.",
+    "Current interface is Chinese; complete English localization remains a separate task.",
+    "No guarantee is made about every external source URL or all browser engines."
+  ]
+}
