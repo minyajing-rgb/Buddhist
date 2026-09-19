@@ -1,140 +1,108 @@
-# DATABASE STATUS｜Dharma Atlas v0.3
+# DATABASE STATUS｜Dharma Atlas v0.4
 
 > **Current phase: DATABASE FIRST.**  
-> HTML / public-site rebuild remains paused until the database QA gates below are passed.
+> Public HTML remains intentionally paused. The next website will be generated from the canonical datasets after database QA.
 
-## Current machine-validated counts
+## Current verified coverage
 
-| Layer | Count | Status |
+| Layer | Current | Status |
 |---|---:|---|
-| Authoritative online source/platform entries | **40** | ✅ required-field + link-health QA passed |
-| Physical library/archive access entries | **15** | ✅ required-field QA passed |
-| Geographic map nodes | **27** | ✅ JSON valid |
-| People / transmission nodes | **20** | ✅ JSON valid |
-| Full-corpus entry points | **15** | ✅ JSON valid |
-| Representative key works | **100** | ✅ record count complete; verification depth mixed |
-| Work access records | **100** | ✅ initial verified batch |
+| Authoritative online source/platform entries | **44** | ✅ |
+| Physical library/archive access entries | **17** | ✅ |
+| Geographic map nodes | **27** | ✅ |
+| People / transmission nodes | **20** | ✅ |
+| Full-corpus entry points | **15** | ✅ |
+| Representative key works | **100** | ✅ |
+| Work access records with ≥1 direct authority route | **100 / 100** | ✅ |
+| Strong detailed crosswalk works | **32 / 100** | 🟡 deepen remaining 68 |
 | Concept-learning entries | **20** | ✅ |
 | Learning paths | **5** | ✅ |
-| Search / research workflows | **6** | ✅ |
-| Landmark manuscript / canon witnesses | **20** | ✅ required-field QA passed |
-| Research-dispute dossiers | **12** | ✅ issue-map layer |
-| Rights-aware media assets / placeholders | **12** | ✅ |
-| Season 1 readable full episodes | **12 / 12** | ✅ no longer outline-only |
+| Search/research workflows | **6** | ✅ |
+| Landmark manuscript/material witnesses | **24** | 🟡 target 50+ |
+| Research-dispute dossiers | **12** | 🟡 paper/book bibliography next |
+| Season 1 readable episodes | **12 / 12** | ✅ |
 
-Machine QA report: `data/qa_report_v0.3.json`.
+## Important correction to the old status
 
-## What “100 works” means
+The old v0.3 status said **46 works still lacked an ID crosswalk**.  
+That is now stale.
 
-`data/key_works_100_v0.3.json` now contains **100 representative works** across:
-- early Buddhist / Pāli texts;
-- Āgamas and Chinese canons;
-- Prajñāpāramitā and major Mahāyāna sūtras;
-- Pure Land / tathāgatagarbha / Yogācāra / Madhyamaka;
-- Abhidharma and śāstra;
-- Tibetan scholastic / path texts;
-- East Asian Buddhist works.
+Current reality:
+- all **100 works have at least one direct authority route** in `text_access_index_100_v0.3.json`;
+- the work records carry authority-level verification statuses across CBETA / SuttaCentral / 84000 / GRETIL / Tipitaka / Adarshah routes;
+- however only the first **32** currently have the deeper v0.2-style Work/Version/parallel foundation.
 
-**Important:** the first 32 have the stronger v0.2 crosswalk foundation. The next 68 are deliberately marked `needs_id_crosswalk` or `core_id_present_needs_crosscheck` until their version-level IDs are checked. Discovery metadata is not being mislabeled as fully verified data.
-
-## What has changed since the outline-only version
-
-### 1. Season 1 is now real content
-`docs/stories/season1_full.md` contains all 12 readable episodes with:
-- beginner explanation;
-- story/person hook;
-- timeline;
-- geography;
-- evidence/source direction;
-- uncertainty / dispute framing;
-- next-episode transition.
-
-### 2. “全集” is modeled as corpus entry points + crosswalks
-`data/full_canon_entrypoints_v0.3.json` connects:
-- Pāli Tipiṭaka;
-- early cross-tradition texts;
-- Taishō;
-- Xuzang;
-- Jiaxing;
-- Zhaocheng Jin;
-- Tripitaka Koreana;
-- Kangyur / Tengyur;
-- surviving Sanskrit Buddhist literature;
-- Gāndhāran manuscripts;
-- Dunhuang / Central Asian manuscripts;
-- Nepalese Buddhist manuscripts;
-- Southeast Asian palm-leaf traditions;
-- modern scholarship.
-
-This avoids copying third-party copyrighted full texts while still giving a global “where to find it” master map.
-
-### 3. Online → physical access is now explicit
-For a work, the intended research chain is:
+So the remaining task is **not “find any source for 68 works.”**  
+It is to deepen them from **authority route → scholar-grade crosswalk**:
 
 ```
-Work / Title
+Work
+→ Versions / recensions
 → canonical IDs
-→ direct authoritative online text
-→ parallel/version platforms
-→ manuscript/witness record
-→ physical holding / shelfmark
-→ modern bibliography
+→ parallel relations
+→ chronology
+→ manuscript / print witnesses
+→ physical holdings
+→ paper/book bibliography
+→ confidence statement
 ```
 
-## Remaining database gates before website rebuild
+## v0.4 regional expansion completed
 
-### Gate A — 100-work authority verification
-- [x] 100 representative Work records
-- [x] 32 stronger v0.2 crosswalk records
-- [x] 22 additional Pāli canonical routes checked
-- [x] 100 works have online/offline access records
-- [ ] verify version-level IDs / direct authority links for remaining 46
-- [ ] attach chronology + bibliography status to all priority works
+New/expanded coverage:
+- Korea: Dongguk KABC / integrated Buddhist archive
+- Nepal: NGMCP / National Archives route
+- Sri Lanka: National Library palm-leaf collection
+- Thailand: National Library Ancient Manuscript DB + D-Library
+- Myanmar: National Library Buddhist Literature + Palm-leaf Digital Collections
+- Mongolia: National Library Tibetan/Mongolian catalog + BDRC-linked digitization
+
+See:
+- `data/regional_coverage_matrix_v0.4.json`
+- `docs/research/GLOBAL_INDEX_METHOD.md`
+- `docs/research/OFFLINE_ACCESS_GUIDE.md`
+
+## Remaining gates before website build
+
+### Gate A — deepen 100 key works
+- [x] 100 work records
+- [x] 100/100 direct authority routes
+- [x] 32 strong detailed crosswalks
+- [ ] 68 deeper Work→Version→Witness crosswalks
+- [ ] chronology status on all priority works
+- [ ] bibliography status on all priority works
 
 ### Gate B — physical evidence
-- [x] 20 landmark witnesses
-- [ ] expand to 50+ landmark witnesses / collections
-- [ ] add item-level shelfmark / IIIF links where available
-- [ ] add witness ↔ work relationships
+- [x] 24 landmark witnesses/collections
+- [ ] expand to 50+
+- [ ] add more item-level shelfmarks / stable image or IIIF routes
+- [ ] connect more witnesses directly to works
 
-### Gate C — research bibliography
-- [x] 12 controversy/research dossiers
-- [ ] add paper/book-level bibliography
-- [ ] encode attributed scholarly positions
-- [ ] add publication year / DOI / stable URL / language
+### Gate C — scholarly bibliography
+- [x] 12 issue dossiers
+- [ ] paper/book-level entries
+- [ ] attributed scholarly positions
+- [ ] DOI / stable URL / year / language
 
-### Gate D — media layer
-- [x] rights-aware media registry structure
-- [ ] project-owned PNG/JPG visual assets in `docs/assets/img/`
+### Gate D — media
+- [ ] project PNG/JPG asset package under `docs/assets/img/`
 - [ ] YouTube / public video registry
-- [ ] 3D/IIIF-compatible asset fields
-- [ ] per-asset rights QA
+- [ ] 3D / IIIF-compatible media fields
+- [ ] rights QA per asset
 
-### Gate E — link QA
-- [x] first-pass source-registry link-health check: 40 / 40
-- [x] migration repair: BuddhaNexus legacy → DharmaNexus
-- [ ] add scheduled recheck / fallback URLs for future maintenance
+## Definition of done before HTML
 
-## Definition of Done
+The database must reliably answer:
 
-The website phase begins only when the database can answer these questions reliably:
+1. 我从零开始怎么学？
+2. 某部经在线在哪里读？
+3. 它有哪些语言、版本和编号？
+4. 原文是否存世？
+5. 最早实体证据是什么？
+6. 如果线上没有，原件在哪？
+7. 怎么预约、申请复制或查 shelfmark？
+8. 学术界对它争什么？
+9. 我要只看故事 / 图 / 视频，入口在哪里？
+10. 我要做专业 crosswalk，如何从 Work 追到 Witness？
 
-1. **我想学佛教，从哪里开始？**
-2. **我听说过某部经，在哪里在线读？**
-3. **它有哪些版本/语言/编号？**
-4. **原文还在吗？最早实体证据是什么？**
-5. **如果线上没有，原件在哪个图书馆/寺院/档案馆？**
-6. **我怎么预约、查馆藏号、申请复制？**
-7. **这部经有哪些学术争议？谁在研究？**
-8. **我只想看故事/视频/地图，不想先学术语，可以怎么进入？**
-
-Until these are covered, **do not label the public product “complete.”**
-
-
-## Website status
-
-The old v0.2 HTML prototype has been moved to `docs/archive/index_v0.2_legacy.html`.
-
-There is intentionally **no active public `docs/index.html` now**.
-
-Reason: database first. The new website will be rebuilt only after the remaining database gates pass, and it will read `data/CURRENT.json` rather than hard-code content.
+**Until these gates pass, do not call the public product complete and do not rebuild the website shell.**
