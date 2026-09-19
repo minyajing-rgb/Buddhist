@@ -1,756 +1,129 @@
 ---
 name: global-knowledge-atlas
-description: Build a comprehensive, evidence-traceable knowledge atlas for any academic, cultural, historical, scientific, religious, or public-interest domain. Use when creating a corpus map, global source index, timeline, geography, people network, crosswalk, library/archive locator, beginner learning path, controversy map, multimedia registry, or research website. Prioritize database-first research, source provenance, explicit uncertainty, and story-first public explanation.
+description: Build and maintain a source-traceable, story-first global knowledge atlas for any discipline. Use for comprehensive domain maps, canonical databases, crosswalks, timelines, geography, archive access, scholarly controversies, community/KOL research, beginner learning paths and research websites. Audit existing content before expansion; distinguish evidence coverage, functional implementation and publication.
 metadata:
-  version: "1.0"
-  scope: "cross-disciplinary"
-  output_mode: "database-first"
-  promptSignals:
-    phrases:
-      - "做一个全集"
-      - "knowledge atlas"
-      - "全网索引"
-      - "学科地图"
-      - "research map"
-      - "timeline geography map"
-      - "crosswalk"
-      - "图书馆馆藏"
-      - "从小白到研究"
-      - "研究方法论"
-    allOf: []
-    anyOf: []
-    noneOf: []
-    minScore: 4
+  version: "1.1"
+  scope: cross-disciplinary
+  output_mode: database-first
 ---
 
-# Global Knowledge Atlas Skill
+# Global Knowledge Atlas｜全球知识地图生产 Skill
 
 ## Mission
 
-Turn a fragmented field into a **navigable knowledge system** that works for:
-- a beginner who wants a story and a map;
-- an explorer who wants themes, timelines, people, places, and comparisons;
-- a researcher who wants IDs, primary sources, versions, witnesses, archives, bibliography, and uncertainty.
-
-The target is not “one long article”. The target is a reusable research infrastructure:
-
-```
-Domain
-→ Corpus / Objects
-→ Canonical entities & IDs
-→ Sources
-→ Versions / witnesses / datasets
-→ People
-→ Places
-→ Timeline
-→ Claims / controversies
-→ Bibliography
-→ Media / 3D / maps
-→ Learning paths
-→ Story layer
-→ Public website
-```
-
-## Non-negotiable Rule: Database First
-
-Do not build the public website before the source/data gates pass.
-
-Order:
-
-1. define scope and ontology;
-2. map source universe;
-3. create canonical entity records;
-4. build crosswalks;
-5. link physical/digital evidence;
-6. add scholarship and controversy;
-7. add community/public/KOL evidence;
-8. add media;
-9. run QA;
-10. only then build the public experience.
-
-A beautiful empty page is a failed atlas.
-
----
-
-# 1. Five Research Lanes
-
-Every atlas should combine five lanes instead of pretending one source culture is enough.
-
-## A. Academic / Scholarly Lane
-
-Use:
-- peer-reviewed articles;
-- scholarly monographs;
-- critical editions;
-- dissertations;
-- conference proceedings;
-- annotated bibliographies;
-- discipline databases;
-- authoritative reference works.
-
-Record:
-- author;
-- institution;
-- publication type;
-- publication year;
-- DOI / stable URL;
-- peer-review status;
-- claim/position;
-- evidence used;
-- limitations;
-- later criticism or revision.
-
-## B. Library / Archive / Material-Evidence Lane
-
-Use:
-- national libraries;
-- university libraries;
-- archives;
-- museums;
-- manuscript catalogues;
-- object records;
-- shelfmarks / call numbers;
-- IIIF;
-- scans;
-- finding aids;
-- acquisition/provenance records.
-
-Always distinguish:
-- abstract work;
-- edition/version;
-- physical witness/object;
-- current holding.
-
-## C. Practitioner / Community / Lived-Experience Lane
-
-Use:
-- oral histories;
-- interviews;
-- community archives;
-- professional practice;
-- lineage records;
-- local publications;
-- field notes;
-- participant observation;
-- rituals/practices;
-- community self-description.
-
-Treat as essential evidence for lived practice, **not automatically as historical proof of older claims**.
-
-## D. Public / KOL / Open-Web Lane
-
-Use:
-- YouTube;
-- podcasts;
-- newsletters;
-- public lectures;
-- blogs;
-- forums;
-- community discussion;
-- social platforms;
-- independent research;
-- OSINT.
-
-Role:
-- discover claims;
-- discover vocabulary;
-- identify communities and controversies;
-- find missing sources;
-- observe reception and public interpretation;
-- trace how ideas spread.
-
-Do not promote a claim to “verified” just because it is popular.
-
-## E. Computational / Digital-Humanities Lane
-
-Use:
-- OCR / HTR;
-- text mining;
-- embeddings;
-- NLP;
-- GIS;
-- network analysis;
-- image matching;
-- 3D/photogrammetry;
-- IIIF;
-- metadata APIs;
-- bibliometric analysis;
-- version-control diffs.
-
-Use machines to scale comparison; keep humans in the verification loop.
-
----
-
-# 2. Harvard Divinity School / Harvard-Inspired Research Pattern
-
-This skill adopts several principles demonstrated by Harvard Divinity School and Harvard Library research infrastructure.
-
-## Religious / Cultural Literacy Principles
-
-When the subject involves religion, culture, ideology, community, or living tradition:
-
-1. **Internal diversity** — never write “Buddhists believe…” or “Christians believe…” without specifying which people, where, and when.
-2. **Historical dynamism** — traditions change over time.
-3. **Cultural embeddedness** — ideas are embedded in political, social, economic, artistic, technological, and material contexts.
-4. **Devotional vs. nondevotional analysis** — clearly label insider theological/devotional claims versus historical-critical or social-scientific analysis.
-5. Ask: **Which group? When? Where? Under what power/social conditions? Why?**
-
-These principles are reusable beyond religion: any field with schools, factions, traditions, institutions, or communities should be modeled as internally diverse and historically changing.
-
-## Information-Landscape Method
-
-HDS Library’s research model explicitly spans:
-- media;
-- texts;
-- data;
-- maps;
-- images;
-- archival material;
-- databases;
-- special collections.
-
-So an atlas must not reduce research to “Google + papers”.
-
-## Exhaustive Bibliography Pattern
-
-For priority research questions:
-1. start with reference works / annotated bibliographies;
-2. search discipline databases;
-3. citation-chain backward;
-4. citation-chain forward;
-5. search dissertations;
-6. search other languages;
-7. search archives/catalogs;
-8. ask what is absent from indexed scholarship;
-9. record negative searches and access barriers.
-
-## Primary-Source Discipline
-
-Classify a source by **its relation to the question**, not by file format.
-
-A digitized manuscript can still be a primary source.
-A modern transcription can be an edition of a primary source.
-A scholar discussing that manuscript is secondary scholarship.
-
-## Digital-Scholarship Pattern
-
-For large corpora:
-- OCR/HTR → structured corpus;
-- entity extraction → people/place/work IDs;
-- GIS → geography;
-- network analysis → relationships;
-- 3D/photogrammetry → material objects;
-- visualization → discovery;
-- human review → validation.
-
----
-
-# 3. Public / KOL / Folk Research Method
-
-Public knowledge is not discarded; it is **typed**.
-
-## Claim Harvesting
-
-For each public claim, capture:
-- exact claim;
-- claimant;
-- platform;
-- URL;
-- timestamp;
-- content date vs publication date;
-- first known appearance;
-- sources cited by claimant;
-- whether they are firsthand;
-- sponsorship/conflict disclosure;
-- edits/deletions;
-- archived snapshot if allowed.
-
-## Reverse-Source Tracing
-
-```
-KOL claim
-→ cited article/book?
-→ article cites edition/archive?
-→ edition cites manuscript/dataset?
-→ primary record / object / source?
-```
-
-Stop when:
-- the earliest verifiable evidence is reached; or
-- the chain becomes undocumented.
-
-## Cross-Platform Triangulation
-
-Never count duplicated reposts as independent corroboration.
-
-Group sources by **origin family**:
-- same press release;
-- same paper;
-- same influencer;
-- same archive;
-- genuinely independent observation.
-
-## Community-Signal Analysis
-
-Comments/forums can reveal:
-- terminology;
-- recurring confusion;
-- alternative interpretations;
-- missing sources;
-- insider knowledge leads;
-- reception history.
-
-But popularity metrics are not evidence of truth.
-
-## Longitudinal Capture
-
-For fast-changing public claims:
-- save dates;
-- compare versions;
-- record retractions/corrections;
-- archive links where legally/ethically appropriate.
-
-## Public-Research Confidence
-
-Use:
-- **lead_only**
-- **firsthand_testimony**
-- **community_consensus**
-- **expert_public_explanation**
-- **source_backed_public_claim**
-- **contradicted**
-- **unresolved**
-
----
-
-# 4. Internet / Social Research Ethics
-
-Before using public posts, communities, interviews, or user-generated content:
-
-Check:
-- reasonable privacy expectations;
-- vulnerability of participants;
-- potential harm from quoting/searchability;
-- whether pseudonymization is needed;
-- consent expectations;
-- platform terms;
-- cultural context;
-- whether the research makes hidden communities more visible;
-- whether publication changes risk.
-
-Publicly accessible does **not** automatically mean ethically consequence-free.
-
----
-
-# 5. Open-Source Investigation Workflow
-
-For controversial, public, or web-native claims, use a verification workflow:
-
-```
-Identify
-→ Collect
-→ Preserve
-→ Verify
-→ Analyze
-→ Corroborate
-→ Review
-→ Publish
-```
-
-Requirements:
-- preserve provenance;
-- keep original URL/date;
-- separate observation from inference;
-- cross-reference independent sources;
-- document tool limitations;
-- preserve failed/negative checks when material.
-
----
-
-# 6. Source Ladder
-
-Use a source ladder; do not flatten all URLs into one list.
-
-## Level A — Direct / Primary / Authority
-Examples:
-- original manuscript/object;
-- official dataset;
-- official court/government record;
-- original paper/data;
-- official canonical edition;
-- institutional archive record;
-- direct interview/field observation.
-
-## Level B — Critical / Scholarly
-- critical edition;
-- peer-reviewed analysis;
-- scholarly monograph;
-- institutional research project;
-- authoritative bibliography.
-
-## Level C — Professional / Institutional
-- museum essay;
-- university explainer;
-- professional association;
-- high-quality reference work.
-
-## Level D — Practitioner / Community
-- lineage/community records;
-- interviews;
-- practitioner books;
-- local archives;
-- oral tradition.
-
-## Level E — Public / KOL / Media
-- videos;
-- blogs;
-- podcasts;
-- forums;
-- journalism;
-- social posts.
-
-Level E can be a superb discovery layer. It is not automatically a verification layer.
-
----
-
-# 7. Canonical Entity Model
-
-Adapt entity types to the domain, but keep stable IDs.
-
-Core generic entities:
-
-- `Work`
-- `Version`
-- `Witness/Object`
-- `Person`
-- `Organization`
-- `Place`
-- `Event`
-- `Concept`
-- `Claim`
-- `Source`
-- `BibliographyItem`
-- `MediaAsset`
-- `Collection`
-
-Generic relationship types:
-- authored_by
-- attributed_to
-- translated_by
-- version_of
-- edition_of
-- parallel_to
-- quotes
-- derived_from
-- held_by
-- found_at
-- created_at
-- taught_by
-- criticized_by
-- supports_claim
-- contradicts_claim
-- depicts
-- mentions
-- influenced
-- disputed_relation
-
-Never overload one relation to mean several different things.
-
----
-
-# 8. Crosswalk Method
-
-Crosswalks connect identifiers without pretending entities are identical.
-
-For each target object:
-
-```
-Canonical entity
-→ names / aliases / languages
-→ IDs in major systems
-→ versions
-→ related/parallel entities
-→ direct digital access
-→ material witnesses
-→ physical holdings
-→ bibliography
-→ chronology
-→ dispute notes
-→ confidence
-```
-
-Relationship labels:
-- exact_same_entity
-- edition_of
-- translation_of
-- close_parallel
-- partial_parallel
-- resembling_parallel
-- adaptation
-- quotation
-- derivative
-- traditional_attribution
-- disputed
-- unknown
-
-### Crosswalk completeness levels
-
-**L0 Discovery**
-- name + one lead.
-
-**L1 Authority Route**
-- canonical record + one authoritative route.
-
-**L2 Multi-system Crosswalk**
-- 2+ systems/languages + relationship typing.
-
-**L3 Evidence Crosswalk**
-- versions + witness/object + physical holding + chronology.
-
-**L4 Scholar Crosswalk**
-- L3 + bibliography + attributed disputes + confidence + negative evidence.
-
-Do not call L1 “complete”.
-
----
-
-# 9. Timeline Method
-
-For every date distinguish:
-- event date;
-- traditional date;
-- scholarly estimate;
-- date range;
-- date of surviving witness;
-- date of edition/translation;
-- publication date;
-- discovery/acquisition date.
-
-Store confidence:
-- exact;
-- bounded;
-- approximate;
-- disputed;
-- traditional_only;
-- unknown.
-
----
-
-# 10. Geography Method
-
-Never collapse these locations:
-- origin/composition context;
-- transmission route;
-- translation place;
-- performance/practice place;
-- findspot;
-- acquisition place;
-- current holding;
-- modern research center.
-
-Map layers should be independently togglable.
-
----
-
-# 11. Bibliography Method
-
-For each high-priority topic create:
-
-```
-Question
-→ overview/reference
-→ classic scholarship
-→ recent scholarship
-→ primary evidence
-→ dissenting/revisionist scholarship
-→ non-English scholarship
-→ dissertations
-→ community/practitioner perspective
-→ current public/KOL interpretation
-```
-
-Each bibliographic item:
-- author
-- title
-- year
-- type
-- language
-- DOI/ISBN/stable URL
-- access status
-- position summary
-- evidence base
-- cited_by / cites
-- relevance tags
-
----
-
-# 12. Beginner Learning Design
-
-The database can be deep; the interface should not feel deep.
-
-Public learning pattern:
-
-```
-Hook
-→ Story
-→ One idea
-→ One map
-→ One timeline move
-→ One object/source
-→ “What do we know?”
-→ “What is disputed?”
-→ Optional deep dive
-```
-
-Three modes:
-
-### Guided
-Story → Map → Concept → Key object/text → Original evidence.
-
-### Explorer
-Question → Index → Compare → Network → Dispute.
-
-### Scholar
-ID → Version → Witness/Data → Bibliography → Reproducible conclusion.
-
-Use progressive disclosure. Never dump the full ontology on beginners.
-
----
-
-# 13. Multimedia & 3D
-
-Media is data, not decoration.
-
-Each asset must record:
-- asset_id;
-- title;
-- type;
-- owner/creator;
-- source URL;
-- rights/license;
-- object depicted;
-- related entity IDs;
-- date;
-- geography;
-- alt text;
-- derivative permissions;
-- download status.
-
-Supported media:
-- PNG/JPG;
-- video;
-- audio;
-- IIIF;
-- 3D models;
-- photogrammetry;
-- maps;
-- timelines;
-- diagrams;
-- scans;
-- interactive datasets.
-
----
-
-# 14. QA Gates
-
-## Gate A — Coverage
-Is the field represented across major:
-- languages;
-- regions;
-- schools/traditions;
-- time periods;
-- institutions;
-- source types?
-
-## Gate B — Record Completeness
-No “done” record may be title-only.
-
-## Gate C — Provenance
-Every factual record has a source trail.
-
-## Gate D — Relationship Accuracy
-No inferred equivalence without a typed relation and evidence.
-
-## Gate E — Dispute Discipline
-Contested claims identify:
-- who argues what;
-- evidence;
-- uncertainty;
-- opposing views.
-
-## Gate F — Access
-The user can answer:
-- where can I read it online?
-- if not, where is it physically?
-- what ID/shelfmark do I need?
-- how do I request access?
-
-## Gate G — Public Layer
-Beginner content must contain:
-- plain-language explanation;
-- story/example;
-- timeline;
-- geography;
-- primary/authority links;
-- uncertainty box;
-- deeper path.
-
-## Gate H — Ethics/Rights
-Public web/community data and media pass privacy, harm, copyright, and license checks.
-
----
-
-# 15. “Done” Definition
-
-**DONE = data + provenance + typed relationships + access path + QA.**
-
-Not done:
-- outline only;
-- schema only;
-- list of links;
-- pretty card with no record behind it;
-- AI summary without citations;
-- source without access instructions;
-- claim without confidence;
-- image without rights metadata.
-
----
-
-# 16. Required Repository Structure
-
-```
-skills/global-knowledge-atlas/
-  SKILL.md
-  references/
-  templates/
-  adapters/
-
-data/
-  CURRENT.json
-  sources/
-  entities/
-  relationships/
-  bibliography/
-  media/
-  qa/
-
-docs/
-  research/
-  stories/
-  assets/
-```
-
-The website must read the canonical data pointers, not hard-code research content.
-
----
-
-# 17. Source Inspirations / Method Anchors
-
-Institutional method anchors:
-- Harvard Divinity School Library — research guides, Buddhist Studies databases, research strategy and exhaustive bibliography.
-- Harvard Religion and Public Life — internal diversity, change over time, embeddedness in culture, context/power.
-- Harvard Library — primary sources, digital scholarship, qualitative research, GIS/data lifecycle, APIs.
-- Association of Internet Researchers — context-sensitive internet research ethics.
-- Bellingcat — open-source collection, preservation, verification, corroboration, tool limitations.
-
-These are method anchors, not an assertion that this skill is an official Harvard/Bellingcat/AoIR product.
+底层是有来源、可比较、可追溯的知识数据库；上层是小白能从故事、问题、地图、人物和实物逐层学习的产品。不是链接大全，不是一次长文，也不是只有漂亮外壳的网站。
+
+所有学科都可复用生产流程，但不能复制其他学科的结论或证据标准。HDS相关原则必须有实际来源；本skill不代表哈佛认证或合作。
+
+## 必须先读
+
+1. 项目仓库的 CURRENT、状态台账和真实数据。统计而不是复述旧报告。
+2. [执行手册 v1.1](references/EXECUTION_PLAYBOOK_v1.1.md)：33种方法操作卡、研究路线、6类学科迁移、质量门禁和启动指令。
+3. [Harvard/HDS资源与归因](references/HARVARD_HDS_METHODS.md)。
+4. [研究方法矩阵](references/RESEARCH_METHODS_MATRIX.md) 与 [方法目录](references/METHOD_CATALOG.json)。
+5. [民间、社群与KOL](references/PUBLIC_COMMUNITY_KOL_METHODS.md)。
+6. [跨学科适配模板](templates/DOMAIN_ADAPTER.md)、[Crosswalk schema](templates/CROSSWALK.schema.json)、[QA](templates/QA_GATE.md)。
+7. 佛学项目加读 [Buddhist Studies adapter](adapters/BUDDHIST_STUDIES.md)。
+
+若旧参考文件与v1.1执行手册在证据等级、发布状态上冲突，以v1.1更严格、明确的定义为准；保留旧版记录供diff。
+
+## 标准执行顺序
+
+### 1. 接手与冻结基线
+
+读取默认分支；保存commit；检查是否有人已推进了任务。核对唯一ID、数量、空值、重复、关联、已完成资产和发布链接。不得把“32→100”历史目标当成当前仍只有32条。
+
+### 2. 定义范围与主实体
+
+写scope协议：对象单位、读者、地区、年代、语言、主流/少数分支、排除条件、证据阈值。以覆盖矩阵衡量完整性。100部代表经典不是完整大藏经；集合与子项不得混计。
+
+### 3. 并行研究五条证据路线
+
+- 学术：注释书目、论文、专著、校勘本、博士论文、反方研究。
+- 档案/实物：目录、馆藏号、原件、影像、发现报告、收藏来源。
+- 民间/实践：口述史、访谈、田野、地方文献、社区自述。
+- 公众/KOL：视频、播客、公开讲座、论坛、传播链、常见误读。
+- 数字方法：结构化语料、GIS、图谱、版本diff、计算辅助对照。
+
+公众热度不是事实置信度。机构声望不能代替对具体论点的核验。实践者证言对于其经验是一手材料，不自动证明古代历史或干预疗效。
+
+### 4. 来源与检索日志
+
+为每次查询记录平台、关键词、语言、时间、过滤、纳排、零结果与权限限制。优先已存在的高质量语料和索引，不重复造库；利用他人的资料时保留来源和许可。不能把多次转发计作独立佐证。
+
+### 5. Canonical entities与Crosswalk
+
+核心实体：Work、Version、Witness/Object、Person、Organization、Place、Event、Concept、Claim、Source、BibliographyItem、MediaAsset、Collection。
+
+每条关系给类型、方向、来源、定位、时间与审核状态。关系包括：version_of、translation_of、close_parallel、partial_parallel、resembling_parallel、quotation、adaptation、held_by、found_at、attributed_to、supports、contradicts、uncertain。
+
+禁止 Work=Version=Witness、同名=同作、平行=完全相同、合集背景=某部经原件。
+
+### 6. 年代与地图
+
+分别记录传统日期、学术推定、译本日期、实体见证日期、现代出版日期、发现/购藏日期。日期使用区间、类型、依据与不确定性；未知保留未知。
+
+地图分开显示叙事地、成书地、传播地、翻译地、发现地、现藏地、研究机构。现代图书馆不能随着古代年代滑块出现在“当时的传播地图”上。无时间证据的节点保留在“未定年/总览”层，不凭空分配年份。
+
+### 7. 书目和争议
+
+每条书目至少有题名、作者/编辑、年份或明确未知、出版载体、语言、稳定URL或标识、访问状态、关联论点与阅读状态。自动导入bibliography只代表目录元数据已取得，不代表读过论文。
+
+争议逐项记录谁主张什么、依据何种版本/证据、主要反证、时间与限制。不要生成匿名“学界认为”；不要用两面各半伪装证据平衡。
+
+### 8. 小白层与媒体
+
+教学链：问题 → 故事 → 一个概念 → 时间/空间 → 具体文本或实物 → 我们知道什么 → 争议/未知 → 原始证据。
+
+三种模式：Guided / Explorer / Scholar。显示层级可以不同，事实口径必须相同。媒体必须登记对象、作者、权利、使用方式、alt和实体关联。无视频/3D成品时禁止伪播放按钮。AI示意/复原不得冒充历史图像。
+
+### 9. QA后生成与发布
+
+先审计，再生成含全部数据的审阅构建；测试搜索、过滤、详情、对比、地图、阅读、来源与移动端。内容、权利或部署未通过时，不得称正式官网已完成/上线。
+
+区分：source-archived / metadata-imported / scholar-reviewed / functional-preview / public-deployed。可以交付可运行研究预览，但必须公开其限制并保留正式发布门禁。
+
+## 严格证据等级
+
+- **L0**：发现线索。
+- **L1**：作品级权威记录可回查。
+- **L2**：多系统/跨版本关系已核对并标注类型。
+- **L3**：L2 + 逐部年代依据 + 确切见证；无存世见证可用署名负面研究结论，而不是空值。
+- **L4**：L3 + 可定位的paper/book书目、署名争议、反证和限制。
+
+保留旧数据reported_level，另列assessed_level。没有证据不得自动升级。字段存在、HTTP200、目录编号、机构主页都不能独立认证L3。
+
+## 质量门禁
+
+A 覆盖：地区/语言/年代/流派/来源是否有系统遗漏。
+
+B 身份：ID唯一、作品单位稳定、关系可解释、跨表引用不悬空。
+
+C 内容：不是空字段、占位词、模板段落冒充逐部研究。
+
+D 来源：主张可定位、转引可识别、已知断链显示、权威页与检索入口分开。
+
+E 访问：线上何处读、版本是什么；线下原件由谁收藏、准确馆藏号与访问限制是什么。
+
+F 争议：说话人/传统/时代清楚；不制造共识或等价关系。
+
+G 权利/伦理：影像许可、脆弱社群、知情同意、隐私、健康/科学风险。
+
+H 产品：真实数据驱动、渐进展示、无假按钮、键盘/手机可用、错误和空态可见。
+
+I 发布：提供实际commit、测试报告和实际可访问产物；不把仓库文件链接当已部署官网。
+
+## 当前仓库的执行工具
+
+- `.github/workflows/atlas-quality.yml`：独立100部结构与证据缺口审计，并打包审阅产物。
+- `scripts/collect_authority_metadata.py`：从指定权威仓库的固定commit导入元数据与书目事实；不转载全文。
+- `.github/workflows/authority-import.yml`：运行导入，保留来源与导入状态。
+- `scripts/build_atlas.py`（存在时）：从canonical manifest与显式补充层生成离线完整交互审阅版。
+
+工具可迁移，佛学特定规则需换adapter。执行前检查文件实际存在，不能只因文档提到了路径就宣称已运行。
+
+## 每批交付
+
+变更摘要 + 新增/修正记录 + 来源/检索日志 + 维度级缺口 + QA + GitHub commit + 可运行产物（有则交付）+ 发布状态。
+
+Done = 已归档的数据、来源、关系、访问链和相应QA；不是大纲、schema、链接总数或视觉稿。
