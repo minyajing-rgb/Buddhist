@@ -1,0 +1,450 @@
+{
+  "version": "0.3",
+  "updated_at": "2026-09-19",
+  "design_zh": "Dharma Atlas不复制所有第三方全文；底层保存规范化metadata、crosswalk和authority links，再把用户引到最合适的权威全文/影像/馆藏。这样既能覆盖全集，又避免版权、版本漂移和重复维护。",
+  "corpora": [
+    {
+      "id": "pali_tipitaka_cst",
+      "name_zh": "巴利三藏｜第六次结集本",
+      "name_en": "Chaṭṭha Saṅgāyana Tipiṭaka",
+      "family": "Pāli / Theravāda",
+      "languages": [
+        "Pāli"
+      ],
+      "scope": [
+        "Vinaya",
+        "Sutta",
+        "Abhidhamma",
+        "commentaries/subcommentaries on related platforms"
+      ],
+      "primary_sources": [
+        "tipitaka_org",
+        "tipitakapali"
+      ],
+      "comparison_sources": [
+        "suttacentral",
+        "pts"
+      ],
+      "completeness": "full canonical corpus in this recension",
+      "notes_zh": "代表缅甸第六次结集系统，不等于所有巴利版本完全一致。"
+    },
+    {
+      "id": "pali_early_crosscanon",
+      "name_zh": "早期佛典跨传统集合",
+      "name_en": "Early Buddhist Texts Cross-Tradition Corpus",
+      "family": "Early Buddhism",
+      "languages": [
+        "Pāli",
+        "Chinese",
+        "Tibetan",
+        "Sanskrit",
+        "Gāndhārī"
+      ],
+      "scope": [
+        "Nikāyas",
+        "Āgamas",
+        "Vinaya",
+        "fragments",
+        "parallels"
+      ],
+      "primary_sources": [
+        "suttacentral"
+      ],
+      "comparison_sources": [
+        "cbeta",
+        "tipitaka_org",
+        "gandhari",
+        "bdrc"
+      ],
+      "completeness": "broad early Buddhist coverage; especially strong for parallels",
+      "notes_zh": "用来回答“同一教说在不同早期传统怎么保存”。"
+    },
+    {
+      "id": "taisho",
+      "name_zh": "大正新脩大藏经",
+      "name_en": "Taishō Shinshū Daizōkyō",
+      "family": "Chinese / Sino-Japanese Canon",
+      "languages": [
+        "Classical Chinese",
+        "Japanese metadata"
+      ],
+      "scope": [
+        "sutra",
+        "vinaya",
+        "śāstra",
+        "esoteric",
+        "Chinese works",
+        "Japanese works",
+        "catalogues"
+      ],
+      "primary_sources": [
+        "cbeta",
+        "sat"
+      ],
+      "comparison_sources": [
+        "bdk",
+        "dila_catalog",
+        "kabc_dongguk"
+      ],
+      "completeness": "complete digital access to the Taishō corpus through major platforms",
+      "notes_zh": "现代研究常用坐标系，但它是20世纪编辑的大藏经，不等于中国历史上唯一版本。"
+    },
+    {
+      "id": "xuzang",
+      "name_zh": "卍续藏 / 续藏经",
+      "name_en": "Xuzangjing / Manji Shinsan Dainihon Zokuzōkyō",
+      "family": "Chinese / East Asian Buddhist literature",
+      "languages": [
+        "Classical Chinese"
+      ],
+      "scope": [
+        "commentaries",
+        "Chan",
+        "Tiantai",
+        "Huayan",
+        "Pure Land",
+        "ritual",
+        "historical works"
+      ],
+      "primary_sources": [
+        "cbeta"
+      ],
+      "comparison_sources": [
+        "sat",
+        "ntu_dlbs"
+      ],
+      "completeness": "substantial digital corpus via CBETA",
+      "notes_zh": "大量东亚宗派注疏和后期文献不在狭义“佛说经”里，却对理解实际佛教传统极重要。"
+    },
+    {
+      "id": "jiaxing",
+      "name_zh": "嘉兴藏",
+      "name_en": "Jiaxing Canon",
+      "family": "Chinese historical canon",
+      "languages": [
+        "Classical Chinese"
+      ],
+      "scope": [
+        "Ming-Qing Buddhist canon and related works"
+      ],
+      "primary_sources": [
+        "cbeta"
+      ],
+      "comparison_sources": [
+        "nlc_ancient"
+      ],
+      "completeness": "digitally represented in CBETA for searchable text portions",
+      "notes_zh": "用于比较晚期汉文大藏经编辑、增补和东亚佛教文献。"
+    },
+    {
+      "id": "zhaocheng_jin",
+      "name_zh": "赵城金藏",
+      "name_en": "Zhaocheng Jin Tripitaka",
+      "family": "Chinese historical canon",
+      "languages": [
+        "Classical Chinese"
+      ],
+      "scope": [
+        "Jin dynasty printed Buddhist canon"
+      ],
+      "primary_sources": [
+        "nlc_ancient"
+      ],
+      "comparison_sources": [
+        "cbeta",
+        "sat"
+      ],
+      "completeness": "large surviving image corpus at National Library of China; not completely extant",
+      "notes_zh": "重要历史版大藏经；国图公开大量数字影像，适合研究版本和版刻。"
+    },
+    {
+      "id": "tripitaka_koreana",
+      "name_zh": "高丽大藏经 / 八万大藏经",
+      "name_en": "Tripitaka Koreana",
+      "family": "Korean / Chinese Buddhist canon",
+      "languages": [
+        "Classical Chinese",
+        "Korean translations/metadata"
+      ],
+      "scope": [
+        "sutra",
+        "vinaya",
+        "śāstra",
+        "catalogues",
+        "Buddhist works"
+      ],
+      "primary_sources": [
+        "kabc_dongguk"
+      ],
+      "comparison_sources": [
+        "cbeta",
+        "sat"
+      ],
+      "physical_holding": [
+        "haeinsa"
+      ],
+      "completeness": "major digital canon and surviving woodblock corpus",
+      "notes_zh": "KABC提供统合大藏经检索；海印寺保存木板，是数字文本与物质版本结合的典型。"
+    },
+    {
+      "id": "tibetan_kangyur",
+      "name_zh": "甘珠尔",
+      "name_en": "Kangyur",
+      "family": "Tibetan Canon",
+      "languages": [
+        "Tibetan"
+      ],
+      "scope": [
+        "Vinaya",
+        "Prajñāpāramitā",
+        "Avataṃsaka",
+        "Ratnakūṭa",
+        "Sūtra",
+        "Tantra",
+        "other sections by edition"
+      ],
+      "primary_sources": [
+        "84000",
+        "bdrc",
+        "adarshah"
+      ],
+      "comparison_sources": [
+        "buddhanexus",
+        "openpecha"
+      ],
+      "completeness": "multiple editions increasingly digitized; English translation ongoing at 84000",
+      "notes_zh": "必须按edition记录，不存在一个永恒固定的单一Kangyur文本。"
+    },
+    {
+      "id": "tibetan_tengyur",
+      "name_zh": "丹珠尔",
+      "name_en": "Tengyur",
+      "family": "Tibetan Canon",
+      "languages": [
+        "Tibetan"
+      ],
+      "scope": [
+        "Indian śāstras",
+        "commentaries",
+        "Madhyamaka",
+        "Yogācāra",
+        "Abhidharma",
+        "Pramāṇa",
+        "Vinaya commentaries",
+        "arts/sciences in canonical arrangements"
+      ],
+      "primary_sources": [
+        "84000",
+        "bdrc",
+        "adarshah"
+      ],
+      "comparison_sources": [
+        "buddhanexus",
+        "openpecha"
+      ],
+      "completeness": "large digital coverage; English translation less complete than Kangyur",
+      "notes_zh": "许多失传印度论著通过藏译保存。"
+    },
+    {
+      "id": "sanskrit_buddhist",
+      "name_zh": "现存梵文佛教文献",
+      "name_en": "Surviving Sanskrit Buddhist Literature",
+      "family": "Indic Buddhist literature",
+      "languages": [
+        "Sanskrit",
+        "Buddhist Hybrid Sanskrit"
+      ],
+      "scope": [
+        "Mahāyāna sūtras",
+        "śāstras",
+        "tantras",
+        "vinaya fragments",
+        "ritual and scholastic works"
+      ],
+      "primary_sources": [
+        "gretil",
+        "dsbc"
+      ],
+      "comparison_sources": [
+        "buddhanexus",
+        "ntu_dlbs",
+        "worldcat"
+      ],
+      "physical_holding": [
+        "cambridge_ul",
+        "bodleian",
+        "national_archives_nepal_ngmcp"
+      ],
+      "completeness": "distributed corpus, not a single historically fixed Sanskrit canon",
+      "notes_zh": "必须明确：这是‘现存梵文佛教文献集合’，不是历史上统一封闭的梵文大藏经。"
+    },
+    {
+      "id": "gandharan",
+      "name_zh": "犍陀罗佛教写本语料",
+      "name_en": "Gāndhāran Buddhist Manuscript Corpus",
+      "family": "Early Buddhist manuscripts",
+      "languages": [
+        "Gāndhārī",
+        "Kharoṣṭhī"
+      ],
+      "scope": [
+        "sūtras",
+        "verse",
+        "avadāna",
+        "commentaries",
+        "scholastic texts",
+        "documents"
+      ],
+      "primary_sources": [
+        "gandhari",
+        "ebmp"
+      ],
+      "comparison_sources": [
+        "suttacentral"
+      ],
+      "physical_holding": [
+        "british_library",
+        "loc",
+        "uw"
+      ],
+      "completeness": "all published Gāndhārī texts targeted by corpus; many discovered manuscripts remain unpublished",
+      "notes_zh": "是研究早期佛教文本物质证据的关键层，但不是‘完整早期大藏经’。"
+    },
+    {
+      "id": "dunhuang",
+      "name_zh": "敦煌与中亚佛教写本",
+      "name_en": "Dunhuang and Central Asian Buddhist Manuscripts",
+      "family": "Silk Road manuscript cultures",
+      "languages": [
+        "Chinese",
+        "Tibetan",
+        "Sanskrit",
+        "Khotanese",
+        "Sogdian",
+        "Uyghur",
+        "Tangut",
+        "Gāndhārī"
+      ],
+      "scope": [
+        "sutras",
+        "rituals",
+        "commentaries",
+        "contracts",
+        "catalogues",
+        "vernacular texts",
+        "artifacts"
+      ],
+      "primary_sources": [
+        "idp",
+        "bnf_gallica",
+        "nlc_ancient"
+      ],
+      "comparison_sources": [
+        "cbeta",
+        "bdrc"
+      ],
+      "physical_holding": [
+        "british_library",
+        "bnf",
+        "nlc"
+      ],
+      "completeness": "large international distributed corpus; cataloguing/digitization continues",
+      "notes_zh": "按findspot和holding institution双重索引，不能把‘敦煌文献’当成单一馆藏。"
+    },
+    {
+      "id": "nepalese_manuscripts",
+      "name_zh": "尼泊尔梵文/尼瓦尔佛教手稿",
+      "name_en": "Nepalese Sanskrit and Newar Buddhist Manuscripts",
+      "family": "Nepalese Buddhist manuscript tradition",
+      "languages": [
+        "Sanskrit",
+        "Newari",
+        "Nepali",
+        "Tibetan"
+      ],
+      "scope": [
+        "Mahāyāna",
+        "Vajrayāna",
+        "ritual",
+        "śāstra",
+        "local Buddhist literature"
+      ],
+      "primary_sources": [
+        "ngmcp",
+        "dsbc"
+      ],
+      "comparison_sources": [
+        "gretil",
+        "worldcat"
+      ],
+      "physical_holding": [
+        "national_archives_nepal_ngmcp"
+      ],
+      "completeness": "NGMCP catalogs a very large preservation microfilm corpus; digital full-image access varies",
+      "notes_zh": "许多印度本土失传作品因为尼泊尔手稿传统而保存下来。"
+    },
+    {
+      "id": "thai_sri_lanka_manuscripts",
+      "name_zh": "南传贝叶经与东南亚佛教文献",
+      "name_en": "Theravāda Palm-leaf and Southeast Asian Buddhist Manuscripts",
+      "family": "Theravāda manuscript traditions",
+      "languages": [
+        "Pāli",
+        "Sinhala",
+        "Thai",
+        "Khmer and regional scripts"
+      ],
+      "scope": [
+        "Tipiṭaka",
+        "commentaries",
+        "Jātaka",
+        "ritual",
+        "local chronicles"
+      ],
+      "primary_sources": [
+        "sri_lanka_national_library",
+        "nlt_digital"
+      ],
+      "comparison_sources": [
+        "tipitaka_org",
+        "pts",
+        "suttacentral"
+      ],
+      "physical_holding": [
+        "national_library_sri_lanka",
+        "national_library_thailand"
+      ],
+      "completeness": "distributed and unevenly digitized",
+      "notes_zh": "数字巴利文本不能替代地方写本版本史；研究版本时需要回到贝叶经和地区目录。"
+    },
+    {
+      "id": "modern_scholarship",
+      "name_zh": "现代佛教学研究总入口",
+      "name_en": "Modern Buddhist Studies Research Layer",
+      "family": "Research bibliography",
+      "languages": [
+        "multilingual"
+      ],
+      "scope": [
+        "articles",
+        "books",
+        "critical editions",
+        "philology",
+        "history",
+        "translation studies",
+        "digital humanities"
+      ],
+      "primary_sources": [
+        "ntu_dlbs",
+        "inbuds",
+        "worldcat"
+      ],
+      "comparison_sources": [
+        "pts",
+        "dila_authority"
+      ],
+      "completeness": "broad bibliographic coverage, not one full-text corpus",
+      "notes_zh": "所有‘学界认为’最终都要落到具体论文/专著，而不是网站自己代替学界发结论。"
+    }
+  ]
+}
