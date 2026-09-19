@@ -1,0 +1,1132 @@
+{
+  "version": "0.3",
+  "updated_at": "2026-09-19",
+  "purpose_zh": "把‘这部经去哪看’变成统一索引：先直达已核验在线文本；没有直达链接时给出应搜索的平台；数字证据不够时再给线下馆藏优先级。",
+  "records": [
+    {
+      "work_id": "DA-W-0001",
+      "title_zh": "长阿含经",
+      "title_en": "Dīrgha Āgama",
+      "ids": {
+        "taisho": "T01n0001",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T01n0001",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "suttacentral",
+        "tipitaka_org",
+        "tipitakapali",
+        "pts",
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0002",
+      "title_zh": "中阿含经",
+      "title_en": "Madhyama Āgama",
+      "ids": {
+        "taisho": "T01n0026",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T01n0026",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "suttacentral",
+        "tipitaka_org",
+        "tipitakapali",
+        "pts",
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0003",
+      "title_zh": "杂阿含经",
+      "title_en": "Saṃyukta Āgama",
+      "ids": {
+        "taisho": "T02n0099",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T02n0099",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "suttacentral",
+        "tipitaka_org",
+        "tipitakapali",
+        "pts",
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0004",
+      "title_zh": "增壹阿含经",
+      "title_en": "Ekottarika Āgama",
+      "ids": {
+        "taisho": "T02n0125",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T02n0125",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "suttacentral",
+        "tipitaka_org",
+        "tipitakapali",
+        "pts",
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0005",
+      "title_zh": "转法轮经",
+      "title_en": "Setting the Dhamma Wheel in Motion",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "SN 56.11",
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/sn56.11",
+          "kind": "Early Buddhist text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "tipitaka_org",
+        "tipitakapali",
+        "pts"
+      ],
+      "physical_priority": [
+        "british_library",
+        "loc",
+        "uw"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0006",
+      "title_zh": "无我相经",
+      "title_en": "The Characteristic of Not-Self",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "SN 22.59",
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/sn22.59",
+          "kind": "Early Buddhist text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "tipitaka_org",
+        "tipitakapali",
+        "pts"
+      ],
+      "physical_priority": [],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0007",
+      "title_zh": "大般涅槃经（巴利长部）",
+      "title_en": "The Great Discourse on the Buddha’s Extinguishment",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "DN 16",
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/dn16",
+          "kind": "Early Buddhist text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "tipitaka_org",
+        "tipitakapali",
+        "pts"
+      ],
+      "physical_priority": [],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0008",
+      "title_zh": "念处经",
+      "title_en": "Mindfulness Meditation",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "MN 10",
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/mn10",
+          "kind": "Early Buddhist text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "tipitaka_org",
+        "tipitakapali",
+        "pts"
+      ],
+      "physical_priority": [],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0009",
+      "title_zh": "迦摩罗经",
+      "title_en": "To the Kālāmas",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "AN 3.65",
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/an3.65",
+          "kind": "Early Buddhist text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "tipitaka_org",
+        "tipitakapali",
+        "pts"
+      ],
+      "physical_priority": [],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0010",
+      "title_zh": "善生经 / 教授尸伽罗越经（巴利对应）",
+      "title_en": "Advice to Sigālaka",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "DN 31",
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/dn31",
+          "kind": "Early Buddhist text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "tipitaka_org",
+        "tipitakapali",
+        "pts"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0011",
+      "title_zh": "慈经",
+      "title_en": "The Discourse on Loving-Kindness",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "Snp 1.8 / Khp 9",
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/snp1.8",
+          "kind": "Early Buddhist text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "tipitaka_org",
+        "tipitakapali",
+        "pts"
+      ],
+      "physical_priority": [],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0012",
+      "title_zh": "法句经 / 法句",
+      "title_en": "Dhammapada and Chinese Dharmapada collections",
+      "ids": {
+        "taisho": "T04n0210",
+        "suttacentral": "Dhp",
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T04n0210",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        },
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/dhp",
+          "kind": "Early Buddhist text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "tipitaka_org",
+        "tipitakapali",
+        "pts",
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0013",
+      "title_zh": "金刚般若波罗蜜经",
+      "title_en": "Diamond Sūtra",
+      "ids": {
+        "taisho": "T08n0235",
+        "suttacentral": null,
+        "toh": "Toh 16"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T08n0235",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        },
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh16",
+          "kind": "Tibetan canon translation",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0014",
+      "title_zh": "般若波罗蜜多心经",
+      "title_en": "Heart Sūtra",
+      "ids": {
+        "taisho": "T08n0251",
+        "suttacentral": null,
+        "toh": "Toh 21; duplicate Toh 531"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T08n0251",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        },
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh21",
+          "kind": "Tibetan canon translation",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0015",
+      "title_zh": "妙法莲华经",
+      "title_en": "Lotus Sūtra",
+      "ids": {
+        "taisho": "T09n0262",
+        "suttacentral": null,
+        "toh": "Toh 113"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T09n0262",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        },
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh113",
+          "kind": "Tibetan canon translation",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0016",
+      "title_zh": "维摩诘所说经",
+      "title_en": "The Teaching of Vimalakīrti",
+      "ids": {
+        "taisho": "T14n0475",
+        "suttacentral": null,
+        "toh": "Toh 176"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T14n0475",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        },
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh176",
+          "kind": "Tibetan canon translation",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0017",
+      "title_zh": "大方广佛华严经（八十华严）",
+      "title_en": "Flower Ornament / Avataṃsaka Collection",
+      "ids": {
+        "taisho": "T10n0279",
+        "suttacentral": null,
+        "toh": "Toh 44 (Tibetan Avataṃsaka collection)"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T10n0279",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "84000",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0018",
+      "title_zh": "佛说阿弥陀经",
+      "title_en": "Shorter Sukhāvatīvyūha / Display of Sukhāvatī",
+      "ids": {
+        "taisho": "T12n0366",
+        "suttacentral": null,
+        "toh": "Toh 115"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T12n0366",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        },
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh115",
+          "kind": "Tibetan canon translation",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0019",
+      "title_zh": "佛说无量寿经",
+      "title_en": "Longer Sukhāvatīvyūha / Array of Amitābha",
+      "ids": {
+        "taisho": "T12n0360",
+        "suttacentral": null,
+        "toh": "Toh 49"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T12n0360",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        },
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh49",
+          "kind": "Tibetan canon translation",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0020",
+      "title_zh": "大般涅槃经（大乘）",
+      "title_en": "Mahāyāna Mahāparinirvāṇa Sūtra",
+      "ids": {
+        "taisho": "T12n0374",
+        "suttacentral": null,
+        "toh": "Toh 119–120"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T12n0374",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "84000",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0021",
+      "title_zh": "楞伽经",
+      "title_en": "Laṅkāvatāra Sūtra",
+      "ids": {
+        "taisho": "T16n0670; alt. T16n0671, T16n0672",
+        "suttacentral": null,
+        "toh": "Toh 107–108"
+      },
+      "direct_links": [],
+      "search_targets": [
+        "cbeta",
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "84000",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0022",
+      "title_zh": "解深密经",
+      "title_en": "Unraveling the Intent",
+      "ids": {
+        "taisho": "T16n0676",
+        "suttacentral": null,
+        "toh": "Toh 106"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T16n0676",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        },
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh106",
+          "kind": "Tibetan canon translation",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0023",
+      "title_zh": "大宝积经",
+      "title_en": "Heap of Jewels / Ratnakūṭa Collection",
+      "ids": {
+        "taisho": "T11n0310",
+        "suttacentral": null,
+        "toh": "Toh 45–93 (Tibetan Ratnakūṭa section)"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T11n0310",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "84000",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0024",
+      "title_zh": "大般若波罗蜜多经",
+      "title_en": "Great Perfection of Wisdom Collection",
+      "ids": {
+        "taisho": "T05–T07n0220",
+        "suttacentral": null,
+        "toh": "Related long Prajñāpāramitā works Toh 8–12"
+      },
+      "direct_links": [],
+      "search_targets": [
+        "cbeta",
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "84000",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0025",
+      "title_zh": "中论",
+      "title_en": "Fundamental Verses on the Middle Way",
+      "ids": {
+        "taisho": "T30n1564",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T30n1564",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0026",
+      "title_zh": "阿毗达磨俱舍论",
+      "title_en": "Treasury of Abhidharma",
+      "ids": {
+        "taisho": "T29n1558",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T29n1558",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs"
+      ],
+      "physical_priority": [],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0027",
+      "title_zh": "瑜伽师地论",
+      "title_en": "Yogācārabhūmi",
+      "ids": {
+        "taisho": "T30n1579",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T30n1579",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus"
+      ],
+      "physical_priority": [],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0028",
+      "title_zh": "成唯识论",
+      "title_en": "Cheng Weishi Lun / Demonstration of Consciousness-Only",
+      "ids": {
+        "taisho": "T31n1585",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T31n1585",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0029",
+      "title_zh": "大乘起信论",
+      "title_en": "Awakening of Faith in the Mahāyāna",
+      "ids": {
+        "taisho": "T32n1666",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T32n1666",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus"
+      ],
+      "physical_priority": [
+        "cambridge_ul",
+        "bodleian"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "disputed"
+    },
+    {
+      "work_id": "DA-W-0030",
+      "title_zh": "大佛顶首楞严经",
+      "title_en": "Śūraṅgama Sūtra (East Asian text)",
+      "ids": {
+        "taisho": "T19n0945",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T19n0945",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus"
+      ],
+      "physical_priority": [],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "disputed"
+    },
+    {
+      "work_id": "DA-W-0031",
+      "title_zh": "六祖大师法宝坛经",
+      "title_en": "Platform Sūtra of the Sixth Patriarch",
+      "ids": {
+        "taisho": "T48n2008",
+        "suttacentral": null,
+        "toh": null
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T48n2008",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    },
+    {
+      "work_id": "DA-W-0032",
+      "title_zh": "方广大庄严经 / 普曜经（相关汉译）",
+      "title_en": "The Play in Full",
+      "ids": {
+        "taisho": "T03n0186 / T03n0187 (related Chinese translations)",
+        "suttacentral": null,
+        "toh": "Toh 95"
+      },
+      "direct_links": [
+        {
+          "source_id": "cbeta",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T03n0186",
+          "kind": "Chinese canonical text",
+          "status": "direct"
+        }
+      ],
+      "search_targets": [
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "dsbc",
+        "gretil",
+        "buddhanexus",
+        "84000",
+        "bdrc",
+        "adarshah"
+      ],
+      "physical_priority": [
+        "nlc",
+        "bnf",
+        "british_library",
+        "cambridge_ul",
+        "bodleian",
+        "harvard_yenching",
+        "loc",
+        "bdrc_partner_network"
+      ],
+      "relation_warning": "Search target means a platform is relevant for this textual tradition; it does not assert that an exact identical recension is present there.",
+      "evidence_confidence": "high"
+    }
+  ]
+}
