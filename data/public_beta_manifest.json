@@ -1,7 +1,7 @@
 {
-  "version": "0.7.1-public-beta",
-  "source_commit": "bde1ebafb4e174ffd202524e53743d3451652648",
-  "built_at": "2026-09-19T10:31:37.883702+00:00",
+  "version": "0.8-public-beta",
+  "source_commit": "9e56a47da63aa2101209336f630f4eb4f3065385",
+  "built_at": "2026-09-19T10:36:37.511754+00:00",
   "public_url": "https://minyajing-rgb.github.io/Buddhist/",
   "intended_status": "public_research_beta",
   "deployment_status": "candidate; consult public_deployment.json for verified result",
@@ -22,12 +22,13 @@
     "unique_bibliographic_citations_across_works": 776,
     "reviewed_item_works": 2,
     "dated_events": 7,
-    "parallel_classification_conflict_works": 18,
+    "parallel_classification_conflict_works": 0,
     "new_work_specific_learning_prompts": 68,
     "scholar_certified_L4_works": 0,
-    "public_png_infographics": 6
+    "public_png_infographics": 6,
+    "parallel_source_encoding_reviewed_works": 18
   },
-  "homepage_sha256": "8e9a7915b1b6546e84278dbf6dda9db64fd048e5c8033a3eab83b5dc9dd22250",
+  "homepage_sha256": "1d4062d011c296a3c55f67a18e385c1c96390f90f7ed6b3b3a7c03bd12aae721",
   "research_complete": false,
   "data_policy": "Research gaps remain visible. They do not block functional preview releases.",
   "preserved_subsites": [

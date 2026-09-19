@@ -1,0 +1,908 @@
+{
+  "version": "0.8",
+  "reviewed_at": "2026-09-19",
+  "source_commit": "46cfa52c25a5cff9acd296794e5e9b8b388121a5",
+  "source_sha256": "129ec287aaa0e90f47f6315b4355ad5ea07804bea18a274e39107b93ce17c7f2",
+  "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+  "method": "Use only official parallels groups where the queried exact work UID is unmarked. Unmarked partners = full; ~ partners = resembling. Do not take transitive closure or generate relations between two marked neighbours. Preserve # locators separately.",
+  "source_interpretation_reference": "https://suttacentral.net/introduction",
+  "scope": "Correct source-encoding/category duplication in 18 flagged Crosswalks; not an independent scholarly review.",
+  "counts": {
+    "reviewed_works": 18,
+    "old_overlapping_targets": 133,
+    "new_overlapping_targets": 0,
+    "work_level_full_relations": 69,
+    "work_level_resembling_relations": 75,
+    "segment_relations": 24
+  },
+  "records": [
+    {
+      "work_id": "DA-W-0005",
+      "suttacentral_id": "sn56.11",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "d31",
+          "lal26",
+          "t109",
+          "t1450.6"
+        ],
+        "resembling": [
+          "ea19.2",
+          "ma204",
+          "sa379",
+          "san-lo-mvu95",
+          "sf260",
+          "sn56.12",
+          "t110"
+        ],
+        "mentions": [
+          "ps2.7"
+        ],
+        "retells": []
+      },
+      "segment_relations": [
+        {
+          "target_with_locator": "pli-tv-kd1#6.17.1-#6.31.4",
+          "source_relation": "full"
+        },
+        {
+          "target_with_locator": "san-mu-kd17#sc186-#sc194",
+          "source_relation": "full"
+        },
+        {
+          "target_with_locator": "lzh-mi-kd1#t0104b23",
+          "source_relation": "full"
+        },
+        {
+          "target_with_locator": "lzh-dg-kd1#t0788a06-#t0788c08",
+          "source_relation": "full"
+        },
+        {
+          "target_with_locator": "d337#sa275a6-#sa277a4",
+          "source_relation": "resembling"
+        },
+        {
+          "target_with_locator": "lzh-sarv-kd18#t0448b19",
+          "source_relation": "resembling"
+        }
+      ],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/2218/parallels",
+          "tokens": [
+            "sn56.11",
+            "pli-tv-kd1#6.17.1-#6.31.4",
+            "d31",
+            "lal26",
+            "san-mu-kd17#sc186-#sc194",
+            "t109",
+            "lzh-mi-kd1#t0104b23",
+            "lzh-dg-kd1#t0788a06-#t0788c08",
+            "t1450.6",
+            "~d337#sa275a6-#sa277a4",
+            "~ea19.2",
+            "~ma204",
+            "~sa379",
+            "~sf260",
+            "~sn56.12",
+            "~t110",
+            "~lzh-sarv-kd18#t0448b19",
+            "~san-lo-mvu95"
+          ]
+        }
+      ],
+      "old_overlap_count": 11,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0006",
+      "suttacentral_id": "sn22.59",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "sa34",
+          "t102"
+        ],
+        "resembling": [
+          "sa33",
+          "san-lo-mvu95"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [
+        {
+          "target_with_locator": "lzh-mi-kd1#t0105a15",
+          "source_relation": "full"
+        },
+        {
+          "target_with_locator": "lzh-dg-kd1#t0789a12",
+          "source_relation": "full"
+        }
+      ],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/1776/parallels",
+          "tokens": [
+            "sn22.59",
+            "sa34",
+            "t102",
+            "lzh-mi-kd1#t0105a15",
+            "lzh-dg-kd1#t0789a12",
+            "~sa33",
+            "~san-lo-mvu95"
+          ]
+        }
+      ],
+      "old_overlap_count": 4,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0007",
+      "suttacentral_id": "dn16",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "avs100",
+          "avs40",
+          "gf20",
+          "sht-sutta5",
+          "t1451.35"
+        ],
+        "resembling": [
+          "an8.68-70",
+          "sf268",
+          "sf272",
+          "sf285",
+          "sf289",
+          "sf54",
+          "sn51.10",
+          "ud6.1",
+          "ud8.5",
+          "ud8.6"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [
+        {
+          "target_with_locator": "sf245#wal1.1-#wal33.3",
+          "source_relation": "full"
+        },
+        {
+          "target_with_locator": "da2#t0011a08-#t0021b08",
+          "source_relation": "resembling"
+        },
+        {
+          "target_with_locator": "da2#t0024b26-#t0030a15",
+          "source_relation": "resembling"
+        },
+        {
+          "target_with_locator": "t5#t0160b08-#t0169c13",
+          "source_relation": "resembling"
+        },
+        {
+          "target_with_locator": "t5#t0171a26-#t0175c22",
+          "source_relation": "resembling"
+        },
+        {
+          "target_with_locator": "t6#t0176a05-#t0185b13",
+          "source_relation": "resembling"
+        },
+        {
+          "target_with_locator": "t6#t0186c16-#t0191a19",
+          "source_relation": "resembling"
+        },
+        {
+          "target_with_locator": "t7#t0191b05-#t0200c21",
+          "source_relation": "resembling"
+        },
+        {
+          "target_with_locator": "t7#t0203a21-#t0207c12",
+          "source_relation": "resembling"
+        }
+      ],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/666/parallels",
+          "tokens": [
+            "dn16",
+            "avs100",
+            "avs40",
+            "gf20",
+            "sf245#wal1.1-#wal33.3",
+            "sht-sutta5",
+            "t1451.35",
+            "~an8.68-70",
+            "~da2#t0011a08-#t0021b08",
+            "~da2#t0024b26-#t0030a15",
+            "~sf268",
+            "~sf272",
+            "~sf285",
+            "~sf289",
+            "~sf54",
+            "~t5#t0160b08-#t0169c13",
+            "~t5#t0171a26-#t0175c22",
+            "~t6#t0176a05-#t0185b13",
+            "~t6#t0186c16-#t0191a19",
+            "~t7#t0191b05-#t0200c21",
+            "~t7#t0203a21-#t0207c12",
+            "~ud6.1",
+            "~ud8.5",
+            "~ud8.6",
+            "~sn51.10"
+          ]
+        }
+      ],
+      "old_overlap_count": 12,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0008",
+      "suttacentral_id": "mn10",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "dn22",
+          "ea12.1",
+          "ma98",
+          "sht-sutta11"
+        ],
+        "resembling": [
+          "ma31",
+          "ma81",
+          "mn119",
+          "t32"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/678/parallels",
+          "tokens": [
+            "dn22",
+            "ea12.1",
+            "ma98",
+            "mn10",
+            "sht-sutta11",
+            "~ma31",
+            "~mn119",
+            "~t32",
+            "~ma81"
+          ]
+        }
+      ],
+      "old_overlap_count": 8,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0010",
+      "suttacentral_id": "dn31",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "da16",
+          "ma135",
+          "sht-sutta43",
+          "t16",
+          "t17"
+        ],
+        "resembling": [
+          "sf100"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/688/parallels",
+          "tokens": [
+            "dn31",
+            "da16",
+            "ma135",
+            "sht-sutta43",
+            "t16",
+            "t17",
+            "~sf100"
+          ]
+        }
+      ],
+      "old_overlap_count": 6,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0033",
+      "suttacentral_id": "dn1",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "da21",
+          "sht-sutta16",
+          "t21",
+          "up3.050"
+        ],
+        "resembling": [
+          "sf41",
+          "sf48"
+        ],
+        "mentions": [
+          "sn41.3"
+        ],
+        "retells": []
+      },
+      "segment_relations": [
+        {
+          "target_with_locator": "t1548.21#t0656b19-#t0661a09",
+          "source_relation": "resembling"
+        }
+      ],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/645/parallels",
+          "tokens": [
+            "dn1",
+            "da21",
+            "sht-sutta16",
+            "t21",
+            "up3.050",
+            "~sf41",
+            "~sf48",
+            "~t1548.21#t0656b19-#t0661a09"
+          ]
+        }
+      ],
+      "old_overlap_count": 7,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0034",
+      "suttacentral_id": "dn2",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "da27",
+          "ea43.7",
+          "sht-sutta58",
+          "t22"
+        ],
+        "resembling": [
+          "sa154-163",
+          "sf1",
+          "sf288",
+          "t1442.13",
+          "t1444.1",
+          "t1450.10"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [
+        {
+          "target_with_locator": "d1#nga258a",
+          "source_relation": "full"
+        },
+        {
+          "target_with_locator": "san-mu-kd17#sc866-#sc916",
+          "source_relation": "full"
+        }
+      ],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/674/parallels",
+          "tokens": [
+            "dn2",
+            "da27",
+            "d1#nga258a",
+            "ea43.7",
+            "sht-sutta58",
+            "san-mu-kd17#sc866-#sc916",
+            "t22",
+            "~sa154-163",
+            "~sf1",
+            "~sf288",
+            "~t1442.13",
+            "~t1444.1",
+            "~t1450.10"
+          ]
+        }
+      ],
+      "old_overlap_count": 10,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0036",
+      "suttacentral_id": "dn15",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "da13",
+          "ma97",
+          "sht-sutta23",
+          "t14",
+          "t52"
+        ],
+        "resembling": [
+          "sf138",
+          "sf240"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/656/parallels",
+          "tokens": [
+            "dn15",
+            "da13",
+            "ma97",
+            "sht-sutta23",
+            "t14",
+            "t52",
+            "~sf138",
+            "~sf240"
+          ]
+        }
+      ],
+      "old_overlap_count": 7,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0037",
+      "suttacentral_id": "dn22",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "ea12.1",
+          "ma98",
+          "mn10",
+          "sht-sutta11"
+        ],
+        "resembling": [
+          "ma31",
+          "ma81",
+          "mn119",
+          "t32"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/678/parallels",
+          "tokens": [
+            "dn22",
+            "ea12.1",
+            "ma98",
+            "mn10",
+            "sht-sutta11",
+            "~ma31",
+            "~mn119",
+            "~t32",
+            "~ma81"
+          ]
+        }
+      ],
+      "old_overlap_count": 6,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0038",
+      "suttacentral_id": "mn22",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "ma200"
+        ],
+        "resembling": [
+          "ea43.5",
+          "ea50.8",
+          "lzh-dg-bu-vb-pc68",
+          "lzh-mg-bu-vb-pc46",
+          "lzh-sarv-bu-vb-pc55",
+          "t1442.39",
+          "up8.029"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/888/parallels",
+          "tokens": [
+            "mn22",
+            "ma200",
+            "~ea43.5",
+            "~ea50.8",
+            "~lzh-mg-bu-vb-pc46",
+            "~lzh-dg-bu-vb-pc68",
+            "~lzh-sarv-bu-vb-pc55",
+            "~t1442.39",
+            "~up8.029"
+          ]
+        }
+      ],
+      "old_overlap_count": 5,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0040",
+      "suttacentral_id": "mn36",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "divy27",
+          "lal17a",
+          "san-lo-mvu47",
+          "sht-sutta28"
+        ],
+        "resembling": [
+          "da20",
+          "da21",
+          "da22",
+          "ea31.8",
+          "lal16",
+          "mn100",
+          "mn85",
+          "sf287",
+          "sf5",
+          "sf64",
+          "sht-sutta40"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [
+        {
+          "target_with_locator": "san-mu-kd17#sc134-#sc156",
+          "source_relation": "full"
+        },
+        {
+          "target_with_locator": "t757#t0598a04-#t0599c18",
+          "source_relation": "resembling"
+        }
+      ],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/903/parallels",
+          "tokens": [
+            "mn36",
+            "divy27",
+            "~lal16",
+            "lal17a",
+            "sht-sutta28",
+            "san-lo-mvu47",
+            "san-mu-kd17#sc134-#sc156",
+            "~ea31.8",
+            "~mn100",
+            "~sht-sutta40",
+            "~mn85",
+            "~sf287",
+            "~sf5",
+            "~sf64",
+            "~t757#t0598a04-#t0599c18",
+            "~da20",
+            "~da21",
+            "~da22"
+          ]
+        }
+      ],
+      "old_overlap_count": 12,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0042",
+      "suttacentral_id": "mn61",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "ma14",
+          "sht-sutta49",
+          "t1442.24",
+          "t211.31",
+          "t212.14"
+        ],
+        "resembling": [
+          "t1509.13"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [
+        {
+          "target_with_locator": "d3#cha215a",
+          "source_relation": "full"
+        }
+      ],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/930/parallels",
+          "tokens": [
+            "mn61",
+            "d3#cha215a",
+            "ma14",
+            "sht-sutta49",
+            "t1442.24",
+            "t211.31",
+            "t212.14",
+            "~t1509.13"
+          ]
+        }
+      ],
+      "old_overlap_count": 6,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0044",
+      "suttacentral_id": "mn86",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "ea38.6",
+          "sa-2.16",
+          "sa1077",
+          "sht-sutta2",
+          "t118",
+          "t119",
+          "t200.99",
+          "t212.17"
+        ],
+        "resembling": [
+          "sf19",
+          "sf66"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/979/parallels",
+          "tokens": [
+            "mn86",
+            "ea38.6",
+            "sa-2.16",
+            "sa1077",
+            "sht-sutta2",
+            "t118",
+            "t119",
+            "t200.99",
+            "t212.17",
+            "~sf19",
+            "~sf66"
+          ]
+        }
+      ],
+      "old_overlap_count": 10,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0045",
+      "suttacentral_id": "mn118",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "sa815",
+          "sht-sutta84"
+        ],
+        "resembling": [
+          "sa803",
+          "sa810-812",
+          "sn54.13-16"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/811/parallels",
+          "tokens": [
+            "mn118",
+            "sa815",
+            "sht-sutta84",
+            "~sa803",
+            "~sa810-812",
+            "~sn54.13-16"
+          ]
+        }
+      ],
+      "old_overlap_count": 4,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0046",
+      "suttacentral_id": "mn135",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "d338",
+          "ma170",
+          "sht-sutta67",
+          "t755",
+          "t78",
+          "t79",
+          "t80",
+          "t81"
+        ],
+        "resembling": [
+          "kf10",
+          "ma152",
+          "mn99",
+          "sf76",
+          "sf85",
+          "sf87",
+          "sf88",
+          "sf98"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/833/parallels",
+          "tokens": [
+            "mn135",
+            "d338",
+            "ma170",
+            "sht-sutta67",
+            "t755",
+            "t78",
+            "t79",
+            "t80",
+            "t81",
+            "~kf10",
+            "~sf76",
+            "~sf85",
+            "~sf87",
+            "~sf88",
+            "~sf98",
+            "~mn99",
+            "~ma152"
+          ]
+        }
+      ],
+      "old_overlap_count": 16,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0048",
+      "suttacentral_id": "sn12.15",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "sa301"
+        ],
+        "resembling": [
+          "sa262",
+          "sf168",
+          "sn22.90"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/1558/parallels",
+          "tokens": [
+            "sn12.15",
+            "sa301",
+            "~sa262",
+            "~sf168",
+            "~sn22.90"
+          ]
+        }
+      ],
+      "old_overlap_count": 4,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0050",
+      "suttacentral_id": "sn35.28",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "sa197",
+          "sn22.61"
+        ],
+        "resembling": [
+          "sf270"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [
+        {
+          "target_with_locator": "pli-tv-kd1#21.2.2",
+          "source_relation": "full"
+        }
+      ],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/7272/parallels",
+          "tokens": [
+            "sn35.28",
+            "sa197",
+            "sn22.61",
+            "pli-tv-kd1#21.2.2",
+            "~sf270"
+          ]
+        }
+      ],
+      "old_overlap_count": 3,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    },
+    {
+      "work_id": "DA-W-0051",
+      "suttacentral_id": "snp1.3",
+      "status": "source_encoding_checked",
+      "relations": {
+        "full": [
+          "gf5b"
+        ],
+        "resembling": [
+          "san-lo-mvu33"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "segment_relations": [],
+      "source_url": "https://github.com/suttacentral/sc-data/blob/46cfa52c25a5cff9acd296794e5e9b8b388121a5/relationship/parallels.json",
+      "source_groups": [
+        {
+          "json_pointer": "/2320/parallels",
+          "tokens": [
+            "snp1.3",
+            "~san-lo-mvu33",
+            "gf5b"
+          ]
+        }
+      ],
+      "old_overlap_count": 2,
+      "summary_zh": "已按官方分组与~标记重建完整/近似平行，去除组间误推；段落关系单列。",
+      "limits_zh": "仅核对本次快照的parallels编码；mentions/retells保留旧值，未独立复核。没有逐段校勘，也不等于两部文本完全相同。"
+    }
+  ]
+}
