@@ -27,7 +27,10 @@ def main():
         check('No repository links in homepage',page.locator('a[href*="github"]').count()==0)
         page.screenshot(path=str(dest/'desktop-home.png'),full_page=True)
         page.screenshot(path=str(dest/'desktop-first-screen.png'))
-        def route(h):page.evaluate('(h)=>location.hash=h',h);page.wait_for_timeout(80)
+        def route(h):
+            page.evaluate('(h)=>location.hash=h',h)
+            page.locator('#'+h).wait_for(state='visible')
+            page.wait_for_timeout(80)
         def close():
             if page.locator('#modal').evaluate('e=>e.open'):page.locator('#closeModal').click()
         route('works');check('First page has 18 text cards',page.locator('#workGrid .work-card').count()==18)
@@ -55,7 +58,8 @@ def main():
         page.locator('#langToggle').click();route('home')
         for width in [390,360]:
             page.set_viewport_size({'width':width,'height':844});route('home');check('Mobile homepage no overflow '+str(width),page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
-            page.locator('#menuToggle').click();check('Mobile navigation opens '+str(width),page.locator('#nav').is_visible());page.locator('#nav a[href="#works"]').click();check('Mobile navigation works '+str(width),page.locator('#works').is_visible())
+            page.locator('#menuToggle').click();page.locator('#nav').wait_for(state='visible');check('Mobile navigation opens '+str(width),page.locator('#nav').is_visible())
+            page.locator('#nav a[href="#works"]').click();page.locator('#works').wait_for(state='visible');check('Mobile navigation works '+str(width),page.locator('#works').is_visible())
             page.locator('#workQuery').fill('');page.locator('#workGrid [data-act="work"]').first.click();check('Mobile dialog fits '+str(width),page.locator('#modal').bounding_box()['width']<=width);close();route('atlas');check('Mobile map no overflow '+str(width),page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
         page.set_viewport_size({'width':390,'height':844});route('home');page.screenshot(path=str(dest/'mobile-home.png'),full_page=True)
         check('No JavaScript errors',not errors,errors)
