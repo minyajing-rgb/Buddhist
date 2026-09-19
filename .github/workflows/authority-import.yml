@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/collect_authority_metadata.py'
+      - 'scripts/repair_authority_bibliography.py'
       - '.github/workflows/authority-import.yml'
   workflow_dispatch:
 permissions:
@@ -17,8 +18,10 @@ jobs:
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
-      - name: Import exact-ID bibliographic facts from public authority snapshots
+      - name: Import exact-ID metadata from public authority snapshots
         run: python scripts/collect_authority_metadata.py --refresh
+      - name: Import mixed-content bibliographic facts and source locators
+        run: python scripts/repair_authority_bibliography.py
       - uses: actions/upload-artifact@v4
         with:
           name: authority-metadata-review
@@ -32,7 +35,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/authority_metadata_v0.7.json
           if ! git diff --cached --quiet; then
-            git commit -m 'data: archive source-pinned authority metadata (not scholar-reviewed)'
+            git commit -m 'data: archive source-pinned metadata and bibliography (not scholar-reviewed)'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
