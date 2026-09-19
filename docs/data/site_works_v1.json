@@ -1,0 +1,2627 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "DA-W-0001",
+      "type": "collection",
+      "tradition": [
+        "Early Buddhist",
+        "Chinese"
+      ],
+      "title_zh": "长阿含经",
+      "title_en": "Dīrgha Āgama",
+      "title_sa": "Dīrghāgama",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T01n0001",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "early Buddhism",
+        "cosmology",
+        "ethics",
+        "Buddha biography"
+      ],
+      "confidence": "high",
+      "why_it_matters": "汉译早期长篇经集，是跨传统比较早期佛教的重要入口。",
+      "relation_note": "Chinese Dīrgha Āgama collection; compare discourse-by-discourse with Dīgha Nikāya and other parallels rather than treating the collections as identical.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0002",
+      "type": "collection",
+      "tradition": [
+        "Early Buddhist",
+        "Chinese"
+      ],
+      "title_zh": "中阿含经",
+      "title_en": "Madhyama Āgama",
+      "title_sa": "Madhyamāgama",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T01n0026",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "practice",
+        "meditation",
+        "ethics",
+        "early doctrine"
+      ],
+      "confidence": "high",
+      "why_it_matters": "适合和巴利《中部》逐经对读，观察共同核心与版本差异。",
+      "relation_note": "Chinese Madhyama Āgama; many individual discourses have parallels in the Majjhima Nikāya and elsewhere.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0003",
+      "type": "collection",
+      "tradition": [
+        "Early Buddhist",
+        "Chinese"
+      ],
+      "title_zh": "杂阿含经",
+      "title_en": "Saṃyukta Āgama",
+      "title_sa": "Saṃyuktāgama",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T02n0099",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "dependent arising",
+        "aggregates",
+        "sense bases",
+        "early doctrine"
+      ],
+      "confidence": "high",
+      "why_it_matters": "研究缘起、五蕴、无我等早期教义时的核心汉译资料。",
+      "relation_note": "Chinese Saṃyukta Āgama; closely comparable at discourse/group level with the Saṃyutta Nikāya.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0004",
+      "type": "collection",
+      "tradition": [
+        "Early Buddhist",
+        "Chinese"
+      ],
+      "title_zh": "增壹阿含经",
+      "title_en": "Ekottarika Āgama",
+      "title_sa": "Ekottarikāgama",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T02n0125",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "numbered teachings",
+        "ethics",
+        "practice"
+      ],
+      "confidence": "high",
+      "why_it_matters": "能直接看见“按数字组织教法”这一古老记忆技术。",
+      "relation_note": "Chinese Ekottarika Āgama; not a simple one-to-one equivalent of the Pāli Aṅguttara Nikāya.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0005",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "转法轮经",
+      "title_en": "Setting the Dhamma Wheel in Motion",
+      "title_sa": null,
+      "title_pi": "Dhammacakkappavattana Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "SN 56.11",
+        "toh": null
+      },
+      "themes": [
+        "four noble truths",
+        "middle way",
+        "eightfold path"
+      ],
+      "confidence": "high",
+      "why_it_matters": "传统上视为佛陀成道后的第一次正式说法，是理解四谛与中道的起点。",
+      "relation_note": "Pāli recension with parallels in other early Buddhist traditions.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0006",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "无我相经",
+      "title_en": "The Characteristic of Not-Self",
+      "title_sa": null,
+      "title_pi": "Anattalakkhaṇa Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "SN 22.59",
+        "toh": null
+      },
+      "themes": [
+        "nonself",
+        "five aggregates",
+        "liberation"
+      ],
+      "confidence": "high",
+      "why_it_matters": "最直接讨论“五蕴非我”的早期经典之一。",
+      "relation_note": "Pāli recension; early parallels exist across traditions.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0007",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "大般涅槃经（巴利长部）",
+      "title_en": "The Great Discourse on the Buddha’s Extinguishment",
+      "title_sa": null,
+      "title_pi": "Mahāparinibbāna Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "DN 16",
+        "toh": null
+      },
+      "themes": [
+        "Buddha's final journey",
+        "impermanence",
+        "community",
+        "relics"
+      ],
+      "confidence": "high",
+      "why_it_matters": "特别适合做版本比较：不同传承保存了明显不同的增删与编排。",
+      "relation_note": "Pāli version of an early parinirvāṇa cycle; extant parallels differ substantially in places. Do not confuse with the later Mahāyāna Mahāparinirvāṇa Sūtra.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0008",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "念处经",
+      "title_en": "Mindfulness Meditation",
+      "title_sa": null,
+      "title_pi": "Satipaṭṭhāna Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "MN 10",
+        "toh": null
+      },
+      "themes": [
+        "mindfulness",
+        "body",
+        "feeling",
+        "mind",
+        "phenomena"
+      ],
+      "confidence": "high",
+      "why_it_matters": "现代 mindfulness 讨论绕不开，但应回到古典语境而不是只看现代减压版本。",
+      "relation_note": "Pāli recension; related material appears in other early traditions and in DN 22.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0009",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "迦摩罗经",
+      "title_en": "To the Kālāmas",
+      "title_sa": null,
+      "title_pi": "Kesamutti/Kālāma Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "AN 3.65",
+        "toh": null
+      },
+      "themes": [
+        "inquiry",
+        "ethics",
+        "epistemology"
+      ],
+      "confidence": "high",
+      "why_it_matters": "经常被现代人概括成“不要相信任何权威”，实际文本比口号复杂得多。",
+      "relation_note": "Pāli text often simplified in modern quotation; context matters.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0010",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "善生经 / 教授尸伽罗越经（巴利对应）",
+      "title_en": "Advice to Sigālaka",
+      "title_sa": null,
+      "title_pi": "Sigālovāda Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "DN 31",
+        "toh": null
+      },
+      "themes": [
+        "family",
+        "friendship",
+        "work",
+        "social ethics"
+      ],
+      "confidence": "high",
+      "why_it_matters": "非常适合现代大众：讲家庭、朋友、雇佣关系、财富和社会责任。",
+      "relation_note": "Pāli recension with Chinese parallels; titles and framing differ by tradition.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0011",
+      "type": "sutta",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli"
+      ],
+      "title_zh": "慈经",
+      "title_en": "The Discourse on Loving-Kindness",
+      "title_sa": null,
+      "title_pi": "Karaṇīyametta Sutta",
+      "ids": {
+        "taisho": null,
+        "suttacentral": "Snp 1.8 / Khp 9",
+        "toh": null
+      },
+      "themes": [
+        "loving-kindness",
+        "meditation",
+        "ethics"
+      ],
+      "confidence": "high",
+      "why_it_matters": "短、可读、适合小白直接进入早期佛教的慈心训练。",
+      "relation_note": "Pāli text preserved in more than one Pāli collection context.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0012",
+      "type": "verse_collection",
+      "tradition": [
+        "Early Buddhist",
+        "Pāli",
+        "Chinese"
+      ],
+      "title_zh": "法句经 / 法句",
+      "title_en": "Dhammapada and Chinese Dharmapada collections",
+      "title_sa": null,
+      "title_pi": "Dhammapada",
+      "ids": {
+        "taisho": "T04n0210",
+        "suttacentral": "Dhp",
+        "toh": null
+      },
+      "themes": [
+        "ethics",
+        "mind",
+        "wisdom",
+        "practice"
+      ],
+      "confidence": "high",
+      "why_it_matters": "最适合做“同一句格言在不同语言传统里如何变化”的入口。",
+      "relation_note": "The Pāli Dhammapada and Chinese 法句 collections are related verse traditions, not one mechanically identical text.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0013",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Prajñāpāramitā",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "金刚般若波罗蜜经",
+      "title_en": "Diamond Sūtra",
+      "title_sa": "Vajracchedikā Prajñāpāramitā",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T08n0235",
+        "suttacentral": null,
+        "toh": "Toh 16"
+      },
+      "themes": [
+        "emptiness",
+        "non-attachment",
+        "bodhisattva"
+      ],
+      "confidence": "high",
+      "why_it_matters": "短篇般若经典的代表，也是最适合展示梵/汉/藏多版本对读的经典之一。",
+      "relation_note": "Chinese and Tibetan translations belong to the wider Vajracchedikā textual tradition; Sanskrit witnesses also survive.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0014",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Prajñāpāramitā",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "般若波罗蜜多心经",
+      "title_en": "Heart Sūtra",
+      "title_sa": "Prajñāpāramitāhṛdaya",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T08n0251",
+        "suttacentral": null,
+        "toh": "Toh 21; duplicate Toh 531"
+      },
+      "themes": [
+        "emptiness",
+        "five aggregates",
+        "prajñā"
+      ],
+      "confidence": "high",
+      "why_it_matters": "全球最知名佛经之一，非常适合用来教“作品、版本、译本、写本不是同一层”。",
+      "relation_note": "Multiple Sanskrit, Chinese and Tibetan witnesses/recensions; short and long forms are part of the textual history.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0015",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "妙法莲华经",
+      "title_en": "Lotus Sūtra",
+      "title_sa": "Saddharmapuṇḍarīka",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T09n0262",
+        "suttacentral": null,
+        "toh": "Toh 113"
+      },
+      "themes": [
+        "one vehicle",
+        "skillful means",
+        "buddhahood",
+        "devotion"
+      ],
+      "confidence": "high",
+      "why_it_matters": "东亚影响巨大，同时保留梵文、汉文、藏文证据，适合做完整传播史案例。",
+      "relation_note": "Several Chinese translations/recensions survive; T262 is Kumārajīva’s influential translation.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0016",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "维摩诘所说经",
+      "title_en": "The Teaching of Vimalakīrti",
+      "title_sa": "Vimalakīrtinirdeśa",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T14n0475",
+        "suttacentral": null,
+        "toh": "Toh 176"
+      },
+      "themes": [
+        "nonduality",
+        "lay bodhisattva",
+        "emptiness",
+        "dialogue"
+      ],
+      "confidence": "high",
+      "why_it_matters": "故事性极强，几乎天然适合做连续剧式内容。",
+      "relation_note": "Multiple Chinese translations and a Tibetan version survive; Sanskrit manuscript evidence is also important for modern study.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0017",
+      "type": "collection",
+      "tradition": [
+        "Mahāyāna",
+        "Avataṃsaka",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "大方广佛华严经（八十华严）",
+      "title_en": "Flower Ornament / Avataṃsaka Collection",
+      "title_sa": "Avataṃsaka",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T10n0279",
+        "suttacentral": null,
+        "toh": "Toh 44 (Tibetan Avataṃsaka collection)"
+      },
+      "themes": [
+        "interdependence",
+        "cosmic buddhology",
+        "bodhisattva path",
+        "Gaṇḍavyūha"
+      ],
+      "confidence": "high",
+      "why_it_matters": "最能展示“宏大佛教宇宙叙事”和大型集合文本如何形成。",
+      "relation_note": "Chinese T279 and Tibetan Toh 44 represent large Avataṃsaka collections whose internal organization is not simply one-to-one.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0018",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Pure Land",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "佛说阿弥陀经",
+      "title_en": "Shorter Sukhāvatīvyūha / Display of Sukhāvatī",
+      "title_sa": "Sukhāvatīvyūha",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T12n0366",
+        "suttacentral": null,
+        "toh": "Toh 115"
+      },
+      "themes": [
+        "Amitābha",
+        "pure land",
+        "rebirth",
+        "devotion"
+      ],
+      "confidence": "high",
+      "why_it_matters": "非常适合展示“同一文本跨印度—中国—西藏后，细节如何变化”。",
+      "relation_note": "Shorter Sukhāvatī text with extant Sanskrit, Chinese and Tibetan versions; versions vary in details.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0019",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Pure Land",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "佛说无量寿经",
+      "title_en": "Longer Sukhāvatīvyūha / Array of Amitābha",
+      "title_sa": "Larger Sukhāvatīvyūha",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T12n0360",
+        "suttacentral": null,
+        "toh": "Toh 49"
+      },
+      "themes": [
+        "Amitābha",
+        "vows",
+        "pure land",
+        "rebirth"
+      ],
+      "confidence": "high",
+      "why_it_matters": "阿弥陀佛本愿与净土思想的重要文本源头之一。",
+      "relation_note": "Longer Sukhāvatī tradition; multiple Chinese translations survive and should be compared as separate versions.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0020",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "大般涅槃经（大乘）",
+      "title_en": "Mahāyāna Mahāparinirvāṇa Sūtra",
+      "title_sa": "Mahāparinirvāṇa Mahāyāna Sūtra",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T12n0374",
+        "suttacentral": null,
+        "toh": "Toh 119–120"
+      },
+      "themes": [
+        "buddha-nature",
+        "nirvana",
+        "Buddhahood"
+      ],
+      "confidence": "high",
+      "why_it_matters": "“名字看起来一样但其实不是同一层文本”的经典教学案例。",
+      "relation_note": "Later Mahāyāna parinirvāṇa scripture; do not conflate with the early Pāli DN 16 despite similar English/Chinese naming.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0021",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Yogācāra",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "楞伽经",
+      "title_en": "Laṅkāvatāra Sūtra",
+      "title_sa": "Laṅkāvatāra Sūtra",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T16n0670; alt. T16n0671, T16n0672",
+        "suttacentral": null,
+        "toh": "Toh 107–108"
+      },
+      "themes": [
+        "mind",
+        "consciousness",
+        "tathāgatagarbha",
+        "Yogācāra"
+      ],
+      "confidence": "high",
+      "why_it_matters": "禅宗与唯识相关讨论的重要文本，也很适合做多译本差异。",
+      "relation_note": "Several Chinese translations and Tibetan witnesses survive; internal recensional complexity is significant.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0022",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Yogācāra",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "解深密经",
+      "title_en": "Unraveling the Intent",
+      "title_sa": "Saṃdhinirmocana Sūtra",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T16n0676",
+        "suttacentral": null,
+        "toh": "Toh 106"
+      },
+      "themes": [
+        "three natures",
+        "consciousness",
+        "hermeneutics",
+        "emptiness"
+      ],
+      "confidence": "high",
+      "why_it_matters": "84000 对它的版本研究本身就是“如何做佛典文本批判”的优秀范例。",
+      "relation_note": "Complete extant recensions survive in Chinese and Tibetan; Sanskrit survives fragmentarily/reconstructively in parts.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0023",
+      "type": "collection",
+      "tradition": [
+        "Mahāyāna",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "大宝积经",
+      "title_en": "Heap of Jewels / Ratnakūṭa Collection",
+      "title_sa": "Mahāratnakūṭa",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T11n0310",
+        "suttacentral": null,
+        "toh": "Toh 45–93 (Tibetan Ratnakūṭa section)"
+      },
+      "themes": [
+        "bodhisattva",
+        "pure lands",
+        "ethics",
+        "many Mahāyāna themes"
+      ],
+      "confidence": "high",
+      "why_it_matters": "帮助用户理解“大藏经中的一部大经”有时本身就是一个文集。",
+      "relation_note": "Large anthology/collection; Chinese and Tibetan collection structures are related but not a single one-to-one volume.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0024",
+      "type": "collection",
+      "tradition": [
+        "Mahāyāna",
+        "Prajñāpāramitā",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "大般若波罗蜜多经",
+      "title_en": "Great Perfection of Wisdom Collection",
+      "title_sa": "Mahāprajñāpāramitā corpus",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T05–T07n0220",
+        "suttacentral": null,
+        "toh": "Related long Prajñāpāramitā works Toh 8–12"
+      },
+      "themes": [
+        "emptiness",
+        "prajñā",
+        "bodhisattva"
+      ],
+      "confidence": "high",
+      "why_it_matters": "最能说明“Collection-level crosswalk”和“单一作品 crosswalk”必须分开。",
+      "relation_note": "Xuanzang’s enormous Chinese compilation is not a one-to-one equivalent of a single Tibetan work; map component works individually.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0025",
+      "type": "treatise",
+      "tradition": [
+        "Madhyamaka",
+        "Chinese"
+      ],
+      "title_zh": "中论",
+      "title_en": "Fundamental Verses on the Middle Way",
+      "title_sa": "Mūlamadhyamakakārikā",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T30n1564",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "emptiness",
+        "dependent arising",
+        "two truths",
+        "middle way"
+      ],
+      "confidence": "high",
+      "why_it_matters": "不是“佛经”狭义 sūtra，而是后世理解空与中观的核心论典。",
+      "relation_note": "Chinese Madhyamaka treatise associated with Nāgārjuna; compare Sanskrit and Tibetan witnesses separately.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0026",
+      "type": "treatise",
+      "tradition": [
+        "Abhidharma",
+        "Chinese"
+      ],
+      "title_zh": "阿毗达磨俱舍论",
+      "title_en": "Treasury of Abhidharma",
+      "title_sa": "Abhidharmakośabhāṣya",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T29n1558",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "Abhidharma",
+        "cosmology",
+        "karma",
+        "mind"
+      ],
+      "confidence": "high",
+      "why_it_matters": "理解佛教“分析心理学/宇宙论/业论”体系化过程的重要桥梁。",
+      "relation_note": "Systematic scholastic treatise by Vasubandhu; not a sūtra and should be separated from Buddha-word collections.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0027",
+      "type": "treatise",
+      "tradition": [
+        "Yogācāra",
+        "Chinese"
+      ],
+      "title_zh": "瑜伽师地论",
+      "title_en": "Yogācārabhūmi",
+      "title_sa": "Yogācārabhūmi",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T30n1579",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "meditation",
+        "mind",
+        "Yogācāra",
+        "path"
+      ],
+      "confidence": "high",
+      "why_it_matters": "展示后期佛教如何把修行、心理和认识论做成巨大系统工程。",
+      "relation_note": "Large Yogācāra scholastic corpus with complex composition history.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0028",
+      "type": "treatise",
+      "tradition": [
+        "Yogācāra",
+        "East Asian",
+        "Chinese"
+      ],
+      "title_zh": "成唯识论",
+      "title_en": "Cheng Weishi Lun / Demonstration of Consciousness-Only",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "taisho": "T31n1585",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "consciousness-only",
+        "eight consciousnesses",
+        "Yogācāra"
+      ],
+      "confidence": "high",
+      "why_it_matters": "非常适合解释“翻译”有时其实包含编纂、综合和学派建构。",
+      "relation_note": "Xuanzang’s Chinese synthesis drawing on multiple Indian Yogācāra commentarial sources; not simply a translation of one surviving Sanskrit book.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0029",
+      "type": "treatise",
+      "tradition": [
+        "East Asian Mahāyāna",
+        "Chinese"
+      ],
+      "title_zh": "大乘起信论",
+      "title_en": "Awakening of Faith in the Mahāyāna",
+      "title_sa": "Mahāyānaśraddhotpāda (traditional Sanskrit title)",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T32n1666",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "one mind",
+        "tathāgatagarbha",
+        "faith",
+        "East Asian Mahāyāna"
+      ],
+      "confidence": "disputed",
+      "why_it_matters": "非常适合网站展示“传统归属”和“现代学术争议”可以同时存在。",
+      "relation_note": "Traditionally attributed to Aśvaghoṣa and translated by Paramārtha; origin/authorship have long been debated in modern scholarship.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0030",
+      "type": "sutra_or_chinese_composition",
+      "tradition": [
+        "East Asian Mahāyāna",
+        "Chinese"
+      ],
+      "title_zh": "大佛顶首楞严经",
+      "title_en": "Śūraṅgama Sūtra (East Asian text)",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "taisho": "T19n0945",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "mind",
+        "meditation",
+        "cosmology",
+        "demonic states"
+      ],
+      "confidence": "disputed",
+      "why_it_matters": "用来教学‘受传统尊崇’与‘文本来源有争议’并不互相排斥。",
+      "relation_note": "Highly influential in East Asia; questions about provenance and the absence of a securely identified Indic source are central to modern discussions.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0031",
+      "type": "chinese_buddhist_text",
+      "tradition": [
+        "Chan",
+        "Chinese"
+      ],
+      "title_zh": "六祖大师法宝坛经",
+      "title_en": "Platform Sūtra of the Sixth Patriarch",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "taisho": "T48n2008",
+        "suttacentral": null,
+        "toh": null
+      },
+      "themes": [
+        "Chan",
+        "sudden awakening",
+        "buddha-nature",
+        "practice"
+      ],
+      "confidence": "high",
+      "why_it_matters": "它不是印度传来的佛经，却成为东亚佛教最重要文本之一，直接打破‘佛经=印度翻译经’的误解。",
+      "relation_note": "Chinese Chan scripture associated with Huineng; multiple historical recensions survive, including Dunhuang and later received forms.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0032",
+      "type": "sutra",
+      "tradition": [
+        "Mahāyāna",
+        "Buddha biography",
+        "Chinese",
+        "Tibetan"
+      ],
+      "title_zh": "方广大庄严经 / 普曜经（相关汉译）",
+      "title_en": "The Play in Full",
+      "title_sa": "Lalitavistara",
+      "title_pi": null,
+      "ids": {
+        "taisho": "T03n0186 / T03n0187 (related Chinese translations)",
+        "suttacentral": null,
+        "toh": "Toh 95"
+      },
+      "themes": [
+        "Buddha biography",
+        "birth",
+        "awakening",
+        "narrative"
+      ],
+      "confidence": "high",
+      "why_it_matters": "故事性强，适合做‘佛陀生平是如何被不同文本逐层叙事化’。",
+      "relation_note": "Buddha-biography textual tradition preserved in Sanskrit, Tibetan and Chinese versions/related translations.",
+      "metadata_status": "verified_core_v0.2"
+    },
+    {
+      "id": "DA-W-0033",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "梵网经（巴利长部第一经）",
+      "title_en": "Brahmajāla Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "DN 1",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "ethics",
+        "views",
+        "early Buddhism"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0034",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "沙门果经",
+      "title_en": "Sāmaññaphala Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "DN 2",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "monastic life",
+        "ethics",
+        "meditation"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0035",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "坚固经",
+      "title_en": "Kevatta Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "DN 11",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "miracles",
+        "knowledge",
+        "cosmology"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0036",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "大缘经",
+      "title_en": "Mahānidāna Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "DN 15",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "dependent arising",
+        "consciousness"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0037",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "大念处经",
+      "title_en": "Mahāsatipaṭṭhāna Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "DN 22",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "mindfulness",
+        "meditation"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0038",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "蛇喻经",
+      "title_en": "Alagaddūpama Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "MN 22",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "views",
+        "raft simile",
+        "not-self"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0039",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "象迹喻小经",
+      "title_en": "Cūḷahatthipadopama Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "MN 27",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "gradual path",
+        "faith",
+        "practice"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0040",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "萨遮迦大经",
+      "title_en": "Mahāsaccaka Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "MN 36",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "Buddha biography",
+        "asceticism",
+        "awakening"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0041",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "马城大经",
+      "title_en": "Mahā-Assapura Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "MN 39",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "monastic training",
+        "ethics",
+        "meditation"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0042",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "教诫罗睺罗经",
+      "title_en": "Ambalaṭṭhikarāhulovāda Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "MN 61",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "truthfulness",
+        "ethics",
+        "reflection"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0043",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "摩罗迦小经",
+      "title_en": "Cūḷamālukya Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "MN 63",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "unanswered questions",
+        "practice"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0044",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "央掘魔罗经（巴利）",
+      "title_en": "Aṅgulimāla Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "MN 86",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "conversion",
+        "violence",
+        "karma"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0045",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "入出息念经",
+      "title_en": "Ānāpānasati Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "MN 118",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "breath meditation",
+        "mindfulness"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0046",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "业分别小经",
+      "title_en": "Cūḷakammavibhaṅga Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "MN 135",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "karma",
+        "rebirth",
+        "ethics"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0047",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "界分别经",
+      "title_en": "Dhātuvibhaṅga Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "MN 140",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "elements",
+        "not-self",
+        "meditation"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0048",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "迦旃延氏经",
+      "title_en": "Kaccānagotta Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "SN 12.15",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "dependent arising",
+        "middle way",
+        "views"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0049",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "近因经",
+      "title_en": "Upanisā Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "SN 12.23",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "dependent arising",
+        "path",
+        "liberation"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0050",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "燃烧经",
+      "title_en": "Ādittapariyāya Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "SN 35.28",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "sense bases",
+        "dispassion"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0051",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "犀角经",
+      "title_en": "Khaggavisāṇa Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "Snp 1.3",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "solitude",
+        "renunciation"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0052",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "宝经",
+      "title_en": "Ratana Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "Snp 2.1",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "protective chanting",
+        "three jewels"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0053",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "吉祥经",
+      "title_en": "Maṅgala Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "Snp 2.4",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "ethics",
+        "householder life",
+        "blessing"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0054",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "婆醯迦经",
+      "title_en": "Bāhiya Sutta",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "Ud 1.10",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "direct seeing",
+        "liberation"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19"
+    },
+    {
+      "id": "DA-W-0055",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "长老偈",
+      "title_en": "Theragāthā",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "thag",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "poetry",
+        "monastic voices",
+        "early Buddhism"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_route_verified_suttacentral"
+    },
+    {
+      "id": "DA-W-0056",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "长老尼偈",
+      "title_en": "Therīgāthā",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "thig",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "women",
+        "poetry",
+        "early Buddhism"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_route_verified_suttacentral"
+    },
+    {
+      "id": "DA-W-0057",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "本生故事集",
+      "title_en": "Jātaka",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "ja",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "stories",
+        "karma",
+        "Buddha past lives"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_route_verified_suttacentral"
+    },
+    {
+      "id": "DA-W-0058",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "弥兰王问经",
+      "title_en": "Milindapañha",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": "mil",
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "dialogue",
+        "not-self",
+        "philosophy"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_route_verified_suttacentral"
+    },
+    {
+      "id": "DA-W-0059",
+      "type": "work",
+      "tradition": [
+        "Pāli"
+      ],
+      "title_zh": "清净道论",
+      "title_en": "Visuddhimagga",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "meditation",
+        "Theravāda scholasticism",
+        "path"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_text_verified_tipitakapali"
+    },
+    {
+      "id": "DA-W-0060",
+      "type": "work",
+      "tradition": [
+        "Sanskrit"
+      ],
+      "title_zh": "八千颂般若",
+      "title_en": "Aṣṭasāhasrikā Prajñāpāramitā",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 12",
+        "bdrc": null
+      },
+      "themes": [
+        "emptiness",
+        "prajñā",
+        "bodhisattva"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0061",
+      "type": "work",
+      "tradition": [
+        "Sanskrit"
+      ],
+      "title_zh": "二万五千颂般若",
+      "title_en": "Pañcaviṃśatisāhasrikā Prajñāpāramitā",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 9",
+        "bdrc": null
+      },
+      "themes": [
+        "emptiness",
+        "prajñā"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0062",
+      "type": "work",
+      "tradition": [
+        "Sanskrit"
+      ],
+      "title_zh": "十万颂般若",
+      "title_en": "Śatasāhasrikā Prajñāpāramitā",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 8",
+        "bdrc": null
+      },
+      "themes": [
+        "emptiness",
+        "prajñā"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0063",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "入法界品 / 华严经入法界",
+      "title_en": "Gaṇḍavyūha Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 44-45",
+        "bdrc": null
+      },
+      "themes": [
+        "pilgrimage",
+        "Sudhana",
+        "bodhisattva path"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0064",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "十地经",
+      "title_en": "Daśabhūmika Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 44-31",
+        "bdrc": null
+      },
+      "themes": [
+        "ten stages",
+        "bodhisattva"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0065",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "阿閦佛国经传统",
+      "title_en": "Akṣobhyavyūha Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 50",
+        "bdrc": null
+      },
+      "themes": [
+        "Akṣobhya",
+        "pure land",
+        "vows"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0066",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "药师经传统",
+      "title_en": "Bhaiṣajyaguru Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 504",
+        "bdrc": null
+      },
+      "themes": [
+        "healing",
+        "Medicine Buddha",
+        "vows"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0067",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "胜鬘经",
+      "title_en": "Śrīmālādevī Siṃhanāda Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 92",
+        "bdrc": null
+      },
+      "themes": [
+        "tathāgatagarbha",
+        "one vehicle"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0068",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "如来藏经",
+      "title_en": "Tathāgatagarbha Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 258",
+        "bdrc": null
+      },
+      "themes": [
+        "buddha-nature",
+        "tathāgatagarbha"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0069",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "郁伽长者所问经传统",
+      "title_en": "Ugraparipṛcchā Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 63",
+        "bdrc": null
+      },
+      "themes": [
+        "early Mahāyāna",
+        "bodhisattva ethics"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0070",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "三昧王经",
+      "title_en": "Samādhirāja Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 127",
+        "bdrc": null
+      },
+      "themes": [
+        "samādhi",
+        "emptiness",
+        "bodhisattva"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0071",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "金光明经",
+      "title_en": "Suvarṇaprabhāsa Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 555–557 (Tibetan recensions; Toh 556 direct)",
+        "bdrc": null
+      },
+      "themes": [
+        "state protection",
+        "ritual",
+        "confession"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_family_verified_84000"
+    },
+    {
+      "id": "DA-W-0072",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "首楞严三昧经",
+      "title_en": "Śūraṅgamasamādhi Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 132",
+        "bdrc": null
+      },
+      "themes": [
+        "samādhi",
+        "bodhisattva powers"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0073",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "般舟三昧经传统",
+      "title_en": "Pratyutpannabuddhasaṃmukhāvasthitasamādhi Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 133",
+        "bdrc": null
+      },
+      "themes": [
+        "Buddha visualization",
+        "samādhi",
+        "Pure Land"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0074",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "宝箧经 / 观音相关Kāraṇḍavyūha传统",
+      "title_en": "Kāraṇḍavyūha Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 116",
+        "bdrc": null
+      },
+      "themes": [
+        "Avalokiteśvara",
+        "mantra",
+        "compassion"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0075",
+      "type": "work",
+      "tradition": [
+        "Mahāyāna"
+      ],
+      "title_zh": "正法念处经传统",
+      "title_en": "Saddharmasmṛtyupasthāna Sūtra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 287",
+        "bdrc": null
+      },
+      "themes": [
+        "cosmology",
+        "karma",
+        "hells",
+        "ethics"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0076",
+      "type": "work",
+      "tradition": [
+        "Sanskrit"
+      ],
+      "title_zh": "佛所行赞 / 佛陀传记诗",
+      "title_en": "Buddhacarita",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "Buddha biography",
+        "poetry",
+        "Aśvaghoṣa"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_text_verified_gretil"
+    },
+    {
+      "id": "DA-W-0077",
+      "type": "work",
+      "tradition": [
+        "Buddhist Hybrid Sanskrit"
+      ],
+      "title_zh": "大事",
+      "title_en": "Mahāvastu",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "Buddha biography",
+        "Lokottaravāda",
+        "Jātaka"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_index_verified_gretil"
+    },
+    {
+      "id": "DA-W-0078",
+      "type": "work",
+      "tradition": [
+        "Sanskrit"
+      ],
+      "title_zh": "天譬喻 / Divyāvadāna故事集",
+      "title_en": "Divyāvadāna",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "avadāna",
+        "karma",
+        "stories"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_text_verified_gretil"
+    },
+    {
+      "id": "DA-W-0079",
+      "type": "work",
+      "tradition": [
+        "Sanskrit"
+      ],
+      "title_zh": "百譬喻 / 百事因缘类Avadāna集",
+      "title_en": "Avadānaśataka",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 343",
+        "bdrc": null
+      },
+      "themes": [
+        "avadāna",
+        "karma",
+        "stories"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0080",
+      "type": "work",
+      "tradition": [
+        "Sanskrit"
+      ],
+      "title_zh": "本生鬘",
+      "title_en": "Jātakamālā",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "Jātaka",
+        "poetry",
+        "ethics"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_index_verified_gretil"
+    },
+    {
+      "id": "DA-W-0081",
+      "type": "work",
+      "tradition": [
+        "Sanskrit"
+      ],
+      "title_zh": "学处集要",
+      "title_en": "Śikṣāsamuccaya",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 3940",
+        "bdrc": null
+      },
+      "themes": [
+        "bodhisattva ethics",
+        "Śāntideva"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0082",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan"
+      ],
+      "title_zh": "入菩萨行论",
+      "title_en": "Bodhicaryāvatāra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 3871",
+        "bdrc": null
+      },
+      "themes": [
+        "bodhicitta",
+        "ethics",
+        "emptiness"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0083",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan"
+      ],
+      "title_zh": "大乘庄严经论",
+      "title_en": "Mahāyānasūtrālaṃkāra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4020",
+        "bdrc": null
+      },
+      "themes": [
+        "Yogācāra",
+        "Mahāyāna theory"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0084",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan"
+      ],
+      "title_zh": "辨中边论",
+      "title_en": "Madhyāntavibhāga",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4021",
+        "bdrc": null
+      },
+      "themes": [
+        "Yogācāra",
+        "middle and extremes"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0085",
+      "type": "work",
+      "tradition": [
+        "Sanskrit"
+      ],
+      "title_zh": "唯识三十颂",
+      "title_en": "Triṃśikāvijñaptimātratā",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4055",
+        "bdrc": null
+      },
+      "themes": [
+        "Yogācāra",
+        "consciousness-only"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0086",
+      "type": "work",
+      "tradition": [
+        "Sanskrit"
+      ],
+      "title_zh": "唯识二十论",
+      "title_en": "Viṃśatikāvijñaptimātratā",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4056",
+        "bdrc": null
+      },
+      "themes": [
+        "Yogācāra",
+        "representation-only"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000_canon_index"
+    },
+    {
+      "id": "DA-W-0087",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan/Chinese"
+      ],
+      "title_zh": "摄大乘论",
+      "title_en": "Mahāyānasaṃgraha",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4048",
+        "bdrc": null
+      },
+      "themes": [
+        "Yogācāra",
+        "ālaya-vijñāna"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0088",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan/Chinese"
+      ],
+      "title_zh": "大乘阿毗达磨集论",
+      "title_en": "Abhidharmasamuccaya",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4049",
+        "bdrc": null
+      },
+      "themes": [
+        "Yogācāra",
+        "Abhidharma"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0089",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan/Chinese"
+      ],
+      "title_zh": "菩萨地",
+      "title_en": "Bodhisattvabhūmi",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4037",
+        "bdrc": null
+      },
+      "themes": [
+        "bodhisattva path",
+        "Yogācāra"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0090",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan/Chinese"
+      ],
+      "title_zh": "宝性论 / 究竟一乘宝性论",
+      "title_en": "Ratnagotravibhāga / Uttaratantra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4024",
+        "bdrc": null
+      },
+      "themes": [
+        "buddha-nature",
+        "tathāgatagarbha"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0091",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan"
+      ],
+      "title_zh": "集量论",
+      "title_en": "Pramāṇasamuccaya",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4203",
+        "bdrc": null
+      },
+      "themes": [
+        "logic",
+        "epistemology",
+        "Dignāga"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000_canon_index"
+    },
+    {
+      "id": "DA-W-0092",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan"
+      ],
+      "title_zh": "释量论",
+      "title_en": "Pramāṇavārttika",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4210",
+        "bdrc": null
+      },
+      "themes": [
+        "logic",
+        "epistemology",
+        "Dharmakīrti"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000_canon_index"
+    },
+    {
+      "id": "DA-W-0093",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan"
+      ],
+      "title_zh": "入中论",
+      "title_en": "Madhyamakāvatāra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 3861",
+        "bdrc": null
+      },
+      "themes": [
+        "Madhyamaka",
+        "bodhisattva",
+        "Candrakīrti"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0094",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan/Chinese"
+      ],
+      "title_zh": "四百论",
+      "title_en": "Catuḥśataka",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 3846",
+        "bdrc": null
+      },
+      "themes": [
+        "Madhyamaka",
+        "Āryadeva"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0095",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan/Chinese"
+      ],
+      "title_zh": "回诤论",
+      "title_en": "Vigrahavyāvartanī",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 3828",
+        "bdrc": null
+      },
+      "themes": [
+        "Madhyamaka",
+        "logic",
+        "Nāgārjuna"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0096",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan/Chinese"
+      ],
+      "title_zh": "宝行王正论 / 宝鬘",
+      "title_en": "Ratnāvalī",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 4158",
+        "bdrc": null
+      },
+      "themes": [
+        "ethics",
+        "kingship",
+        "Madhyamaka"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0097",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan"
+      ],
+      "title_zh": "现观庄严论",
+      "title_en": "Abhisamayālaṃkāra",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 3786",
+        "bdrc": null
+      },
+      "themes": [
+        "Prajñāpāramitā",
+        "path structure"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0098",
+      "type": "work",
+      "tradition": [
+        "Sanskrit/Tibetan"
+      ],
+      "title_zh": "菩提道灯论",
+      "title_en": "Bodhipathapradīpa",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": "Toh 3947",
+        "bdrc": null
+      },
+      "themes": [
+        "lamrim",
+        "Atiśa",
+        "path"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_id_verified_84000"
+    },
+    {
+      "id": "DA-W-0099",
+      "type": "work",
+      "tradition": [
+        "Tibetan"
+      ],
+      "title_zh": "菩提道次第广论",
+      "title_en": "Lamrim Chenmo",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "lamrim",
+        "Tsongkhapa",
+        "path"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "authority_text_route_verified_adarshah_tsadra"
+    },
+    {
+      "id": "DA-W-0100",
+      "type": "work",
+      "tradition": [
+        "Tibetan"
+      ],
+      "title_zh": "中阴闻教得度传统（俗称《西藏度亡经》）",
+      "title_en": "Bardo Thödol traditions",
+      "title_sa": null,
+      "title_pi": null,
+      "ids": {
+        "suttacentral": null,
+        "taisho": null,
+        "toh": null,
+        "bdrc": null
+      },
+      "themes": [
+        "death",
+        "bardo",
+        "Nyingma"
+      ],
+      "confidence": null,
+      "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "metadata_status": "tradition_family_route_verified_no_single_canonical_id"
+    }
+  ]
+}
