@@ -82,13 +82,14 @@
     "Collection-level context is not proof of a specific item holding.",
     "Public image assets use PNG/JPG; legacy SVGs are not final public visual assets.",
     "Publish usable beta increments with honest evidence labels; do not delay all preview releases until scholarship is complete.",
+    "Publish usable beta increments with honest evidence labels; do not delay all preview releases until scholarship is complete.",
     "Publish usable beta increments with honest evidence labels; do not delay all preview releases until scholarship is complete."
   ],
   "skill": "skills/global-knowledge-atlas/SKILL.md",
   "site": {
     "existing_entrypoint_preserved": "docs/index.html",
     "review_entrypoint": "docs/review/index.html",
-    "style": "ivory, lavender and warm gold; accessible story-first atlas",
+    "style": "luminous illustrated lotus garden and gilded pavilions",
     "data_mode": "embedded canonical data and explicit evidence review overlays",
     "public_deployment": "not_performed_by_this_review",
     "root": "docs/index.html",
@@ -97,7 +98,15 @@
     "deployment_status": "see docs/public_deployment.json",
     "preserved_subsites": [
       "docs/quantum/"
-    ]
+    ],
+    "public_root": "docs/garden/index.html",
+    "distribution": "build/public",
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "public_content_policy": "visitor allowlist; no raw research objects, repository links or audit exports",
+    "custom_domain_modified": false
   },
   "publication_policy": {
     "authorized_at": "2026-09-19",
