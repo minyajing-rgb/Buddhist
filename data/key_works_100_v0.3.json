@@ -2,7 +2,7 @@
   "version": "0.3",
   "updated_at": "2026-09-19",
   "total": 100,
-  "note_zh": "100部代表作品母索引。现有94条达到较强/权威路由或权威编号层，剩余6条采用作品级权威入口继续处理；任何版本同一性仍需Version/Witness层单独验证。",
+  "note_zh": "100部代表作品现已全部具备至少一个权威可落地入口。注意：‘入口已核验’不等于‘所有版本已完成校勘’；Lamrim Chenmo与Bardo Thödol等后期藏文作品明确不强塞Toh编号。",
   "works": [
     {
       "id": "DA-W-0001",
@@ -1885,9 +1885,10 @@
         "poetry",
         "Aśvaghoṣa"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_text_verified_gretil",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "GRETIL provides a Sanskrit e-text based on E. H. Johnston's Buddhacarita edition and also preserves Tibetan-collation material."
     },
     {
       "id": "DA-W-0077",
@@ -1908,9 +1909,10 @@
         "Lokottaravāda",
         "Jātaka"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_index_verified_gretil",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Mahāvastu-Avadāna is present in the GRETIL corpus index; this record remains a work-level route rather than a claim of a single canonical recension."
     },
     {
       "id": "DA-W-0078",
@@ -1931,9 +1933,10 @@
         "karma",
         "stories"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_text_verified_gretil",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "GRETIL provides the Divyāvadāna e-text based on Vaidya's 1959 edition."
     },
     {
       "id": "DA-W-0079",
@@ -1978,9 +1981,10 @@
         "poetry",
         "ethics"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_index_verified_gretil",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "GRETIL lists multiple Āryaśūra Jātakamālā e-text editions; the work-level record intentionally does not force one edition as the canonical original."
     },
     {
       "id": "DA-W-0081",
@@ -2422,9 +2426,10 @@
         "Tsongkhapa",
         "path"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_text_route_verified_adarshah_tsadra",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Lam rim chen mo is a post-canonical Tibetan work by Tsongkhapa, not a Toh-numbered Indian canonical work. Use Tibetan collected-works/Adarshah/BDRC-style routes rather than inventing a Toh ID."
     },
     {
       "id": "DA-W-0100",
@@ -2445,9 +2450,10 @@
         "bardo",
         "Nyingma"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "tradition_family_route_verified_no_single_canonical_id",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Bardo Thödol is treated as a textual/tradition family within Karma Lingpa's treasure cycle, not as a single fixed canonical work with one universal ID. Karma Lingpa has BDRC person ID P5245; individual editions/cycles must be resolved separately."
     }
   ]
 }
