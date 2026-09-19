@@ -1,0 +1,406 @@
+{
+  "build": "0.2.0-cosmic-bilingual",
+  "mode": "HTTP",
+  "url": "https://minyajing-rgb.github.io/Buddhist/quantum/",
+  "passed": 98,
+  "checks": [
+    {
+      "name": "HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "Expected build",
+      "passed": true
+    },
+    {
+      "name": "Chinese document language",
+      "passed": true
+    },
+    {
+      "name": "24 concepts",
+      "passed": true
+    },
+    {
+      "name": "20 sources",
+      "passed": true
+    },
+    {
+      "name": "Dark background",
+      "passed": true
+    },
+    {
+      "name": "Progress updates",
+      "passed": true
+    },
+    {
+      "name": "English document language",
+      "passed": true
+    },
+    {
+      "name": "Shared progress across language",
+      "passed": true
+    },
+    {
+      "name": "English title",
+      "passed": true
+    },
+    {
+      "name": "No Chinese body text except language switch",
+      "passed": true
+    },
+    {
+      "name": "Q001 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q001 source link",
+      "passed": true
+    },
+    {
+      "name": "Q002 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q002 source link",
+      "passed": true
+    },
+    {
+      "name": "Q003 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q003 source link",
+      "passed": true
+    },
+    {
+      "name": "Q004 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q004 source link",
+      "passed": true
+    },
+    {
+      "name": "Q005 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q005 source link",
+      "passed": true
+    },
+    {
+      "name": "Q006 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q006 source link",
+      "passed": true
+    },
+    {
+      "name": "Q007 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q007 source link",
+      "passed": true
+    },
+    {
+      "name": "Q008 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q008 source link",
+      "passed": true
+    },
+    {
+      "name": "Q009 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q009 source link",
+      "passed": true
+    },
+    {
+      "name": "Q010 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q010 source link",
+      "passed": true
+    },
+    {
+      "name": "Q011 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q011 source link",
+      "passed": true
+    },
+    {
+      "name": "Q012 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q012 source link",
+      "passed": true
+    },
+    {
+      "name": "Q013 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q013 source link",
+      "passed": true
+    },
+    {
+      "name": "Q014 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q014 source link",
+      "passed": true
+    },
+    {
+      "name": "Q015 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q015 source link",
+      "passed": true
+    },
+    {
+      "name": "Q016 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q016 source link",
+      "passed": true
+    },
+    {
+      "name": "Q017 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q017 source link",
+      "passed": true
+    },
+    {
+      "name": "Q018 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q018 source link",
+      "passed": true
+    },
+    {
+      "name": "Q019 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q019 source link",
+      "passed": true
+    },
+    {
+      "name": "Q020 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q020 source link",
+      "passed": true
+    },
+    {
+      "name": "Q021 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q021 source link",
+      "passed": true
+    },
+    {
+      "name": "Q022 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q022 source link",
+      "passed": true
+    },
+    {
+      "name": "Q023 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q023 source link",
+      "passed": true
+    },
+    {
+      "name": "Q024 English modal",
+      "passed": true
+    },
+    {
+      "name": "Q024 source link",
+      "passed": true
+    },
+    {
+      "name": "Chinese search in English mode",
+      "passed": true
+    },
+    {
+      "name": "English search",
+      "passed": true
+    },
+    {
+      "name": "Category filter",
+      "passed": true
+    },
+    {
+      "name": "Spiritual path",
+      "passed": true
+    },
+    {
+      "name": "Double-slit samples",
+      "passed": true
+    },
+    {
+      "name": "Samples preserved across language switch",
+      "passed": true
+    },
+    {
+      "name": "Which-path sets zero visibility",
+      "passed": true
+    },
+    {
+      "name": "Changing conditions clears samples",
+      "passed": true
+    },
+    {
+      "name": "Visibility disabled when distinguishable",
+      "passed": true
+    },
+    {
+      "name": "slits English controls and explanations",
+      "passed": true
+    },
+    {
+      "name": "phase English controls and explanations",
+      "passed": true
+    },
+    {
+      "name": "uncertainty English controls and explanations",
+      "passed": true
+    },
+    {
+      "name": "bell English controls and explanations",
+      "passed": true
+    },
+    {
+      "name": "All canvas labels English",
+      "passed": true
+    },
+    {
+      "name": "Bell quantum maximum",
+      "passed": true
+    },
+    {
+      "name": "Bell sampling disclaimer",
+      "passed": true
+    },
+    {
+      "name": "Bell local bound",
+      "passed": true
+    },
+    {
+      "name": "Destructive interference",
+      "passed": true
+    },
+    {
+      "name": "Minimum Gaussian uncertainty",
+      "passed": true
+    },
+    {
+      "name": "Timeline 0 English",
+      "passed": true
+    },
+    {
+      "name": "Timeline 1 English",
+      "passed": true
+    },
+    {
+      "name": "Timeline 2 English",
+      "passed": true
+    },
+    {
+      "name": "Timeline 3 English",
+      "passed": true
+    },
+    {
+      "name": "Timeline 4 English",
+      "passed": true
+    },
+    {
+      "name": "Timeline 5 English",
+      "passed": true
+    },
+    {
+      "name": "Desktop width",
+      "passed": true
+    },
+    {
+      "name": "Mobile en width",
+      "passed": true
+    },
+    {
+      "name": "Mobile en vertical map",
+      "passed": true
+    },
+    {
+      "name": "Mobile en dialog fits",
+      "passed": true
+    },
+    {
+      "name": "Mobile en sample button",
+      "passed": true
+    },
+    {
+      "name": "Mobile zh width",
+      "passed": true
+    },
+    {
+      "name": "Mobile zh vertical map",
+      "passed": true
+    },
+    {
+      "name": "Mobile zh dialog fits",
+      "passed": true
+    },
+    {
+      "name": "Mobile zh sample button",
+      "passed": true
+    },
+    {
+      "name": "Language persists on reload",
+      "passed": true
+    },
+    {
+      "name": "Reading persists on reload",
+      "passed": true
+    },
+    {
+      "name": "Language URL parameter",
+      "passed": true
+    },
+    {
+      "name": "SVG download English filename",
+      "passed": true
+    },
+    {
+      "name": "No JS errors",
+      "passed": true
+    }
+  ],
+  "javascript_errors": [],
+  "not_claimed": [
+    "exhaustive research coverage",
+    "independent physics review",
+    "DNS or custom-domain verification"
+  ]
+}
