@@ -123,3 +123,19 @@ The database must reliably answer:
 It does **not** mean every composition date, manuscript identity, or scholarly controversy is settled.
 
 The next research depth is **L4 Scholar Crosswalk**, not another shallow URL expansion.
+
+
+## Reusable research skill
+
+The process has been extracted into:
+`skills/global-knowledge-atlas/`
+
+It includes:
+- cross-disciplinary database-first workflow;
+- Harvard Divinity School / Harvard Library research-stack notes;
+- academic, archival, textual-critical, digital-humanities methods;
+- public/community/KOL research methods;
+- reusable schemas and QA gates;
+- Buddhist Studies adapter.
+
+The skill is designed to be reused for other disciplines without copying the Buddhist ontology verbatim.
