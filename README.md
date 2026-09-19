@@ -125,3 +125,18 @@ Current canonical dataset pointer: **`data/CURRENT.json`**
 - [ ] new public HTML website
 
 **Important:** the old HTML prototype is archived. Website work is paused until the database gates in `DATABASE_STATUS.md` pass.
+
+
+## Reusable methodology: Global Knowledge Atlas Skill
+
+This project now includes a reusable cross-disciplinary research skill under:
+
+`skills/global-knowledge-atlas/`
+
+It captures the database-first workflow, Harvard/HDS-inspired academic research patterns, archive/library methods, public/KOL verification, Internet research ethics, OSINT, crosswalk schemas and QA gates so the same process can be reused for other disciplines.
+
+## Crosswalk status
+
+- 100/100 core works now have L3 deep Crosswalk records: `data/deep_crosswalk_100_v0.6.json`
+- QA: `data/deep_crosswalk_qa_v0.6.json`
+- L4 scholar-grade chronology / item-level witness / bibliography remains the next depth layer.
