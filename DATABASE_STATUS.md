@@ -1,4 +1,4 @@
-# DATABASE STATUS｜Dharma Atlas v0.4
+# DATABASE STATUS｜Dharma Atlas v0.6
 
 > **Current phase: DATABASE FIRST.**  
 > Public HTML remains intentionally paused. The next website will be generated from the canonical datasets after database QA.
@@ -14,7 +14,8 @@
 | Full-corpus entry points | **15** | ✅ |
 | Representative key works | **100** | ✅ |
 | Work access records with ≥1 direct authority route | **100 / 100** | ✅ |
-| Strong detailed crosswalk works | **32 / 100** | 🟡 deepen remaining 68 |
+| L3 deep crosswalk records | **100 / 100** | ✅ unified evidence-navigation layer |
+| L4 scholar-grade crosswalks | **0 / 100** | 🟡 chronology + item witness + bibliography next |
 | Concept-learning entries | **20** | ✅ |
 | Learning paths | **5** | ✅ |
 | Search/research workflows | **6** | ✅ |
@@ -67,10 +68,15 @@ See:
 ### Gate A — deepen 100 key works
 - [x] 100 work records
 - [x] 100/100 direct authority routes
-- [x] 32 strong detailed crosswalks
-- [ ] 68 deeper Work→Version→Witness crosswalks
-- [ ] chronology status on all priority works
-- [ ] bibliography status on all priority works
+- [x] 100/100 L3 deep Crosswalk records
+- [x] 100/100 direct authority routes
+- [x] 100/100 typed Version/Edition routes
+- [x] 100/100 physical/material access context
+- [x] SuttaCentral official typed parallel extraction for the Pāli sutta batch
+- [x] verified Chinese version IDs added where directly checked
+- [ ] L4: work-specific chronology for 100/100
+- [ ] L4: item-level witness / shelfmark where available
+- [ ] L4: paper/book-level bibliography and attributed scholarly positions
 
 ### Gate B — physical evidence
 - [x] 24 landmark witnesses/collections
@@ -106,3 +112,14 @@ The database must reliably answer:
 10. 我要做专业 crosswalk，如何从 Work 追到 Witness？
 
 **Until these gates pass, do not call the public product complete and do not rebuild the website shell.**
+
+
+## v0.6 Crosswalk milestone
+
+`data/deep_crosswalk_100_v0.6.json` is now the canonical 100-work Crosswalk layer.
+
+**L3 means:** authority route + typed version/edition route + material/physical access context + explicit relationship/gap tracking.
+
+It does **not** mean every composition date, manuscript identity, or scholarly controversy is settled.
+
+The next research depth is **L4 Scholar Crosswalk**, not another shallow URL expansion.
