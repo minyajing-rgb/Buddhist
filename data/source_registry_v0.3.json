@@ -825,6 +825,38 @@
       "downloadable": false,
       "api_or_data": "研究项目与出版物",
       "verified_from": "https://asian.washington.edu/early-buddhist-manuscripts-project"
+    },
+    {
+      "id": "kabc_dongguk",
+      "name": "韩国佛教记录文化遗产档案 / 统合大藏经",
+      "name_en": "Dongguk University Archive of Buddhist Culture / Combined Buddhist Canon",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://kabc.dongguk.edu/",
+      "search_url": "https://kabc.dongguk.edu/",
+      "languages": [
+        "Classical Chinese",
+        "Korean",
+        "English/Japanese/Chinese interface"
+      ],
+      "traditions": [
+        "Tripitaka Koreana",
+        "Korean Buddhism",
+        "East Asian Buddhism"
+      ],
+      "content_types": [
+        "canon_text",
+        "translation",
+        "catalog",
+        "image",
+        "bibliography"
+      ],
+      "strengths_zh": "以高丽大藏经与韩文大藏经为核心的统合检索，并扩展韩国佛教全书、教藏、寺刹刊本、近代佛教文献等。",
+      "limitations_zh": "主要强项是韩国与汉文佛教记录文化遗产；不同数据库模块的元数据和开放方式不完全一致。",
+      "query_how_zh": "从统合大藏经、韩国佛教全书、新集成文献、高丽教藏等模块进入，使用统一/详细检索。",
+      "downloadable": false,
+      "api_or_data": "数字档案与原文/图像模块",
+      "verified_from": "https://kabc.dongguk.edu/etc/intro?lang=en&type=02"
     }
   ]
 }
