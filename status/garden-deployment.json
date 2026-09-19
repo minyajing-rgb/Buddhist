@@ -1,6 +1,6 @@
 {
-  "built_at": "2026-09-19T12:15:20.052833+00:00",
-  "ui_release": "garden-1.0",
+  "built_at": "2026-09-19T12:17:44.076875+00:00",
+  "ui_release": "garden-1.0.1",
   "counts": {
     "works": 100,
     "stories": 12,
@@ -25,8 +25,8 @@
   "preserved_subsites": [
     "quantum"
   ],
-  "homepage_sha256": "e1960aca08edcb7ca4c84632977075d16852d47ab35ff2a8e5b68514b948be13",
-  "garden_html_bytes": 547047,
+  "homepage_sha256": "6723827043199fd1c13a8989a363b07a00429c7e6e1fb4c2679c4944b3281cfc",
+  "garden_html_bytes": 547143,
   "public_files": [
     ".nojekyll",
     "404.html",
@@ -38,16 +38,23 @@
     "assets/06_crosswalk.png",
     "assets/garden.png",
     "assets/lotus.png",
+    "enhancements.css",
+    "enhancements.js",
     "garden.css",
     "garden.js",
     "index.html",
     "quantum/index.html"
   ],
+  "ux_refinements": [
+    "mobile art composition retains flowering trees",
+    "in-page anchors do not reset the route",
+    "reduced-motion respected"
+  ],
   "url": "https://minyajing-rgb.github.io/Buddhist/",
   "status": "published_and_https_hash_verified",
   "http_status": 200,
-  "verified_at": "2026-09-19T12:15:37.407564+00:00",
-  "workflow_run": "35442305308",
-  "source_commit": "b0f4d132d30f2fe54df6167fb7f17871b59be33b",
+  "verified_at": "2026-09-19T12:18:01.317906+00:00",
+  "workflow_run": "35442417542",
+  "source_commit": "383b8dabfa4057b9bb7809642aa035c236818429",
   "quantum_preserved": true
 }

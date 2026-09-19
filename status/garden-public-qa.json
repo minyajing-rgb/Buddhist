@@ -285,7 +285,7 @@
     }
   ],
   "javascript_errors": [],
-  "tested_at": "2026-09-19T12:15:45Z",
+  "tested_at": "2026-09-19T12:18:09Z",
   "limits": [
     "UI and serving-boundary tests are not scholarly certification.",
     "Public repository visibility is unchanged.",
