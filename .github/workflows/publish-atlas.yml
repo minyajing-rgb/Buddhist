@@ -10,6 +10,7 @@ on:
       - 'scripts/prepare_public_beta.py'
       - 'scripts/build_garden.py'
       - 'scripts/render_garden.py'
+      - 'scripts/finish_garden.py'
       - 'data/**'
       - 'skills/global-knowledge-atlas/**'
       - 'docs/stories/**'
@@ -52,7 +53,9 @@ jobs:
           python scripts/finalize_review.py
           python scripts/prepare_public_beta.py
           python scripts/build_garden.py
+          python scripts/finish_garden.py
           node --check web/garden/garden.js
+          node --check web/garden/enhancements.js
       - name: Test the actual public distribution over local HTTP
         run: |
           python -m http.server 8080 --directory build/public > /tmp/garden-http.log 2>&1 &
@@ -142,6 +145,7 @@ jobs:
             web/garden/
             scripts/build_garden.py
             scripts/render_garden.py
+            scripts/finish_garden.py
             tests/garden_smoke.py
           retention-days: 30
           if-no-files-found: warn
