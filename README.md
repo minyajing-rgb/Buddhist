@@ -100,17 +100,21 @@
 
 ## Status
 
-**v0.1 — Foundation**
+**v0.2 — Canon Crosswalk / Explorer**
 - [x] Repo architecture
-- [x] 5 bilingual infographics
+- [x] 6 bilingual infographics
 - [x] HTML single-page atlas
 - [x] Initial canon/source schemas
-- [ ] 100 key texts
+- [x] 32 key text nodes (first crosswalk batch)
+- [x] 20 concept → text learning entries
+- [x] searchable Core Text Explorer
+- [x] Season 1 / 12-episode story outline
+- [x] source/ID verification ledger
+- [ ] expand to 100 key texts
 - [ ] 50 key people
 - [ ] manuscript/library atlas
-- [ ] source ID crosswalk
-- [ ] bilingual story episodes
-- [ ] search index
+- [ ] full source ID crosswalk
+- [ ] complete bilingual story episodes
 
 ---
 
