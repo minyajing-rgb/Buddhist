@@ -1,78 +1,69 @@
-# 量子漫游 QuriAtlas
+# 量子漫游 / QuriAtlas
 
 > 从一束光，走进量子世界。  
-> 保持好奇，也看见证据。
+> A spark of light. A quantum universe.
 
-**版本：0.1.0 / 研究预览，不是已完成的全网全量数据库。**
+## v0.2.0 — Cosmic / 中文 + English
 
-这是应用 `../skills/global-knowledge-atlas/SKILL.md` 的独立量子力学学习项目。现有 Dharma Atlas、根目录 `data/CURRENT.json` 和佛典网站没有被替换。品牌为工作提案，未完成商标或域名核查。
+The quantum project is isolated from the existing Buddhist website and its canonical corpus.
 
-## 实际交付
+- 深空蓝、紫青色光晕、细金线、原创星空与波纹 SVG；支持减少动效。
+- Complete Chinese/English switching: navigation, 24 concept cards and full explanations, six bridge questions, six timeline records, evidence limits, source labels, diagrams, canvas text and controls.
+- `?lang=zh` / `?lang=en` direct entry links; browser language preference, shared reading progress, bilingual search.
+- Language switching preserves experimental settings and accumulated samples.
+- Four teaching models: double slit, phase interference, Gaussian uncertainty, and ideal CHSH correlations. These are not live experiments.
+- Responsive desktop/mobile layout; localized editable SVG export.
 
-| 部分 | 本轮已制作 |
+## Published route and verification
+
+Target route: https://minyajing-rgb.github.io/Buddhist/quantum/
+
+Chinese: `?lang=zh` · English: `?lang=en`
+
+The workflow `.github/workflows/quantum-site.yml` builds, tests, commits the derived HTML, requests a build through the existing branch-based Pages configuration, waits for a byte-for-byte SHA256 match on the public URL, then runs the interaction tests on that URL.
+
+A successful source commit alone is **not** deployment verification. Public verification is recorded, only after success, in `data/qa.v0.2.public.json` and the workflow artifact `quriatlas-cosmic-bilingual`.
+
+## Rebuild / offline export
+
+Requires Python 3.9+; the browser page has no package/CDN dependencies.
+
+```sh
+python quantum/build.py
+# outputs: quantum/index.html and docs/quantum/index.html
+
+python quantum/export_offline.py
+# optional additional output: quantum/preview.html
+```
+
+The HTML includes generated snapshots of the canonical corpus and English translation layer. It opens offline in a modern JavaScript-capable browser; external source links need a connection. `file://` local storage behavior is browser-dependent. HTTP/HTTPS storage is separately tested in CI.
+
+## Canonical files
+
+| File | Role |
 |---|---|
-| 数据 | 24 张概念卡、6 个意识/灵性相关问答、6 个时间切片、20 个来源入口 |
-| 学习 | 3 条可切换路线，概念展开、中英文搜索、分类筛选、会话内已读状态 |
-| 图解 | 动态六分区 SVG 知识地图；桌面横向、手机纵向；SVG 导出按钮 |
-| 互动 | 双缝采样、相位干涉、最小不确定度高斯态、CHSH 理想关联模型 |
-| 科学边界 | 每张卡有来源和“这个解释的边界”；提案与实证报告分别标注 |
-| 渲染 | 桌面 1440px / 手机 390px 实际浏览器 DOM 渲染检查 |
+| `data/CURRENT.json` | Canonical corpus pointer; unchanged by visual localization work |
+| `data/atlas.v0.1.json` | 24 concepts, 6 bridge questions, 6 timeline records, 20 sources |
+| `site/en.json` | Full English translations linked to the same stable IDs |
+| `site/app.js` | Bilingual UI and interactive model logic |
+| `site/style.css`, `site/mobile.css` | Responsive cosmic visual system |
+| `build.py` | Reproducible standalone HTML generation |
+| `../tests/quantum_e2e.py` | Browser, language, model, mobile, persistence and export checks |
+| `../docs/quantum/index.html` | Derived Pages entry, not a separate content master |
 
-图形与模型均为本项目原创代码生成；未复制外部图像或视频。20 个来源也包含课程、模拟目录和同类项目自述，不等同于 20 篇原始实证论文。
+Historical v0.1 artwork and QA remain archived; the live knowledge map is now generated in both languages from current data.
 
-## 运行
+## QA and scientific scope
 
-在仓库根目录执行：
+Local offline-DOM verification passed 93 checks. The same suite has additional HTTP, reload/persistence and browser-download checks when `--url` is supplied. Consult the actual public report rather than inferring success from this README.
 
-```sh
-python3 -m http.server 8080
-```
+This update does not expand the seed corpus or complete a systematic literature review. 360 records remains a roadmap target, not current coverage. Independent physics review, full-text/raw-data verification, complete multilingual research and original-media rights expansion remain separate research work. The brand remains a working proposal, not a trademark-clearance claim.
 
-浏览器打开 `http://localhost:8080/quantum/`。
+## Domain handoff
 
-站点从 `data/CURRENT.json` 读取规范数据指针。更新内容时更改版本数据及指针，不要另行把研究内容写入页面。
-
-离线导出：
-
-```sh
-cd quantum
-python3 export_offline.py
-```
-
-生成 `preview.html`，包含本次规范数据库快照，可在支持 JavaScript 的现代浏览器中打开。它是导出物，不是新的数据主库。来源链接需要联网；阅读记录的持久保存依赖浏览器是否允许本地存储，失败时仍可在当前会话使用。
-
-## 模型说明
-
-- 双缝为高斯包络的教学现象模型，在有限窗口内归一化采样。每次改变相位、可见度或路径条件都会清空旧样本，避免混合不同实验条件。不是完整真实衍射仪器仿真。
-- 相位面板演示两个正弦振幅相加；经典波也可干涉，不能单凭此图推出量子性。
-- 不确定性面板只演示最小不确定度高斯态，使用无量纲 ℏ=1；一般态不必取等号。
-- 贝尔面板绘制理想自旋单态的 CHSH 预测，单侧理论概率为 1/2。采样按钮只采样一个设置组合，不把它冒充四组实际实验计算出来的 S。
-
-模型的来源入口显示在对应面板下方。数学模拟符合公式，不等于重新验证了自然界。
-
-## 全量扩展目标：360 条（尚未收集完成）
-
-科学史与经典实验40；数学工具40；核心原理与测量40；原子分子40；近似方法、散射与对称性35；凝聚态与多体30；量子信息35；通信、测量与应用20；相对论量子论/场论导览25；诠释与哲学20；量子生物/意识15；公众传播、灵性用语及争议溯源20。
-
-关键缺口：多语言检索、完整历史与地理 Crosswalk、原始文献版本和馆藏、公开讨论/KOL主张溯源、外部媒体授权、专家复核。前沿意识条目介绍选定历史论文，不是截至今日的系统综述。
-
-## QA 与发布状态
-
-`data/qa.v0.1.json` 记录 32 项通过的结构/交互检查。因本环境浏览器导航策略限制，测试采用 Playwright/Chromium `set_content` 渲染离线快照；不是公网部署验收。HTTP 导航、跨刷新 localStorage、浏览器下载弹窗、所有外链的地区可达性均未完成端到端验证。
-
-原始论文全文与数据、独立物理学专家审稿、全域覆盖门禁尚未完成。**源码已入库 ≠ 公网已上线。** 本次不修改原佛典项目的部署配置。
-
-## 文件
-
-- `index.html`：单文件前端，包含 CSS / JavaScript 与模型代码。
-- `data/CURRENT.json`：规范数据指针。
-- `data/atlas.v0.1.json`：版本化研究数据。
-- `data/qa.v0.1.json`：本轮质量检查与未验证项。
-- `data/media.v0.1.json`：原创媒体登记。
-- `export_offline.py`：从指针重建离线预览。
-- `docs/BRANDING.md`：品牌、文案与视觉规范。
-- `assets/knowledge-map.svg`：可编辑知识地图。
+See `DOMAIN_HANDOFF.md`. The current repository's `/docs` root remains the Buddhist website. DNS cannot select `/quantum/`; do not bind a quantum-only domain to this shared root expecting automatic path selection. The generated quantum HTML can instead be deployed as the root of a separate static site, without rewriting its asset paths.
 
 ## Change log
 
-2026-09-19 / v0.1.0：新建独立 quantum 项目；先提交来源化种子数据与规范指针，再加入有明确边界的互动研究预览。
+- 2026-09-19 / v0.2.0: complete bilingual UI/content, dark cosmic identity, preserved model state, mobile language-control fix, reproducible build and public verification workflow.
+- 2026-09-19 / v0.1.0: source-linked quantum seed corpus and four interactive teaching models.
