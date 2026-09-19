@@ -1,0 +1,294 @@
+{
+  "url": "https://minyajing-rgb.github.io/Buddhist/",
+  "passed": 56,
+  "total": 56,
+  "checks": [
+    {
+      "name": "Homepage visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Garden PNG loaded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "100 texts preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "12 bilingual stories",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No raw research or own-repository identifiers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No repository links in homepage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "First page has 18 text cards",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Chinese search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Text details open",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Catalogue number search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bibliography filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Object filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Two-text comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bookmark filtering",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bookmark persists after refresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All 100 text details render",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "12 story cards render",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Story has full body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reading progress persists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Seven sourced events",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Year slider uses dated events",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Modern libraries separated from ancient dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "People collection retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Object collection retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Six visual guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guide asset: 01_timeline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guide asset: 02_geography",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guide asset: 03_textual_tree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guide asset: 04_evidence_chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guide asset: 05_learning_map",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guide asset: 06_crosswalk",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "33 public method cards",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Institutional sources retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "English is separately selectable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "English homepage copy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "English story body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "English transliteration search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "English text details",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile homepage no overflow 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile navigation opens 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile navigation works 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile dialog fits 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile map no overflow 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile homepage no overflow 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile navigation opens 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile navigation works 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile dialog fits 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile map no overflow 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No backend/export links added by interactions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Internal path not served: data/CURRENT.json",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "name": "Internal path not served: review/index.html",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "name": "Internal path not served: release.json",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "name": "Internal path not served: public_deployment.json",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "name": "Internal path not served: archive/pre-public-beta/index.html",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "name": "Internal path not served: research_audit_v0.7.json",
+      "passed": true,
+      "detail": 404
+    }
+  ],
+  "javascript_errors": [],
+  "tested_at": "2026-09-19T12:11:53Z",
+  "limits": [
+    "UI and serving-boundary tests are not scholarly certification.",
+    "Public repository visibility is unchanged.",
+    "Existing third-party source links are not all live-checked."
+  ]
+}

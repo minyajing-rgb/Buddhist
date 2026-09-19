@@ -1,0 +1,53 @@
+{
+  "built_at": "2026-09-19T12:11:27.292546+00:00",
+  "ui_release": "garden-1.0",
+  "counts": {
+    "works": 100,
+    "stories": 12,
+    "people": 32,
+    "objects": 24,
+    "libraries": 17,
+    "places": 28,
+    "events": 7,
+    "sources": 44,
+    "methods": 33,
+    "questions": 12,
+    "media": 2,
+    "figures": 6,
+    "storySources": 13
+  },
+  "public_projection": "allowlist_only",
+  "internal_paths_in_site": false,
+  "raw_research_dataset_embedded": false,
+  "published_payload_note": "All visitor-visible text and bibliography are public. This does not make the existing source repository private.",
+  "source_repository_visibility_changed": false,
+  "custom_domain_or_dns_changed": false,
+  "preserved_subsites": [
+    "quantum"
+  ],
+  "homepage_sha256": "e1960aca08edcb7ca4c84632977075d16852d47ab35ff2a8e5b68514b948be13",
+  "garden_html_bytes": 547047,
+  "public_files": [
+    ".nojekyll",
+    "404.html",
+    "assets/01_timeline.png",
+    "assets/02_geography.png",
+    "assets/03_textual_tree.png",
+    "assets/04_evidence_chain.png",
+    "assets/05_learning_map.png",
+    "assets/06_crosswalk.png",
+    "assets/garden.png",
+    "assets/lotus.png",
+    "garden.css",
+    "garden.js",
+    "index.html",
+    "quantum/index.html"
+  ],
+  "url": "https://minyajing-rgb.github.io/Buddhist/",
+  "status": "published_and_https_hash_verified",
+  "http_status": 200,
+  "verified_at": "2026-09-19T12:11:45.245433+00:00",
+  "workflow_run": "35442127611",
+  "source_commit": "3a2e78e8bb7632c64f54475c3deafadd84c84a63",
+  "quantum_preserved": true
+}
