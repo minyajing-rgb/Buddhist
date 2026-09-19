@@ -44,9 +44,13 @@ def main():
             source=ROOT/f'docs/infographics/{stem}.svg'
             if not source.exists():continue
             target=assets/f'{stem}.png'
-            cairosvg.svg2png(bytestring=source.read_bytes(),write_to=str(target),output_width=1600)
+            original_svg=source.read_text(encoding='utf-8')
+            # Legacy diagram labels contain bare ampersands. Escape only invalid
+            # XML entities in the conversion copy; preserve the repository source.
+            svg=re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)', '&amp;', original_svg)
+            cairosvg.svg2png(bytestring=svg.encode('utf-8'),write_to=str(target),output_width=1600)
             png=target.read_bytes()
-            figures.append({'id':stem,'title':title,'data':'data:image/png;base64,'+base64.b64encode(png).decode(),'source_file':str(source.relative_to(ROOT)),'png_sha256':hashlib.sha256(png).hexdigest(),'status':'project_teaching_diagram_not_historical_object','rights':'Project-authored diagram exported from the existing repository; not a third-party manuscript image.'})
+            figures.append({'id':stem,'title':title,'data':'data:image/png;base64,'+base64.b64encode(png).decode(),'source_file':str(source.relative_to(ROOT)),'png_sha256':hashlib.sha256(png).hexdigest(),'conversion_xml_entities_repaired':svg!=original_svg,'status':'project_teaching_diagram_not_historical_object','rights':'Project-authored diagram exported from the existing repository; not a third-party manuscript image.'})
     except ImportError:
         raise RuntimeError('Install CairoSVG to create the public PNG exports; do not silently omit promised diagrams.')
     assert len(figures)==6,'All six project diagrams must be available'
@@ -61,6 +65,6 @@ def main():
     release['finalizer_source_sha256']=hashlib.sha256(pathlib.Path(__file__).read_bytes()).hexdigest()
     release['figure_exports']=[{k:v for k,v in f.items() if k!='data'} for f in figures]
     release_path.write_text(json.dumps(release,ensure_ascii=False,indent=2))
-    (assets/'README.md').write_text('# Project infographic PNG exports\n\nSix existing project diagrams, exported to PNG for the review website. These are teaching schematics, not images of manuscripts or independently verified historical maps. Dates and routes must be checked against item-level evidence.\n')
+    (assets/'README.md').write_text('# Project infographic PNG exports\n\nSix existing project diagrams, exported to PNG for the review website. These are teaching schematics, not images of manuscripts or independently verified historical maps. Dates and routes must be checked against item-level evidence. Bare XML ampersands are escaped in the conversion copy only; original SVG source is preserved.\n')
     print(json.dumps({'png_infographics':len(figures),'standalone_html_bytes':len(html.encode()),'storage_feedback':'unavailable persistence explicitly distinguished from in-session state'},ensure_ascii=False))
 if __name__=='__main__':main()
