@@ -7,6 +7,7 @@ on:
       - 'scripts/build_atlas.py'
       - 'scripts/finalize_review.py'
       - 'scripts/prepare_public_beta.py'
+      - 'scripts/review_parallel_encoding.py'
       - 'data/**'
       - 'skills/global-knowledge-atlas/**'
       - 'docs/stories/**'
@@ -44,6 +45,11 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y fonts-noto-cjk
           python -m playwright install --with-deps chromium
+      - name: Reproduce pinned parallel-source corrections
+        run: |
+          if ! python scripts/review_parallel_encoding.py; then
+            echo 'Source refresh failed. Retain previously archived evidence; do not invent new progress.'
+          fi
       - name: Build current content and promote to public beta
         run: |
           python scripts/build_atlas.py
@@ -60,8 +66,9 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add docs/index.html docs/review/ docs/archive/pre-public-beta/ docs/release.json docs/.nojekyll data/CURRENT.json data/public_beta_manifest.json data/deep_crosswalk_100_v0.7.review.json data/research_audit_v0.7.json
+          if [ -f data/parallel_review_v0.8.json ]; then git add data/parallel_review_v0.8.json; fi
           if ! git diff --cached --quiet; then
-            git commit -m 'release: archive current Dharma Atlas public beta and visible research gaps'
+            git commit -m 'release: archive current Dharma Atlas public beta and evidence updates'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
@@ -90,24 +97,63 @@ jobs:
               except Exception as e: print(type(e).__name__,str(e)[:180])
               time.sleep(5)
           else: raise SystemExit('Public homepage does not yet match this build')
+          preserved={}
+          q=pathlib.Path('docs/quantum/index.html')
+          if q.exists():
+              qurl=url.rstrip('/')+'/quantum/?release_check='+str(time.time_ns())
+              with urllib.request.urlopen(qurl,timeout=30) as r:
+                  qb=r.read()
+                  preserved={'quantum_http_status':r.status,'quantum_sha256_matches':hashlib.sha256(qb).hexdigest()==hashlib.sha256(q.read_bytes()).hexdigest()}
+                  assert r.status==200 and preserved['quantum_sha256_matches'], 'Quantum subsite must be preserved'
           pathlib.Path('build/atlas-public').mkdir(parents=True,exist_ok=True)
-          report={'url':url,'status':'published_and_https_hash_verified','http_status':200,'homepage_sha256':expected,'verified_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'workflow_run':os.environ['GITHUB_RUN_ID'],'source_commit':os.environ['GITHUB_SHA'],'research_complete':False,'custom_dns_modified':False}
+          report={'url':url,'status':'published_and_https_hash_verified','http_status':200,'homepage_sha256':expected,'verified_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'workflow_run':os.environ['GITHUB_RUN_ID'],'source_commit':os.environ['GITHUB_SHA'],'research_complete':False,'custom_dns_modified':False,**preserved}
           pathlib.Path('build/atlas-public/deployment.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
           PY
       - name: Run interaction and mobile checks on public website
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: python tests/atlas_public_smoke.py --url "$PAGE_URL" --out build/atlas-public
-      - name: Record successful public deployment
+      - name: Record verified deployment and current user publication policy
         run: |
           cp build/atlas-public/deployment.json docs/public_deployment.json
           cp build/atlas-public/qa.json data/public_beta_qa.json
-          git add docs/public_deployment.json data/public_beta_qa.json
-          git commit -m 'qa: verify live Dharma Atlas HTTPS and browser interactions'
+          python - <<'PY'
+          import json,pathlib,re
+          report=json.loads(pathlib.Path('docs/public_deployment.json').read_text())
+          note='<!-- LIVE_PREVIEW_POLICY_START -->\n## 当前公开预览：内容与网站并行更新\n\n已上线：['+report['url']+']('+report['url']+')。本次已核验真实HTTPS页面和浏览器交互。\n\n用户于2026-09-19明确要求：已有内容先部署预览，研究和网站并行完善。此规则替代下文历史记录中“全部考证完成后再发布／官网未部署”的旧状态；学术证据仍须诚实标注。\n\n发布结果见 `docs/public_deployment.json`，公网测试见 `data/public_beta_qa.json`。\n'
+          p=pathlib.Path('data/parallel_review_v0.8.json')
+          if p.exists():
+              c=json.loads(p.read_text())['counts']
+              note+='\n本轮另核对'+str(c['reviewed_works'])+'部的官方平行关系编码，旧重复分类目标'+str(c['old_overlapping_targets'])+'项，新映射重叠'+str(c['new_overlapping_targets'])+'项。仅指编码修正，不指独立完成全部经文校勘。\n'
+          note+='\n<!-- LIVE_PREVIEW_POLICY_END -->\n\n'
+          for name in ['README.md','DATABASE_STATUS.md']:
+              p=pathlib.Path(name);body=p.read_text()
+              body=re.sub(r'<!-- LIVE_PREVIEW_POLICY_START -->.*?<!-- LIVE_PREVIEW_POLICY_END -->\s*','',body,flags=re.S)
+              p.write_text(note+body)
+          skill=pathlib.Path('skills/global-knowledge-atlas/SKILL.md');body=skill.read_text()
+          body=body.replace('version: "1.1"','version: "1.2"',1)
+          marker='<!-- LIVING_RELEASE_OVERRIDE -->'
+          if marker not in body:
+              end=body.find('\n---',3)+4
+              override='\n\n'+marker+'\n> **发布规则 v1.2：** 当用户明确要求先预览、边研究边迭代时，先发布已可使用的内容，保留未知/争议/证据等级标签。研究完整性不得阻塞整站预览；功能、安全和隐私检查仍须通过。此条替代旧文中要求学术考证全部完成才允许任何公网预览的表述。每批采用“数据更新→自动构建→功能测试→预览发布→公网核验”，不以发布代替研究完成。\n\n'
+              body=body[:end]+override+body[end:]
+          skill.write_text(body)
+          PY
+          git add docs/public_deployment.json data/public_beta_qa.json README.md DATABASE_STATUS.md skills/global-knowledge-atlas/SKILL.md
+          git commit -m 'qa: verify live beta and persist parallel research/publication policy'
           git pull --rebase origin main
           git push origin HEAD:main
           echo '## Dharma Atlas public beta' >> "$GITHUB_STEP_SUMMARY"
           cat docs/public_deployment.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Include the verified deployment record in the public site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+          name: github-pages-verified
+      - name: Publish unchanged tested pages with their verification record
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-verified
       - name: Save public screenshots, reports and release bundle
         if: always()
         uses: actions/upload-artifact@v4
@@ -121,5 +167,6 @@ jobs:
             docs/public_deployment.json
             data/public_beta_manifest.json
             data/public_beta_qa.json
+            data/parallel_review_v0.8.json
           retention-days: 30
           if-no-files-found: warn
