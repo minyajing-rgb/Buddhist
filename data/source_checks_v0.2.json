@@ -1,0 +1,146 @@
+{
+  "version": "0.2",
+  "purpose": "Record identifier/source checks so later edits can distinguish verified IDs from provisional mappings.",
+  "checked_on": "2026-09-19",
+  "records": [
+    {
+      "claim": "Dhammacakkappavattana Sutta = SN 56.11",
+      "status": "verified",
+      "source": "SuttaCentral",
+      "url": "https://suttacentral.net/sn56.11"
+    },
+    {
+      "claim": "Anattalakkhaṇa Sutta = SN 22.59",
+      "status": "verified",
+      "source": "SuttaCentral",
+      "url": "https://suttacentral.net/sn22.59"
+    },
+    {
+      "claim": "Mahāparinibbāna Sutta = DN 16",
+      "status": "verified",
+      "source": "SuttaCentral",
+      "url": "https://suttacentral.net/dn16"
+    },
+    {
+      "claim": "Diamond Sūtra Chinese = T08n0235",
+      "status": "verified",
+      "source": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T08n0235"
+    },
+    {
+      "claim": "Heart Sūtra Chinese = T08n0251",
+      "status": "verified",
+      "source": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T08n0251"
+    },
+    {
+      "claim": "Lotus Sūtra Chinese = T09n0262",
+      "status": "verified",
+      "source": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T09n0262"
+    },
+    {
+      "claim": "Vimalakīrti, Kumārajīva translation = T14n0475",
+      "status": "verified",
+      "source": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T14n0475"
+    },
+    {
+      "claim": "80-fascicle Avataṃsaka = T10n0279",
+      "status": "verified",
+      "source": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T10n0279"
+    },
+    {
+      "claim": "Mūlamadhyamakakārikā Chinese Zhonglun = T30n1564",
+      "status": "verified",
+      "source": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T30n1564"
+    },
+    {
+      "claim": "Cheng Weishi Lun = T31n1585",
+      "status": "verified",
+      "source": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T31n1585"
+    },
+    {
+      "claim": "Awakening of Faith = T32n1666",
+      "status": "verified",
+      "source": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T32n1666"
+    },
+    {
+      "claim": "Śūraṅgama = T19n0945",
+      "status": "verified",
+      "source": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T19n0945"
+    },
+    {
+      "claim": "Platform Sūtra received edition = T48n2008",
+      "status": "verified",
+      "source": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T48n2008"
+    },
+    {
+      "claim": "Diamond Cutter = Toh 16",
+      "status": "verified",
+      "source": "84000",
+      "url": "https://84000.co/canon/perfection-of-wisdom"
+    },
+    {
+      "claim": "Heart Sūtra = Toh 21 (also duplicate Toh 531)",
+      "status": "verified",
+      "source": "84000",
+      "url": "https://84000.co/canon/perfection-of-wisdom"
+    },
+    {
+      "claim": "Lotus Sūtra = Toh 113",
+      "status": "verified",
+      "source": "84000",
+      "url": "https://84000.co/translation/toh113"
+    },
+    {
+      "claim": "Vimalakīrti = Toh 176",
+      "status": "verified",
+      "source": "84000",
+      "url": "https://84000.co/translation/toh176"
+    },
+    {
+      "claim": "Tibetan Avataṃsaka collection = Toh 44",
+      "status": "verified",
+      "source": "84000",
+      "url": "https://84000.co/canon/a-multitude-of-buddhas"
+    },
+    {
+      "claim": "Shorter Sukhāvatīvyūha = Toh 115",
+      "status": "verified",
+      "source": "84000",
+      "url": "https://84000.co/translation/toh115"
+    },
+    {
+      "claim": "Longer Sukhāvatī / Array of Amitābha = Toh 49",
+      "status": "verified",
+      "source": "84000 introduction to Toh 115",
+      "url": "https://84000.co/translation/toh115"
+    },
+    {
+      "claim": "Saṃdhinirmocana = Toh 106",
+      "status": "verified",
+      "source": "84000",
+      "url": "https://84000.co/translation/toh106"
+    },
+    {
+      "claim": "Laṅkāvatāra = Toh 107–108",
+      "status": "verified",
+      "source": "84000",
+      "url": "https://84000.co/"
+    },
+    {
+      "claim": "Mahāyāna Mahāparinirvāṇa = Toh 119–120",
+      "status": "verified",
+      "source": "84000",
+      "url": "https://84000.co/"
+    }
+  ],
+  "note": "Verified means the identifier/source association was checked. It does not imply that two versions sharing a row are textually identical."
+}
