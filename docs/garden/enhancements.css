@@ -1,126 +1,474 @@
-/* Mobile art direction: preserve the surrounding garden and a clear title area. */
-@media(max-width:620px){
-  .hero-scene{background-size:640px auto;background-position:center bottom;background-repeat:no-repeat;background-color:#fff6e5}
-  .hero-wash{background:linear-gradient(#fff9ee66 0%,#fff9eeaa 30%,#fff9ee18 55%,transparent 78%)}
-  .hero-copy p,.hero-foot{text-shadow:0 1px 6px #fff9ee,0 0 14px #fff9ee}
+/* === Dharma Atlas · Sacred World v3 =======================================
+   Visual direction: warm, luminous, premium Buddhist world atlas.
+   Uses the existing repository artwork; no historical reconstruction claim.
+   Gamification is local-only and educational: journey points, stamps, quests.
+=========================================================================== */
+
+:root{
+  --sacred-navy:#17335d;
+  --sacred-navy-2:#0f274c;
+  --sacred-gold:#d99a30;
+  --sacred-gold-2:#f2bf5b;
+  --sacred-cream:#fff9ed;
+  --sacred-paper:#fffdf8;
+  --sacred-pink:#ef7fa5;
+  --sacred-jade:#2b8b76;
+  --sacred-sky:#6ba7cf;
+  --sacred-shadow:0 20px 60px rgba(80,45,12,.16);
 }
 
-/* === Sacred World v2: documentary + game encyclopedia + museum atlas === */
-:root{
-  --cream:#fff7e8;--paper:#fffdf7;--ink:#322438;--muted:#76675f;
-  --jade:#197b70;--jade-dark:#135e57;--coral:#d75a43;--gold:#d89b2f;
-  --lavender:#7654a0;--saffron:#f0a025;--lotus:#e75f8d;--peacock:#168494;
-  --line:#ead2a7;--shadow:0 20px 58px rgba(111,65,21,.10)
-}
+/* --- Global polish ------------------------------------------------------ */
 body{
   background:
-    radial-gradient(circle at 8% 4%,rgba(255,203,79,.16),transparent 24%),
-    radial-gradient(circle at 94% 10%,rgba(231,95,141,.10),transparent 20%),
-    linear-gradient(180deg,#fffdf8 0,#fff5e5 48%,#fffaf1 100%);
+    radial-gradient(circle at 10% 3%,rgba(255,207,90,.18),transparent 26%),
+    radial-gradient(circle at 90% 7%,rgba(239,127,165,.12),transparent 22%),
+    linear-gradient(180deg,#fffdf9 0,#fff6e9 52%,#fffaf1 100%);
 }
 .site-header{
-  background:rgba(255,250,239,.92);
-  border-bottom:1px solid rgba(214,163,72,.32);
-  box-shadow:0 10px 34px rgba(105,60,18,.06)
+  height:76px;
+  background:rgba(255,253,248,.94);
+  border-bottom:1px solid rgba(210,156,58,.28);
+  box-shadow:0 7px 30px rgba(69,43,20,.06);
+  backdrop-filter:blur(18px) saturate(1.2);
 }
-.brand-lotus{
-  color:#d28d22;
-  filter:drop-shadow(0 3px 9px rgba(213,146,34,.18))
+.brand{gap:9px}
+.brand-lotus{font-size:35px;color:var(--sacred-gold)}
+.brand strong{
+  color:var(--sacred-navy);
+  font-family:Georgia,"Noto Serif CJK SC","Songti SC",serif;
+  letter-spacing:.5px;
+  font-size:22px
 }
-.site-header nav a[aria-current=page]{color:#ad4e31;border-color:#d7972a}
+.brand small{color:#9b6a2a;letter-spacing:1.8px;font-size:8px}
+.site-header nav{gap:19px}
+.site-header nav a{color:#3e4d68;font-size:13px}
+.site-header nav a[aria-current=page]{color:var(--sacred-navy);border-color:var(--sacred-gold)}
+
+/* --- Hero: screenshot-inspired museum + fantasy-world composition ------- */
 .garden-hero{
-  min-height:790px;height:min(850px,calc(100svh - 20px));
-  background:#f8e8c8;
+  min-height:760px;
+  height:min(790px,calc(100svh - 18px));
+  overflow:hidden;
+  background:#f5dfb3;
+  isolation:isolate;
 }
 .hero-scene{
-  transform:scale(1.015);
-  filter:saturate(1.30) brightness(1.07) contrast(1.03);
-  background-position:center 63%;
+  transform:scale(1.02);
+  filter:saturate(1.42) brightness(1.08) contrast(1.04);
+  background-position:center 60%;
 }
 .hero-wash{
   background:
-    radial-gradient(ellipse at 50% 19%,rgba(255,253,235,.93) 0%,rgba(255,249,222,.72) 17%,rgba(255,239,191,.16) 39%,transparent 64%),
-    linear-gradient(180deg,rgba(255,247,217,.18),transparent 50%,rgba(113,54,15,.08));
-}
-.garden-hero:before{
-  content:"";position:absolute;z-index:-1;left:0;right:0;bottom:0;height:55%;
-  background:linear-gradient(180deg,transparent,rgba(255,172,58,.10));
+    linear-gradient(90deg,rgba(255,249,229,.05) 0%,rgba(255,249,229,.03) 38%,rgba(255,251,239,.72) 62%,rgba(255,251,239,.92) 100%),
+    radial-gradient(ellipse at 67% 26%,rgba(255,255,249,.93) 0%,rgba(255,250,229,.62) 22%,rgba(255,239,195,.12) 48%,transparent 70%),
+    linear-gradient(180deg,rgba(255,246,218,.10),transparent 52%,rgba(77,43,8,.09));
 }
 .garden-hero:after{
-  content:"";position:absolute;z-index:0;inset:0;pointer-events:none;
+  content:"";
+  position:absolute;inset:0;z-index:0;pointer-events:none;
   background:
-    radial-gradient(circle at 82% 15%,rgba(255,245,186,.42),transparent 17%),
-    radial-gradient(circle at 14% 76%,rgba(239,92,134,.13),transparent 18%);
-  mix-blend-mode:screen
+    radial-gradient(circle at 82% 15%,rgba(255,246,184,.43),transparent 16%),
+    radial-gradient(circle at 12% 80%,rgba(245,94,141,.13),transparent 17%),
+    linear-gradient(180deg,transparent 76%,rgba(255,249,237,.18));
+  mix-blend-mode:screen;
 }
-.hero-copy{position:relative;z-index:3;max-width:790px;padding-top:66px}
-.hero-copy .kicker{color:#b96a2e;font-weight:700;text-shadow:0 1px 10px #fff8e4}
+.hero-copy{
+  position:relative;z-index:4;
+  width:min(680px,48vw);
+  max-width:none;
+  margin:0 6vw 0 auto;
+  padding:72px 0 190px;
+  text-align:center;
+}
+.hero-copy .kicker{
+  color:#9c6a39;
+  font-weight:650;
+  letter-spacing:4px;
+  font-size:10px;
+  text-shadow:0 1px 12px #fff7dc;
+}
 .hero-copy h1{
-  font-size:clamp(46px,5.05vw,76px);line-height:1.36;
-  color:#3e291f;text-shadow:0 2px 16px rgba(255,250,228,.9)
+  color:var(--sacred-navy);
+  text-shadow:0 3px 18px rgba(255,250,230,.92);
+  letter-spacing:.5px;
+  font-size:clamp(52px,5.3vw,82px);
+  line-height:1.1;
+  margin:28px 0 15px;
 }
-.hero-copy h1 em{color:#ba4f34}
-.hero-copy p{font-size:17px;color:#67584f}
-.button.primary{
-  background:linear-gradient(135deg,#e7a12d,#c15832);
-  border-color:#cc722c;box-shadow:0 12px 25px rgba(174,82,35,.19)
+.hero-copy h1 span,.hero-copy h1 em{display:block}
+.hero-copy h1 em{
+  color:var(--sacred-navy);
+  font-size:.33em;
+  font-style:normal;
+  letter-spacing:2px;
+  margin-top:12px;
+  font-family:Georgia,"Noto Serif CJK SC","Songti SC",serif;
 }
-.button.primary:hover{background:linear-gradient(135deg,#f1ac31,#ad482d)}
-.button.porcelain{background:rgba(255,252,242,.93);border-color:#d9b779}
-.hanging{z-index:3;color:#dc9b2d}
-.hanging:after{content:"✦";display:block;color:#efb64b;font-size:13px;animation:sacredFloat 5s ease-in-out infinite}
-@keyframes sacredFloat{50%{transform:translateY(12px) rotate(12deg)}}
-.sacred-place-badges{
-  position:absolute;z-index:5;left:50%;transform:translateX(-50%);bottom:58px;
-  width:min(910px,86vw);display:grid;grid-template-columns:repeat(5,1fr);
-  gap:5px;padding:8px;background:rgba(255,251,239,.84);backdrop-filter:blur(15px);
-  border:1px solid rgba(222,183,111,.72);border-radius:18px;
-  box-shadow:0 16px 40px rgba(91,52,18,.13)
+.hero-copy p{
+  max-width:610px;margin:0 auto 20px;
+  color:#4e5466;font-size:16px;line-height:1.7;
+  text-shadow:0 1px 8px rgba(255,255,255,.85)
 }
-.sacred-place-badges a{
-  color:#624a36;text-align:center;padding:8px 6px;border-right:1px solid rgba(218,181,113,.55);
-  font:14px/1.25 var(--serif)
+.hero-actions{display:none}
+.hero-foot{display:none}
+.hanging{z-index:5}
+.sacred-place-badges{display:none}
+.hero-bottom{
+  z-index:5;
+  color:#5a5260;
+  bottom:18px;
+  text-shadow:0 2px 12px #fff;
 }
-.sacred-place-badges a:last-child{border-right:0}
-.sacred-place-badges small{display:block;font:10px/1.4 var(--sans);color:#9a7b5f;margin-top:3px}
-.hero-bottom{bottom:16px;z-index:5;color:#795b42}
-.welcome-ribbon{background:linear-gradient(90deg,transparent,#fff7df 18%,#fff3eb 50%,#eef9f1 82%,transparent);border-radius:20px}
-.path-card,.featured-book,.visual-panel{
-  box-shadow:0 16px 40px rgba(99,61,24,.07);
-  border-color:#e8d1a7
+.hero-bottom a{font-weight:650;color:var(--sacred-navy)}
+
+/* Search + topic chips */
+.hero-discovery-search{
+  width:min(650px,100%);
+  margin:22px auto 0;
+  display:flex;align-items:center;gap:10px;
+  padding:7px 8px 7px 18px;
+  border:1px solid rgba(208,157,64,.55);
+  border-radius:999px;
+  background:rgba(255,255,255,.92);
+  box-shadow:0 16px 40px rgba(84,50,15,.13);
+  backdrop-filter:blur(14px);
 }
-.path-card{background:linear-gradient(180deg,#fff,#fff9ee)}
-.path-card.coral .path-art{filter:saturate(1.20) brightness(1.05)}
-.path-card.jade .path-art{background:radial-gradient(ellipse at top,#fff3bd,#91cbb6 86%)}
-.path-card.saffron .path-art{background:radial-gradient(circle,#fff4c8,#e9ae42)}
+.hero-search-icon{font-size:25px;color:#536277;line-height:1}
+.hero-discovery-search input{
+  flex:1;min-width:0;border:0;outline:0;background:transparent;
+  padding:9px 3px;font-size:13px;color:#30405d;
+}
+.hero-discovery-search button{
+  width:46px;height:46px;flex:none;border:0;border-radius:50%;
+  background:linear-gradient(135deg,var(--sacred-gold-2),#d88e24);
+  color:white;font-size:25px;box-shadow:0 9px 22px rgba(196,123,20,.24)
+}
+.hero-topic-chips{
+  display:flex;justify-content:center;gap:7px;flex-wrap:wrap;
+  margin:12px auto 0;
+}
+.hero-topic-chips button{
+  border:1px solid rgba(216,178,112,.52);
+  border-radius:999px;background:rgba(255,252,244,.82);
+  color:#625a58;font:11px/1.2 Georgia,"Noto Serif CJK SC",serif;
+  padding:6px 10px;box-shadow:0 4px 15px rgba(89,58,27,.05);
+}
+.hero-topic-chips button:hover{border-color:var(--sacred-gold);color:var(--sacred-navy);transform:translateY(-1px)}
+
+/* Right-side values, directly inspired by the reference composition. */
+.world-values{
+  position:absolute;right:12px;top:118px;z-index:6;
+  display:grid;gap:4px;
+}
+.world-values button{
+  width:88px;border:0;background:transparent;color:#504a4a;
+  padding:8px 4px;display:grid;place-items:center;gap:2px
+}
+.world-values button span{
+  display:grid;place-items:center;width:39px;height:39px;
+  color:#c8841f;font-size:25px;
+  filter:drop-shadow(0 3px 8px rgba(183,107,19,.14))
+}
+.world-values button small{
+  font:10px/1.2 Georgia,"Noto Serif CJK SC",serif;
+  text-shadow:0 1px 5px rgba(255,255,255,.9)
+}
+.world-values button:hover{color:var(--sacred-navy);transform:translateY(-2px)}
+
+/* Begin journey orbit */
+.begin-journey-orb{
+  position:absolute;z-index:7;right:7.8vw;bottom:82px;
+  width:112px;height:112px;border-radius:50%;
+  border:1px solid rgba(218,158,53,.72);
+  background:rgba(255,251,239,.82);
+  box-shadow:0 14px 38px rgba(75,47,16,.16),inset 0 0 0 8px rgba(255,255,255,.58);
+  backdrop-filter:blur(12px);
+  display:grid;place-items:center;align-content:center;gap:5px;
+  color:var(--sacred-navy)
+}
+.begin-journey-orb:before{
+  content:"";position:absolute;inset:8px;border:1px dashed rgba(206,142,36,.58);border-radius:50%;
+  animation:orbitSpin 15s linear infinite
+}
+.begin-journey-orb span{font-size:30px;color:var(--sacred-gold);line-height:1}
+.begin-journey-orb b{font:11px/1.2 Georgia,"Noto Serif CJK SC",serif;max-width:70px}
+@keyframes orbitSpin{to{transform:rotate(360deg)}}
+
+/* --- Six museum-like entry cards --------------------------------------- */
+.hero-portal-deck{
+  position:relative;z-index:12;
+  width:min(1460px,95vw);
+  margin:-72px auto 28px;
+  padding:10px;
+  display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;
+  background:rgba(255,253,248,.94);
+  border:1px solid rgba(211,162,73,.38);
+  border-radius:16px;
+  box-shadow:0 22px 70px rgba(76,46,15,.16);
+  backdrop-filter:blur(18px)
+}
+.portal-card{
+  min-width:0;overflow:hidden;position:relative;text-align:left;
+  padding:0 0 12px;border:1px solid #eee1cc;border-radius:10px;
+  background:linear-gradient(180deg,#fff,#fffaf0);
+  color:var(--sacred-navy);
+  box-shadow:0 8px 22px rgba(85,55,23,.05);
+  transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease
+}
+.portal-card:hover{
+  transform:translateY(-5px);
+  border-color:#dfb86f;
+  box-shadow:0 15px 32px rgba(85,55,23,.12)
+}
+.portal-art{
+  height:102px;display:grid;place-items:center;overflow:hidden;
+  border-bottom:1px solid #ead7b7;
+  background-image:linear-gradient(0deg,rgba(31,50,71,.12),rgba(255,239,196,.02)),url('./assets/garden.png');
+  background-size:auto 520px;background-repeat:no-repeat;
+  filter:saturate(1.25) brightness(1.04)
+}
+.portal-1 .portal-art{background-position:7% 66%}
+.portal-2 .portal-art{background-position:28% 54%}
+.portal-3 .portal-art{background-position:46% 65%}
+.portal-4 .portal-art{background-position:58% 47%}
+.portal-5 .portal-art{background-position:79% 58%}
+.portal-6 .portal-art{background-position:94% 50%}
+.portal-art b{
+  width:45px;height:45px;display:grid;place-items:center;border-radius:50%;
+  background:rgba(255,250,232,.82);border:1px solid rgba(231,188,108,.7);
+  color:#b8751f;font-size:25px;box-shadow:0 7px 22px rgba(70,39,9,.14);
+  backdrop-filter:blur(8px)
+}
+.portal-copy{display:block;padding:11px 12px 0}
+.portal-copy strong{display:block;font:700 14px/1.25 Georgia,"Noto Serif CJK SC",serif}
+.portal-copy small{display:block;color:#6c6e77;font-size:10px;line-height:1.45;margin-top:4px;min-height:29px}
+.portal-arrow{
+  position:absolute;right:10px;bottom:9px;width:23px;height:23px;border:1px solid #d7a955;border-radius:50%;
+  display:grid;place-items:center;color:#b97a22;font-size:13px;background:white
+}
+
+/* Existing content inherits a more premium warm museum treatment. */
+.content{max-width:1270px}
+.welcome-ribbon{
+  border:1px solid rgba(225,190,124,.42);
+  background:linear-gradient(90deg,transparent,#fff5dc 20%,#fff1ea 50%,#eef8ef 80%,transparent);
+  border-radius:30px;
+  padding:37px 25px 27px
+}
+.path-card,.featured-book,.visual-panel,.story-feature,.garden-invite,.card,.timeline-card,.map-frame{
+  border-color:#ead4ad!important;
+  box-shadow:0 16px 42px rgba(92,55,17,.075)!important
+}
+.path-card:hover,.featured-book:hover,.visual-panel:hover{box-shadow:0 22px 52px rgba(92,55,17,.13)!important}
 .path-card:after,.featured-book:after,.visual-panel:after{
-  content:"";position:absolute;left:0;right:0;top:0;height:4px;
-  background:linear-gradient(90deg,#efa72b,#dc5c78,#258c7b,#7757a5)
+  background:linear-gradient(90deg,#e9a32b,#eb789c,#2f927c,#6c79b2)
 }
-.featured-book{position:relative;overflow:hidden}
-.story-feature{
-  background:linear-gradient(135deg,#fff1d0,#f7e7d6 45%,#e9efe3);
-  border-color:#e6c58c;box-shadow:0 24px 60px rgba(99,61,24,.10)
+
+/* --- Header gamification button ---------------------------------------- */
+.journey-button{
+  border:1px solid #daa64e!important;
+  border-left:1px solid #daa64e!important;
+  background:linear-gradient(135deg,#f2b648,#d89128)!important;
+  color:white!important;
+  border-radius:999px!important;
+  min-width:124px!important;height:40px!important;
+  padding:0 12px!important;
+  display:flex!important;align-items:center;justify-content:center;gap:7px;
+  box-shadow:0 8px 18px rgba(184,113,19,.18)
 }
-.story-vista{filter:saturate(1.25) brightness(1.04)}
-.garden-invite{
+.journey-button span:first-child{font-size:18px}
+.journey-button-copy{font-size:11px}
+.journey-button b{
+  min-width:25px;height:21px;border-radius:999px;display:grid;place-items:center;
+  padding:0 5px;background:rgba(112,66,10,.18);font-size:10px
+}
+
+/* --- Journey drawer ----------------------------------------------------- */
+.journey-backdrop{
+  position:fixed;inset:0;z-index:69;border:0;
+  background:rgba(30,35,49,.30);backdrop-filter:blur(2px);
+  opacity:0;transition:opacity .25s
+}
+.journey-backdrop.open{opacity:1}
+.journey-drawer{
+  position:fixed;z-index:70;top:12px;right:12px;bottom:12px;
+  width:min(440px,calc(100vw - 24px));
+  border:1px solid rgba(218,161,66,.72);
+  border-radius:24px 7px 24px 24px;
   background:
-    radial-gradient(circle at 20% 20%,rgba(255,224,132,.22),transparent 25%),
-    radial-gradient(circle at 82% 75%,rgba(231,95,141,.13),transparent 20%),
-    linear-gradient(135deg,#fff6dc,#f9e7e8 52%,#eaf5e8);
-  border:1px solid #e8c98d;
-  box-shadow:0 20px 55px rgba(98,58,19,.08)
+    radial-gradient(circle at 90% 0,rgba(255,223,132,.28),transparent 24%),
+    radial-gradient(circle at 0 45%,rgba(239,127,165,.12),transparent 22%),
+    linear-gradient(180deg,#fffdf7,#fff7e8);
+  box-shadow:-20px 20px 80px rgba(43,33,22,.28);
+  transform:translateX(calc(100% + 34px));transition:transform .28s ease;
+  overflow:auto;color:#322b34
 }
-.inner-page{background:linear-gradient(180deg,rgba(255,253,246,.62),rgba(255,248,234,.78))}
-.cards article,.card,.timeline-card,.map-frame{
-  border-color:#e6d1ac!important;box-shadow:0 12px 34px rgba(91,58,23,.06)!important
+.journey-drawer.open{transform:none}
+.journey-drawer:before{
+  content:"";position:absolute;inset:8px;pointer-events:none;border:1px solid rgba(217,163,70,.28);
+  border-radius:18px 4px 18px 18px
 }
-.tag.gold{background:#fff0c9!important;color:#986025!important}
-.tag.purple{background:#f3e6f3!important;color:#7e4e80!important}
-@media(max-width:620px){
-  .garden-hero{min-height:760px}
-  .hero-scene{filter:saturate(1.22) brightness(1.08);background-size:780px auto;background-position:center bottom}
-  .hero-copy{padding-top:52px}
-  .sacred-place-badges{bottom:55px;grid-template-columns:repeat(3,1fr);width:92vw}
-  .sacred-place-badges a:nth-child(n+4){display:none}
+#journeyInner{position:relative;padding:27px 25px 24px}
+.journey-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}
+.journey-kicker{display:block;color:#a87427;font-size:9px;letter-spacing:2.4px;font-weight:700}
+.journey-top h2{font-size:30px;color:var(--sacred-navy);margin:3px 0 0;line-height:1.25}
+.journey-close{
+  width:34px;height:34px;border-radius:50%;border:1px solid #e3cfaa;background:#fffaf0;
+  color:#7a6b58;font-size:21px;line-height:1
+}
+.journey-score{
+  display:grid;grid-template-columns:66px 74px 1fr;gap:12px;align-items:center;
+  margin:22px 0 26px;padding:16px;border:1px solid #ead6b3;border-radius:18px;
+  background:rgba(255,255,255,.64)
+}
+.lotus-level{
+  --p:0%;width:60px;height:60px;border-radius:50%;display:grid;place-items:center;
+  background:conic-gradient(var(--sacred-gold) var(--p),#f0e3cf 0);
+  position:relative
+}
+.lotus-level:after{content:"";position:absolute;inset:5px;border-radius:50%;background:#fffaf0}
+.lotus-level span{position:relative;z-index:1;font-size:28px;color:#cf8b24}
+.journey-score>div:nth-child(2) strong{display:block;color:var(--sacred-navy);font:700 25px/1 Georgia}
+.journey-score>div:nth-child(2) small{font-size:9px;color:#887761}
+.journey-progress{min-width:0}
+.journey-progress:before{content:"";display:block;height:5px;border-radius:5px;background:#eee0ca}
+.journey-progress i{display:block;height:5px;border-radius:5px;background:linear-gradient(90deg,#e5a235,#ed7fa0);margin-top:-5px}
+.journey-progress small{display:block;margin-top:7px;font-size:9px;color:#897967}
+.journey-section{margin:24px 0}
+.journey-section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:11px}
+.journey-section-head b{font:700 15px/1.2 Georgia,"Noto Serif CJK SC",serif;color:var(--sacred-navy)}
+.journey-section-head span{font-size:10px;color:#9c7a45}
+.stamp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stamp{
+  text-align:center;padding:10px 5px;border:1px dashed #d9c5a1;border-radius:14px;
+  background:rgba(255,255,255,.45);color:#9a8b78;filter:grayscale(.75);opacity:.72
+}
+.stamp.earned{
+  border-style:solid;border-color:#deb363;background:linear-gradient(180deg,#fff8df,#fffdf6);
+  color:#6b5637;filter:none;opacity:1;box-shadow:0 7px 15px rgba(102,70,27,.06)
+}
+.stamp span{display:block;font-size:23px;color:#c8892c;line-height:1.2}
+.stamp b{display:block;font:12px/1.2 Georgia,"Noto Serif CJK SC",serif;margin-top:3px}
+.stamp small{font-size:8px}
+.daily-quest{
+  position:relative;overflow:hidden;
+  padding:18px 18px 17px;border:1px solid #e0b96f;border-radius:8px 22px 8px 22px;
+  background:
+    radial-gradient(circle at 92% 12%,rgba(244,198,80,.27),transparent 24%),
+    linear-gradient(135deg,#fff2cc,#fff9e7 56%,#f0f6e8)
+}
+.daily-quest.done{background:linear-gradient(135deg,#e8f5ea,#fff9e6)}
+.daily-quest h3{font-size:20px;color:var(--sacred-navy);margin:5px 0 8px}
+.daily-quest p{font-size:12px;line-height:1.7;color:#665e59;margin:0 0 12px}
+.explore-card{
+  padding:18px;border:1px solid #d9b56d;border-radius:18px 5px 18px 5px;
+  background:
+    linear-gradient(145deg,rgba(255,255,255,.84),rgba(255,242,211,.88)),
+    radial-gradient(circle at 80% 20%,rgba(235,122,161,.14),transparent 25%);
+  box-shadow:0 12px 28px rgba(85,54,22,.08)
+}
+.explore-card small{color:#a36d25;font-size:9px;letter-spacing:1.8px}
+.explore-card h3{font-size:22px;color:var(--sacred-navy);margin:5px 0 7px}
+.explore-card p{font-size:12px;line-height:1.7;color:#665e59}
+.explore-card button{
+  border:0;background:transparent;color:#247763;padding:0;font-size:11px;font-weight:700
+}
+.draw-card{
+  width:100%;min-height:128px;border:1px dashed #d8b878;border-radius:18px;background:rgba(255,255,255,.5);
+  display:grid;place-items:center;align-content:center;gap:3px;color:#66573f
+}
+.draw-card span{font-size:28px;color:#ce8929}
+.draw-card b{font:700 16px/1.3 Georgia,"Noto Serif CJK SC",serif;color:var(--sacred-navy)}
+.draw-card small{max-width:280px;font-size:9px;line-height:1.5;color:#887965}
+.journey-privacy{margin:24px 0 0;text-align:center;font-size:9px;color:#998b78}
+body.journey-open{overflow:hidden}
+
+/* Lotus burst reward */
+.lotus-burst{position:fixed;z-index:120;left:50%;top:56%;width:1px;height:1px;pointer-events:none}
+.lotus-burst i{
+  position:absolute;width:13px;height:20px;border-radius:70% 30% 70% 30%;
+  background:linear-gradient(180deg,#f7c667,#ea82a6);
+  box-shadow:0 2px 8px rgba(109,63,19,.14);
+  animation:petalBurst 1.4s cubic-bezier(.18,.7,.24,1) var(--d) forwards
+}
+@keyframes petalBurst{
+  0%{transform:translate(0,0) rotate(0);opacity:0}
+  10%{opacity:1}
+  100%{transform:translate(var(--x),var(--y)) rotate(var(--r));opacity:0}
+}
+
+/* --- Responsive --------------------------------------------------------- */
+@media(max-width:1240px){
+  .world-values{display:none}
+  .hero-copy{width:min(650px,58vw);margin-right:4vw}
+  .hero-portal-deck{grid-template-columns:repeat(3,1fr);margin-top:-64px}
+  .portal-art{height:90px}
+}
+@media(max-width:980px){
+  .site-header{height:72px}
+  .journey-button{min-width:45px!important;width:45px!important;padding:0!important}
+  .journey-button-copy,.journey-button b{display:none!important}
+  .garden-hero{min-height:760px;height:760px}
+  .hero-wash{
+    background:
+      linear-gradient(180deg,rgba(255,250,233,.86) 0%,rgba(255,249,231,.66) 30%,rgba(255,244,220,.10) 66%,transparent 78%),
+      linear-gradient(180deg,rgba(255,255,255,.18),transparent)
+  }
+  .hero-copy{
+    width:min(720px,90vw);margin:0 auto;padding-top:58px;
+  }
+  .hero-copy h1{font-size:clamp(48px,9vw,72px)}
+  .begin-journey-orb{right:5vw;bottom:85px;width:96px;height:96px}
+  .hero-portal-deck{margin-top:-58px}
+}
+@media(max-width:700px){
+  .garden-hero{min-height:735px;height:735px}
+  .hero-scene{
+    background-size:920px auto;background-position:center bottom;
+    filter:saturate(1.3) brightness(1.07)
+  }
+  .hero-copy{padding-top:45px;width:92vw}
+  .hero-copy .kicker{letter-spacing:2.2px;font-size:8px}
+  .hero-copy h1{font-size:44px;line-height:1.08;margin-top:20px}
+  .hero-copy h1 em{font-size:.34em;line-height:1.35}
+  .hero-copy p{font-size:13px}
+  .hero-discovery-search{margin-top:18px;padding-left:13px}
+  .hero-discovery-search button{width:42px;height:42px}
+  .hero-topic-chips{gap:5px}
+  .hero-topic-chips button{font-size:9px;padding:5px 8px}
+  .begin-journey-orb{width:84px;height:84px;right:16px;bottom:86px}
+  .begin-journey-orb b{font-size:9px}
+  .hero-bottom{left:16px;right:16px;font-size:8px}
+  .hero-bottom span{max-width:66%}
+  .hero-portal-deck{
+    width:94vw;margin:-52px auto 20px;
+    display:flex;overflow-x:auto;scroll-snap-type:x mandatory;
+    padding:8px;gap:8px
+  }
+  .portal-card{min-width:168px;scroll-snap-align:start}
+  .portal-art{height:82px}
+  .portal-copy strong{font-size:12px}
+  .portal-copy small{font-size:9px}
+  .journey-drawer{top:7px;right:7px;bottom:7px;width:calc(100vw - 14px)}
+  #journeyInner{padding:22px 18px}
+  .journey-score{grid-template-columns:58px 66px 1fr;padding:12px;gap:9px}
+  .stamp-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:520px){
+  .brand small{display:none}
+  .brand strong{font-size:18px}
+  .brand-lotus{font-size:30px}
+  .garden-hero{height:700px;min-height:700px}
+  .hero-copy{padding-top:38px}
+  .hero-copy h1{font-size:40px}
+  .hero-topic-chips button:nth-child(n+5){display:none}
+  .begin-journey-orb{bottom:74px}
+  .hero-bottom{bottom:14px}
+  .hero-bottom span{display:none}
+  .journey-score{grid-template-columns:58px 65px 1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  .begin-journey-orb:before{animation:none}
+  .portal-card,.world-values button,.journey-drawer,.journey-backdrop{transition:none}
+  .lotus-burst{display:none}
 }
