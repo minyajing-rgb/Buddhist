@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generic Knowledge Atlas Crosswalk Record",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "titles",
+    "entity_type",
+    "authority_routes",
+    "crosswalk_level",
+    "qa"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string"
+    },
+    "entity_type": {
+      "type": "string"
+    },
+    "titles": {
+      "type": "object"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "traditions_or_schools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ids": {
+      "type": "object"
+    },
+    "authority_routes": {
+      "type": "array"
+    },
+    "versions": {
+      "type": "array"
+    },
+    "witnesses_or_objects": {
+      "type": "array"
+    },
+    "physical_holdings": {
+      "type": "array"
+    },
+    "relations": {
+      "type": "array"
+    },
+    "chronology": {
+      "type": "object"
+    },
+    "geography": {
+      "type": "object"
+    },
+    "bibliography": {
+      "type": "array"
+    },
+    "claims_and_disputes": {
+      "type": "array"
+    },
+    "public_reception": {
+      "type": "array"
+    },
+    "media": {
+      "type": "array"
+    },
+    "crosswalk_level": {
+      "enum": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ]
+    },
+    "confidence": {
+      "type": "string"
+    },
+    "qa": {
+      "type": "object"
+    }
+  }
+}
