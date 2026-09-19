@@ -1,0 +1,195 @@
+{
+  "version": "0.4",
+  "updated_at": "2026-09-19",
+  "purpose_zh": "按语言/地区/传统检查“线上先查、线上不足时去哪线下补”的覆盖度，避免只围绕汉传/英文资源。",
+  "regions": [
+    {
+      "id": "india_early",
+      "label_zh": "印度早期佛教与梵文",
+      "online": [
+        "suttacentral",
+        "gretil",
+        "dsbc",
+        "sarit",
+        "gandhari"
+      ],
+      "offline": [
+        "cambridge_ul",
+        "british_library",
+        "bodleian"
+      ],
+      "status": "strong",
+      "next_gap": "继续增加尼泊尔/印度具体梵文写本shelfmark与IIIF"
+    },
+    {
+      "id": "gandhara_central_asia",
+      "label_zh": "犍陀罗 / 中亚",
+      "online": [
+        "gandhari",
+        "ebmp",
+        "idp",
+        "digital_silk_road"
+      ],
+      "offline": [
+        "british_library",
+        "bnf",
+        "loc",
+        "uw"
+      ],
+      "status": "strong",
+      "next_gap": "增加单件残片catalog ID与出土地/收藏地分离字段"
+    },
+    {
+      "id": "china",
+      "label_zh": "汉文佛典 / 中国",
+      "online": [
+        "cbeta",
+        "sat",
+        "dila_catalog",
+        "dila_authority",
+        "nlc_ancient",
+        "ddb",
+        "nti_reader"
+      ],
+      "offline": [
+        "nlc",
+        "ncl_taiwan",
+        "harvard_yenching"
+      ],
+      "status": "strong",
+      "next_gap": "增加历代藏经版刻与寺院馆藏的item-level witnesses"
+    },
+    {
+      "id": "tibet",
+      "label_zh": "藏文佛典 / 西藏",
+      "online": [
+        "84000",
+        "bdrc",
+        "adarshah",
+        "openpecha",
+        "dharmanexus"
+      ],
+      "offline": [
+        "loc",
+        "harvard_yenching",
+        "bdrc_partner_network"
+      ],
+      "status": "strong",
+      "next_gap": "补不同Kangyur/Tengyur edition的版本级比较"
+    },
+    {
+      "id": "korea",
+      "label_zh": "韩国 / 高丽大藏经",
+      "online": [
+        "kabc_dongguk"
+      ],
+      "offline": [
+        "haeinsa"
+      ],
+      "status": "good",
+      "next_gap": "增加高丽藏版次、经板号与KABC条目级crosswalk"
+    },
+    {
+      "id": "japan",
+      "label_zh": "日本佛典与研究",
+      "online": [
+        "sat",
+        "ndl_search",
+        "inbuds"
+      ],
+      "offline": [
+        "ndl"
+      ],
+      "status": "strong",
+      "next_gap": "补寺院特藏（高野山、东寺等）和古写经数据库"
+    },
+    {
+      "id": "nepal",
+      "label_zh": "尼泊尔梵文 / 尼瓦尔佛教写本",
+      "online": [
+        "ngmcp",
+        "dsbc",
+        "bdrc"
+      ],
+      "offline": [
+        "national_archives_nepal_ngmcp"
+      ],
+      "status": "good",
+      "next_gap": "增加National Archives与寺院/私人旧藏的具体microfilm号与手稿ID"
+    },
+    {
+      "id": "sri_lanka",
+      "label_zh": "斯里兰卡 / 巴利与贝叶经",
+      "online": [
+        "suttacentral",
+        "tipitaka_org",
+        "tipitakapali",
+        "pts",
+        "sri_lanka_national_library"
+      ],
+      "offline": [
+        "national_library_sri_lanka"
+      ],
+      "status": "good",
+      "next_gap": "补寺院级贝叶经目录与具体shelfmark"
+    },
+    {
+      "id": "thailand",
+      "label_zh": "泰国 / 贝叶经与碑铭",
+      "online": [
+        "nlt_manuscript",
+        "nlt_dlibrary",
+        "sac_thai_inscriptions"
+      ],
+      "offline": [
+        "national_library_thailand"
+      ],
+      "status": "good",
+      "next_gap": "补更多寺院贝叶经项目及北泰/兰纳文本目录"
+    },
+    {
+      "id": "myanmar",
+      "label_zh": "缅甸 / 巴利贝叶经",
+      "online": [
+        "nlm_myanmar"
+      ],
+      "offline": [
+        "national_library_myanmar"
+      ],
+      "status": "new_good",
+      "next_gap": "补具体数字条目、寺院贝叶经项目与PTS/缅文版crosswalk"
+    },
+    {
+      "id": "mongolia",
+      "label_zh": "蒙古 / 藏文佛教典籍",
+      "online": [
+        "nl_mongolia",
+        "bdrc"
+      ],
+      "offline": [
+        "national_library_mongolia"
+      ],
+      "status": "new_good",
+      "next_gap": "补蒙古寺院旧藏和具体藏文经卷馆藏号"
+    },
+    {
+      "id": "global_modern_research",
+      "label_zh": "现代全球佛教学研究",
+      "online": [
+        "ntu_dlbs",
+        "inbuds",
+        "worldcat",
+        "dharmanexus"
+      ],
+      "offline": [
+        "harvard_yenching",
+        "cambridge_ul",
+        "loc",
+        "british_library",
+        "bnf"
+      ],
+      "status": "strong",
+      "next_gap": "将12个争议主题扩成paper/book级bibliography"
+    }
+  ]
+}
