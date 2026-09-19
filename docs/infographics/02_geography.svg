@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#FBF8F2"/>
+<style>.t{font-family:Arial,'Noto Sans SC',sans-serif;fill:#1E2A44}.h{font-size:54px;font-weight:800}.s{font-size:23px;fill:#667085}.n{font-size:18px;font-weight:700}.m{font-size:15px;fill:#667085}.r1{stroke:#C8953E;stroke-width:8;fill:none;stroke-linecap:round}.r2{stroke:#7D6BA8;stroke-width:8;fill:none;stroke-linecap:round}.r3{stroke:#2F6F6D;stroke-width:8;fill:none;stroke-linecap:round}.p{fill:#fff;stroke:#1E2A44;stroke-width:3}</style>
+<text x="80" y="88" class="t h">Transmission Geography</text><text x="80" y="128" class="t s">佛典传播地理｜传播 ≠ 翻译 ≠ 出土 ≠ 今日收藏</text>
+<path d="M220 520 C350 400,460 370,590 390 S820 430,960 350 S1230 310,1420 360" class="r1"/>
+<path d="M360 530 C430 640,500 705,560 780" class="r2"/>
+<path d="M610 420 C650 510,700 600,740 700 S850 760,940 720" class="r3"/>
+<g><circle cx="220" cy="520" r="24" class="p"/><text x="140" y="575" class="t n">Ganges / 恒河流域</text><text x="135" y="600" class="t m">early teaching & oral communities</text></g>
+<g><circle cx="455" cy="405" r="24" class="p"/><text x="390" y="345" class="t n">Gandhāra / 犍陀罗</text><text x="370" y="370" class="t m">early manuscript witnesses</text></g>
+<g><circle cx="690" cy="405" r="24" class="p"/><text x="620" y="330" class="t n">Central Asia / 中亚</text><text x="605" y="355" class="t m">Kucha · Khotan · Turfan</text></g>
+<g><circle cx="920" cy="365" r="24" class="p"/><text x="870" y="300" class="t n">Dunhuang / 敦煌</text><text x="860" y="325" class="t m">manuscripts & translation crossroads</text></g>
+<g><circle cx="1120" cy="330" r="24" class="p"/><text x="1060" y="260" class="t n">Chang'an / 长安</text><text x="1040" y="285" class="t m">large translation workshops</text></g>
+<g><circle cx="1320" cy="345" r="24" class="p"/><text x="1275" y="285" class="t n">Korea / 朝鲜半岛</text></g>
+<g><circle cx="1440" cy="370" r="24" class="p"/><text x="1400" y="430" class="t n">Japan / 日本</text></g>
+<g><circle cx="560" cy="780" r="24" class="p"/><text x="485" y="835" class="t n">Sri Lanka / 斯里兰卡</text><text x="450" y="860" class="t m">Pāli textual tradition</text></g>
+<g><circle cx="780" cy="700" r="24" class="p"/><text x="720" y="755" class="t n">Tibet / 西藏</text><text x="690" y="780" class="t m">Kangyur · Tengyur</text></g>
+<g><circle cx="940" cy="720" r="24" class="p"/><text x="900" y="780" class="t n">Mongolia / 蒙古</text></g>
+<rect x="90" y="150" width="440" height="150" rx="24" fill="#fff" stroke="#E7DFD2"/><text x="125" y="195" class="t n">Three different maps should coexist</text><text x="125" y="230" class="t m">① Transmission / 传播路线</text><text x="125" y="255" class="t m">② Manuscript finds / 写本发现地</text><text x="125" y="280" class="t m">③ Modern holdings / 今日馆藏地</text>
+<rect x="1030" y="780" width="490" height="130" rx="24" fill="#fff" stroke="#E7DFD2"/><text x="1065" y="825" class="t n">Never collapse these into one dot.</text><text x="1065" y="858" class="t m">一部经的传播地、翻译地、出土地、收藏地可能完全不同。</text>
+</svg>
