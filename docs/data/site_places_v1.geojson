@@ -1,0 +1,465 @@
+{
+  "type": "FeatureCollection",
+  "name": "Dharma Atlas Places v0.3",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bodh_gaya",
+        "name_en": "Bodh Gaya",
+        "name_zh": "菩提伽耶",
+        "layer": "early_buddhism",
+        "note": "Sacred geography / historical teaching context"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9914,
+          24.695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sarnath",
+        "name_en": "Sarnath",
+        "name_zh": "鹿野苑",
+        "layer": "early_buddhism",
+        "note": "Traditional site of first sermon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0219,
+          25.3811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rajgir",
+        "name_en": "Rajgir",
+        "name_zh": "王舍城",
+        "layer": "early_buddhism",
+        "note": "Early Buddhist narrative and monastic geography"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.421,
+          25.026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nalanda",
+        "name_en": "Nālandā",
+        "name_zh": "那烂陀",
+        "layer": "indian_buddhism",
+        "note": "Major scholastic center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4437,
+          25.1367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "taxila",
+        "name_en": "Taxila / Gandhāra",
+        "name_zh": "犍陀罗 / 塔克西拉",
+        "layer": "gandhara",
+        "note": "Gandhāran manuscript and transmission region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8397,
+          33.7463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "peshawar",
+        "name_en": "Peshawar",
+        "name_zh": "白沙瓦",
+        "layer": "gandhara",
+        "note": "Historic Gandhāran center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.5249,
+          34.0151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bamiyan",
+        "name_en": "Bamiyan",
+        "name_zh": "巴米扬",
+        "layer": "central_asia",
+        "note": "Buddhist art/manuscript transit region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.8273,
+          34.8216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kucha",
+        "name_en": "Kucha",
+        "name_zh": "龟兹",
+        "layer": "central_asia",
+        "note": "Translation/transmission center on Silk Road"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.963,
+          41.717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "khotan",
+        "name_en": "Khotan",
+        "name_zh": "于阗",
+        "layer": "central_asia",
+        "note": "Buddhist manuscript and translation center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9135,
+          37.1143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "turfan",
+        "name_en": "Turfan",
+        "name_zh": "吐鲁番",
+        "layer": "central_asia",
+        "note": "Multilingual manuscript finds"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.1895,
+          42.9513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dunhuang",
+        "name_en": "Dunhuang",
+        "name_zh": "敦煌",
+        "layer": "dunhuang",
+        "note": "Cave 17 manuscript hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.662,
+          40.142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "changan",
+        "name_en": "Chang'an / Xi'an",
+        "name_zh": "长安",
+        "layer": "china_translation",
+        "note": "Major Chinese translation and Buddhist center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.9398,
+          34.3416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "luoyang",
+        "name_en": "Luoyang",
+        "name_zh": "洛阳",
+        "layer": "china_translation",
+        "note": "Early Chinese Buddhist translation center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.454,
+          34.6197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lhasa",
+        "name_en": "Lhasa",
+        "name_zh": "拉萨",
+        "layer": "tibet",
+        "note": "Tibetan Buddhist textual center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.1721,
+          29.652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dege",
+        "name_en": "Dege",
+        "name_zh": "德格",
+        "layer": "tibet",
+        "note": "Dege Kangyur/Tengyur woodblock center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.579,
+          31.806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "anuradhapura",
+        "name_en": "Anuradhapura",
+        "name_zh": "阿努拉德普勒",
+        "layer": "pali",
+        "note": "Sri Lankan Pāli textual tradition"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4037,
+          8.3114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "haeinsa",
+        "name_en": "Haeinsa",
+        "name_zh": "海印寺",
+        "layer": "korea",
+        "note": "Tripitaka Koreana woodblocks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.0983,
+          35.8007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nara",
+        "name_en": "Nara",
+        "name_zh": "奈良",
+        "layer": "japan",
+        "note": "Japanese Buddhist textual heritage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8048,
+          34.6851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tokyo",
+        "name_en": "Tokyo",
+        "name_zh": "东京",
+        "layer": "modern_research",
+        "note": "SAT / NDL and modern Buddhist studies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "taipei",
+        "name_en": "Taipei",
+        "name_zh": "台北",
+        "layer": "modern_research",
+        "note": "CBETA / NTU / DILA digital Buddhist studies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5654,
+          25.033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "london",
+        "name_en": "London",
+        "name_zh": "伦敦",
+        "layer": "modern_holding",
+        "note": "British Library / IDP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1276,
+          51.5072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "paris",
+        "name_en": "Paris",
+        "name_zh": "巴黎",
+        "layer": "modern_holding",
+        "note": "BnF Pelliot collections"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cambridge_uk",
+        "name_en": "Cambridge UK",
+        "name_zh": "剑桥",
+        "layer": "modern_holding",
+        "note": "Cambridge Buddhist Sanskrit manuscripts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1218,
+          52.2053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "washington_dc",
+        "name_en": "Washington DC",
+        "name_zh": "华盛顿",
+        "layer": "modern_holding",
+        "note": "Library of Congress Gandhara/Tibetan collections"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cambridge_ma",
+        "name_en": "Cambridge MA",
+        "name_zh": "剑桥（美国）",
+        "layer": "modern_holding",
+        "note": "Harvard-Yenching Tibetan/East Asian collections"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1097,
+          42.3736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "beijing",
+        "name_en": "Beijing",
+        "name_zh": "北京",
+        "layer": "modern_holding",
+        "note": "National Library of China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seattle",
+        "name_en": "Seattle",
+        "name_zh": "西雅图",
+        "layer": "modern_research",
+        "note": "Early Buddhist Manuscripts Project"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3321,
+          47.6062
+        ]
+      }
+    }
+  ]
+}
