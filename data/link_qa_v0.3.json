@@ -1,0 +1,162 @@
+{
+  "version": "0.3",
+  "checked_at": "2026-09-19",
+  "method_zh": "使用网页抓取/搜索验证主入口是否仍可达。web_fetch_ok=抓取成功；dynamic_or_crawler_blocked=站点为动态站或抓取器失败，不等于死链；redirect_updated=发现官方迁移并已修正数据库。",
+  "checks": [
+    {
+      "source_id": "cbeta",
+      "url": "https://cbeta.org/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "suttacentral",
+      "url": "https://suttacentral.net/",
+      "status": "web_fetch_ok_dynamic_js"
+    },
+    {
+      "source_id": "84000",
+      "url": "https://84000.co/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "bdrc",
+      "url": "https://www.bdrc.io/",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "sat",
+      "url": "https://21dzk.l.u-tokyo.ac.jp/SAT/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "gandhari",
+      "url": "https://gandhari.org/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "idp",
+      "url": "https://idp.bl.uk/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/",
+      "status": "web_fetch_ok_empty_index"
+    },
+    {
+      "source_id": "dsbc",
+      "url": "https://www.dsbcproject.org/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "ntu_dlbs",
+      "url": "https://dlbs.liberal.ntu.edu.tw/en/index.jsp",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "dila_authority",
+      "url": "https://authority.dila.edu.tw/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "bdk",
+      "url": "https://www.bdk.or.jp/english/english_tripitaka/publication_project.html",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "tipitaka_org",
+      "url": "https://www.tipitaka.org/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "tipitakapali",
+      "url": "https://tipitakapali.org/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "pts",
+      "url": "https://palitextsociety.org/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "adarshah",
+      "url": "https://adarshah.org/",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "openpecha",
+      "url": "https://openpecha.org/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "dharmanexus",
+      "url": "https://dharmamitra.org/nexus",
+      "status": "redirect_updated"
+    },
+    {
+      "source_id": "inbuds",
+      "url": "https://www.inbuds.net/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "worldcat",
+      "url": "https://search.worldcat.org/",
+      "status": "web_fetch_ok_dynamic_js"
+    },
+    {
+      "source_id": "ndl_search",
+      "url": "https://www.ndl.go.jp/en/use/service",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "nlc_ancient",
+      "url": "https://www.nlc.cn/pcab/zy/zhgj_zyk/",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "bnf_gallica",
+      "url": "https://www.bnf.fr/fr/manuscrits-du-monde-asie-centrale-et-orientale",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "loc_asian",
+      "url": "https://guides.loc.gov/tibetan-collection",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "cambridge_ul",
+      "url": "https://www.lib.cam.ac.uk/collections/departments/south-asian-tibetan-and-southeast-asian-collections",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "harvard_yenching",
+      "url": "https://library.harvard.edu/collections/tibetan-collection",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "ebmp",
+      "url": "https://asian.washington.edu/early-buddhist-manuscripts-project",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "kabc_dongguk",
+      "url": "https://kabc.dongguk.edu/",
+      "status": "web_search_verified_dynamic"
+    },
+    {
+      "source_id": "ngmcp",
+      "url": "https://www.aai.uni-hamburg.de/en/forschung/ngmcp",
+      "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "nlt_digital",
+      "url": "https://digital.nlt.go.th/dlib/",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "sri_lanka_national_library",
+      "url": "https://www.natlib.lk/NLSL/",
+      "status": "web_fetch_ok"
+    }
+  ]
+}
