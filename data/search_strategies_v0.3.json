@@ -116,7 +116,7 @@
           "step": 4,
           "action": "需要跨语种时用BuddhaNexus/OpenPecha发现相似段落，再回原典人工确认。",
           "sources": [
-            "buddhanexus",
+            "dharmanexus",
             "openpecha"
           ]
         }
@@ -231,7 +231,7 @@
             "bdrc",
             "gretil",
             "dsbc",
-            "buddhanexus"
+            "dharmanexus"
           ]
         },
         {
