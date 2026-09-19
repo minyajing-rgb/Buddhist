@@ -1,0 +1,24 @@
+{
+  "version": "0.6",
+  "updated_at": "2026-09-19",
+  "total": 100,
+  "l3_pass": 100,
+  "l3_fail": [],
+  "verified_chinese_crosswalk_records": 21,
+  "official_suttacentral_parallel_records": 25,
+  "checks": {
+    "direct_authority_route": 100,
+    "version_or_edition_route": 100,
+    "material_context_or_exact_witness": 100,
+    "physical_access_route": 100,
+    "explicit_gap_tracking": 100
+  },
+  "next_L4_gates": [
+    "work-specific chronology for 100/100",
+    "item-level witness/shelfmark where available",
+    "paper/book-level bibliography per priority work",
+    "attributed scholarly dispute positions",
+    "more exact Chinese/Sanskrit/Tibetan version relations for multi-recension works"
+  ],
+  "rule": "100/100 L3 means evidence-navigation complete enough for an atlas. It does NOT mean every historical question is solved."
+}
