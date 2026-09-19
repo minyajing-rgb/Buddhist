@@ -1,6 +1,6 @@
 {
   "project": "Dharma Atlas",
-  "database_version": "0.6",
+  "database_version": "0.4.1",
   "updated_at": "2026-09-19",
   "phase": "DATABASE_FIRST",
   "public_site_rebuild": "LOCKED_UNTIL_DB_GATES_PASS",
@@ -21,7 +21,10 @@
     "checked_source_links": 40,
     "season1_full_episodes": 12,
     "deep_crosswalk_records": 100,
-    "deep_crosswalk_L3": 100
+    "deep_crosswalk_L3": 100,
+    "deep_version_node_strategies": 100,
+    "strong_detailed_crosswalks": 32,
+    "newly_structured_crosswalks": 68
   },
   "canonical_datasets": {
     "sources": "data/source_registry_v0.4.json",
@@ -42,8 +45,8 @@
     "season1": "docs/stories/season1_full.md",
     "work_verification": "data/work_verification_status_v0.4.json",
     "regional_coverage": "data/regional_coverage_matrix_v0.4.json",
-    "deep_crosswalk": "data/deep_crosswalk_100_v0.6.json",
-    "deep_crosswalk_qa": "data/deep_crosswalk_qa_v0.6.json",
+    "deep_crosswalk": "data/deep_crosswalk_100_v0.4.json",
+    "deep_crosswalk_qa": "data/deep_crosswalk_qa_v0.4.json",
     "reusable_skill": "skills/global-knowledge-atlas/SKILL.md"
   },
   "historical_snapshots": [
@@ -61,5 +64,6 @@
     "Direct authority route is not evidence that two texts are identical recensions.",
     "Work, Version, Witness and Parallel are distinct entities.",
     "Public visual assets must use PNG/JPG; legacy SVGs are not final public assets."
-  ]
+  ],
+  "skill": "skills/global-knowledge-atlas/SKILL.md"
 }
