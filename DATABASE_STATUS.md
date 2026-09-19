@@ -1,141 +1,87 @@
-# DATABASE STATUS｜Dharma Atlas v0.6
+# DATABASE STATUS｜Dharma Atlas v0.7 Research Review
 
-> **Current phase: DATABASE FIRST.**  
-> Public HTML remains intentionally paused. The next website will be generated from the canonical datasets after database QA.
+更新：2026-09-19。**已有可运行的完整交互研究版；未认证100部完成深度学术考证，未公开部署正式官网。**
 
-## Current verified coverage
+## 0. 为什么重新审计
 
-| Layer | Current | Status |
+旧记录将“权威入口＋版本字段＋收藏背景”统一标为L3。内容审计发现：100条成书年代未完整填写；100条最初没有条目级书目；95条没有写本链接；集合背景被用于解释实物维度。这样的L3口径不能表示用户要求的深度考证。
+
+因此保留旧 `crosswalk_level` 作为 `reported_level_legacy`，另列审阅字段和逐部缺口。新等级采用skill v1.1的严格定义，不再通过改变定义制造“完成”。
+
+另发现CURRENT曾指向v0.4旧schema，而v0.6已有更完整的版本/关系结构。本轮已显式恢复v0.6基线，并为权威导入加入schema防回退门禁。
+
+## 1. 实际产物与覆盖
+
+|维度|结果|解释|
 |---|---:|---|
-| Authoritative online source/platform entries | **44** | ✅ |
-| Physical library/archive access entries | **17** | ✅ |
-| Geographic map nodes | **27** | ✅ |
-| People / transmission nodes | **20** | ✅ |
-| Full-corpus entry points | **15** | ✅ |
-| Representative key works | **100** | ✅ |
-| Work access records with ≥1 direct authority route | **100 / 100** | ✅ |
-| L3 deep crosswalk records | **100 / 100** | ✅ unified evidence-navigation layer |
-| L4 scholar-grade crosswalks | **0 / 100** | 🟡 chronology + item witness + bibliography next |
-| Concept-learning entries | **20** | ✅ |
-| Learning paths | **5** | ✅ |
-| Search/research workflows | **6** | ✅ |
-| Landmark manuscript/material witnesses | **24** | 🟡 target 50+ |
-| Research-dispute dossiers | **12** | 🟡 paper/book bibliography next |
-| Season 1 readable episodes | **12 / 12** | ✅ |
+|代表作品|100|基线已有；不是本轮新增100部，不是全部佛教文献。|
+|逐部研究审阅档案|100|`docs/review/work-dossiers/`；正文、结构化记录和缺口都保留。|
+|来源平台|44|平台不是44个独立的每条论点证据。|
+|馆藏/研究机构|17|研究目标馆不自动等于具体作品持有馆。|
+|人物|32|旧20的统计已修正。|
+|地理节点|28|27原节点＋加德满都谷地区域参考点。|
+|实物/收藏记录|24|同时含对象与集合；不能统称24件已匹配的单部经原件。|
+|权威元数据|60部 / 73条|固定CBETA、84000来源commit；29条是来源快照中的占位记录。|
+|书目关联|18部 / 886条|作品内按完整引用去重；跨作品标准化去重776条。包括版本与研究资料，不是已读论文。|
+|新增特定阅读引导|68条|替换通用占位介绍；属于编辑的阅读问题，不是新历史发现。|
+|本轮逐项核对的作品—见证|2部|《金刚经》868年印本、《八千颂般若》1015年写本。|
+|本轮实物字段校正|3个对象|另有LOC犍陀罗卷轴的馆藏号、访问方式。|
+|来源明确的事件|7|印制、写本完成、后跋、机构成立、购藏、数字公布分型。|
+|旧平行分类冲突|18部|full/resembling列表重叠；保留并标记，等待来源级判读。|
+|可读故事|12集|既有正文接入可展开阅读，教学层不自动等于逐句学术认证。|
+|跨学科方法卡|33|各含问题、操作、交付物、错误门禁。|
+|公开格式图解|6张PNG|既有项目示意图导出；不是历史物件影像。|
 
-## Important correction to the old status
+机器统计：[research_audit_v0.7.json](data/research_audit_v0.7.json)。构建输入哈希与版本位于每次成功构建的 `build/release-manifest.json`。
 
-The old v0.3 status said **46 works still lacked an ID crosswalk**.  
-That is now stale.
+## 2. 有来源的具体修正
 
-Current reality:
-- all **100 works have at least one direct authority route** in `text_access_index_100_v0.3.json`;
-- the work records carry authority-level verification statuses across CBETA / SuttaCentral / 84000 / GRETIL / Tipitaka / Adarshah routes;
-- however only the first **32** currently have the deeper v0.2-style Work/Version/parallel foundation.
+见 [review_addendum_v0.7.json](data/review_addendum_v0.7.json)。
 
-So the remaining task is **not “find any source for 68 works.”**  
-It is to deepen them from **authority route → scholar-grade crosswalk**:
+**Cambridge Add.1643**：替换原混淆的Add.1464；写本完成于1015年，1139年后跋单独记录。Jinah Kim 2025论文题名、摘要、导言与相关图注已用于核对。未把它的所有解释或整篇论文标成独立复核。
 
-```
-Work
-→ Versions / recensions
-→ canonical IDs
-→ parallel relations
-→ chronology
-→ manuscript / print witnesses
-→ physical holdings
-→ paper/book bibliography
-→ confidence statement
-```
+**《金刚经》Or.8210/P.2**：868年是这件印本日期，不是作品成书日期，也不是“最早所有类型见证”的自动判断。IDP目录中的Harrison 2010书目已定位，论文全文未读。
 
-## v0.4 regional expansion completed
+**LOC犍陀罗卷轴**：馆藏号BQ4670 .G36 / LCCN2018305008；现代购藏和数字化日期独立登记。实体脆弱、在线影像与原件访问权限分开。
 
-New/expanded coverage:
-- Korea: Dongguk KABC / integrated Buddhist archive
-- Nepal: NGMCP / National Archives route
-- Sri Lanka: National Library palm-leaf collection
-- Thailand: National Library Ancient Manuscript DB + D-Library
-- Myanmar: National Library Buddhist Literature + Palm-leaf Digital Collections
-- Mongolia: National Library Tibetan/Mongolian catalog + BDRC-linked digitization
+**真谛—《起信论》关系字段**：把与原备注冲突的author改为传统归属的译者关系；不宣称凭此解决历史归属争议。
 
-See:
-- `data/regional_coverage_matrix_v0.4.json`
-- `docs/research/GLOBAL_INDEX_METHOD.md`
-- `docs/research/OFFLINE_ACCESS_GUIDE.md`
+## 3. 仍未通过的研究门禁
 
-## Remaining gates before website build
+### A. 100部深度Crosswalk
 
-### Gate A — deepen 100 key works
-- [x] 100 work records
-- [x] 100/100 direct authority routes
-- [x] 100/100 L3 deep Crosswalk records
-- [x] 100/100 direct authority routes
-- [x] 100/100 typed Version/Edition routes
-- [x] 100/100 physical/material access context
-- [x] SuttaCentral official typed parallel extraction for the Pāli sutta batch
-- [x] verified Chinese version IDs added where directly checked
-- [ ] L4: work-specific chronology for 100/100
-- [ ] L4: item-level witness / shelfmark where available
-- [ ] L4: paper/book-level bibliography and attributed scholarly positions
+记录结构与可浏览档案已覆盖100部。完整成书年代论证仍未完成100/100；绝大多数确切见证与逐篇学术争议仍待补。18部平行分类重叠须重新核源。不能将此状态改写成“100部深度考证完成”。
 
-### Gate B — physical evidence
-- [x] 24 landmark witnesses/collections
-- [ ] expand to 50+
-- [ ] add more item-level shelfmarks / stable image or IIIF routes
-- [ ] connect more witnesses directly to works
+### B. 物质证据
 
-### Gate C — scholarly bibliography
-- [x] 12 issue dossiers
-- [ ] paper/book-level entries
-- [ ] attributed scholarly positions
-- [ ] DOI / stable URL / year / language
+24条现有实物/集合记录，目标50+未达成。每次扩展应优先补确切馆藏号、影像链接、日期类型、作品关系与访问限制，不靠新增馆名凑数。
 
-### Gate D — media
-- [ ] project PNG/JPG asset package under `docs/assets/img/`
-- [ ] YouTube / public video registry
-- [ ] 3D / IIIF-compatible media fields
-- [ ] rights QA per asset
+### C. 书目与争议
 
-## Definition of done before HTML
+18部有书目关联，82部还没有。已导入资料需继续拆分原典版本、论文、专著、评论与目录；机器识别的作者、题名、年份以原始完整引用为准。必须逐项阅读并记录谁提出什么、依据什么、反证是什么。
 
-The database must reliably answer:
+### D. 媒体
 
-1. 我从零开始怎么学？
-2. 某部经在线在哪里读？
-3. 它有哪些语言、版本和编号？
-4. 原文是否存世？
-5. 最早实体证据是什么？
-6. 如果线上没有，原件在哪？
-7. 怎么预约、申请复制或查 shelfmark？
-8. 学术界对它争什么？
-9. 我要只看故事 / 图 / 视频，入口在哪里？
-10. 我要做专业 crosswalk，如何从 Work 追到 Witness？
+6张项目PNG图解与2个官方媒体外链已接入。没有宣称拥有本地授权视频、3D模型、全部原件图像或IIIF完整整合。新增第三方媒体必须逐项确认许可。
 
-**Until these gates pass, do not call the public product complete and do not rebuild the website shell.**
+### E. 产品和发布
 
+七个模块的研究网站可构建、可离线打开，有实际数据、故事、地图、对比与图解。浏览器验收与限制单独记录，不用编译成功代替实际交互测试。
 
-## v0.6 Crosswalk milestone
+**正式学术内容门禁仍未通过，公网正式官网未部署。** `docs/review/index.html`是审阅版，不通过换名消除未完成事项。既有 `docs/index.html`不覆盖。
 
-`data/deep_crosswalk_100_v0.6.json` is now the canonical 100-work Crosswalk layer.
+## 4. 下一轮的固定推进顺序
 
-**L3 means:** authority route + typed version/edition route + material/physical access context + explicit relationship/gap tracking.
+1. 先解18部平行分类冲突，规范作品/合集/传统边界（尤其DA-W-0079、0100）。
+2. 将82部缺失书目补到明确条目；优先原典版本说明、注释书目、关键专著/论文与反方研究。
+3. 逐部记录传统归属、学术推定、翻译纪年、现存见证纪年；每一项有出处，不用现代出版日期替代。
+4. 物质证据24→50+，优先从已精确关联的作品出发，而不是泛增馆藏背景。
+5. 研究缺口关闭后，复核故事和图解中的概括，完成权利与无障碍验收，再进行正式公网发布。
 
-It does **not** mean every composition date, manuscript identity, or scholarly controversy is settled.
+此顺序是项目任务定义，不表示本轮已经执行了尚未完成的步骤。
 
-The next research depth is **L4 Scholar Crosswalk**, not another shallow URL expansion.
+## 5. 可复用流程
 
+[Skill v1.1](skills/global-knowledge-atlas/SKILL.md) → [33方法执行手册](skills/global-knowledge-atlas/references/EXECUTION_PLAYBOOK_v1.1.md) → [资料导入](scripts/collect_authority_metadata.py) → [书目格式处理](scripts/repair_authority_bibliography.py) → [生成100份档案与网站](scripts/build_atlas.py) → [PNG与交互收尾](scripts/finalize_review.py) → 浏览器测试 → 发布门禁。
 
-## Reusable research skill
-
-The process has been extracted into:
-`skills/global-knowledge-atlas/`
-
-It includes:
-- cross-disciplinary database-first workflow;
-- Harvard Divinity School / Harvard Library research-stack notes;
-- academic, archival, textual-critical, digital-humanities methods;
-- public/community/KOL research methods;
-- reusable schemas and QA gates;
-- Buddhist Studies adapter.
-
-The skill is designed to be reused for other disciplines without copying the Buddhist ontology verbatim.
+HDS原则、图书馆路径、口述史与社群伦理、KOL逆向溯源分别注明来源。方法迁移不迁移结论，不宣称哈佛认证。
