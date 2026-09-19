@@ -1,0 +1,31 @@
+{
+  "version": "0.4.1",
+  "updated_at": "2026-09-19",
+  "target": "32 → 100 deep crosswalk",
+  "totals": {
+    "works": 100,
+    "deep_crosswalk_records": 100,
+    "version_node_strategy": 100,
+    "authority_routes": 100,
+    "stronger_legacy_crosswalks": 32,
+    "newly_structured_crosswalks": 68
+  },
+  "passed": [
+    "Every priority work has a canonical Work record.",
+    "Every priority work has at least one authority route.",
+    "Every priority work is now represented in the deep-crosswalk data structure.",
+    "Version/recension identity is explicitly separated from Work identity.",
+    "Pāli records include SuttaCentral canonical version-node routes where available.",
+    "Toh records include Tibetan canonical version nodes and cross-language discovery paths.",
+    "Sanskrit/Tibetan non-canonical works have authority text/index version strategies."
+  ],
+  "not_yet_scholar_complete": [
+    "Attach item-level physical witnesses/shelfmarks for priority works where extant.",
+    "Add work-specific chronology with cited bibliography.",
+    "Add 3–8 paper/book bibliography records per priority work.",
+    "Encode attributed scholarly disagreements.",
+    "For early Buddhist texts, materialize SuttaCentral parallel IDs into typed relation edges.",
+    "For Mahāyāna works, verify Chinese Taishō IDs and Sanskrit edition/manuscript nodes individually."
+  ],
+  "rule": "100/100 deep-crosswalk structure does not mean 100/100 L5 scholar-complete. Pending fields remain explicitly marked."
+}
