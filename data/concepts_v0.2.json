@@ -1,0 +1,203 @@
+{
+  "version": "0.2",
+  "concepts": [
+    {
+      "id": "dukkha",
+      "zh": "苦",
+      "en": "dukkha / suffering",
+      "start_with": [
+        "DA-W-0005"
+      ],
+      "question": "佛教说的‘苦’到底是不是‘人生很惨’？"
+    },
+    {
+      "id": "anicca",
+      "zh": "无常",
+      "en": "impermanence",
+      "start_with": [
+        "DA-W-0007"
+      ],
+      "question": "为什么变化本身会成为修行核心？"
+    },
+    {
+      "id": "anatta",
+      "zh": "无我",
+      "en": "not-self",
+      "start_with": [
+        "DA-W-0006"
+      ],
+      "question": "‘无我’等于‘我不存在’吗？"
+    },
+    {
+      "id": "dependent_arising",
+      "zh": "缘起",
+      "en": "dependent arising",
+      "start_with": [
+        "DA-W-0003",
+        "DA-W-0025"
+      ],
+      "question": "缘起如何从早期教义走到中观哲学？"
+    },
+    {
+      "id": "karma",
+      "zh": "业",
+      "en": "karma",
+      "start_with": [
+        "DA-W-0026",
+        "DA-W-0001"
+      ],
+      "question": "业是命运、惩罚，还是因果模型？"
+    },
+    {
+      "id": "rebirth",
+      "zh": "轮回/再生",
+      "en": "rebirth",
+      "start_with": [
+        "DA-W-0001",
+        "DA-W-0019"
+      ],
+      "question": "不同佛教传统怎样解释死后再生？"
+    },
+    {
+      "id": "nirvana",
+      "zh": "涅槃",
+      "en": "nirvāṇa / nibbāna",
+      "start_with": [
+        "DA-W-0007",
+        "DA-W-0020"
+      ],
+      "question": "早期‘涅槃’与大乘‘大般涅槃’是不是同一套说法？"
+    },
+    {
+      "id": "mindfulness",
+      "zh": "念/正念",
+      "en": "mindfulness",
+      "start_with": [
+        "DA-W-0008"
+      ],
+      "question": "现代 mindfulness 和经典 satipaṭṭhāna 差在哪里？"
+    },
+    {
+      "id": "metta",
+      "zh": "慈",
+      "en": "loving-kindness",
+      "start_with": [
+        "DA-W-0011"
+      ],
+      "question": "慈心是情绪、伦理还是禅修技术？"
+    },
+    {
+      "id": "emptiness",
+      "zh": "空",
+      "en": "śūnyatā / emptiness",
+      "start_with": [
+        "DA-W-0013",
+        "DA-W-0014",
+        "DA-W-0025"
+      ],
+      "question": "‘空’为什么不等于‘什么都没有’？"
+    },
+    {
+      "id": "bodhisattva",
+      "zh": "菩萨",
+      "en": "bodhisattva",
+      "start_with": [
+        "DA-W-0015",
+        "DA-W-0016"
+      ],
+      "question": "菩萨从早期用法如何演化成大乘核心角色？"
+    },
+    {
+      "id": "prajna",
+      "zh": "般若",
+      "en": "prajñā / wisdom",
+      "start_with": [
+        "DA-W-0013",
+        "DA-W-0014",
+        "DA-W-0024"
+      ],
+      "question": "般若经为什么会从十万颂压缩到几百字？"
+    },
+    {
+      "id": "buddha_nature",
+      "zh": "佛性/如来藏",
+      "en": "buddha-nature / tathāgatagarbha",
+      "start_with": [
+        "DA-W-0020",
+        "DA-W-0029",
+        "DA-W-0031"
+      ],
+      "question": "佛性是‘灵魂’吗？不同传统为什么回答不同？"
+    },
+    {
+      "id": "pure_land",
+      "zh": "净土",
+      "en": "Pure Land",
+      "start_with": [
+        "DA-W-0018",
+        "DA-W-0019"
+      ],
+      "question": "极乐世界在不同文本里长什么样？"
+    },
+    {
+      "id": "mind_only",
+      "zh": "唯识",
+      "en": "consciousness-only",
+      "start_with": [
+        "DA-W-0022",
+        "DA-W-0028"
+      ],
+      "question": "唯识是不是‘世界只是我的脑内幻觉’？"
+    },
+    {
+      "id": "middle_way",
+      "zh": "中道",
+      "en": "middle way",
+      "start_with": [
+        "DA-W-0005",
+        "DA-W-0025"
+      ],
+      "question": "早期中道与龙树中观之间是什么关系？"
+    },
+    {
+      "id": "skillful_means",
+      "zh": "方便",
+      "en": "skillful means / upāya",
+      "start_with": [
+        "DA-W-0015"
+      ],
+      "question": "为什么佛经会允许‘针对不同人说不同话’？"
+    },
+    {
+      "id": "social_ethics",
+      "zh": "家庭与社会伦理",
+      "en": "social ethics",
+      "start_with": [
+        "DA-W-0010"
+      ],
+      "question": "佛教经典如何讲亲子、伴侣、朋友、员工与财富？"
+    },
+    {
+      "id": "textual_criticism",
+      "zh": "版本与真经",
+      "en": "textual criticism",
+      "start_with": [
+        "DA-W-0007",
+        "DA-W-0014",
+        "DA-W-0029",
+        "DA-W-0030"
+      ],
+      "question": "我们怎样知道一段话可能早、可能晚、或来源不明？"
+    },
+    {
+      "id": "buddha_story",
+      "zh": "佛陀生平",
+      "en": "Buddha biography",
+      "start_with": [
+        "DA-W-0007",
+        "DA-W-0032"
+      ],
+      "question": "历史佛陀与后世文学化佛传之间怎么区分？"
+    }
+  ]
+}
