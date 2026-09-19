@@ -108,3 +108,32 @@ Reference overview
 → public interpretation
 → QA
 ```
+
+
+## 9. 2026 verified HDS research stack
+
+Current HDS Library workflow confirms a **multi-engine search strategy**:
+
+1. **HOLLIS** — books, articles, journals, media and broad library discovery.
+2. **Religion Databases Cross-Search** — HDS currently cross-searches resources including ATLA Religion Database with ATLASerials PLUS, Bibliography of Asian Studies, Index Islamicus, Index to Jewish Periodicals, New Testament Abstracts, Old Testament Abstracts, Philosopher's Index and others.
+3. **Research Guides** — HDS maintains subject guides including a Buddhism research guide and Biblical Studies resources.
+4. **HOLLIS for Archival Discovery** — finding aids / archival collection discovery.
+5. **HOLLIS Special Request** — reading-room requests and copy/reproduction requests; a Harvard ID is not required to create the request account.
+6. **Special Collections** — rare books, manuscripts, archives, photographs and material-culture sources; HDS states these are open to interested researchers subject to registration and access procedures.
+7. **Research librarian consultation** — HDS explicitly offers help developing research strategy, building exhaustive bibliographies, identifying sources, and obtaining research materials worldwide.
+8. **Citation + research writing** — Zotero and disciplinary writing guides.
+9. **Open-access outputs** — DASH and HDS open-access infrastructure.
+
+Method lesson for any field:
+**discovery catalog ≠ specialist index ≠ finding aid ≠ object request system.**
+Use the correct layer for the question.
+
+Verified official references:
+- https://library.hds.harvard.edu/
+- https://library.hds.harvard.edu/research/research-guides
+- https://library.hds.harvard.edu/services
+- https://library.hds.harvard.edu/collections/special-collections/research
+- https://library.harvard.edu/services-tools/hollis-catalog
+- https://library.harvard.edu/services-tools/hollis-archival-discovery
+- https://library.harvard.edu/services-tools/hollis-special-request
+- https://library.harvard.edu/how-to/research-special-collections-and-archives
