@@ -1,10 +1,25 @@
 {
   "url": "https://minyajing-rgb.github.io/Buddhist/",
-  "passed": 56,
-  "total": 56,
+  "passed": 59,
+  "total": 59,
   "checks": [
     {
       "name": "Homepage visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Six visual exploration portals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gamified journey entry visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Journey drawer opens",
       "passed": true,
       "detail": null
     },
@@ -285,7 +300,7 @@
     }
   ],
   "javascript_errors": [],
-  "tested_at": "2026-09-19T12:18:09Z",
+  "tested_at": "2026-09-19T12:45:28Z",
   "limits": [
     "UI and serving-boundary tests are not scholarly certification.",
     "Public repository visibility is unchanged.",

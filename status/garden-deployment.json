@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-19T12:17:44.076875+00:00",
+  "built_at": "2026-09-19T12:44:57.088787+00:00",
   "ui_release": "garden-1.0.1",
   "counts": {
     "works": 100,
@@ -53,8 +53,8 @@
   "url": "https://minyajing-rgb.github.io/Buddhist/",
   "status": "published_and_https_hash_verified",
   "http_status": 200,
-  "verified_at": "2026-09-19T12:18:01.317906+00:00",
-  "workflow_run": "35442417542",
-  "source_commit": "383b8dabfa4057b9bb7809642aa035c236818429",
+  "verified_at": "2026-09-19T12:45:16.705908+00:00",
+  "workflow_run": "35443720453",
+  "source_commit": "ec7d6516a3e946694e9d94162d501019a717bada",
   "quantum_preserved": true
 }
