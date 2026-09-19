@@ -1,5 +1,5 @@
 {
-  "version": "0.3",
+  "version": "0.3.1",
   "people": [
     {
       "id": "buddha",
@@ -374,6 +374,230 @@
         "early Buddhism"
       ],
       "learn_hook": "现代早期佛典平行研究怎样比较汉阿含与巴利尼柯耶。"
+    },
+    {
+      "id": "asvaghosa",
+      "name_zh": "马鸣",
+      "name_en": "Aśvaghoṣa",
+      "role": [
+        "poet",
+        "author"
+      ],
+      "period": "c. 1st–2nd century CE",
+      "regions": [
+        "India"
+      ],
+      "themes": [
+        "Buddhacarita",
+        "Sanskrit Buddhist literature"
+      ],
+      "learn_hook": "《佛所行赞》背后的梵文佛传诗人节点；适合连接佛陀生平与文学化过程。"
+    },
+    {
+      "id": "aryasura",
+      "name_zh": "圣勇",
+      "name_en": "Āryaśūra",
+      "role": [
+        "poet",
+        "author"
+      ],
+      "period": "early centuries CE; exact dating debated",
+      "regions": [
+        "India"
+      ],
+      "themes": [
+        "Jātakamālā",
+        "Buddhist narrative"
+      ],
+      "learn_hook": "本生故事如何从教义材料变成高度文学化的梵文作品。"
+    },
+    {
+      "id": "santideva",
+      "name_zh": "寂天",
+      "name_en": "Śāntideva",
+      "role": [
+        "author",
+        "philosopher"
+      ],
+      "period": "c. 8th century CE",
+      "regions": [
+        "India",
+        "Nālandā tradition"
+      ],
+      "themes": [
+        "Bodhicaryāvatāra",
+        "bodhisattva ethics",
+        "Madhyamaka"
+      ],
+      "learn_hook": "为什么《入菩萨行论》至今仍是全球最常学的菩萨道文本之一。"
+    },
+    {
+      "id": "dignaga",
+      "name_zh": "陈那",
+      "name_en": "Dignāga",
+      "role": [
+        "philosopher",
+        "logician"
+      ],
+      "period": "c. 5th–6th century CE",
+      "regions": [
+        "India"
+      ],
+      "themes": [
+        "epistemology",
+        "logic",
+        "Pramāṇasamuccaya"
+      ],
+      "learn_hook": "佛教如何发展出一整套知识论与逻辑学。"
+    },
+    {
+      "id": "dharmakirti",
+      "name_zh": "法称",
+      "name_en": "Dharmakīrti",
+      "role": [
+        "philosopher",
+        "logician"
+      ],
+      "period": "c. 7th century CE",
+      "regions": [
+        "India"
+      ],
+      "themes": [
+        "epistemology",
+        "logic",
+        "Pramāṇavārttika"
+      ],
+      "learn_hook": "从‘什么算可靠知识’进入印度佛教逻辑传统。"
+    },
+    {
+      "id": "candrakirti",
+      "name_zh": "月称",
+      "name_en": "Candrakīrti",
+      "role": [
+        "philosopher",
+        "commentator"
+      ],
+      "period": "c. 7th century CE",
+      "regions": [
+        "India"
+      ],
+      "themes": [
+        "Madhyamaka",
+        "Madhyamakāvatāra",
+        "Prasannapadā"
+      ],
+      "learn_hook": "中观思想为何会出现不同解释传统，以及西藏为何如此重视月称。"
+    },
+    {
+      "id": "aryadeva",
+      "name_zh": "提婆",
+      "name_en": "Āryadeva",
+      "role": [
+        "philosopher",
+        "author"
+      ],
+      "period": "c. 3rd century CE",
+      "regions": [
+        "India"
+      ],
+      "themes": [
+        "Madhyamaka",
+        "Catuḥśataka"
+      ],
+      "learn_hook": "从龙树到提婆，中观如何成为持续发展的论证传统。"
+    },
+    {
+      "id": "tsongkhapa",
+      "name_zh": "宗喀巴",
+      "name_en": "Tsongkhapa Losang Drakpa",
+      "role": [
+        "author",
+        "teacher",
+        "philosopher"
+      ],
+      "period": "1357–1419",
+      "regions": [
+        "Tibet"
+      ],
+      "themes": [
+        "Lamrim Chenmo",
+        "Madhyamaka",
+        "Gelug"
+      ],
+      "learn_hook": "把浩瀚经论重新组织成‘道次第’学习路径的代表人物。"
+    },
+    {
+      "id": "karma_lingpa",
+      "name_zh": "噶玛林巴",
+      "name_en": "Karma Lingpa",
+      "role": [
+        "tertön",
+        "revealer"
+      ],
+      "period": "14th century",
+      "regions": [
+        "Tibet"
+      ],
+      "themes": [
+        "Bardo Thödol",
+        "Nyingma",
+        "terma"
+      ],
+      "learn_hook": "西方所谓《西藏度亡经》其实属于怎样的伏藏文本传统。"
+    },
+    {
+      "id": "dharmaraksa",
+      "name_zh": "竺法护",
+      "name_en": "Dharmarakṣa",
+      "role": [
+        "translator"
+      ],
+      "period": "c. 3rd century CE",
+      "regions": [
+        "Dunhuang/Central Asia",
+        "Luoyang/China"
+      ],
+      "themes": [
+        "early Chinese Mahāyāna translation"
+      ],
+      "learn_hook": "在鸠摩罗什以前，大量大乘经典已经如何进入汉语世界。"
+    },
+    {
+      "id": "paramartha",
+      "name_zh": "真谛",
+      "name_en": "Paramārtha",
+      "role": [
+        "translator",
+        "scholar"
+      ],
+      "period": "499–569",
+      "regions": [
+        "India",
+        "Southern China"
+      ],
+      "themes": [
+        "Yogācāra",
+        "tathāgatagarbha",
+        "Chinese translation"
+      ],
+      "learn_hook": "《大乘起信论》等来源争议为什么会绕回译者归属和目录史。"
+    },
+    {
+      "id": "bodhiruci",
+      "name_zh": "菩提流支",
+      "name_en": "Bodhiruci",
+      "role": [
+        "translator"
+      ],
+      "period": "6th century CE",
+      "regions": [
+        "India/Central Asia",
+        "Northern China"
+      ],
+      "themes": [
+        "Chinese Mahāyāna translation"
+      ],
+      "learn_hook": "同一部印度佛典为什么在北朝中国会出现另一条翻译与学派传播链。"
     }
   ]
 }
