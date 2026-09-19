@@ -78,7 +78,7 @@
         "dila_catalog",
         "ntu_dlbs",
         "inbuds",
-        "buddhanexus"
+        "dharmanexus"
       ],
       "status": "contested_provenance",
       "output_rule": "不把‘东亚形成可能性’简写为‘假经’，按provenance evidence陈列。"
@@ -178,7 +178,7 @@
         "bdrc",
         "adarshah",
         "84000",
-        "buddhanexus"
+        "dharmanexus"
       ],
       "status": "multi_recension_canon",
       "output_rule": "任何Kangyur引用必须尽量标edition/version，不只写‘藏文大藏经’。"
