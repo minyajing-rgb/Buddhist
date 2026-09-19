@@ -949,6 +949,240 @@
       "downloadable": false,
       "api_or_data": "以馆藏与研究服务为主",
       "verified_from": "https://www.natlib.lk/NLSL/collection/"
+    },
+    {
+      "id": "cbc_attributions",
+      "name": "中文佛典归属数据库 CBC@",
+      "name_en": "Chinese Buddhist Canonical Attributions Database",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://cbc.dila.edu.tw/cbc/",
+      "search_url": "https://cbc.dila.edu.tw/cbc/",
+      "languages": [
+        "Chinese",
+        "English metadata"
+      ],
+      "traditions": [
+        "Chinese Buddhist Canon",
+        "East Asian Buddhism"
+      ],
+      "content_types": [
+        "authority_data",
+        "bibliography",
+        "attribution_research"
+      ],
+      "strengths_zh": "专门记录汉文佛典传统归属、译者/作者、年代等受到质疑的证据与学术论证；非常适合‘伪经/误题/译者归属’专题。",
+      "limitations_zh": "聚焦中文佛典版本的归属问题；数据库中的assertion是研究导航，需要继续读具体引用文献。",
+      "query_how_zh": "按Taishō/Xuzang等文本、传统归属问题和assertions查找。",
+      "downloadable": false,
+      "api_or_data": "user-contributor research database",
+      "verified_from": "https://cbc.dila.edu.tw/cbc/"
+    },
+    {
+      "id": "taisho_base_collation",
+      "name": "大正藏底本・校本数据库",
+      "name_en": "Taishō Tripiṭaka Base and Collation Texts Database",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://taishozo-teihonkohon.toyobunko-lab.jp/en/about",
+      "search_url": "https://taishozo-teihonkohon.toyobunko-lab.jp/",
+      "languages": [
+        "Classical Chinese",
+        "Japanese",
+        "English interface"
+      ],
+      "traditions": [
+        "Taishō Canon",
+        "Chinese Buddhist textual criticism"
+      ],
+      "content_types": [
+        "catalog",
+        "manuscript",
+        "edition",
+        "collation_data"
+      ],
+      "strengths_zh": "直接回答‘大正藏这一部经当年用了什么底本、什么校本、这些原件今天在哪里’；是Dharma Atlas版本链最关键的新入口之一。",
+      "limitations_zh": "目前核心聚焦大正藏汉文部分及其编纂底本/校本；不是全文佛典替代品。",
+      "query_how_zh": "按T号/经名进入，查看base text、collation witnesses、馆藏机构、影像和相关数据库链接。",
+      "downloadable": false,
+      "api_or_data": "bibliographical/holding/image integration",
+      "verified_from": "https://taishozo-teihonkohon.toyobunko-lab.jp/en/about"
+    },
+    {
+      "id": "sarit",
+      "name": "SARIT 印度文献检索",
+      "name_en": "SARIT — Search and Retrieval of Indic Texts",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://sarit.indology.info/exist/apps/sarit/",
+      "search_url": "https://sarit.indology.info/exist/apps/sarit/",
+      "languages": [
+        "Sanskrit",
+        "Indic languages"
+      ],
+      "traditions": [
+        "Indic textual traditions",
+        "selected Buddhist scholastic texts"
+      ],
+      "content_types": [
+        "canon_text",
+        "edition",
+        "digital_humanities"
+      ],
+      "strengths_zh": "可检索、可引用、带版本说明的TEI印度文献库；含部分重要佛教论典与哲学文本，适合梵文词组搜索。",
+      "limitations_zh": "不是佛典全集，规模和选文有限；使用时必须确认具体edition。",
+      "query_how_zh": "IAST/天城文/转写关键词全文检索；按作者与作品浏览；XML/EPUB/PDF下载。",
+      "downloadable": true,
+      "api_or_data": "TEI/XML corpus, GitHub corpus",
+      "verified_from": "https://sarit.indology.info/apps/sarit-pm/docs/welcome.html"
+    },
+    {
+      "id": "digital_silk_road",
+      "name": "数字丝绸之路",
+      "name_en": "Digital Silk Road Project",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://dsr.nii.ac.jp/index.html.en",
+      "search_url": "https://dsr.nii.ac.jp/index.html.en",
+      "languages": [
+        "Japanese",
+        "English",
+        "multilingual historical metadata"
+      ],
+      "traditions": [
+        "Silk Road Buddhism",
+        "Central Asian cultural history"
+      ],
+      "content_types": [
+        "map",
+        "image",
+        "iiif",
+        "3d",
+        "gazetteer",
+        "catalog"
+      ],
+      "strengths_zh": "丝路遗址、旧地图、敦煌/吐鲁番照片、佛教石窟、地名库、IIIF和3D数字档案；未来地图与3D层极有价值。",
+      "limitations_zh": "不是经文全文库；核心价值在地理、图像和数字文化遗产上下文。",
+      "query_how_zh": "按Silk Road ruins、placename、photographs、Buddhist cave temples、3D archives等专题进入。",
+      "downloadable": false,
+      "api_or_data": "IIIF / maps / gazetteer / 3D projects",
+      "verified_from": "https://dsr.nii.ac.jp/index.html.en"
+    },
+    {
+      "id": "tlb_polyglotta",
+      "name": "佛教文献多语对读库 TLB",
+      "name_en": "Thesaurus Literaturae Buddhicae / Bibliotheca Polyglotta",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://www2.hf.uio.no/polyglotta/index.php?bid=2&page=library",
+      "search_url": "https://www2.hf.uio.no/polyglotta/index.php?bid=2&page=library",
+      "languages": [
+        "Sanskrit",
+        "Chinese",
+        "Tibetan",
+        "English",
+        "other aligned languages"
+      ],
+      "traditions": [
+        "Cross-tradition Buddhist literature"
+      ],
+      "content_types": [
+        "parallel_alignment",
+        "canon_text",
+        "manuscript_image"
+      ],
+      "strengths_zh": "逐句呈现梵、汉、藏、英等多语佛典，可并排对读并连接部分原始写本图像。",
+      "limitations_zh": "收录的是精选文本，不是全藏；句对句alignment仍需按具体文本版本理解。",
+      "query_how_zh": "选择specific text后按句阅读，或跨语言关键词搜索，支持synoptic parallel display。",
+      "downloadable": false,
+      "api_or_data": "multilingual aligned corpus",
+      "verified_from": "https://www2.hf.uio.no/polyglotta/index.php?bid=2&page=library"
+    },
+    {
+      "id": "nti_reader",
+      "name": "NTI 中文佛典阅读器",
+      "name_en": "NTI Buddhist Text Reader",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://ntireader.org/",
+      "search_url": "https://ntireader.org/",
+      "languages": [
+        "Classical Chinese",
+        "English",
+        "Pinyin",
+        "Sanskrit lookup"
+      ],
+      "traditions": [
+        "Chinese Buddhist Canon"
+      ],
+      "content_types": [
+        "canon_text",
+        "dictionary",
+        "translation_aid"
+      ],
+      "strengths_zh": "针对普通人和翻译者降低汉文佛典阅读门槛；以大正藏/CBETA文本为基础，提供中英佛教词典、术语和分析工具。",
+      "limitations_zh": "英文释义/翻译与项目自身参考体系相关；关键学术判断仍应回到原典与专业研究。",
+      "query_how_zh": "输入中文佛典、术语或T号；使用dictionary/annotation/translation workflow。",
+      "downloadable": true,
+      "api_or_data": "open-source linguistic artifacts, CC BY 4.0 project materials",
+      "verified_from": "https://ntireader.org/about"
+    },
+    {
+      "id": "ddb",
+      "name": "佛教数字词典 DDB",
+      "name_en": "Digital Dictionary of Buddhism",
+      "authority_level": "scholarly_project",
+      "access": "mixed",
+      "url": "http://www.buddhism-dict.net/ddb/",
+      "search_url": "http://www.buddhism-dict.net/ddb/",
+      "languages": [
+        "Chinese",
+        "Japanese",
+        "Korean",
+        "Sanskrit",
+        "English"
+      ],
+      "traditions": [
+        "East Asian Buddhism",
+        "Buddhist terminology"
+      ],
+      "content_types": [
+        "dictionary",
+        "reference"
+      ],
+      "strengths_zh": "东亚佛教学术语、人物、文本等长期协作型参考工具；SAT等平台可联动查询。",
+      "limitations_zh": "部分访问/检索策略与机构订阅有关；它是reference service，不是佛经全文库。",
+      "query_how_zh": "按汉字/术语检索；在SAT/BDK工作流中作为词典辅助。",
+      "downloadable": false,
+      "api_or_data": "collaborative reference database",
+      "verified_from": "https://www.acmuller.net/articles/20101122-ddb-dongguk.html"
+    },
+    {
+      "id": "chinese_translation_bib",
+      "name": "中文佛典西语翻译书目",
+      "name_en": "Bibliography of Translations from the Chinese Buddhist Canon into Western Languages",
+      "authority_level": "research_bibliography",
+      "access": "open",
+      "url": "https://mbingenheimer.net/tools/bibls/transbibl.html",
+      "search_url": "https://mbingenheimer.net/tools/bibls/transbibl.html",
+      "languages": [
+        "English",
+        "European languages",
+        "Chinese titles"
+      ],
+      "traditions": [
+        "Chinese Buddhist Canon"
+      ],
+      "content_types": [
+        "bibliography",
+        "translation_index"
+      ],
+      "strengths_zh": "按大正藏T号整理汉文佛典译成西方语言的译本书目；截至2026仍持续更新，是‘这部中文经有没有英文/德文/法文翻译’的重要入口。",
+      "limitations_zh": "作者明确说明东欧语言、禅宗等部分仍可能缺漏；不覆盖全部亚洲语言译本。",
+      "query_how_zh": "按T号/经名浏览，查看translator、language、completeness与出版信息。",
+      "downloadable": false,
+      "api_or_data": "working bibliography",
+      "verified_from": "https://mbingenheimer.net/tools/bibls/transbibl.html"
     }
   ]
 }
