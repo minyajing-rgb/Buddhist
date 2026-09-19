@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "entity": "BuddhistTextWork",
+  "required": [
+    "work_id",
+    "titles",
+    "traditions",
+    "relations",
+    "evidence_status"
+  ],
+  "example": {
+    "work_id": "DA-W-000001",
+    "titles": {
+      "zh": [],
+      "en": [],
+      "sa": [],
+      "pi": [],
+      "bo": [],
+      "ja": []
+    },
+    "traditions": [],
+    "canonical_ids": {
+      "cbeta": null,
+      "taisho": null,
+      "suttacentral": null,
+      "pts": null,
+      "toh": null,
+      "bdrc": null,
+      "gandhari": null
+    },
+    "chronology": {
+      "traditional_date": null,
+      "scholarly_range": null,
+      "confidence": null,
+      "notes": null
+    },
+    "relations": [
+      {
+        "type": "close_parallel|partial_parallel|resembling_parallel|translation|recension|quotation|uncertain",
+        "target_work_id": null,
+        "confidence": null
+      }
+    ],
+    "versions": [],
+    "witnesses": [],
+    "translators": [],
+    "attributed_authors": [],
+    "places": {
+      "origin": [],
+      "translation": [],
+      "findspots": [],
+      "holdings": []
+    },
+    "bibliography": [],
+    "evidence_status": {
+      "consensus": [],
+      "probable": [],
+      "disputed": [],
+      "unknown": []
+    }
+  }
+}
