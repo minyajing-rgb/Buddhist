@@ -1,0 +1,38 @@
+{
+  "version": "0.3.1",
+  "run_at": "2026-09-19",
+  "status": "PASS_WITH_OPEN_GATES",
+  "counts": {
+    "sources": 40,
+    "libraries": 15,
+    "places": 27,
+    "people": 20,
+    "corpus_entrypoints": 15,
+    "works": 100,
+    "work_access_records": 100,
+    "concepts": 20,
+    "witnesses": 20,
+    "research_dossiers": 12,
+    "media_assets": 12,
+    "learning_paths": 5,
+    "search_workflows": 6,
+    "checked_source_links": 32,
+    "season1_full_episodes": 12
+  },
+  "structural_checks": {
+    "source_required_fields": "PASS",
+    "library_required_fields": "PASS",
+    "witness_required_fields": "PASS",
+    "all_100_works_have_access_record": "PASS",
+    "source_registry_links_checked": "FAIL",
+    "season1_has_12_full_episodes": "PASS"
+  },
+  "verification_depth": {
+    "strong_crosswalk_batch": 32,
+    "remaining_work_records": "68 discovery-level records still need work/version authority-ID verification",
+    "bibliography": "12 research dossiers exist; paper/book-level bibliography expansion still open",
+    "witness_layer": "20 landmark witnesses/collections; expansion to 50+ open",
+    "media": "rights posture modeled; project-owned PNG/JPG package not yet committed"
+  },
+  "website_gate": "DO_NOT_REBUILD_YET"
+}
