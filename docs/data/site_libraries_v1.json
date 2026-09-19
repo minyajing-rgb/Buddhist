@@ -1,0 +1,517 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "british_library",
+      "name": "British Library",
+      "city": "London",
+      "country": "UK",
+      "coordinates": [
+        -0.1276,
+        51.5299
+      ],
+      "strengths": [
+        "Gandhāran birch-bark manuscripts",
+        "Dunhuang/Stein collections",
+        "Central Asian manuscripts",
+        "Pāli and Asian printed collections"
+      ],
+      "online_first": [
+        "International Dunhuang Programme",
+        "British Library catalogue/digital collections"
+      ],
+      "onsite_when": "需要看未数字化原件、特殊装帧/材料细节、完整档案记录时",
+      "access_steps": [
+        "先查IDP/馆藏目录",
+        "记录shelfmark/pressmark",
+        "查看Asian & African Studies阅览资格",
+        "稀见原件提前预约"
+      ],
+      "source_urls": [
+        "https://idp.bl.uk/",
+        "https://www.bl.uk/"
+      ]
+    },
+    {
+      "id": "bnf",
+      "name": "Bibliothèque nationale de France (BnF)",
+      "city": "Paris",
+      "country": "France",
+      "coordinates": [
+        2.3387,
+        48.8684
+      ],
+      "strengths": [
+        "Pelliot chinois 2001–6040",
+        "Pelliot tibétain",
+        "Dunhuang",
+        "Sanskrit/Sogdian/Tangut Asian manuscripts"
+      ],
+      "online_first": [
+        "BnF Archives et manuscrits",
+        "Gallica",
+        "France-Chine shared heritage portal"
+      ],
+      "onsite_when": "需要未数字化写本、纸张/装帧/原件细节或档案辅助资料时",
+      "access_steps": [
+        "先用Pelliot编号检索",
+        "查Gallica影像",
+        "确认Richelieu/Manuscrits馆藏位置",
+        "按BnF读者与预约规则办理"
+      ],
+      "source_urls": [
+        "https://www.bnf.fr/fr/manuscrits-du-monde-asie-oceanie",
+        "https://gallica.bnf.fr/"
+      ]
+    },
+    {
+      "id": "loc",
+      "name": "Library of Congress – Asian Division",
+      "city": "Washington, DC",
+      "country": "USA",
+      "coordinates": [
+        -77.0047,
+        38.8887
+      ],
+      "strengths": [
+        "Gandhara Scroll",
+        "Tibetan collection",
+        "South Asian rare books",
+        "Asian manuscripts"
+      ],
+      "online_first": [
+        "LOC item pages",
+        "Asian Division Research Guides"
+      ],
+      "onsite_when": "稀见原件或未数字化rare materials",
+      "access_steps": [
+        "在线查call number/item ID",
+        "通过Ask a Librarian联系Asian Division",
+        "稀见资料提前预约Asian Reading Room"
+      ],
+      "source_urls": [
+        "https://www.loc.gov/item/2018305008",
+        "https://guides.loc.gov/tibetan-collection"
+      ]
+    },
+    {
+      "id": "cambridge_ul",
+      "name": "Cambridge University Library",
+      "city": "Cambridge",
+      "country": "UK",
+      "coordinates": [
+        0.1077,
+        52.2053
+      ],
+      "strengths": [
+        "Buddhist Sanskrit manuscripts",
+        "South Asian/Tibetan/Southeast Asian collections",
+        "rare illustrated Sanskrit manuscripts"
+      ],
+      "online_first": [
+        "iDiscover",
+        "Cambridge Digital Library where available"
+      ],
+      "onsite_when": "梵文写本未数字化或需要实物文献学研究",
+      "access_steps": [
+        "先查iDiscover",
+        "记录shelfmark",
+        "联系South Asian/Tibetan collections",
+        "按Special Collections预约"
+      ],
+      "source_urls": [
+        "https://www.lib.cam.ac.uk/collections/departments/south-asian-tibetan-and-southeast-asian-collections"
+      ]
+    },
+    {
+      "id": "harvard_yenching",
+      "name": "Harvard-Yenching Library",
+      "city": "Cambridge, MA",
+      "country": "USA",
+      "coordinates": [
+        -71.1167,
+        42.3736
+      ],
+      "strengths": [
+        "Tibetan Kanjur/Tanjur editions",
+        "Chinese/Japanese/Korean Buddhist books",
+        "East Asian rare books"
+      ],
+      "online_first": [
+        "HOLLIS",
+        "Harvard digital collections",
+        "BDRC subscription/linkages"
+      ],
+      "onsite_when": "特殊版本、稀见印本、未数字化材料",
+      "access_steps": [
+        "HOLLIS查Romanized题名",
+        "确认location/call number",
+        "按Harvard special collections/access政策预约"
+      ],
+      "source_urls": [
+        "https://library.harvard.edu/collections/tibetan-collection",
+        "https://hollis.harvard.edu/"
+      ]
+    },
+    {
+      "id": "ndl",
+      "name": "National Diet Library",
+      "city": "Tokyo / Kyoto",
+      "country": "Japan",
+      "coordinates": [
+        139.7447,
+        35.6782
+      ],
+      "strengths": [
+        "Japanese Buddhist publications",
+        "rare books",
+        "old prints",
+        "modern scholarship",
+        "digitized out-of-print works"
+      ],
+      "online_first": [
+        "NDL Search",
+        "NDL Digital Collections",
+        "Next Digital Library"
+      ],
+      "onsite_when": "仅馆内开放资料、未数字化古典籍或需要实体版本时",
+      "access_steps": [
+        "先NDL Search",
+        "确认Digital Collections可见级别",
+        "日本居民可评估Digitized Contents Transmission",
+        "必要时Tokyo/Kansai馆内阅览或远程复制"
+      ],
+      "source_urls": [
+        "https://www.ndl.go.jp/en/use/service",
+        "https://ndlsearch.ndl.go.jp/en/"
+      ]
+    },
+    {
+      "id": "nlc",
+      "name": "National Library of China",
+      "city": "Beijing",
+      "country": "China",
+      "coordinates": [
+        116.3186,
+        39.943
+      ],
+      "strengths": [
+        "Dunhuang manuscripts",
+        "Zhaocheng Jin Tripitaka",
+        "Chinese rare books",
+        "historical Buddhist canons"
+      ],
+      "online_first": [
+        "中华古籍资源库",
+        "国家图书馆目录",
+        "敦煌/赵城金藏数字资源"
+      ],
+      "onsite_when": "未公开影像、原件或版本学细节研究",
+      "access_steps": [
+        "先中华古籍资源库",
+        "记录馆藏号/版本",
+        "查古籍馆服务规则",
+        "特殊文献按馆方要求申请"
+      ],
+      "source_urls": [
+        "https://www.nlc.cn/pcab/zy/zhgj_zyk/",
+        "https://www.nlc.cn/"
+      ]
+    },
+    {
+      "id": "ncl_taiwan",
+      "name": "National Central Library",
+      "city": "Taipei",
+      "country": "Taiwan",
+      "coordinates": [
+        121.517,
+        25.0375
+      ],
+      "strengths": [
+        "Chinese rare books",
+        "Tripitaka sets",
+        "Taiwanese Buddhist publications",
+        "theses and research"
+      ],
+      "online_first": [
+        "NCL catalog",
+        "digital rare books",
+        "thesis systems"
+      ],
+      "onsite_when": "多卷大藏经、古籍、纸本论文或授权限制全文",
+      "access_steps": [
+        "先目录/数字系统",
+        "记录索书号",
+        "馆内调阅闭架或多卷丛书"
+      ],
+      "source_urls": [
+        "https://www.ncl.edu.tw/en/"
+      ]
+    },
+    {
+      "id": "haeinsa",
+      "name": "Haeinsa Temple / Janggyeong Panjeon",
+      "city": "Hapcheon",
+      "country": "South Korea",
+      "coordinates": [
+        128.0983,
+        35.8007
+      ],
+      "strengths": [
+        "Tripitaka Koreana woodblocks",
+        "Buddhist woodblock heritage"
+      ],
+      "online_first": [
+        "UNESCO records",
+        "Korean digital canon projects/catalogues"
+      ],
+      "onsite_when": "研究木板保存体系、物质文化和寺院语境；并非普通读者可直接翻阅木板",
+      "access_steps": [
+        "先查数字/影印本",
+        "确认寺院开放与展示安排",
+        "学术访问需通过相关机构联系"
+      ],
+      "source_urls": [
+        "https://whc.unesco.org/en/list/737",
+        "https://www.unesco.org/en/memory-world/printing-woodblocks-tripitaka-koreana-and-miscellaneous-buddhist-scriptures"
+      ]
+    },
+    {
+      "id": "uw",
+      "name": "University of Washington Libraries / EBMP",
+      "city": "Seattle",
+      "country": "USA",
+      "coordinates": [
+        -122.3035,
+        47.6553
+      ],
+      "strengths": [
+        "Gandhāran manuscript research",
+        "EBMP publications",
+        "selected manuscript holdings/research files"
+      ],
+      "online_first": [
+        "EBMP project pages",
+        "UW Libraries catalog",
+        "published editions"
+      ],
+      "onsite_when": "项目档案、馆藏或研究资料需现场/馆际途径",
+      "access_steps": [
+        "先查EBMP publication",
+        "识别具体collection owner",
+        "再联系对应馆藏机构"
+      ],
+      "source_urls": [
+        "https://asian.washington.edu/early-buddhist-manuscripts-project"
+      ]
+    },
+    {
+      "id": "bodleian",
+      "name": "Bodleian Libraries",
+      "city": "Oxford",
+      "country": "UK",
+      "coordinates": [
+        -1.2544,
+        51.754
+      ],
+      "strengths": [
+        "Sanskrit/Pāli/Tibetan/Asian manuscripts",
+        "Oriental collections",
+        "early printed works"
+      ],
+      "online_first": [
+        "SOLO",
+        "Digital Bodleian"
+      ],
+      "onsite_when": "未数字化special collections和写本",
+      "access_steps": [
+        "SOLO查题名/语言",
+        "Digital Bodleian先排除已有影像",
+        "申请Bodleian Reader并预约special collections"
+      ],
+      "source_urls": [
+        "https://www.bodleian.ox.ac.uk/",
+        "https://digital.bodleian.ox.ac.uk/"
+      ]
+    },
+    {
+      "id": "bdrc_partner_network",
+      "name": "BDRC Partner Monasteries & Archives",
+      "city": "Multiple",
+      "country": "Global",
+      "coordinates": [
+        0,
+        0
+      ],
+      "strengths": [
+        "Tibetan, Mongolian, Khmer and other Buddhist textual collections digitized in situ"
+      ],
+      "online_first": [
+        "BUDA/BDRC record and scans"
+      ],
+      "onsite_when": "原则上先通过BDRC数字影像；现场访问取决于原收藏机构与寺院政策",
+      "access_steps": [
+        "先定位BDRC Work/Version",
+        "看scan来源与holding statement",
+        "确有必要再联系BDRC或原收藏方"
+      ],
+      "source_urls": [
+        "https://www.bdrc.io/"
+      ]
+    },
+    {
+      "id": "national_archives_nepal_ngmcp",
+      "name": "National Archives of Nepal / NGMCP access chain",
+      "city": "Kathmandu",
+      "country": "Nepal",
+      "coordinates": [
+        85.324,
+        27.7172
+      ],
+      "strengths": [
+        "Sanskrit Buddhist manuscripts",
+        "Newar Buddhist manuscripts",
+        "microfilmed Nepalese manuscript heritage"
+      ],
+      "online_first": [
+        "NGMCP Indic/Tibetan title lists",
+        "descriptive catalogue"
+      ],
+      "onsite_when": "需要查看原件或目录无法解决的物质信息；很多研究可先通过microfilm/复制解决",
+      "access_steps": [
+        "先NGMCP查title/manuscript ID",
+        "确认microfilm信息",
+        "按NGMCP说明从Berlin/Kathmandu申请microfilm",
+        "仅在确有必要时联系National Archives现场"
+      ],
+      "source_urls": [
+        "https://www.aai.uni-hamburg.de/en/forschung/ngmcp",
+        "https://www.aai.uni-hamburg.de/en/forschung/ngmcp/about.html"
+      ]
+    },
+    {
+      "id": "national_library_sri_lanka",
+      "name": "National Library of Sri Lanka",
+      "city": "Colombo",
+      "country": "Sri Lanka",
+      "coordinates": [
+        79.8612,
+        6.9271
+      ],
+      "strengths": [
+        "Palm-leaf manuscripts in Pāli/Sinhala/Sanskrit",
+        "Buddhist Sutras",
+        "Jātaka",
+        "Sri Lankan Buddhist publications"
+      ],
+      "online_first": [
+        "National Library collection pages/catalogue"
+      ],
+      "onsite_when": "贝叶经未数字化、需版本/物质形态研究",
+      "access_steps": [
+        "先按Palm-Leaf Collection确认范围",
+        "邮件/电话咨询具体题名和访问条件",
+        "再安排馆内查阅"
+      ],
+      "source_urls": [
+        "https://www.natlib.lk/NLSL/collection/"
+      ]
+    },
+    {
+      "id": "national_library_thailand",
+      "name": "National Library of Thailand",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "coordinates": [
+        100.5068,
+        13.765
+      ],
+      "strengths": [
+        "Palm-leaf manuscripts",
+        "Thai Buddhist literature",
+        "rare books",
+        "inscriptions and old documents"
+      ],
+      "online_first": [
+        "NLT Single Search",
+        "NLT D-Library"
+      ],
+      "onsite_when": "数字库无全文或需要原件、贝叶经、古文书细节",
+      "access_steps": [
+        "先Single Search/D-Library",
+        "记录馆藏信息",
+        "再联系National Library相关古文献服务"
+      ],
+      "source_urls": [
+        "https://www.nlt.go.th/",
+        "https://digital.nlt.go.th/dlib/"
+      ]
+    },
+    {
+      "id": "national_library_myanmar",
+      "name": "National Library of Myanmar",
+      "city": "Yangon",
+      "country": "Myanmar",
+      "coordinates": [
+        96.1951,
+        16.8661
+      ],
+      "strengths": [
+        "Pāli and Myanmar Buddhist literature",
+        "palm-leaf manuscripts",
+        "parabeik",
+        "Mon/Myanmar/Pāli materials",
+        "rare books"
+      ],
+      "online_first": [
+        "National Library of Myanmar Buddhist Literature Digital Collection",
+        "Palm-leaf Manuscript Digital Collection",
+        "Rare Books Collection"
+      ],
+      "onsite_when": "数字条目没有完整影像、需要核对贝叶原件形制/叶序/书写材料，或寻找尚未数字化的寺院来源材料时",
+      "access_steps": [
+        "先查国家图书馆数字分类",
+        "保存题名、语言、来源与目录信息",
+        "通过官网联系馆方确认阅览条件",
+        "如需复制/影像，先询问版权与馆藏保护限制"
+      ],
+      "source_urls": [
+        "https://nlm.gov.mm/",
+        "https://nlm.gov.mm/bhlib/category/185"
+      ]
+    },
+    {
+      "id": "national_library_mongolia",
+      "name": "National Library of Mongolia",
+      "city": "Ulaanbaatar",
+      "country": "Mongolia",
+      "coordinates": [
+        106.9177,
+        47.9184
+      ],
+      "strengths": [
+        "Tibetan Buddhist books",
+        "Mongolian Buddhist literature",
+        "manuscripts",
+        "rare Tibetan and Mongolian documentary heritage",
+        "BDRC-linked digitization"
+      ],
+      "online_first": [
+        "National Library e-catalog",
+        "Tibetan book digital collection links",
+        "BDRC where corresponding scans have been released"
+      ],
+      "onsite_when": "目录可定位但无公开影像、需要查看藏文原件/版本物理信息，或核对蒙古寺院/旧藏来源时",
+      "access_steps": [
+        "电子目录按题名/作者/主题查询",
+        "记录馆藏号与digital availability",
+        "若有电子阅读标识按馆方账户流程使用",
+        "否则联系National Library确认阅览和复制条件"
+      ],
+      "source_urls": [
+        "https://www.nationallibrary.mn/",
+        "https://ecatalog.nationallibrary.mn/"
+      ]
+    }
+  ]
+}
