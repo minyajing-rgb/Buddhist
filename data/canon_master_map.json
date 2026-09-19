@@ -1,0 +1,69 @@
+{
+  "version": "0.1",
+  "project": "Dharma Atlas",
+  "principle": "Map traditions and evidence; do not collapse multiple canons into one linear Bible-like canon.",
+  "layers": [
+    {
+      "id": "early_buddhist_texts",
+      "label_zh": "早期佛教文献",
+      "label_en": "Early Buddhist Texts",
+      "branches": [
+        "Pāli Nikāyas",
+        "Chinese Āgamas",
+        "Sanskrit fragments",
+        "Gāndhārī witnesses",
+        "Tibetan parallels",
+        "Vinaya lineages",
+        "Abhidharma lineages"
+      ]
+    },
+    {
+      "id": "pali",
+      "label_zh": "巴利经典传统",
+      "label_en": "Pāli Canonical Tradition",
+      "branches": [
+        "Sutta Piṭaka",
+        "Vinaya Piṭaka",
+        "Abhidhamma Piṭaka",
+        "Commentaries"
+      ]
+    },
+    {
+      "id": "chinese",
+      "label_zh": "汉文佛典传统",
+      "label_en": "Chinese Buddhist Canonical Traditions",
+      "branches": [
+        "Early translations",
+        "Āgamas",
+        "Mahāyāna sūtras",
+        "Vinaya",
+        "Śāstra",
+        "Esoteric texts",
+        "Chinese compositions",
+        "Historical canons",
+        "Taishō"
+      ]
+    },
+    {
+      "id": "tibetan",
+      "label_zh": "藏文佛典传统",
+      "label_en": "Tibetan Canonical Traditions",
+      "branches": [
+        "Kangyur",
+        "Tengyur",
+        "Tibetan commentarial literature"
+      ]
+    },
+    {
+      "id": "sanskrit_and_fragments",
+      "label_zh": "梵文及残卷层",
+      "label_en": "Sanskrit and Fragmentary Traditions",
+      "branches": [
+        "Nepalese manuscripts",
+        "Gilgit",
+        "Central Asian fragments",
+        "Gandhāran material"
+      ]
+    }
+  ]
+}
