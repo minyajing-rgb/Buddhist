@@ -4,20 +4,23 @@
   "phase": "DATABASE_FIRST",
   "site_build_status": "FROZEN_UNTIL_DATABASE_QA",
   "stats": {
-    "online_sources": 32,
+    "online_sources": 40,
     "physical_libraries": 15,
     "geo_points": 27,
     "people": 20,
     "learning_paths": 5,
     "search_workflows": 6,
-    "text_access_records": 32,
+    "work_access_records": 100,
     "full_corpus_entrypoints": 15,
     "key_works": 100,
     "concepts": 20,
     "landmark_witnesses": 20,
     "research_dossiers": 12,
     "media_assets": 12,
-    "season1_full_episodes": 12
+    "source_links_checked": 40,
+    "season1_full_episodes": 12,
+    "strong_or_route_verified_works": 54,
+    "remaining_work_level_crosswalks": 46
   },
   "datasets": [
     {
@@ -79,11 +82,11 @@
   ],
   "definition_of_done": "A dataset is DONE only when schema + records + authoritative source links + QA status exist.",
   "next_database_gates": [
-    "Crosswalk and authority-ID verification for the remaining 68 discovery-level key works",
+    "Verify version-level IDs/direct authority links for the remaining 46 work-level discovery records",
     "Expand 12 research dossiers into paper/book-level bibliographies with attributed positions",
-    "Expand landmark witnesses from 20 to 50+ and add item-level IIIF/shelfmarks where authoritative",
-    "Run external link-health QA across source registry and holding URLs",
-    "Create public-facing PNG/JPG asset registry and move approved visuals to docs/assets/img/",
-    "Only after these gates pass: rebuild public HTML site from database"
+    "Expand landmark witnesses from 20 to 50+ with shelfmarks/IIIF where authoritative",
+    "Add witness↔work and person↔work relationship tables",
+    "Create project-owned/public-cleared PNG/JPG visual asset package under docs/assets/img/",
+    "Only after content QA: build the new clean white-base HTML site from data/CURRENT.json"
   ]
 }
