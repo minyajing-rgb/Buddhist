@@ -15,8 +15,8 @@
 - [x] 规范数据：DILA Authority
 - [x] 全球馆藏定位：WorldCat
 - [x] 多语文本对齐/数字人文：BuddhaNexus / OpenPecha
-- [ ] 韩国数字大藏经专库：待下一轮官方入口核验
-- [ ] 东南亚国家级巴利写本目录：待下一轮扩展
+- [x] 韩国数字大藏经：Dongguk KABC 官方入口
+- [x] 东南亚国家级入口第一批：Sri Lanka / Thailand / Myanmar
 
 ### Offline / Physical Holdings
 - [x] British Library
@@ -31,10 +31,10 @@
 - [x] University of Washington / EBMP
 - [x] Bodleian
 - [x] BDRC partner network
-- [ ] Nepal National Archives / major Newar Buddhist manuscript repositories
-- [ ] Sri Lanka national/temple Pāli manuscript repositories
-- [ ] Myanmar/Thailand national manuscript repositories
-- [ ] Mongolia national/monastic Tibetan collections
+- [x] Nepal National Archives / NGMCP catalog & microfilm route
+- [x] Sri Lanka National Library palm-leaf collection (temple-level expansion still pending)
+- [x] Myanmar + Thailand national manuscript repositories
+- [x] Mongolia National Library Tibetan collection route (monastic expansion still pending)
 
 ## B. Per-record Minimum Fields
 
