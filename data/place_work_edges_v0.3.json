@@ -1,0 +1,67 @@
+{
+  "version": "0.3",
+  "updated_at": "2026-09-19",
+  "caveat": "Place edges distinguish historical association, translation location, findspot, and modern holding. A single place must not collapse these meanings.",
+  "edges": [
+    {
+      "place_id": "changan",
+      "work_id": "DA-W-0015",
+      "relation": "translation_location",
+      "confidence": "high",
+      "note": "Kumārajīva translation activity in Chang'an context."
+    },
+    {
+      "place_id": "changan",
+      "work_id": "DA-W-0016",
+      "relation": "translation_location",
+      "confidence": "high"
+    },
+    {
+      "place_id": "changan",
+      "work_id": "DA-W-0024",
+      "relation": "translation_location",
+      "confidence": "high",
+      "note": "Xuanzang's translation project after return to Tang China."
+    },
+    {
+      "place_id": "dunhuang",
+      "work_id": "DA-W-0013",
+      "relation": "findspot_of_landmark_witness",
+      "confidence": "high",
+      "note": "868 Diamond Sūtra witness found in Cave 17."
+    },
+    {
+      "place_id": "cambridge_uk",
+      "work_id": "DA-W-0060",
+      "relation": "modern_holding_of_landmark_witness",
+      "confidence": "high"
+    },
+    {
+      "place_id": "washington_dc",
+      "work_id": "DA-W-0076",
+      "relation": "research_or_holding_context",
+      "confidence": "low",
+      "note": "General South Asian manuscript research context; no item-level Buddhacarita holding claimed."
+    },
+    {
+      "place_id": "dege",
+      "work_id": "DA-W-0083",
+      "relation": "canonical_edition_context",
+      "confidence": "high",
+      "note": "Degé Tengyur Toh 4020."
+    },
+    {
+      "place_id": "dege",
+      "work_id": "DA-W-0093",
+      "relation": "canonical_edition_context",
+      "confidence": "high",
+      "note": "Degé Tengyur Toh 3861."
+    },
+    {
+      "place_id": "lhasa",
+      "work_id": "DA-W-0099",
+      "relation": "Tibetan_scholastic_context",
+      "confidence": "medium"
+    }
+  ]
+}
