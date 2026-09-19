@@ -1,0 +1,1178 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "cbeta",
+      "name": "CBETA 電子佛典集成",
+      "name_en": "CBETA Chinese Electronic Tripiṭaka",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://cbeta.org/",
+      "search_url": "https://cbetaonline.dila.edu.tw/",
+      "languages": [
+        "Classical Chinese",
+        "Chinese"
+      ],
+      "traditions": [
+        "Chinese Buddhist Canon",
+        "East Asian Buddhism"
+      ],
+      "content_types": [
+        "canon_text",
+        "edition",
+        "catalog"
+      ],
+      "strengths_zh": "汉文佛典主入口；含《大正藏》《卍续藏》《嘉兴藏》等，并提供在线阅读、检索、导出和整套电子书。",
+      "limitations_zh": "主要强项是汉文佛典；跨巴利、梵文、藏文的文本关系需结合其他平台。",
+      "query_how_zh": "经名、CBETA经号、T号、作者/译者；精确定位可用 Txxnyyyy 及页栏行号。"
+    },
+    {
+      "id": "suttacentral",
+      "name": "SuttaCentral",
+      "name_en": "SuttaCentral",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://suttacentral.net/",
+      "search_url": "https://suttacentral.net/search",
+      "languages": [
+        "Pāli",
+        "Chinese",
+        "Tibetan",
+        "Sanskrit",
+        "Gāndhārī",
+        "30+ modern languages"
+      ],
+      "traditions": [
+        "Early Buddhist Texts",
+        "Theravāda",
+        "Āgama/Vinaya parallels"
+      ],
+      "content_types": [
+        "canon_text",
+        "translation",
+        "parallel_alignment"
+      ],
+      "strengths_zh": "早期佛典最重要的跨传统平行文本入口之一；原文、现代译文与大量parallels集中呈现。",
+      "limitations_zh": "重点是早期佛教经律，不覆盖全部大乘、密教和东亚后期文献。",
+      "query_how_zh": "按经号（DN/MN/SN/AN等）、题名、主题、parallel关系检索。"
+    },
+    {
+      "id": "84000",
+      "name": "84000 佛典翻译计划",
+      "name_en": "84000: Translating the Words of the Buddha",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://84000.co/",
+      "search_url": "https://84000.co/reading-room",
+      "languages": [
+        "Tibetan",
+        "English",
+        "Sanskrit titles"
+      ],
+      "traditions": [
+        "Tibetan Kangyur",
+        "Tengyur"
+      ],
+      "content_types": [
+        "translation",
+        "canon_text",
+        "catalog"
+      ],
+      "strengths_zh": "藏文大藏经英译核心入口；提供Toh编号、章节、导言、版本说明与术语。",
+      "limitations_zh": "翻译项目仍在持续推进；版权与再利用需遵守其条款。",
+      "query_how_zh": "按Toh编号、英文题名、藏文/梵文题名、Kangyur/Tengyur分区检索。"
+    },
+    {
+      "id": "bdrc",
+      "name": "BDRC / BUDA",
+      "name_en": "Buddhist Digital Resource Center",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://www.bdrc.io/",
+      "search_url": "https://library.bdrc.io/",
+      "languages": [
+        "Tibetan",
+        "Chinese",
+        "Sanskrit",
+        "Pāli",
+        "Mongolian",
+        "Khmer",
+        "many others"
+      ],
+      "traditions": [
+        "Tibetan Buddhism",
+        "Buddhist literary traditions"
+      ],
+      "content_types": [
+        "manuscript",
+        "canon_text",
+        "catalog",
+        "authority_data"
+      ],
+      "strengths_zh": "全球大型佛教数字档案；Work/Version/Person/Place模型特别适合做作品-版本-人物-地点关联。",
+      "limitations_zh": "数据量巨大，普通用户入门成本较高；部分条目是书目/影像而非全文转写。",
+      "query_how_zh": "按作品、版本、作者、地点、主题与BDRC ID查询。"
+    },
+    {
+      "id": "sat",
+      "name": "SAT 大正新脩大藏经数据库",
+      "name_en": "SAT Daizōkyō Text Database",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://21dzk.l.u-tokyo.ac.jp/SAT/",
+      "search_url": "https://21dzk.l.u-tokyo.ac.jp/SAT/",
+      "languages": [
+        "Classical Chinese",
+        "Japanese",
+        "Sanskrit metadata",
+        "English resources"
+      ],
+      "traditions": [
+        "Taishō Canon",
+        "Japanese Buddhist studies"
+      ],
+      "content_types": [
+        "canon_text",
+        "edition",
+        "catalog",
+        "dictionary_linkage"
+      ],
+      "strengths_zh": "东京大学大正藏数字平台；适合查T号、正文、异体字、图像/研究工具及BDK英译联动。",
+      "limitations_zh": "界面偏研究型；不等于覆盖全部东亚历史大藏经版本。",
+      "query_how_zh": "按T号、关键词、经名检索；与BDK英译数据库可交叉使用。"
+    },
+    {
+      "id": "gandhari",
+      "name": "Gāndhārī.org",
+      "name_en": "Gāndhārī Language and Literature",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://gandhari.org/",
+      "search_url": "https://gandhari.org/catalog",
+      "languages": [
+        "Gāndhārī",
+        "Kharoṣṭhī transliteration",
+        "English"
+      ],
+      "traditions": [
+        "Early Buddhist manuscripts",
+        "Gandhāran Buddhism"
+      ],
+      "content_types": [
+        "manuscript",
+        "edition",
+        "dictionary",
+        "bibliography",
+        "catalog"
+      ],
+      "strengths_zh": "犍陀罗语语料、写本目录、词典、文献学书目核心入口。",
+      "limitations_zh": "高度专业；不少新发现写本仍未完整公开出版。",
+      "query_how_zh": "按manuscript、catalog ID、词形、文本、铭文、bibliography查询。"
+    },
+    {
+      "id": "idp",
+      "name": "International Dunhuang Programme",
+      "name_en": "International Dunhuang Programme",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://idp.bl.uk/",
+      "search_url": "https://idp.bl.uk/search/",
+      "languages": [
+        "Chinese",
+        "Tibetan",
+        "Sanskrit",
+        "Khotanese",
+        "Sogdian",
+        "Uyghur",
+        "Gāndhārī",
+        "Tangut"
+      ],
+      "traditions": [
+        "Silk Road Buddhism",
+        "Dunhuang",
+        "Central Asian Buddhism"
+      ],
+      "content_types": [
+        "manuscript",
+        "catalog",
+        "image"
+      ],
+      "strengths_zh": "敦煌与丝路写本全球联合入口；可按馆藏机构、出土地、pressmark、题名、主题搜索。",
+      "limitations_zh": "资料分散在不同馆藏机构，图像开放程度和元数据完整度不一。",
+      "query_how_zh": "Advanced Search：pressmark、title、subject、find site、holding institution、item type。"
+    },
+    {
+      "id": "gretil",
+      "name": "GRETIL",
+      "name_en": "Göttingen Register of Electronic Texts in Indian Languages",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://gretil.sub.uni-goettingen.de/",
+      "search_url": "https://gretil.sub.uni-goettingen.de/gretilbk.htm",
+      "languages": [
+        "Sanskrit",
+        "Pāli",
+        "Prakrit",
+        "Tibetan-related metadata",
+        "Indian languages"
+      ],
+      "traditions": [
+        "Indian Buddhism",
+        "Sanskrit Buddhist literature"
+      ],
+      "content_types": [
+        "canon_text",
+        "edition"
+      ],
+      "strengths_zh": "大量梵文及印度语言电子文本；可得TXT/XML/HTML等文本形态。",
+      "limitations_zh": "来源和版本质量因文本而异；需要回看每条文本的edition/source说明。",
+      "query_how_zh": "按作者、作品题名、文本类型浏览或站内搜索。"
+    },
+    {
+      "id": "dsbc",
+      "name": "Digital Sanskrit Buddhist Canon",
+      "name_en": "Digital Sanskrit Buddhist Canon",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://www.dsbcproject.org/",
+      "search_url": "https://www.dsbcproject.org/",
+      "languages": [
+        "Sanskrit",
+        "Romanized Sanskrit",
+        "English metadata"
+      ],
+      "traditions": [
+        "Sanskrit Buddhist literature",
+        "Mahāyāna",
+        "Tantra"
+      ],
+      "content_types": [
+        "canon_text",
+        "manuscript",
+        "catalog"
+      ],
+      "strengths_zh": "系统汇集、数字化梵文佛教文本，并包含部分手稿展示。",
+      "limitations_zh": "“Sanskrit Buddhist Canon”是现代数字汇编项目，不等同于历史上单一、固定的梵文大藏经。",
+      "query_how_zh": "按分类、作品名、recent texts、manuscript gallery浏览。"
+    },
+    {
+      "id": "ntu_dlbs",
+      "name": "台大佛学数位图书馆",
+      "name_en": "NTU Digital Library of Buddhist Studies",
+      "authority_level": "research_bibliography",
+      "access": "open",
+      "url": "https://dlbs.liberal.ntu.edu.tw/en/index.jsp",
+      "search_url": "https://dlbs.liberal.ntu.edu.tw/en/index.jsp",
+      "languages": [
+        "49 languages"
+      ],
+      "traditions": [
+        "Global Buddhist studies"
+      ],
+      "content_types": [
+        "bibliography",
+        "article",
+        "scripture_index"
+      ],
+      "strengths_zh": "佛教学术论文与书目巨型索引，覆盖多语言；适合从原典进入现代研究。",
+      "limitations_zh": "不是统一原典全文库；全文开放性依各条目授权。",
+      "query_how_zh": "Simple/Advanced Search；按作者、题名、关键词、经名、期刊。"
+    },
+    {
+      "id": "dila_catalog",
+      "name": "佛经目录规范资料库",
+      "name_en": "Authority Database of Buddhist Tripitaka Catalogues",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://authority.dila.edu.tw/catalog/form.php",
+      "search_url": "https://authority.dila.edu.tw/catalog/form.php",
+      "languages": [
+        "Chinese"
+      ],
+      "traditions": [
+        "Chinese Buddhist catalogues"
+      ],
+      "content_types": [
+        "authority_data",
+        "catalog"
+      ],
+      "strengths_zh": "适合规范经名、CBETA经号、作译者、完成时间/地点，解决异名和目录对齐。",
+      "limitations_zh": "核心用于规范与目录，不替代全文库。",
+      "query_how_zh": "经名、Authority ID、CBETA经号、作译者、完成地点和时间。"
+    },
+    {
+      "id": "dila_authority",
+      "name": "DILA 佛学规范资料库",
+      "name_en": "DILA Buddhist Studies Authority Databases",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://authority.dila.edu.tw/",
+      "search_url": "https://authority.dila.edu.tw/",
+      "languages": [
+        "Chinese",
+        "English metadata"
+      ],
+      "traditions": [
+        "Chinese/East Asian Buddhist studies"
+      ],
+      "content_types": [
+        "authority_data"
+      ],
+      "strengths_zh": "人名、地点、时间规范数据；适合人物消歧、地理编码和时间标准化。",
+      "limitations_zh": "部分注释来源层级不一，使用时仍需回看具体字段来源。",
+      "query_how_zh": "Person / Place / Time / Catalogue 分库查询。"
+    },
+    {
+      "id": "bdk",
+      "name": "BDK English Tripiṭaka",
+      "name_en": "BDK English Tripiṭaka",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://www.bdk.or.jp/english/english_tripitaka/publication_project.html",
+      "search_url": "https://www.bdk.or.jp/bdk/digital/",
+      "languages": [
+        "English",
+        "Classical Chinese"
+      ],
+      "traditions": [
+        "Taishō Canon",
+        "East Asian Buddhism"
+      ],
+      "content_types": [
+        "translation",
+        "canon_text"
+      ],
+      "strengths_zh": "大正藏重要文本英译项目；可与SAT原文联动。",
+      "limitations_zh": "并非整个大正藏都已完成英译；首期选择特定作品。",
+      "query_how_zh": "按译本、Taishō编号、BDK书目进入。"
+    },
+    {
+      "id": "tipitaka_org",
+      "name": "Tipitaka.org",
+      "name_en": "Chaṭṭha Saṅgāyana Pāḷi Tipiṭaka",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://www.tipitaka.org/",
+      "search_url": "https://www.tipitaka.org/",
+      "languages": [
+        "Pāli",
+        "multiple scripts"
+      ],
+      "traditions": [
+        "Theravāda"
+      ],
+      "content_types": [
+        "canon_text",
+        "edition"
+      ],
+      "strengths_zh": "VRI第六次结集本巴利三藏数字再现，多文字脚本显示。",
+      "limitations_zh": "代表特定巴利版本传统；与PTS、泰国、斯里兰卡等版本比较时要标明edition。",
+      "query_how_zh": "按三藏目录与文本浏览；支持多种文字脚本。"
+    },
+    {
+      "id": "tipitakapali",
+      "name": "Tipiṭaka Pāḷi",
+      "name_en": "TipitakaPali.org",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://tipitakapali.org/",
+      "search_url": "https://tipitakapali.org/",
+      "languages": [
+        "Pāli",
+        "17 scripts"
+      ],
+      "traditions": [
+        "Theravāda"
+      ],
+      "content_types": [
+        "canon_text",
+        "commentary",
+        "dictionary"
+      ],
+      "strengths_zh": "现代化检索界面，联动根本、注释、复注，基于VRI TEI语料。",
+      "limitations_zh": "非历史独立版本，核心文本与VRI CST语料同步。",
+      "query_how_zh": "书名、章节、段落、词典与跨层级注释跳转。"
+    },
+    {
+      "id": "pts",
+      "name": "Pali Text Society",
+      "name_en": "Pali Text Society",
+      "authority_level": "institutional_project",
+      "access": "mixed",
+      "url": "https://palitextsociety.org/",
+      "search_url": "https://palitextsociety.org/",
+      "languages": [
+        "Pāli",
+        "English"
+      ],
+      "traditions": [
+        "Theravāda",
+        "Pāli studies"
+      ],
+      "content_types": [
+        "edition",
+        "translation",
+        "dictionary",
+        "bibliography"
+      ],
+      "strengths_zh": "1881年以来巴利校勘本、译本、词典和研究出版的重要机构。",
+      "limitations_zh": "大量核心版本和书籍需购买；不是统一在线全文平台。",
+      "query_how_zh": "出版目录、免费资源、词典与研究书目。"
+    },
+    {
+      "id": "adarshah",
+      "name": "Adarshah 明镜",
+      "name_en": "Adarshah",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://adarshah.org/",
+      "search_url": "https://adarshah.org/",
+      "languages": [
+        "Tibetan",
+        "Chinese interface",
+        "English"
+      ],
+      "traditions": [
+        "Tibetan Kangyur",
+        "Tengyur",
+        "Sungbum",
+        "Bon"
+      ],
+      "content_types": [
+        "canon_text",
+        "edition",
+        "catalog"
+      ],
+      "strengths_zh": "多版本甘珠尔、丹珠尔及藏传大师全集检索，强调版本比较。",
+      "limitations_zh": "项目收录范围和各版本数字化进度不同。",
+      "query_how_zh": "Kangyur/Tengyur/Sungbum/Bon分类或全文搜索。"
+    },
+    {
+      "id": "openpecha",
+      "name": "OpenPecha / WeBuddhist",
+      "name_en": "OpenPecha",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://openpecha.org/",
+      "search_url": "https://webuddhist.com/",
+      "languages": [
+        "Tibetan",
+        "Sanskrit",
+        "Chinese",
+        "English",
+        "multilingual"
+      ],
+      "traditions": [
+        "Buddhist textual learning"
+      ],
+      "content_types": [
+        "canon_text",
+        "parallel_alignment",
+        "structured_data"
+      ],
+      "strengths_zh": "开放佛教文本基础设施与多语对齐工具，适合现代文本关系、AI/结构化数据实验。",
+      "limitations_zh": "生态持续快速变化，产品与数据集需要按版本核验。",
+      "query_how_zh": "文本、verse、parallel、来源和相关文本。"
+    },
+    {
+      "id": "dharmanexus",
+      "name": "DharmaNexus（BuddhaNexus 后继）",
+      "name_en": "DharmaNexus / Dharmamitra",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://dharmamitra.org/nexus",
+      "search_url": "https://dharmamitra.org/db",
+      "languages": [
+        "Pāli",
+        "Sanskrit",
+        "Tibetan",
+        "Chinese"
+      ],
+      "traditions": [
+        "Cross-canonical Buddhist texts"
+      ],
+      "content_types": [
+        "parallel_alignment",
+        "canon_text",
+        "digital_humanities"
+      ],
+      "strengths_zh": "BuddhaNexus的当前维护后继系统；用于发现巴利、梵文、藏文、汉文佛典中的平行段落与互文关系。",
+      "limitations_zh": "机器辅助相似性发现不是历史学结论；所有parallel需要回到原文、版本和文献学证据人工复核。",
+      "query_how_zh": "按语言数据库、文本、段落与parallel passage进行探索；Dharmamitra Database提供多语文本浏览。"
+    },
+    {
+      "id": "inbuds",
+      "name": "INBUDS",
+      "name_en": "Indian and Buddhist Studies Treatise Database",
+      "authority_level": "research_bibliography",
+      "access": "open",
+      "url": "https://www.inbuds.net/",
+      "search_url": "https://www.inbuds.net/",
+      "languages": [
+        "Japanese",
+        "English metadata",
+        "Chinese interface"
+      ],
+      "traditions": [
+        "Indian studies",
+        "Buddhist studies in Japan"
+      ],
+      "content_types": [
+        "bibliography"
+      ],
+      "strengths_zh": "日本出版的印度学与佛教学论文、书籍、期刊书目信息核心索引之一。",
+      "limitations_zh": "主要是书目检索；利用条件强调学术用途，商业再利用要特别注意。",
+      "query_how_zh": "作者、题名、关键词、媒体、INBUDS ID。"
+    },
+    {
+      "id": "worldcat",
+      "name": "WorldCat",
+      "name_en": "WorldCat",
+      "authority_level": "access_aggregator",
+      "access": "open",
+      "url": "https://search.worldcat.org/",
+      "search_url": "https://search.worldcat.org/",
+      "languages": [
+        "multilingual"
+      ],
+      "traditions": [
+        "Global collections"
+      ],
+      "content_types": [
+        "catalog"
+      ],
+      "strengths_zh": "全球馆藏定位与版本追踪入口，适合查哪家图书馆持有某一版本/影印/研究书。",
+      "limitations_zh": "馆藏记录质量依成员馆；古写本和寺院藏品不一定全部进入WorldCat。",
+      "query_how_zh": "题名、作者、ISBN/OCLC、语言、年份、格式、所在地。"
+    },
+    {
+      "id": "ndl_search",
+      "name": "NDL Search / Digital Collections",
+      "name_en": "National Diet Library Search & Digital Collections",
+      "authority_level": "primary_repository",
+      "access": "mixed",
+      "url": "https://www.ndl.go.jp/en/use/service",
+      "search_url": "https://ndlsearch.ndl.go.jp/en/",
+      "languages": [
+        "Japanese",
+        "Chinese",
+        "English",
+        "Asian languages"
+      ],
+      "traditions": [
+        "Japanese Buddhism",
+        "East Asian print heritage"
+      ],
+      "content_types": [
+        "catalog",
+        "image",
+        "edition"
+      ],
+      "strengths_zh": "日本国会图书馆综合检索与数字馆藏；大量近代出版、古典籍和难获资料。",
+      "limitations_zh": "部分数字内容仅馆内/合作馆或日本居民注册用户可访问。",
+      "query_how_zh": "NDL Search先查书目，再转Digital Collections；可申请远程复制。"
+    },
+    {
+      "id": "nlc_ancient",
+      "name": "中华古籍资源库",
+      "name_en": "National Library of China Ancient Books Digital Resources",
+      "authority_level": "primary_repository",
+      "access": "open",
+      "url": "https://www.nlc.cn/pcab/zy/zhgj_zyk/",
+      "search_url": "https://www.nlc.cn/pcab/zy/zhgj_zyk/",
+      "languages": [
+        "Classical Chinese",
+        "Tangut",
+        "Dunhuang multilingual materials"
+      ],
+      "traditions": [
+        "Chinese Buddhist canon",
+        "Dunhuang",
+        "East Asian Buddhism"
+      ],
+      "content_types": [
+        "image",
+        "catalog",
+        "manuscript",
+        "edition"
+      ],
+      "strengths_zh": "国图古籍、敦煌、赵城金藏等重要资源；赵城金藏已有大量数字影像公开。",
+      "limitations_zh": "资源入口多层，检索方式与馆藏分库有关。",
+      "query_how_zh": "先按资源类型进入，再用基本/高级检索查经名、版本、馆藏号。"
+    },
+    {
+      "id": "bnf_gallica",
+      "name": "BnF / Gallica / Pelliot",
+      "name_en": "Bibliothèque nationale de France – Dunhuang & Asian Manuscripts",
+      "authority_level": "primary_repository",
+      "access": "open",
+      "url": "https://www.bnf.fr/fr/manuscrits-du-monde-asie-oceanie",
+      "search_url": "https://gallica.bnf.fr/",
+      "languages": [
+        "Chinese",
+        "Tibetan",
+        "Sanskrit",
+        "Sogdian",
+        "Tangut"
+      ],
+      "traditions": [
+        "Dunhuang",
+        "Central Asian Buddhism",
+        "Tibetan Buddhism"
+      ],
+      "content_types": [
+        "manuscript",
+        "catalog",
+        "image"
+      ],
+      "strengths_zh": "Pelliot敦煌汉文、藏文及中亚多语写本核心馆藏；不少条目可看完整数字影像。",
+      "limitations_zh": "需同时使用BnF Archives et manuscrits、Gallica及专题目录。",
+      "query_how_zh": "按Pelliot shelfmark、语言、Dunhuang、题名与目录索引。"
+    },
+    {
+      "id": "loc_asian",
+      "name": "Library of Congress Asian Collections",
+      "name_en": "Library of Congress Asian Division",
+      "authority_level": "primary_repository",
+      "access": "mixed",
+      "url": "https://guides.loc.gov/tibetan-collection",
+      "search_url": "https://www.loc.gov/",
+      "languages": [
+        "Tibetan",
+        "Gāndhārī",
+        "Chinese",
+        "South Asian languages"
+      ],
+      "traditions": [
+        "Tibetan Buddhism",
+        "Gandhāran Buddhism"
+      ],
+      "content_types": [
+        "manuscript",
+        "catalog",
+        "image"
+      ],
+      "strengths_zh": "藏文大规模馆藏及著名Gandhara Scroll；部分稀见资料有完整数字影像与IIIF。",
+      "limitations_zh": "稀见原件通常需提前预约Asian Reading Room。",
+      "query_how_zh": "LOC Catalog / Research Guides；稀见资料按call number预约。"
+    },
+    {
+      "id": "cambridge_ul",
+      "name": "Cambridge University Library Asian Collections",
+      "name_en": "Cambridge University Library",
+      "authority_level": "primary_repository",
+      "access": "mixed",
+      "url": "https://www.lib.cam.ac.uk/collections/departments/south-asian-tibetan-and-southeast-asian-collections",
+      "search_url": "https://idiscover.lib.cam.ac.uk/",
+      "languages": [
+        "Sanskrit",
+        "Pāli",
+        "Tibetan",
+        "South Asian languages"
+      ],
+      "traditions": [
+        "Sanskrit Buddhism",
+        "Tibetan Buddhism"
+      ],
+      "content_types": [
+        "manuscript",
+        "catalog",
+        "edition"
+      ],
+      "strengths_zh": "佛教梵文写本是其南亚收藏的突出强项之一。",
+      "limitations_zh": "很多特殊馆藏需通过special collections流程查阅。",
+      "query_how_zh": "iDiscover书目检索后，根据special collections规则预约。"
+    },
+    {
+      "id": "harvard_yenching",
+      "name": "Harvard-Yenching Tibetan Collection",
+      "name_en": "Harvard-Yenching Library Tibetan Collection",
+      "authority_level": "primary_repository",
+      "access": "mixed",
+      "url": "https://library.harvard.edu/collections/tibetan-collection",
+      "search_url": "https://hollis.harvard.edu/",
+      "languages": [
+        "Tibetan",
+        "Chinese",
+        "Japanese",
+        "Korean"
+      ],
+      "traditions": [
+        "Tibetan Buddhism",
+        "East Asian Buddhism"
+      ],
+      "content_types": [
+        "catalog",
+        "edition",
+        "rare_book"
+      ],
+      "strengths_zh": "17–18世纪Kanjur/Tanjur版本及东亚佛教文献；可通过HOLLIS统一检索。",
+      "limitations_zh": "特藏阅览与复制按Harvard Library政策。",
+      "query_how_zh": "HOLLIS Romanized records；按edition、title、author、call number。"
+    },
+    {
+      "id": "ebmp",
+      "name": "Early Buddhist Manuscripts Project",
+      "name_en": "University of Washington Early Buddhist Manuscripts Project",
+      "authority_level": "scholarly_project",
+      "access": "mixed",
+      "url": "https://asian.washington.edu/early-buddhist-manuscripts-project",
+      "search_url": "https://asian.washington.edu/early-buddhist-manuscripts-project",
+      "languages": [
+        "Gāndhārī",
+        "Kharoṣṭhī",
+        "English"
+      ],
+      "traditions": [
+        "Early Buddhist manuscripts",
+        "Gandhāra"
+      ],
+      "content_types": [
+        "manuscript",
+        "edition",
+        "bibliography"
+      ],
+      "strengths_zh": "围绕最早一批犍陀罗桦树皮佛教写本的编辑、研究和出版项目。",
+      "limitations_zh": "研究成果大量通过专业出版物发布，不是全部原件影像统一开放。",
+      "query_how_zh": "项目页→出版物→对应馆藏（BL/LOC/UW等）追踪。"
+    },
+    {
+      "id": "kabc_dongguk",
+      "name": "韩国佛教记录文化遗产档案 / 统合大藏经",
+      "name_en": "Dongguk University Archive of Buddhist Culture / Combined Buddhist Canon",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://kabc.dongguk.edu/",
+      "search_url": "https://kabc.dongguk.edu/",
+      "languages": [
+        "Classical Chinese",
+        "Korean",
+        "English/Japanese/Chinese interface"
+      ],
+      "traditions": [
+        "Tripitaka Koreana",
+        "Korean Buddhism",
+        "East Asian Buddhism"
+      ],
+      "content_types": [
+        "canon_text",
+        "translation",
+        "catalog",
+        "image",
+        "bibliography"
+      ],
+      "strengths_zh": "以高丽大藏经与韩文大藏经为核心的统合检索，并扩展韩国佛教全书、教藏、寺刹刊本、近代佛教文献等。",
+      "limitations_zh": "主要强项是韩国与汉文佛教记录文化遗产；不同数据库模块的元数据和开放方式不完全一致。",
+      "query_how_zh": "从统合大藏经、韩国佛教全书、新集成文献、高丽教藏等模块进入，使用统一/详细检索。"
+    },
+    {
+      "id": "ngmcp",
+      "name": "尼泊尔-德国手稿目录项目",
+      "name_en": "Nepalese-German Manuscript Cataloguing Project (NGMCP)",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://www.aai.uni-hamburg.de/en/forschung/ngmcp",
+      "search_url": "https://www.aai.uni-hamburg.de/en/forschung/ngmcp",
+      "languages": [
+        "Sanskrit",
+        "Newari",
+        "Nepali",
+        "Tibetan metadata"
+      ],
+      "traditions": [
+        "Nepalese Buddhism",
+        "Sanskrit Buddhist manuscripts"
+      ],
+      "content_types": [
+        "manuscript",
+        "catalog",
+        "bibliography"
+      ],
+      "strengths_zh": "对NGMPP微缩保存的尼泊尔手稿做系统目录；覆盖数量极大的Indic/Tibetan manuscript title records，并提供微缩复制获取说明。",
+      "limitations_zh": "并非所有微缩影像都直接在线浏览；需要根据目录进一步申请microfilm或联系保存机构。",
+      "query_how_zh": "Indic Titles / Tibetan Titles / descriptive catalogue；记录microfilm reel和manuscript identifiers后申请复制。"
+    },
+    {
+      "id": "nlt_digital",
+      "name": "泰国国家图书馆 D-Library",
+      "name_en": "National Library of Thailand D-Library",
+      "authority_level": "primary_repository",
+      "access": "open",
+      "url": "https://www.nlt.go.th/",
+      "search_url": "https://digital.nlt.go.th/dlib/",
+      "languages": [
+        "Thai",
+        "Pāli",
+        "Khmer/Mon-related historical scripts"
+      ],
+      "traditions": [
+        "Theravāda",
+        "Thai Buddhist heritage"
+      ],
+      "content_types": [
+        "catalog",
+        "image",
+        "rare_book",
+        "manuscript"
+      ],
+      "strengths_zh": "泰国国家级数字馆藏与rare books/古文献入口；馆藏体系包含贝叶经、古文书和佛教相关出版物。",
+      "limitations_zh": "佛教文本需要结合泰文题名、Pāli题名和馆藏分类检索；并非统一Tipiṭaka全文库。",
+      "query_how_zh": "Single Search / D-Library；按题名、古文献、rare book、Pāli或佛教主题检索。"
+    },
+    {
+      "id": "sri_lanka_national_library",
+      "name": "斯里兰卡国家图书馆",
+      "name_en": "National Library of Sri Lanka",
+      "authority_level": "primary_repository",
+      "access": "mixed",
+      "url": "https://www.natlib.lk/NLSL/",
+      "search_url": "https://www.natlib.lk/NLSL/",
+      "languages": [
+        "Sinhala",
+        "Pāli",
+        "Sanskrit",
+        "English"
+      ],
+      "traditions": [
+        "Theravāda",
+        "Sri Lankan Buddhism"
+      ],
+      "content_types": [
+        "catalog",
+        "manuscript",
+        "palm_leaf",
+        "bibliography"
+      ],
+      "strengths_zh": "收藏Pāli/Sinhala/Sanskrit贝叶手稿与佛教Sutra、Jātaka等资料，是斯里兰卡线下补全的重要入口。",
+      "limitations_zh": "数字化程度有限，很多内容仍需馆藏目录或现场/咨询服务。",
+      "query_how_zh": "先查collection与馆方目录；对palm-leaf manuscripts直接联系馆方确认可用性。"
+    },
+    {
+      "id": "cbc_attributions",
+      "name": "中文佛典归属数据库 CBC@",
+      "name_en": "Chinese Buddhist Canonical Attributions Database",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://cbc.dila.edu.tw/cbc/",
+      "search_url": "https://cbc.dila.edu.tw/cbc/",
+      "languages": [
+        "Chinese",
+        "English metadata"
+      ],
+      "traditions": [
+        "Chinese Buddhist Canon",
+        "East Asian Buddhism"
+      ],
+      "content_types": [
+        "authority_data",
+        "bibliography",
+        "attribution_research"
+      ],
+      "strengths_zh": "专门记录汉文佛典传统归属、译者/作者、年代等受到质疑的证据与学术论证；非常适合‘伪经/误题/译者归属’专题。",
+      "limitations_zh": "聚焦中文佛典版本的归属问题；数据库中的assertion是研究导航，需要继续读具体引用文献。",
+      "query_how_zh": "按Taishō/Xuzang等文本、传统归属问题和assertions查找。"
+    },
+    {
+      "id": "taisho_base_collation",
+      "name": "大正藏底本・校本数据库",
+      "name_en": "Taishō Tripiṭaka Base and Collation Texts Database",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://taishozo-teihonkohon.toyobunko-lab.jp/en/about",
+      "search_url": "https://taishozo-teihonkohon.toyobunko-lab.jp/",
+      "languages": [
+        "Classical Chinese",
+        "Japanese",
+        "English interface"
+      ],
+      "traditions": [
+        "Taishō Canon",
+        "Chinese Buddhist textual criticism"
+      ],
+      "content_types": [
+        "catalog",
+        "manuscript",
+        "edition",
+        "collation_data"
+      ],
+      "strengths_zh": "直接回答‘大正藏这一部经当年用了什么底本、什么校本、这些原件今天在哪里’；是Dharma Atlas版本链最关键的新入口之一。",
+      "limitations_zh": "目前核心聚焦大正藏汉文部分及其编纂底本/校本；不是全文佛典替代品。",
+      "query_how_zh": "按T号/经名进入，查看base text、collation witnesses、馆藏机构、影像和相关数据库链接。"
+    },
+    {
+      "id": "sarit",
+      "name": "SARIT 印度文献检索",
+      "name_en": "SARIT — Search and Retrieval of Indic Texts",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://sarit.indology.info/exist/apps/sarit/",
+      "search_url": "https://sarit.indology.info/exist/apps/sarit/",
+      "languages": [
+        "Sanskrit",
+        "Indic languages"
+      ],
+      "traditions": [
+        "Indic textual traditions",
+        "selected Buddhist scholastic texts"
+      ],
+      "content_types": [
+        "canon_text",
+        "edition",
+        "digital_humanities"
+      ],
+      "strengths_zh": "可检索、可引用、带版本说明的TEI印度文献库；含部分重要佛教论典与哲学文本，适合梵文词组搜索。",
+      "limitations_zh": "不是佛典全集，规模和选文有限；使用时必须确认具体edition。",
+      "query_how_zh": "IAST/天城文/转写关键词全文检索；按作者与作品浏览；XML/EPUB/PDF下载。"
+    },
+    {
+      "id": "digital_silk_road",
+      "name": "数字丝绸之路",
+      "name_en": "Digital Silk Road Project",
+      "authority_level": "institutional_project",
+      "access": "open",
+      "url": "https://dsr.nii.ac.jp/index.html.en",
+      "search_url": "https://dsr.nii.ac.jp/index.html.en",
+      "languages": [
+        "Japanese",
+        "English",
+        "multilingual historical metadata"
+      ],
+      "traditions": [
+        "Silk Road Buddhism",
+        "Central Asian cultural history"
+      ],
+      "content_types": [
+        "map",
+        "image",
+        "iiif",
+        "3d",
+        "gazetteer",
+        "catalog"
+      ],
+      "strengths_zh": "丝路遗址、旧地图、敦煌/吐鲁番照片、佛教石窟、地名库、IIIF和3D数字档案；未来地图与3D层极有价值。",
+      "limitations_zh": "不是经文全文库；核心价值在地理、图像和数字文化遗产上下文。",
+      "query_how_zh": "按Silk Road ruins、placename、photographs、Buddhist cave temples、3D archives等专题进入。"
+    },
+    {
+      "id": "tlb_polyglotta",
+      "name": "佛教文献多语对读库 TLB",
+      "name_en": "Thesaurus Literaturae Buddhicae / Bibliotheca Polyglotta",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://www2.hf.uio.no/polyglotta/index.php?bid=2&page=library",
+      "search_url": "https://www2.hf.uio.no/polyglotta/index.php?bid=2&page=library",
+      "languages": [
+        "Sanskrit",
+        "Chinese",
+        "Tibetan",
+        "English",
+        "other aligned languages"
+      ],
+      "traditions": [
+        "Cross-tradition Buddhist literature"
+      ],
+      "content_types": [
+        "parallel_alignment",
+        "canon_text",
+        "manuscript_image"
+      ],
+      "strengths_zh": "逐句呈现梵、汉、藏、英等多语佛典，可并排对读并连接部分原始写本图像。",
+      "limitations_zh": "收录的是精选文本，不是全藏；句对句alignment仍需按具体文本版本理解。",
+      "query_how_zh": "选择specific text后按句阅读，或跨语言关键词搜索，支持synoptic parallel display。"
+    },
+    {
+      "id": "nti_reader",
+      "name": "NTI 中文佛典阅读器",
+      "name_en": "NTI Buddhist Text Reader",
+      "authority_level": "scholarly_project",
+      "access": "open",
+      "url": "https://ntireader.org/",
+      "search_url": "https://ntireader.org/",
+      "languages": [
+        "Classical Chinese",
+        "English",
+        "Pinyin",
+        "Sanskrit lookup"
+      ],
+      "traditions": [
+        "Chinese Buddhist Canon"
+      ],
+      "content_types": [
+        "canon_text",
+        "dictionary",
+        "translation_aid"
+      ],
+      "strengths_zh": "针对普通人和翻译者降低汉文佛典阅读门槛；以大正藏/CBETA文本为基础，提供中英佛教词典、术语和分析工具。",
+      "limitations_zh": "英文释义/翻译与项目自身参考体系相关；关键学术判断仍应回到原典与专业研究。",
+      "query_how_zh": "输入中文佛典、术语或T号；使用dictionary/annotation/translation workflow。"
+    },
+    {
+      "id": "ddb",
+      "name": "佛教数字词典 DDB",
+      "name_en": "Digital Dictionary of Buddhism",
+      "authority_level": "scholarly_project",
+      "access": "mixed",
+      "url": "http://www.buddhism-dict.net/ddb/",
+      "search_url": "http://www.buddhism-dict.net/ddb/",
+      "languages": [
+        "Chinese",
+        "Japanese",
+        "Korean",
+        "Sanskrit",
+        "English"
+      ],
+      "traditions": [
+        "East Asian Buddhism",
+        "Buddhist terminology"
+      ],
+      "content_types": [
+        "dictionary",
+        "reference"
+      ],
+      "strengths_zh": "东亚佛教学术语、人物、文本等长期协作型参考工具；SAT等平台可联动查询。",
+      "limitations_zh": "部分访问/检索策略与机构订阅有关；它是reference service，不是佛经全文库。",
+      "query_how_zh": "按汉字/术语检索；在SAT/BDK工作流中作为词典辅助。"
+    },
+    {
+      "id": "chinese_translation_bib",
+      "name": "中文佛典西语翻译书目",
+      "name_en": "Bibliography of Translations from the Chinese Buddhist Canon into Western Languages",
+      "authority_level": "research_bibliography",
+      "access": "open",
+      "url": "https://mbingenheimer.net/tools/bibls/transbibl.html",
+      "search_url": "https://mbingenheimer.net/tools/bibls/transbibl.html",
+      "languages": [
+        "English",
+        "European languages",
+        "Chinese titles"
+      ],
+      "traditions": [
+        "Chinese Buddhist Canon"
+      ],
+      "content_types": [
+        "bibliography",
+        "translation_index"
+      ],
+      "strengths_zh": "按大正藏T号整理汉文佛典译成西方语言的译本书目；截至2026仍持续更新，是‘这部中文经有没有英文/德文/法文翻译’的重要入口。",
+      "limitations_zh": "作者明确说明东欧语言、禅宗等部分仍可能缺漏；不覆盖全部亚洲语言译本。",
+      "query_how_zh": "按T号/经名浏览，查看translator、language、completeness与出版信息。"
+    },
+    {
+      "id": "nlt_manuscript",
+      "name": "ฐานข้อมูลเอกสารโบราณ หอสมุดแห่งชาติ",
+      "name_en": "National Library of Thailand Ancient Manuscript Database",
+      "authority_level": "national_library",
+      "access": "open_search",
+      "url": "https://manuscript.nlt.go.th/",
+      "search_url": "https://manuscript.nlt.go.th/",
+      "languages": [
+        "Thai",
+        "Pāli",
+        "Khmer script",
+        "Sanskrit",
+        "other manuscript languages"
+      ],
+      "traditions": [
+        "Theravāda",
+        "Thai Buddhism",
+        "Southeast Asian Buddhist manuscript traditions"
+      ],
+      "content_types": [
+        "palm_leaf_manuscript_catalog",
+        "inscription_catalog",
+        "thai_folding_books",
+        "manuscript_metadata"
+      ],
+      "strengths_zh": "泰国国家图书馆古文献专库；可检索贝叶经、碑铭、สมุดไทย（折本）及佛典相关古文献。官方说明指出贝叶经大量记录佛教教义及三藏内容。",
+      "limitations_zh": "界面和题名多为泰文；并非所有条目都提供完整在线影像。",
+      "query_how_zh": "优先以巴利/泰文题名、经类、文字系统、馆藏登记号检索；找具体原件时记录ทะเบียน/เลขทะเบียน与收藏单位。"
+    },
+    {
+      "id": "nlm_myanmar",
+      "name": "မြန်မာနိုင်ငံ အမျိုးသားစာကြည့်တိုက်",
+      "name_en": "National Library of Myanmar Digital Collections",
+      "authority_level": "national_library",
+      "access": "open_catalog_and_selected_digital",
+      "url": "https://nlm.gov.mm/",
+      "search_url": "https://nlm.gov.mm/bhlib/category/185",
+      "languages": [
+        "Myanmar",
+        "Pāli",
+        "Mon",
+        "English"
+      ],
+      "traditions": [
+        "Theravāda",
+        "Myanmar Buddhism"
+      ],
+      "content_types": [
+        "buddhist_literature",
+        "palm_leaf_manuscripts",
+        "rare_books",
+        "digital_collection"
+      ],
+      "strengths_zh": "缅甸国家图书馆官方数字资源入口明确列有 Buddhist Literature Digital Collection、Palm-leaf Manuscript Digital Collection 与 Rare Books Collection；馆史亦记录Pāli、缅文、孟文贝叶经与parabeik收藏。",
+      "limitations_zh": "数字平台的条目级元数据与稳定链接深度不一；部分资料可能需要馆内或人工确认。",
+      "query_how_zh": "先从Buddhist Literature / Palm-leaf / Rare Books分类进入；再以巴利题名、缅文题名、作者/寺院来源组合查询。"
+    },
+    {
+      "id": "nlt_dlibrary",
+      "name": "D-Library | National Library of Thailand",
+      "name_en": "National Library of Thailand D-Library",
+      "authority_level": "national_library",
+      "access": "open",
+      "url": "https://digital.nlt.go.th/dlib/",
+      "search_url": "https://digital.nlt.go.th/dlib/",
+      "languages": [
+        "Thai",
+        "Pāli",
+        "Sanskrit",
+        "Chinese",
+        "Khmer-script materials"
+      ],
+      "traditions": [
+        "Theravāda",
+        "Thai Buddhism",
+        "Buddhist epigraphy"
+      ],
+      "content_types": [
+        "digitized_palm_leaf",
+        "rare_books",
+        "inscriptions",
+        "pdf",
+        "object_records"
+      ],
+      "strengths_zh": "泰国国家图书馆可直接浏览的数字馆藏；部分贝叶经和碑铭条目提供PDF、登记号、来源寺院、文字与语言信息，并支持结构化输出。",
+      "limitations_zh": "检索语言以泰文为主；数字化覆盖并非全部古文献。",
+      "query_how_zh": "用พระไตรปิฎก、คัมภีร์ใบลาน、บาลี等关键词；打开条目后记录เลขทะเบียนใบลาน/对象号与来源馆。"
+    },
+    {
+      "id": "nl_mongolia",
+      "name": "Монгол Улсын Үндэсний Номын Сан",
+      "name_en": "National Library of Mongolia",
+      "authority_level": "national_library",
+      "access": "catalog_open_selected_digital",
+      "url": "https://www.nationallibrary.mn/",
+      "search_url": "https://ecatalog.nationallibrary.mn/",
+      "languages": [
+        "Mongolian",
+        "Tibetan",
+        "Classical Mongolian",
+        "Manchu"
+      ],
+      "traditions": [
+        "Tibetan Buddhism",
+        "Mongolian Buddhism"
+      ],
+      "content_types": [
+        "tibetan_books",
+        "manuscripts",
+        "catalog",
+        "digitized_material"
+      ],
+      "strengths_zh": "蒙古国家图书馆设有藏文书籍/经卷资源与电子目录；官方项目报告记录与BDRC合作的大规模藏文典籍编目、扫描与数字化。",
+      "limitations_zh": "大量资料的题名、目录界面为蒙古文/藏文；部分数字内容需注册或通过馆方系统访问。",
+      "query_how_zh": "先在电子目录按藏文/蒙古文题名、作者、主题查找；若条目有电子版本标识则按馆方流程在线阅读，否则记录call number后联系馆方。"
+    }
+  ]
+}
