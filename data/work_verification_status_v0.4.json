@@ -1,0 +1,27 @@
+{
+  "version": "0.4",
+  "updated_at": "2026-09-19",
+  "total": 100,
+  "status_counts": {
+    "verified_core_v0.2": 32,
+    "suttacentral_id_url_verified_2026-09-19": 22,
+    "authority_route_verified_suttacentral": 4,
+    "authority_text_verified_tipitakapali": 1,
+    "authority_id_verified_84000": 31,
+    "authority_family_verified_84000": 1,
+    "authority_text_verified_gretil": 2,
+    "authority_index_verified_gretil": 2,
+    "authority_id_verified_84000_canon_index": 3,
+    "authority_text_route_verified_adarshah_tsadra": 1,
+    "tradition_family_route_verified_no_single_canonical_id": 1
+  },
+  "authority_route_available": 100,
+  "detailed_crosswalk_records": 32,
+  "authority_route_only_or_partial": 68,
+  "interpretation": {
+    "authority_route_available": "At least one direct authoritative online route/identifier is recorded for every work in text_access_index_100_v0.3.json.",
+    "detailed_crosswalk_records": "Records with the stronger v0.2 Work/Version/parallel foundation. These can support deeper compare UI earlier.",
+    "authority_route_only_or_partial": "Not 'unverified'; these have an authority route but still need richer version-level chronology, parallels, witness links and bibliography before scholar-grade compare."
+  },
+  "rule": "Direct authority route ≠ proof that different recensions are identical. Deep crosswalk remains Work → Version → Witness → Parallel → Bibliography."
+}
