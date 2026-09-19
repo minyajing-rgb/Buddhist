@@ -7,13 +7,13 @@
 
 | Layer | Count | Status |
 |---|---:|---|
-| Authoritative online source/platform entries | **32** | ✅ required-field QA passed |
+| Authoritative online source/platform entries | **40** | ✅ required-field + link-health QA passed |
 | Physical library/archive access entries | **15** | ✅ required-field QA passed |
 | Geographic map nodes | **27** | ✅ JSON valid |
 | People / transmission nodes | **20** | ✅ JSON valid |
 | Full-corpus entry points | **15** | ✅ JSON valid |
 | Representative key works | **100** | ✅ record count complete; verification depth mixed |
-| Current direct text-access crosswalk records | **32** | ✅ initial verified batch |
+| Work access records | **100** | ✅ initial verified batch |
 | Concept-learning entries | **20** | ✅ |
 | Learning paths | **5** | ✅ |
 | Search / research workflows | **6** | ✅ |
@@ -85,8 +85,10 @@ Work / Title
 
 ### Gate A — 100-work authority verification
 - [x] 100 representative Work records
-- [x] 32 stronger crosswalk records
-- [ ] verify version IDs / direct links for remaining 68
+- [x] 32 stronger v0.2 crosswalk records
+- [x] 22 additional Pāli canonical routes checked
+- [x] 100 works have online/offline access records
+- [ ] verify version-level IDs / direct authority links for remaining 46
 - [ ] attach chronology + bibliography status to all priority works
 
 ### Gate B — physical evidence
@@ -109,9 +111,9 @@ Work / Title
 - [ ] per-asset rights QA
 
 ### Gate E — link QA
-- [ ] external link-health check for all source/holding URLs
-- [ ] redirect/dead-link report
-- [ ] replacement/fallback URLs
+- [x] first-pass source-registry link-health check: 40 / 40
+- [x] migration repair: BuddhaNexus legacy → DharmaNexus
+- [ ] add scheduled recheck / fallback URLs for future maintenance
 
 ## Definition of Done
 
@@ -127,3 +129,12 @@ The website phase begins only when the database can answer these questions relia
 8. **我只想看故事/视频/地图，不想先学术语，可以怎么进入？**
 
 Until these are covered, **do not label the public product “complete.”**
+
+
+## Website status
+
+The old v0.2 HTML prototype has been moved to `docs/archive/index_v0.2_legacy.html`.
+
+There is intentionally **no active public `docs/index.html` now**.
+
+Reason: database first. The new website will be rebuilt only after the remaining database gates pass, and it will read `data/CURRENT.json` rather than hard-code content.
