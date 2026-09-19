@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/collect_authority_metadata.py'
       - 'scripts/repair_authority_bibliography.py'
+      - 'data/CURRENT.json'
       - '.github/workflows/authority-import.yml'
   workflow_dispatch:
 permissions:
@@ -18,6 +19,13 @@ jobs:
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+      - name: Refuse to erase evidence from an incompatible manifest
+        shell: python
+        run: |
+          import json,pathlib
+          p=pathlib.Path(json.loads(pathlib.Path('data/CURRENT.json').read_text())['canonical_datasets']['deep_crosswalk'])
+          records=json.loads(p.read_text())['records']
+          assert len(records)==100 and all('titles' in r and 'authority_routes' in r for r in records), 'Canonical schema regression; do not overwrite evidence'
       - name: Import exact-ID metadata from public authority snapshots
         run: python scripts/collect_authority_metadata.py --refresh
       - name: Import mixed-content bibliographic facts and source locators
