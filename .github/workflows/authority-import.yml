@@ -1,0 +1,38 @@
+name: Import authority metadata
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/collect_authority_metadata.py'
+      - '.github/workflows/authority-import.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: authority-metadata-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Import exact-ID bibliographic facts from public authority snapshots
+        run: python scripts/collect_authority_metadata.py --refresh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: authority-metadata-review
+          path: data/authority_metadata_v0.7.json
+          retention-days: 14
+      - name: Archive unreviewed import with explicit provenance
+        continue-on-error: true
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/authority_metadata_v0.7.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: archive source-pinned authority metadata (not scholar-reviewed)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
