@@ -1,0 +1,233 @@
+{
+  "version": "0.3",
+  "updated_at": "2026-09-19",
+  "design_zh": "媒体层只保存链接、版权/复用状态、建议用途与关联节点。网页以后可嵌视频、图像、3D/IIIF viewer，但不默认复制第三方受版权保护素材。",
+  "reuse_status_values": [
+    "public_domain_or_no_known_restrictions",
+    "open_license_check_item",
+    "embed_link_only",
+    "permission_required",
+    "unknown_verify_before_use",
+    "owned_by_project"
+  ],
+  "assets": [
+    {
+      "id": "MED-001",
+      "type": "manuscript_images",
+      "title_zh": "LOC Gandhara Scroll 数字图像",
+      "provider": "Library of Congress",
+      "url": "https://www.loc.gov/item/2018305008/",
+      "linked_witness": "WIT-0001",
+      "linked_places": [
+        "taxila",
+        "washington_dc"
+      ],
+      "reuse_status": "public_domain_or_no_known_restrictions",
+      "suggested_use": [
+        "story EP04",
+        "3D/zoom manuscript viewer mockup",
+        "timeline card"
+      ],
+      "notes_zh": "LOC页面明确标注该South Asian Digital Collection内容为public domain或无已知版权限制。"
+    },
+    {
+      "id": "MED-002",
+      "type": "manuscript_images",
+      "title_zh": "敦煌868《金刚经》高清图像",
+      "provider": "International Dunhuang Programme / British Library",
+      "url": "https://idp.bl.uk/collection/51FDAEAFB4A24E2E9981692A98130BC8/",
+      "linked_witness": "WIT-0003",
+      "linked_places": [
+        "dunhuang",
+        "london"
+      ],
+      "reuse_status": "permission_required",
+      "suggested_use": [
+        "timeline printing history",
+        "Dunhuang story card",
+        "scroll viewer"
+      ],
+      "notes_zh": "可在线查看；具体图片再利用遵守BL/IDP条款，不能因为原物古老就默认扫描图自由使用。"
+    },
+    {
+      "id": "MED-003",
+      "type": "collection_images",
+      "title_zh": "BnF Pelliot敦煌数字馆藏",
+      "provider": "BnF / Gallica",
+      "url": "https://gallica.bnf.fr/",
+      "linked_witness": "WIT-0005",
+      "linked_places": [
+        "dunhuang",
+        "paris"
+      ],
+      "reuse_status": "open_license_check_item",
+      "suggested_use": [
+        "map node gallery",
+        "multilingual manuscript carousel"
+      ],
+      "notes_zh": "每个Gallica对象按其rights/reuse说明处理。"
+    },
+    {
+      "id": "MED-004",
+      "type": "manuscript_feature",
+      "title_zh": "剑桥《八千颂般若》彩绘梵文写本",
+      "provider": "Cambridge University Library",
+      "url": "https://specialcollections-blog.lib.cam.ac.uk/?p=1560",
+      "linked_witness": "WIT-0010",
+      "linked_places": [
+        "cambridge_uk"
+      ],
+      "reuse_status": "permission_required",
+      "suggested_use": [
+        "Sanskrit manuscript story",
+        "Nepal preservation card"
+      ],
+      "notes_zh": "图像展示可链接；再利用需按Cambridge Library政策。"
+    },
+    {
+      "id": "MED-005",
+      "type": "heritage_gallery",
+      "title_zh": "高丽大藏经木板与海印寺",
+      "provider": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/737",
+      "linked_witness": "WIT-0009",
+      "linked_places": [
+        "haeinsa"
+      ],
+      "reuse_status": "open_license_check_item",
+      "suggested_use": [
+        "woodblock/physical canon story",
+        "3D heritage scene reference"
+      ],
+      "notes_zh": "UNESCO页面文字有CC BY-SA IGO说明；具体图片版权需逐张确认。"
+    },
+    {
+      "id": "MED-006",
+      "type": "digital_text",
+      "title_zh": "84000藏文佛典英译阅读器",
+      "provider": "84000",
+      "url": "https://84000.co/reading-room",
+      "linked_witness": null,
+      "linked_places": [
+        "lhasa",
+        "dege"
+      ],
+      "reuse_status": "embed_link_only",
+      "suggested_use": [
+        "source card",
+        "Toh deep link",
+        "story evidence drawer"
+      ],
+      "notes_zh": "以跳转/引用为主，不复制其翻译全文；遵守84000版权条款。"
+    },
+    {
+      "id": "MED-007",
+      "type": "digital_text",
+      "title_zh": "CBETA汉文佛典在线阅读",
+      "provider": "CBETA",
+      "url": "https://cbetaonline.dila.edu.tw/",
+      "linked_witness": null,
+      "linked_places": [
+        "taipei"
+      ],
+      "reuse_status": "open_license_check_item",
+      "suggested_use": [
+        "Chinese original text drawer",
+        "T-number deep link"
+      ],
+      "notes_zh": "引用与再利用按CBETA开放内容/版权说明。"
+    },
+    {
+      "id": "MED-008",
+      "type": "interactive_data",
+      "title_zh": "BDRC高分辨率藏文典籍与Linked Data",
+      "provider": "BDRC",
+      "url": "https://www.bdrc.io/",
+      "linked_witness": "WIT-0013",
+      "linked_places": [
+        "lhasa",
+        "dege"
+      ],
+      "reuse_status": "open_license_check_item",
+      "suggested_use": [
+        "IIIF-like manuscript viewer",
+        "person/place/text graph"
+      ],
+      "notes_zh": "具体扫描对象的访问与权利可能不同，按record处理。"
+    },
+    {
+      "id": "MED-009",
+      "type": "map_data",
+      "title_zh": "Dharma Atlas自有地图节点数据",
+      "provider": "Dharma Atlas",
+      "url": "data/places_v0.3.geojson",
+      "linked_witness": null,
+      "linked_places": [
+        "all"
+      ],
+      "reuse_status": "owned_by_project",
+      "suggested_use": [
+        "2D map",
+        "3D globe",
+        "route animation",
+        "story map"
+      ],
+      "notes_zh": "项目自有结构化metadata；底图仍需使用合规地图提供商/开放地图数据。"
+    },
+    {
+      "id": "MED-010",
+      "type": "project_video_channel",
+      "title_zh": "Dharma Atlas / Joyce YouTube 频道位",
+      "provider": "Project-owned future media",
+      "url": null,
+      "linked_witness": null,
+      "linked_places": [],
+      "reuse_status": "owned_by_project",
+      "suggested_use": [
+        "story episode video",
+        "short explainer",
+        "interview",
+        "manuscript walkthrough"
+      ],
+      "notes_zh": "待用户提供或创建正式YouTube频道后填入channel ID；网页media card不依赖硬编码。"
+    },
+    {
+      "id": "MED-011",
+      "type": "public_video_reference",
+      "title_zh": "LOC Gandhara Scroll讲座/馆藏视频入口",
+      "provider": "Library of Congress",
+      "url": "https://guides.loc.gov/south-asian-manuscripts/gandhara",
+      "linked_witness": "WIT-0001",
+      "linked_places": [
+        "washington_dc"
+      ],
+      "reuse_status": "embed_link_only",
+      "suggested_use": [
+        "EP04 further watching",
+        "researcher interview reference"
+      ],
+      "notes_zh": "Research Guide链接到相关讲座/博客；嵌入方式按LOC页面能力处理。"
+    },
+    {
+      "id": "MED-012",
+      "type": "future_3d_asset",
+      "title_zh": "敦煌藏经洞/丝路节点3D可视化（项目自制）",
+      "provider": "Dharma Atlas",
+      "url": null,
+      "linked_witness": "WIT-0004",
+      "linked_places": [
+        "dunhuang",
+        "kucha",
+        "khotan",
+        "changan"
+      ],
+      "reuse_status": "owned_by_project",
+      "suggested_use": [
+        "3D story scene",
+        "route transition",
+        "museum-like exploration"
+      ],
+      "notes_zh": "未来自制，不直接复制敦煌研究院或馆藏机构受版权保护的3D素材。"
+    }
+  ]
+}
