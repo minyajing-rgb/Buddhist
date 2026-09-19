@@ -12,8 +12,12 @@
     "search_workflows": 6,
     "text_access_records": 32,
     "full_corpus_entrypoints": 15,
-    "key_texts": 32,
-    "concepts": 20
+    "key_works": 100,
+    "concepts": 20,
+    "landmark_witnesses": 20,
+    "research_dossiers": 12,
+    "media_assets": 12,
+    "season1_full_episodes": 12
   },
   "datasets": [
     {
@@ -49,22 +53,37 @@
       "status": "JSON_PARSE_OK"
     },
     {
-      "path": "data/key_texts_v0.2.json",
+      "path": "data/key_works_100_v0.3.json",
       "status": "JSON_PARSE_OK"
     },
     {
       "path": "data/concepts_v0.2.json",
       "status": "JSON_PARSE_OK"
+    },
+    {
+      "path": "data/manuscript_witnesses_v0.3.json",
+      "status": "JSON_PARSE_OK"
+    },
+    {
+      "path": "data/bibliography_positions_v0.3.json",
+      "status": "JSON_PARSE_OK"
+    },
+    {
+      "path": "data/media_registry_v0.3.json",
+      "status": "JSON_PARSE_OK"
+    },
+    {
+      "path": "data/qa_report_v0.3.json",
+      "status": "JSON_PARSE_OK"
     }
   ],
   "definition_of_done": "A dataset is DONE only when schema + records + authoritative source links + QA status exist.",
   "next_database_gates": [
-    "Expand key text index from 32 to 100+ representative works",
-    "Add bibliography layer for each disputed/high-priority text",
-    "Add manuscript witness records for 30 landmark physical witnesses",
-    "Add media registry (video/image/audio/public-domain/permission status)",
-    "Replace user-facing SVG assets with PNG/JPG and store in docs/assets/img/",
-    "Run link/status QA on all authoritative URLs",
-    "Only then rebuild the public HTML site"
+    "Crosswalk and authority-ID verification for the remaining 68 discovery-level key works",
+    "Expand 12 research dossiers into paper/book-level bibliographies with attributed positions",
+    "Expand landmark witnesses from 20 to 50+ and add item-level IIIF/shelfmarks where authoritative",
+    "Run external link-health QA across source registry and holding URLs",
+    "Create public-facing PNG/JPG asset registry and move approved visuals to docs/assets/img/",
+    "Only after these gates pass: rebuild public HTML site from database"
   ]
 }
