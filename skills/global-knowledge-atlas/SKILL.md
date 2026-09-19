@@ -2,10 +2,15 @@
 name: global-knowledge-atlas
 description: Build and maintain a source-traceable, story-first global knowledge atlas for any discipline. Use for comprehensive domain maps, canonical databases, crosswalks, timelines, geography, archive access, scholarly controversies, community/KOL research, beginner learning paths and research websites. Audit existing content before expansion; distinguish evidence coverage, functional implementation and publication.
 metadata:
-  version: "1.1"
+  version: "1.2"
   scope: cross-disciplinary
   output_mode: database-first
 ---
+
+<!-- LIVING_RELEASE_OVERRIDE -->
+> **发布规则 v1.2：** 当用户明确要求先预览、边研究边迭代时，先发布已可使用的内容，保留未知/争议/证据等级标签。研究完整性不得阻塞整站预览；功能、安全和隐私检查仍须通过。此条替代旧文中要求学术考证全部完成才允许任何公网预览的表述。每批采用“数据更新→自动构建→功能测试→预览发布→公网核验”，不以发布代替研究完成。
+
+
 
 # Global Knowledge Atlas｜全球知识地图生产 Skill
 

@@ -1,3 +1,16 @@
+<!-- LIVE_PREVIEW_POLICY_START -->
+## 当前公开预览：内容与网站并行更新
+
+已上线：[https://minyajing-rgb.github.io/Buddhist/](https://minyajing-rgb.github.io/Buddhist/)。本次已核验真实HTTPS页面和浏览器交互。
+
+用户于2026-09-19明确要求：已有内容先部署预览，研究和网站并行完善。此规则替代下文历史记录中“全部考证完成后再发布／官网未部署”的旧状态；学术证据仍须诚实标注。
+
+发布结果见 `docs/public_deployment.json`，公网测试见 `data/public_beta_qa.json`。
+
+本轮另核对18部的官方平行关系编码，旧重复分类目标133项，新映射重叠0项。仅指编码修正，不指独立完成全部经文校勘。
+
+<!-- LIVE_PREVIEW_POLICY_END -->
+
 # DATABASE STATUS｜Dharma Atlas v0.7 Research Review
 
 更新：2026-09-19。**已有可运行的完整交互研究版；未认证100部完成深度学术考证，未公开部署正式官网。**

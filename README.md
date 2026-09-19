@@ -1,3 +1,16 @@
+<!-- LIVE_PREVIEW_POLICY_START -->
+## 当前公开预览：内容与网站并行更新
+
+已上线：[https://minyajing-rgb.github.io/Buddhist/](https://minyajing-rgb.github.io/Buddhist/)。本次已核验真实HTTPS页面和浏览器交互。
+
+用户于2026-09-19明确要求：已有内容先部署预览，研究和网站并行完善。此规则替代下文历史记录中“全部考证完成后再发布／官网未部署”的旧状态；学术证据仍须诚实标注。
+
+发布结果见 `docs/public_deployment.json`，公网测试见 `data/public_beta_qa.json`。
+
+本轮另核对18部的官方平行关系编码，旧重复分类目标133项，新映射重叠0项。仅指编码修正，不指独立完成全部经文校勘。
+
+<!-- LIVE_PREVIEW_POLICY_END -->
+
 # Dharma Atlas｜佛典全球知识地图
 
 > 从一部经，读懂一个世界。  

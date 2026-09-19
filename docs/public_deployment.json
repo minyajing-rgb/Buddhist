@@ -2,10 +2,12 @@
   "url": "https://minyajing-rgb.github.io/Buddhist/",
   "status": "published_and_https_hash_verified",
   "http_status": 200,
-  "homepage_sha256": "8e9a7915b1b6546e84278dbf6dda9db64fd048e5c8033a3eab83b5dc9dd22250",
-  "verified_at": "2026-09-19T10:31:53.485062+00:00",
-  "workflow_run": "35437619814",
-  "source_commit": "bde1ebafb4e174ffd202524e53743d3451652648",
+  "homepage_sha256": "1d4062d011c296a3c55f67a18e385c1c96390f90f7ed6b3b3a7c03bd12aae721",
+  "verified_at": "2026-09-19T10:36:51.713624+00:00",
+  "workflow_run": "35437843954",
+  "source_commit": "9e56a47da63aa2101209336f630f4eb4f3065385",
   "research_complete": false,
-  "custom_dns_modified": false
+  "custom_dns_modified": false,
+  "quantum_http_status": 200,
+  "quantum_sha256_matches": true
 }
