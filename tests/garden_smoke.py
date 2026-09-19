@@ -20,7 +20,7 @@ def main():
         check('Homepage visible',page.locator('.hero-copy h1').is_visible())
         check('Six visual exploration portals',page.locator('#heroPortalDeck .portal-card').count()==6)
         check('Gamified journey entry visible',page.locator('#journeyButton').is_visible())
-        page.locator('#journeyButton').click();check('Journey drawer opens',page.locator('#journeyDrawer').get_attribute('aria-hidden')=='false' and page.locator('.stamp-grid .stamp').count()==6);page.locator('[data-close-journey]').click()
+        page.locator('#journeyButton').click();page.wait_for_timeout(80);check('Journey drawer opens',page.locator('#journeyDrawer').get_attribute('aria-hidden')=='false' and page.locator('.stamp-grid .stamp').count()==6);page.locator('[data-close-journey]').click();page.wait_for_timeout(40)
         check('Garden PNG loaded',page.request.get(args.url+'assets/garden.png').status==200)
         content=page.eval_on_selector('#public-content','e=>JSON.parse(e.textContent)')
         check('100 texts preserved',len(content['works'])==100)
