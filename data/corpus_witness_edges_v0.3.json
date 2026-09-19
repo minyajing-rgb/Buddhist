@@ -1,0 +1,96 @@
+{
+  "version": "0.3",
+  "updated_at": "2026-09-19",
+  "edges": [
+    {
+      "corpus_id": "gandharan",
+      "witness_id": "WIT-0001",
+      "relation": "representative_object",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "gandharan",
+      "witness_id": "WIT-0002",
+      "relation": "core_collection",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "dunhuang",
+      "witness_id": "WIT-0003",
+      "relation": "representative_object",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "dunhuang",
+      "witness_id": "WIT-0004",
+      "relation": "major_collection",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "dunhuang",
+      "witness_id": "WIT-0005",
+      "relation": "major_collection",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "dunhuang",
+      "witness_id": "WIT-0006",
+      "relation": "major_collection",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "dunhuang",
+      "witness_id": "WIT-0007",
+      "relation": "major_collection",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "zhaocheng_jin",
+      "witness_id": "WIT-0008",
+      "relation": "physical_edition",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "tripitaka_koreana",
+      "witness_id": "WIT-0009",
+      "relation": "physical_edition",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "nepalese_manuscripts",
+      "witness_id": "WIT-0012",
+      "relation": "core_collection",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "tibetan_kangyur",
+      "witness_id": "WIT-0013",
+      "relation": "rare_edition",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "tibetan_kangyur",
+      "witness_id": "WIT-0014",
+      "relation": "major_edition",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "tibetan_tengyur",
+      "witness_id": "WIT-0015",
+      "relation": "major_edition",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "thai_sri_lanka_manuscripts",
+      "witness_id": "WIT-0018",
+      "relation": "physical_collection",
+      "confidence": "high"
+    },
+    {
+      "corpus_id": "thai_sri_lanka_manuscripts",
+      "witness_id": "WIT-0019",
+      "relation": "physical_collection",
+      "confidence": "high"
+    }
+  ]
+}
