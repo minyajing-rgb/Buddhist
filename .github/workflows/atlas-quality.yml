@@ -1,0 +1,70 @@
+name: Atlas evidence audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'skills/global-knowledge-atlas/**'
+      - 'scripts/**'
+      - 'site/**'
+      - '.github/workflows/atlas-quality.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect canonical records without inflating verification
+        shell: python
+        run: |
+          import json, pathlib, collections, datetime
+          root=pathlib.Path('.')
+          current=json.loads((root/'data/CURRENT.json').read_text())
+          path=current['canonical_datasets']['deep_crosswalk']
+          raw=json.loads((root/path).read_text())
+          records=raw['records']
+          ids=[r['work_id'] for r in records]
+          assert len(records)==100 and len(set(ids))==100, 'Expected 100 unique crosswalk works'
+          def missing(x):
+              return x is None or x=='' or x==[] or x=={}
+          rows=[]
+          for r in records:
+              c=r.get('chronology',{})
+              b=r.get('bibliography',{})
+              routes=[a for a in r.get('authority_routes',[]) if a.get('url')]
+              notes=[]
+              if not routes: notes.append('authority_route_missing')
+              if all(missing(c.get(k)) for k in ['traditional_date','scholarly_range','earliest_surviving_witness_date']): notes.append('work_chronology_unresolved')
+              bibliography_items=b if isinstance(b,list) else b.get('items',[]) if isinstance(b,dict) else []
+              if not bibliography_items: notes.append('item_bibliography_unresolved')
+              item_material=[m for m in r.get('material_context',[]) if m.get('item_level_match') is True]
+              if not item_material and not r.get('witness_links'): notes.append('no_item_witness_link_recorded')
+              if r.get('material_context') and not item_material: notes.append('collection_context_not_item_evidence')
+              rows.append({'work_id':r['work_id'],'title':r.get('titles',{}).get('zh'),'reported_level':r.get('crosswalk_level'),'authority_routes':len(routes),'flags':notes})
+          flags=collections.Counter(flag for r in rows for flag in r['flags'])
+          out=root/'build'; out.mkdir(exist_ok=True)
+          report={'audit_version':'1.0','generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':path,'unique_works':len(ids),'flag_counts':dict(flags),'release_gate':'REVIEW_ONLY_UNTIL_SCHOLARLY_GAPS_RESOLVED','limitations':['This checks record content and references, not historical truth.','A URL is not a live link check.','A collection-level target is not proof that a library holds a particular item.','This audit does not certify all reported L3 levels.'],'records':rows}
+          (out/'research-audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          (out/'compact-100.tsv').write_text('work_id\ttitle\tcanonical_ids\tauthority_urls\n'+'\n'.join(r['work_id']+'\t'+r.get('titles',{}).get('zh','')+'\t'+json.dumps(r.get('canonical_ids',{}),ensure_ascii=False)+'\t'+' | '.join(x.get('url','') for x in r.get('authority_routes',[])) for r in records))
+          print(json.dumps({k:v for k,v in report.items() if k!='records'},ensure_ascii=False,indent=2))
+          with open(__import__('os').environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('# Independent evidence audit\n\n100 unique works; record completeness is not scholarly completion.\n\n')
+              for key,value in flags.items(): f.write(f'- {key}: {value}\n')
+      - name: Build review website when its compiler is present
+        shell: bash
+        run: |
+          if [ -f scripts/build_atlas.py ]; then python scripts/build_atlas.py; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dharma-atlas-reviewed-source
+          path: |
+            data/
+            docs/
+            skills/global-knowledge-atlas/
+            scripts/
+            site/
+            build/
+          retention-days: 14
+          if-no-files-found: error
