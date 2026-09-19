@@ -106,3 +106,73 @@ Use context-sensitive Internet research ethics:
 Method anchors:
 - Association of Internet Researchers: https://aoir.org/ethics/
 - Bellingcat Toolkit: https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/
+
+
+## Documented public-scholarship patterns
+
+These are **communication/research patterns**, not blanket endorsements.
+
+### Religion for Breakfast pattern
+Use when translating academic religious studies for a broad audience:
+- begin with a common category or misconception;
+- define what scholars mean by the category;
+- separate academic description from devotional truth claims;
+- contextualize historically and socially;
+- preserve internal diversity;
+- make the answer accessible without assuming prior training.
+
+Useful for: beginner explainers, concept cards, 5–10 minute scripts.
+
+### Let's Talk Religion pattern
+Documented episodes routinely include **Sources / Recommended Reading** and often frame the episode around “what do the sources actually say?”
+Method:
+1. start with a mythologized or misunderstood historical question;
+2. consult primary/contemporary sources where possible;
+3. use specialist monographs/handbooks;
+4. separate legend from evidence;
+5. list recommended reading transparently.
+
+Useful for: story episodes, historical puzzles, transmission history.
+
+Reference example:
+- https://shows.acast.com/lets-talk-religion
+
+### ESOTERICA / Justin Sledge pattern
+Dr. Justin Sledge describes the project as academically rigorous but approachable, using a **sympathetic read and a critical eye**, while rejecting conspiracy-driven or baseless speculation.
+Method:
+- understand a tradition on its own terms;
+- keep historical/philological criticism active;
+- explicitly distinguish evidence from speculation;
+- make obscure specialist scholarship public-facing.
+
+Useful for: esotericism, mysticism, occult, contested spiritual material.
+
+Reference:
+- https://www.justinsledge.com/esoterica
+
+### UsefulCharts pattern
+UsefulCharts explicitly describes charts as:
+- a **starting point**;
+- an **overall framework**;
+- something learners repeatedly return to as they acquire more detail.
+
+Method:
+- build the visual map first;
+- make the relationships memorable;
+- pair chart with narrative/video explanation;
+- never imply the chart alone exhausts the field.
+
+Useful for: timelines, family trees, school/branch maps, canon trees.
+
+Reference:
+- https://usefulcharts.com/pages/about
+
+## Public-scholarship evidence rule
+
+For every creator/video/post:
+- store bibliography if supplied;
+- separate cited scholarship from creator interpretation;
+- identify whether the content uses primary sources;
+- index corrections/updates where visible;
+- do not infer expertise outside the creator's documented domain;
+- treat views/likes as reception data, not truth evidence.
