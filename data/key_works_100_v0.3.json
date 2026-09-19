@@ -2,7 +2,7 @@
   "version": "0.3",
   "updated_at": "2026-09-19",
   "total": 100,
-  "note_zh": "100部代表作品母索引。前32条继承v0.2较强crosswalk；新增巴利经号中22条已完成SuttaCentral路由存在性核验；其余新增作品仍明确标needs_id_crosswalk，不冒充完整校勘。",
+  "note_zh": "100部代表作品母索引。现有94条达到较强/权威路由或权威编号层，剩余6条采用作品级权威入口继续处理；任何版本同一性仍需Version/Witness层单独验证。",
   "works": [
     {
       "id": "DA-W-0001",
@@ -1377,7 +1377,7 @@
       "title_zh": "长老偈",
       "title_en": "Theragāthā",
       "ids": {
-        "suttacentral": null,
+        "suttacentral": "thag",
         "taisho": null,
         "toh": null,
         "bdrc": null
@@ -1387,9 +1387,10 @@
         "monastic voices",
         "early Buddhism"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_route_verified_suttacentral",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0056",
@@ -1400,7 +1401,7 @@
       "title_zh": "长老尼偈",
       "title_en": "Therīgāthā",
       "ids": {
-        "suttacentral": null,
+        "suttacentral": "thig",
         "taisho": null,
         "toh": null,
         "bdrc": null
@@ -1410,9 +1411,10 @@
         "poetry",
         "early Buddhism"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_route_verified_suttacentral",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0057",
@@ -1423,7 +1425,7 @@
       "title_zh": "本生故事集",
       "title_en": "Jātaka",
       "ids": {
-        "suttacentral": null,
+        "suttacentral": "ja",
         "taisho": null,
         "toh": null,
         "bdrc": null
@@ -1433,9 +1435,10 @@
         "karma",
         "Buddha past lives"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_route_verified_suttacentral",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0058",
@@ -1446,7 +1449,7 @@
       "title_zh": "弥兰王问经",
       "title_en": "Milindapañha",
       "ids": {
-        "suttacentral": null,
+        "suttacentral": "mil",
         "taisho": null,
         "toh": null,
         "bdrc": null
@@ -1456,9 +1459,10 @@
         "not-self",
         "philosophy"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_route_verified_suttacentral",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0059",
@@ -1479,9 +1483,10 @@
         "Theravāda scholasticism",
         "path"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_text_verified_tipitakapali",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0060",
@@ -1494,7 +1499,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 12",
         "bdrc": null
       },
       "themes": [
@@ -1502,9 +1507,10 @@
         "prajñā",
         "bodhisattva"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0061",
@@ -1517,16 +1523,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 9",
         "bdrc": null
       },
       "themes": [
         "emptiness",
         "prajñā"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0062",
@@ -1539,16 +1546,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 8",
         "bdrc": null
       },
       "themes": [
         "emptiness",
         "prajñā"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0063",
@@ -1561,7 +1569,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 44-45",
         "bdrc": null
       },
       "themes": [
@@ -1569,9 +1577,10 @@
         "Sudhana",
         "bodhisattva path"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0064",
@@ -1584,16 +1593,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 44-31",
         "bdrc": null
       },
       "themes": [
         "ten stages",
         "bodhisattva"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0065",
@@ -1606,7 +1616,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 50",
         "bdrc": null
       },
       "themes": [
@@ -1614,9 +1624,10 @@
         "pure land",
         "vows"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0066",
@@ -1629,7 +1640,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 504",
         "bdrc": null
       },
       "themes": [
@@ -1637,9 +1648,10 @@
         "Medicine Buddha",
         "vows"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0067",
@@ -1652,16 +1664,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 92",
         "bdrc": null
       },
       "themes": [
         "tathāgatagarbha",
         "one vehicle"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0068",
@@ -1674,16 +1687,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 258",
         "bdrc": null
       },
       "themes": [
         "buddha-nature",
         "tathāgatagarbha"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0069",
@@ -1696,16 +1710,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 63",
         "bdrc": null
       },
       "themes": [
         "early Mahāyāna",
         "bodhisattva ethics"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0070",
@@ -1718,7 +1733,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 127",
         "bdrc": null
       },
       "themes": [
@@ -1726,9 +1741,10 @@
         "emptiness",
         "bodhisattva"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0071",
@@ -1741,7 +1757,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 555–557 (Tibetan recensions; Toh 556 direct)",
         "bdrc": null
       },
       "themes": [
@@ -1749,9 +1765,10 @@
         "ritual",
         "confession"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_family_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0072",
@@ -1764,16 +1781,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 132",
         "bdrc": null
       },
       "themes": [
         "samādhi",
         "bodhisattva powers"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0073",
@@ -1786,7 +1804,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 133",
         "bdrc": null
       },
       "themes": [
@@ -1794,9 +1812,10 @@
         "samādhi",
         "Pure Land"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0074",
@@ -1809,7 +1828,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 116",
         "bdrc": null
       },
       "themes": [
@@ -1817,9 +1836,10 @@
         "mantra",
         "compassion"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0075",
@@ -1832,7 +1852,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 287",
         "bdrc": null
       },
       "themes": [
@@ -1841,9 +1861,10 @@
         "hells",
         "ethics"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0076",
@@ -1925,7 +1946,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 343",
         "bdrc": null
       },
       "themes": [
@@ -1933,9 +1954,10 @@
         "karma",
         "stories"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0080",
@@ -1971,16 +1993,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 3940",
         "bdrc": null
       },
       "themes": [
         "bodhisattva ethics",
         "Śāntideva"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0082",
@@ -1993,7 +2016,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 3871",
         "bdrc": null
       },
       "themes": [
@@ -2001,9 +2024,10 @@
         "ethics",
         "emptiness"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0083",
@@ -2016,16 +2040,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4020",
         "bdrc": null
       },
       "themes": [
         "Yogācāra",
         "Mahāyāna theory"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0084",
@@ -2038,16 +2063,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4021",
         "bdrc": null
       },
       "themes": [
         "Yogācāra",
         "middle and extremes"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0085",
@@ -2060,16 +2086,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4055",
         "bdrc": null
       },
       "themes": [
         "Yogācāra",
         "consciousness-only"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0086",
@@ -2082,16 +2109,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4056",
         "bdrc": null
       },
       "themes": [
         "Yogācāra",
         "representation-only"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000_canon_index",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0087",
@@ -2104,16 +2132,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4048",
         "bdrc": null
       },
       "themes": [
         "Yogācāra",
         "ālaya-vijñāna"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0088",
@@ -2126,16 +2155,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4049",
         "bdrc": null
       },
       "themes": [
         "Yogācāra",
         "Abhidharma"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0089",
@@ -2148,16 +2178,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4037",
         "bdrc": null
       },
       "themes": [
         "bodhisattva path",
         "Yogācāra"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0090",
@@ -2170,16 +2201,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4024",
         "bdrc": null
       },
       "themes": [
         "buddha-nature",
         "tathāgatagarbha"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0091",
@@ -2192,7 +2224,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4203",
         "bdrc": null
       },
       "themes": [
@@ -2200,9 +2232,10 @@
         "epistemology",
         "Dignāga"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000_canon_index",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0092",
@@ -2215,7 +2248,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4210",
         "bdrc": null
       },
       "themes": [
@@ -2223,9 +2256,10 @@
         "epistemology",
         "Dharmakīrti"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000_canon_index",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0093",
@@ -2238,7 +2272,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 3861",
         "bdrc": null
       },
       "themes": [
@@ -2246,9 +2280,10 @@
         "bodhisattva",
         "Candrakīrti"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0094",
@@ -2261,16 +2296,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 3846",
         "bdrc": null
       },
       "themes": [
         "Madhyamaka",
         "Āryadeva"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0095",
@@ -2283,7 +2319,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 3828",
         "bdrc": null
       },
       "themes": [
@@ -2291,9 +2327,10 @@
         "logic",
         "Nāgārjuna"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0096",
@@ -2306,7 +2343,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 4158",
         "bdrc": null
       },
       "themes": [
@@ -2314,9 +2351,10 @@
         "kingship",
         "Madhyamaka"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0097",
@@ -2329,16 +2367,17 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 3786",
         "bdrc": null
       },
       "themes": [
         "Prajñāpāramitā",
         "path structure"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0098",
@@ -2351,7 +2390,7 @@
       "ids": {
         "suttacentral": null,
         "taisho": null,
-        "toh": null,
+        "toh": "Toh 3947",
         "bdrc": null
       },
       "themes": [
@@ -2359,9 +2398,10 @@
         "Atiśa",
         "path"
       ],
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Authority route/identifier verified 2026-09-19. This verifies the cited repository identity, not identity across every recension or language."
     },
     {
       "id": "DA-W-0099",
