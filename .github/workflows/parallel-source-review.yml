@@ -1,0 +1,35 @@
+name: Capture parallel source snapshot
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/parallel-source-review.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v6
+      - name: Fetch source data and provenance without changing canonical records
+        shell: python
+        run: |
+          import urllib.request,json,pathlib,hashlib,datetime
+          def get(u):
+              with urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'DharmaAtlas-SourceReview/0.8'}),timeout=30) as r: return r.read()
+          meta=json.loads(get('https://api.github.com/repos/suttacentral/sc-data/commits/main'))
+          sha=meta['sha']
+          url=f'https://raw.githubusercontent.com/suttacentral/sc-data/{sha}/relationship/parallels.json'
+          raw=get(url);obj=json.loads(raw)
+          p=pathlib.Path('build/parallel-source');p.mkdir(parents=True,exist_ok=True)
+          (p/'parallels.json').write_bytes(raw)
+          info={'repository':'suttacentral/sc-data','commit':sha,'commit_date':meta['commit']['committer']['date'],'url':url,'sha256':hashlib.sha256(raw).hexdigest(),'retrieved_at':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+          (p/'provenance.json').write_text(json.dumps(info,indent=2))
+          print(json.dumps(info,indent=2));print('Shape:',type(obj).__name__)
+          print(json.dumps(obj[:3] if isinstance(obj,list) else dict(list(obj.items())[:3]),ensure_ascii=False,indent=2)[:6000])
+      - uses: actions/upload-artifact@v4
+        with:
+          name: suttacentral-source-review
+          path: build/parallel-source/
+          retention-days: 14
