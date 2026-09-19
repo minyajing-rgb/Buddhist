@@ -1,0 +1,247 @@
+{
+  "version": "0.3",
+  "updated_at": "2026-09-19",
+  "note_zh": "这是‘研究争议导航’，不是Dharma Atlas替学界判决。每个议题保存传统说法、可检验证据、主要研究路径与当前输出规则；具体bibliography将在v0.4继续扩展为论文/专著级。",
+  "dossiers": [
+    {
+      "id": "Q-001",
+      "topic_zh": "早期佛典口传到底可靠到什么程度？",
+      "topic_en": "Reliability and transformation in early Buddhist oral transmission",
+      "traditional_frame": "佛陀入灭后由弟子结集、诵持并传承教法。",
+      "evidence_questions": [
+        "公式句与重复结构如何服务记忆？",
+        "不同部派平行经共享多少共同核心？",
+        "哪些异读可能来自口传、编辑或后期扩充？"
+      ],
+      "relevant_sources": [
+        "suttacentral",
+        "gandhari",
+        "ntu_dlbs"
+      ],
+      "status": "active_research",
+      "output_rule": "不能用‘口传=一定失真’或‘结集=逐字录音’二选一；按跨传统共同层和具体变体描述。"
+    },
+    {
+      "id": "Q-002",
+      "topic_zh": "《心经》的形成史与长短本问题",
+      "topic_en": "Textual history of the Heart Sūtra",
+      "traditional_frame": "般若经典的核心短经，东亚常与玄奘译本相连。",
+      "evidence_questions": [
+        "短本与长本是什么关系？",
+        "梵汉藏证据如何排列？",
+        "玄奘译本在传播史中的位置是什么？"
+      ],
+      "relevant_sources": [
+        "cbeta",
+        "sat",
+        "84000",
+        "dsbc",
+        "gretil",
+        "ntu_dlbs"
+      ],
+      "status": "contested_details",
+      "output_rule": "列版本、年代与不同学术方案，不用单一‘真/假’标签。"
+    },
+    {
+      "id": "Q-003",
+      "topic_zh": "《大乘起信论》到底来自印度还是中国？",
+      "topic_en": "Provenance of the Awakening of Faith",
+      "traditional_frame": "传统上归于马鸣并与真谛译传相关。",
+      "evidence_questions": [
+        "最早目录记录是什么？",
+        "是否有可验证的印度语原本？",
+        "术语与思想结构更接近哪些中国/印度传统？"
+      ],
+      "relevant_sources": [
+        "cbeta",
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "inbuds"
+      ],
+      "status": "longstanding_scholarly_debate",
+      "output_rule": "同时展示传统归属和现代争论；来源争议不等于否定其东亚历史影响。"
+    },
+    {
+      "id": "Q-004",
+      "topic_zh": "《楞严经》的来源争议",
+      "topic_en": "Provenance of the Śūraṅgama Sūtra (East Asian text)",
+      "traditional_frame": "东亚佛教极具影响力的经典，传统上有译者和译出叙事。",
+      "evidence_questions": [
+        "最早目录与引用年代？",
+        "可靠梵文/藏文parallel是否存在？",
+        "文本语言与中国佛教语境如何对应？"
+      ],
+      "relevant_sources": [
+        "cbeta",
+        "sat",
+        "dila_catalog",
+        "ntu_dlbs",
+        "inbuds",
+        "buddhanexus"
+      ],
+      "status": "contested_provenance",
+      "output_rule": "不把‘东亚形成可能性’简写为‘假经’，按provenance evidence陈列。"
+    },
+    {
+      "id": "Q-005",
+      "topic_zh": "DN 16与大乘《大般涅槃经》为什么同名却不是同一层文本？",
+      "topic_en": "Early Mahāparinibbāna traditions vs Mahāyāna Mahāparinirvāṇa Sūtra",
+      "traditional_frame": "都以佛陀涅槃为核心语境，但文本功能与思想内容不同。",
+      "evidence_questions": [
+        "早期涅槃叙事有哪些平行本？",
+        "大乘涅槃经的佛性思想何时进入？",
+        "同名翻译如何造成大众误会？"
+      ],
+      "relevant_sources": [
+        "suttacentral",
+        "cbeta",
+        "84000",
+        "bdrc",
+        "ntu_dlbs"
+      ],
+      "status": "distinguishable_textual_families",
+      "output_rule": "首先分Work family，再比较，不把相似中文名当作同一作品。"
+    },
+    {
+      "id": "Q-006",
+      "topic_zh": "玄奘译本的差异来自‘翻译方式’还是‘底本不同’？",
+      "topic_en": "Xuanzang: translation technique versus source recension",
+      "traditional_frame": "玄奘以精密术语和大规模译经闻名。",
+      "evidence_questions": [
+        "对应旧译与新译的source text是否同一recension？",
+        "术语标准化如何影响中文理解？",
+        "译场协作在不同文本中有何记录？"
+      ],
+      "relevant_sources": [
+        "cbeta",
+        "sat",
+        "dila_catalog",
+        "dsbc",
+        "84000",
+        "ntu_dlbs"
+      ],
+      "status": "work_specific_analysis_required",
+      "output_rule": "逐部作品比较，不用‘玄奘直译/别人意译’这种过度简化。"
+    },
+    {
+      "id": "Q-007",
+      "topic_zh": "鸠摩罗什为什么‘好读’？",
+      "topic_en": "Kumārajīva and literary/translation style",
+      "traditional_frame": "东亚传统高度评价其译文流畅与影响力。",
+      "evidence_questions": [
+        "译场结构如何？",
+        "现存梵文/藏文版本与其汉译是否同一底本系统？",
+        "所谓‘意译’标签是否掩盖更多因素？"
+      ],
+      "relevant_sources": [
+        "cbeta",
+        "sat",
+        "dila_catalog",
+        "dsbc",
+        "84000",
+        "ntu_dlbs"
+      ],
+      "status": "work_specific_analysis_required",
+      "output_rule": "按具体经（法华、维摩、金刚等）做版本比较。"
+    },
+    {
+      "id": "Q-008",
+      "topic_zh": "犍陀罗写本能把我们带回佛陀时代多近？",
+      "topic_en": "What Gandhāran manuscripts can and cannot tell us",
+      "traditional_frame": "现代媒体常将其描述为‘最早佛经’。",
+      "evidence_questions": [
+        "哪些写本有碳测年/古文字断代？",
+        "与巴利/汉译parallel的关系是什么？",
+        "‘最早现存写本’与‘最早创作’怎么区分？"
+      ],
+      "relevant_sources": [
+        "gandhari",
+        "ebmp",
+        "loc_asian",
+        "suttacentral"
+      ],
+      "status": "rapidly_developing_field",
+      "output_rule": "明确witness date ≠ composition date。"
+    },
+    {
+      "id": "Q-009",
+      "topic_zh": "甘珠尔到底有多少个‘版本’？",
+      "topic_en": "Kangyur recensions and edition relationships",
+      "traditional_frame": "Kangyur常被概括成‘佛说部’。",
+      "evidence_questions": [
+        "德格、拉萨、纳塘、Phugdrak等版系如何相关？",
+        "篇目、顺序、异读如何变化？",
+        "哪些文本只见于少数版本？"
+      ],
+      "relevant_sources": [
+        "bdrc",
+        "adarshah",
+        "84000",
+        "buddhanexus"
+      ],
+      "status": "multi_recension_canon",
+      "output_rule": "任何Kangyur引用必须尽量标edition/version，不只写‘藏文大藏经’。"
+    },
+    {
+      "id": "Q-010",
+      "topic_zh": "敦煌藏经洞文献代表‘一个佛教传统’吗？",
+      "topic_en": "Dunhuang as a multilingual manuscript ecology",
+      "traditional_frame": "大众常把藏经洞理解成一批‘佛经’。",
+      "evidence_questions": [
+        "为什么同时有佛经、仪轨、账簿、信件和非佛教文献？",
+        "汉藏及中亚语言如何共存？",
+        "出土地与今天馆藏为什么分离？"
+      ],
+      "relevant_sources": [
+        "idp",
+        "bnf_gallica",
+        "nlc_ancient",
+        "bdrc"
+      ],
+      "status": "multilingual_material_culture",
+      "output_rule": "把Dunhuang当作manuscript ecology，不等同于单一canon。"
+    },
+    {
+      "id": "Q-011",
+      "topic_zh": "‘大乘经典较晚出现’到底是什么意思？",
+      "topic_en": "Dating and emergence of Mahāyāna literature",
+      "traditional_frame": "大乘传统把这些经典置于佛说语境。",
+      "evidence_questions": [
+        "最早可确定写本/译本/引用是什么？",
+        "不同大乘经形成时间是否相同？",
+        "宗教传统的buddhavacana标准与现代历史断代是否是同一问题？"
+      ],
+      "relevant_sources": [
+        "dsbc",
+        "gretil",
+        "gandhari",
+        "cbeta",
+        "84000",
+        "ntu_dlbs"
+      ],
+      "status": "text_by_text_dating_required",
+      "output_rule": "不能把‘大乘’作为一个单一日期事件；按每个文本群给年代范围与证据。"
+    },
+    {
+      "id": "Q-012",
+      "topic_zh": "佛性是不是佛教版‘灵魂’？",
+      "topic_en": "Buddha-nature and the question of self",
+      "traditional_frame": "如来藏/佛性经典使用强烈正面语言描述觉性潜能。",
+      "evidence_questions": [
+        "与早期无我教说如何解释关系？",
+        "不同佛性经典和论典语言是否一致？",
+        "中观、唯识、东亚宗派怎样解释？"
+      ],
+      "relevant_sources": [
+        "cbeta",
+        "84000",
+        "dsbc",
+        "gretil",
+        "ntu_dlbs"
+      ],
+      "status": "doctrinal_interpretation_debate",
+      "output_rule": "区分经典原文、宗派解释和现代类比，不直接等同于ātman/soul。"
+    }
+  ]
+}
