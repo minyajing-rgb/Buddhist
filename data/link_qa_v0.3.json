@@ -162,13 +162,53 @@
       "source_id": "dila_catalog",
       "url": "https://authority.dila.edu.tw/catalog/form.php",
       "status": "web_fetch_ok"
+    },
+    {
+      "source_id": "cbc_attributions",
+      "url": "https://cbc.dila.edu.tw/cbc/",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "taisho_base_collation",
+      "url": "https://taishozo-teihonkohon.toyobunko-lab.jp/en/about",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "sarit",
+      "url": "https://sarit.indology.info/exist/apps/sarit/",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "digital_silk_road",
+      "url": "https://dsr.nii.ac.jp/index.html.en",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "tlb_polyglotta",
+      "url": "https://www2.hf.uio.no/polyglotta/index.php?bid=2&page=library",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "nti_reader",
+      "url": "https://ntireader.org/",
+      "status": "web_search_verified"
+    },
+    {
+      "source_id": "ddb",
+      "url": "http://www.buddhism-dict.net/ddb/",
+      "status": "web_reference_verified"
+    },
+    {
+      "source_id": "chinese_translation_bib",
+      "url": "https://mbingenheimer.net/tools/bibls/transbibl.html",
+      "status": "web_search_verified"
     }
   ],
   "summary": {
-    "total": 32,
-    "web_or_search_verified": 32,
+    "total": 40,
+    "web_or_search_verified": 40,
     "dead_links": 0,
     "migration_fixes": 1,
-    "note_zh": "本轮32个source-registry主入口均未发现明确死链；动态站/抓取失败项通过官方搜索结果另行确认。BuddhaNexus已发现停止服务并迁移到DharmaNexus，数据库已修正。"
+    "note_zh": "40个current source-registry主入口已完成首轮网页存在性核验；动态/爬虫受限站以官方搜索结果确认。BuddhaNexus legacy入口已迁移为DharmaNexus。"
   }
 }
