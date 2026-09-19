@@ -1,0 +1,379 @@
+{
+  "version": "0.3",
+  "people": [
+    {
+      "id": "buddha",
+      "name_zh": "释迦牟尼",
+      "name_en": "Gautama Buddha",
+      "role": [
+        "teacher",
+        "attributed speaker"
+      ],
+      "period": "c. 5th century BCE (dating debated)",
+      "regions": [
+        "Gangetic India"
+      ],
+      "themes": [
+        "early Buddhism",
+        "oral transmission"
+      ],
+      "learn_hook": "佛陀本人没有留下亲笔书稿；后世佛典如何保存和重建，是整个项目的起点。"
+    },
+    {
+      "id": "ananda",
+      "name_zh": "阿难",
+      "name_en": "Ānanda",
+      "role": [
+        "disciple",
+        "memory tradition figure"
+      ],
+      "period": "early Buddhist tradition",
+      "regions": [
+        "India"
+      ],
+      "themes": [
+        "oral recitation",
+        "sutta transmission"
+      ],
+      "learn_hook": "传统叙事中常与“如是我闻”和经教记忆相连。"
+    },
+    {
+      "id": "ashoka",
+      "name_zh": "阿育王",
+      "name_en": "Aśoka",
+      "role": [
+        "patron",
+        "emperor"
+      ],
+      "period": "3rd century BCE",
+      "regions": [
+        "Mauryan India"
+      ],
+      "themes": [
+        "inscriptions",
+        "Buddhist expansion"
+      ],
+      "learn_hook": "碑铭提供了与后世经藏不同类型的早期物质证据。"
+    },
+    {
+      "id": "nagarjuna",
+      "name_zh": "龙树",
+      "name_en": "Nāgārjuna",
+      "role": [
+        "philosopher",
+        "author"
+      ],
+      "period": "c. 2nd–3rd century CE",
+      "regions": [
+        "India"
+      ],
+      "themes": [
+        "Madhyamaka",
+        "emptiness"
+      ],
+      "learn_hook": "从早期缘起到中观空性，为什么同一个概念会发展成新的哲学系统？"
+    },
+    {
+      "id": "asanga",
+      "name_zh": "无著",
+      "name_en": "Asaṅga",
+      "role": [
+        "philosopher",
+        "author"
+      ],
+      "period": "c. 4th century CE",
+      "regions": [
+        "India"
+      ],
+      "themes": [
+        "Yogācāra"
+      ],
+      "learn_hook": "理解唯识/瑜伽行体系的重要人物节点。"
+    },
+    {
+      "id": "vasubandhu",
+      "name_zh": "世亲",
+      "name_en": "Vasubandhu",
+      "role": [
+        "philosopher",
+        "author"
+      ],
+      "period": "c. 4th–5th century CE",
+      "regions": [
+        "India"
+      ],
+      "themes": [
+        "Abhidharma",
+        "Yogācāra"
+      ],
+      "learn_hook": "一个人物如何横跨部派阿毗达磨与大乘唯识讨论。"
+    },
+    {
+      "id": "kumarajiva",
+      "name_zh": "鸠摩罗什",
+      "name_en": "Kumārajīva",
+      "role": [
+        "translator"
+      ],
+      "period": "344–413",
+      "regions": [
+        "Kucha",
+        "Chang'an"
+      ],
+      "themes": [
+        "Chinese translation",
+        "Lotus",
+        "Vimalakīrti"
+      ],
+      "learn_hook": "为什么他的汉译读起来如此流畅？译场到底怎么工作？"
+    },
+    {
+      "id": "faxian",
+      "name_zh": "法显",
+      "name_en": "Faxian",
+      "role": [
+        "pilgrim",
+        "translator"
+      ],
+      "period": "c. 337–422",
+      "regions": [
+        "China",
+        "Central Asia",
+        "India",
+        "Sri Lanka"
+      ],
+      "themes": [
+        "Vinaya",
+        "pilgrimage",
+        "text seeking"
+      ],
+      "learn_hook": "中国僧人为什么要亲自去印度找戒律和经本？"
+    },
+    {
+      "id": "xuanzang",
+      "name_zh": "玄奘",
+      "name_en": "Xuanzang",
+      "role": [
+        "pilgrim",
+        "translator",
+        "scholar"
+      ],
+      "period": "602–664",
+      "regions": [
+        "Chang'an",
+        "Central Asia",
+        "India"
+      ],
+      "themes": [
+        "Yogācāra",
+        "translation",
+        "Sanskrit source texts"
+      ],
+      "learn_hook": "不是“取回来隔几代才翻”，而是本人主持大型译场；问题是他拿到的底本到底是什么版本。"
+    },
+    {
+      "id": "yijing",
+      "name_zh": "义净",
+      "name_en": "Yijing",
+      "role": [
+        "pilgrim",
+        "translator"
+      ],
+      "period": "635–713",
+      "regions": [
+        "China",
+        "Srivijaya",
+        "India"
+      ],
+      "themes": [
+        "Vinaya",
+        "translation",
+        "monastic life"
+      ],
+      "learn_hook": "连接中国、海上丝路与印度僧团生活的重要观察者。"
+    },
+    {
+      "id": "buddhaghosa",
+      "name_zh": "觉音",
+      "name_en": "Buddhaghosa",
+      "role": [
+        "commentator"
+      ],
+      "period": "c. 5th century CE",
+      "regions": [
+        "India",
+        "Sri Lanka"
+      ],
+      "themes": [
+        "Theravāda commentaries",
+        "Visuddhimagga"
+      ],
+      "learn_hook": "“经典”之外，注释传统如何塑造后世理解。"
+    },
+    {
+      "id": "atisa",
+      "name_zh": "阿底峡",
+      "name_en": "Atiśa Dīpaṃkaraśrījñāna",
+      "role": [
+        "teacher",
+        "author"
+      ],
+      "period": "982–1054",
+      "regions": [
+        "India",
+        "Tibet"
+      ],
+      "themes": [
+        "Tibetan Buddhism",
+        "lamrim"
+      ],
+      "learn_hook": "印度晚期佛教知识如何进入西藏并被重新组织。"
+    },
+    {
+      "id": "rinchen_zangpo",
+      "name_zh": "仁钦桑布",
+      "name_en": "Rinchen Zangpo",
+      "role": [
+        "translator"
+      ],
+      "period": "958–1055",
+      "regions": [
+        "Western Tibet",
+        "Kashmir"
+      ],
+      "themes": [
+        "Tibetan translation"
+      ],
+      "learn_hook": "藏译第二传播期的重要译师节点。"
+    },
+    {
+      "id": "buton",
+      "name_zh": "布顿·仁钦珠",
+      "name_en": "Butön Rinchen Drub",
+      "role": [
+        "cataloguer",
+        "historian"
+      ],
+      "period": "1290–1364",
+      "regions": [
+        "Tibet"
+      ],
+      "themes": [
+        "Tibetan canon",
+        "cataloguing"
+      ],
+      "learn_hook": "“什么算入大藏经”本身就是历史工程。"
+    },
+    {
+      "id": "paul_pelliot",
+      "name_zh": "伯希和",
+      "name_en": "Paul Pelliot",
+      "role": [
+        "scholar",
+        "collector"
+      ],
+      "period": "1878–1945",
+      "regions": [
+        "France",
+        "Dunhuang"
+      ],
+      "themes": [
+        "Dunhuang manuscripts"
+      ],
+      "learn_hook": "为什么今天敦煌文献会分藏巴黎、伦敦、北京等地。"
+    },
+    {
+      "id": "aurel_stein",
+      "name_zh": "斯坦因",
+      "name_en": "Aurel Stein",
+      "role": [
+        "explorer",
+        "collector"
+      ],
+      "period": "1862–1943",
+      "regions": [
+        "Central Asia",
+        "Dunhuang",
+        "UK"
+      ],
+      "themes": [
+        "Dunhuang manuscripts"
+      ],
+      "learn_hook": "写本如何从出土地进入现代博物馆/图书馆体系。"
+    },
+    {
+      "id": "takakusu",
+      "name_zh": "高楠顺次郎",
+      "name_en": "Junjirō Takakusu",
+      "role": [
+        "editor",
+        "scholar"
+      ],
+      "period": "1866–1945",
+      "regions": [
+        "Japan"
+      ],
+      "themes": [
+        "Taishō Canon",
+        "modern Buddhist studies"
+      ],
+      "learn_hook": "现代《大正藏》为什么会成为全球研究的通用坐标系。"
+    },
+    {
+      "id": "watanabe_kaigyoku",
+      "name_zh": "渡边海旭",
+      "name_en": "Kaigyoku Watanabe",
+      "role": [
+        "editor",
+        "scholar"
+      ],
+      "period": "1872–1933",
+      "regions": [
+        "Japan"
+      ],
+      "themes": [
+        "Taishō Canon"
+      ],
+      "learn_hook": "现代大藏经编辑是怎样的大型知识工程。"
+    },
+    {
+      "id": "richard_salomon",
+      "name_zh": "Richard Salomon",
+      "name_en": "Richard Salomon",
+      "role": [
+        "scholar",
+        "philologist"
+      ],
+      "period": "modern",
+      "regions": [
+        "USA",
+        "Gandhāra studies"
+      ],
+      "themes": [
+        "Gāndhārī",
+        "Kharoṣṭhī",
+        "early manuscripts"
+      ],
+      "learn_hook": "两千年前桦树皮写本如何被读出来、断代和出版。"
+    },
+    {
+      "id": "bhikkhu_analayo",
+      "name_zh": "无著比丘（Bhikkhu Anālayo）",
+      "name_en": "Bhikkhu Anālayo",
+      "role": [
+        "scholar",
+        "monk",
+        "translator"
+      ],
+      "period": "modern",
+      "regions": [
+        "Global"
+      ],
+      "themes": [
+        "Āgama-Nikāya comparison",
+        "early Buddhism"
+      ],
+      "learn_hook": "现代早期佛典平行研究怎样比较汉阿含与巴利尼柯耶。"
+    }
+  ]
+}
