@@ -1,0 +1,82 @@
+{
+  "version": "0.3",
+  "design_principle_zh": "全集作为底层，小白体验作为上层。用户不必先知道经名；先从故事、问题、地图、人物进入，再逐层下钻到原典、版本与馆藏。",
+  "paths": [
+    {
+      "id": "beginner_30min",
+      "level": "Beginner",
+      "title_zh": "30分钟看懂佛典世界",
+      "steps": [
+        "佛典为什么不是一本书",
+        "看三大文本传统全局图",
+        "理解Work / Version / Witness",
+        "看一条传播路线：印度→中亚→中国",
+        "选一个熟悉问题进入：苦/梦/轮回/空",
+        "读第一组短经或故事",
+        "最后打开原典证据抽屉"
+      ]
+    },
+    {
+      "id": "story_first",
+      "level": "Beginner",
+      "title_zh": "连续剧模式：真经到底去哪了？",
+      "steps": [
+        "EP01 佛陀为什么没有留下一本书",
+        "EP02 口传如何保存",
+        "EP03 为什么出现不同版本",
+        "EP04 两千年前桦树皮",
+        "EP05 丝路翻译工程",
+        "EP06 鸠摩罗什",
+        "EP07 玄奘",
+        "EP08 译场",
+        "EP09 原文失传",
+        "EP10 藏文大藏经",
+        "EP11 伪经是什么意思",
+        "EP12 如何重建祖本"
+      ]
+    },
+    {
+      "id": "concept_explorer",
+      "level": "Explorer",
+      "title_zh": "问题驱动模式",
+      "steps": [
+        "输入自然语言问题",
+        "映射canonical concepts",
+        "显示最早相关文本",
+        "显示跨传统版本",
+        "显示时间线和地理节点",
+        "打开争议卡片",
+        "选择原典/论文/馆藏继续"
+      ]
+    },
+    {
+      "id": "textual_criticism",
+      "level": "Scholar",
+      "title_zh": "文本批判模式",
+      "steps": [
+        "锁定Work ID",
+        "列出Versions",
+        "列出Physical Witnesses",
+        "对齐Parallels",
+        "比较Variants",
+        "记录传统归属与现代年代判断",
+        "查看Bibliography",
+        "输出confidence statement"
+      ]
+    },
+    {
+      "id": "library_hunt",
+      "level": "Research",
+      "title_zh": "找原件模式",
+      "steps": [
+        "先查在线影像",
+        "再查联合目录",
+        "记录shelfmark/call number",
+        "确认持有机构",
+        "确认是否有IIIF/复制服务",
+        "只有数字资料不足时才安排线下阅览",
+        "到馆前完成预约与权限确认"
+      ]
+    }
+  ]
+}
