@@ -1,0 +1,381 @@
+{
+  "version": "1.0",
+  "purpose": "Reusable cross-disciplinary research method catalog for Global Knowledge Atlas",
+  "families": [
+    {
+      "id": "textual",
+      "label": "Text / Document",
+      "methods": [
+        {
+          "id": "philology",
+          "name": "Philology",
+          "use_for": [
+            "wording",
+            "language history",
+            "translation comparison"
+          ],
+          "evidence": [
+            "manuscripts",
+            "editions",
+            "lexica"
+          ],
+          "risk": "translation_equals_identity"
+        },
+        {
+          "id": "textual_criticism",
+          "name": "Textual Criticism",
+          "use_for": [
+            "variant comparison",
+            "earlier text reconstruction"
+          ],
+          "evidence": [
+            "multiple witnesses",
+            "recensions",
+            "critical apparatus"
+          ],
+          "risk": "forcing_one_stemma"
+        },
+        {
+          "id": "historical_criticism",
+          "name": "Historical Criticism",
+          "use_for": [
+            "context",
+            "development",
+            "dating"
+          ],
+          "evidence": [
+            "primary texts",
+            "chronology",
+            "institutions"
+          ],
+          "risk": "presentism"
+        },
+        {
+          "id": "reception_history",
+          "name": "Reception History",
+          "use_for": [
+            "meaning change",
+            "interpretation history"
+          ],
+          "evidence": [
+            "commentaries",
+            "art",
+            "sermons",
+            "media"
+          ],
+          "risk": "reception_confused_with_origin"
+        },
+        {
+          "id": "concept_genealogy",
+          "name": "Genealogy of Concepts",
+          "use_for": [
+            "semantic change",
+            "school formation"
+          ],
+          "evidence": [
+            "texts_across_time"
+          ],
+          "risk": "assuming_stable_meaning"
+        }
+      ]
+    },
+    {
+      "id": "material",
+      "label": "Material / Object",
+      "methods": [
+        {
+          "id": "codicology",
+          "name": "Codicology",
+          "use_for": [
+            "book construction",
+            "folios",
+            "binding"
+          ],
+          "evidence": [
+            "physical books",
+            "scans"
+          ],
+          "risk": "ignoring_repairs"
+        },
+        {
+          "id": "paleography",
+          "name": "Paleography",
+          "use_for": [
+            "script dating",
+            "scribal practice"
+          ],
+          "evidence": [
+            "handwriting",
+            "inscriptions"
+          ],
+          "risk": "false_precision"
+        },
+        {
+          "id": "archaeology",
+          "name": "Archaeology / Material Culture",
+          "use_for": [
+            "practice",
+            "sites",
+            "objects"
+          ],
+          "evidence": [
+            "strata",
+            "objects",
+            "inscriptions"
+          ],
+          "risk": "text_only_bias"
+        },
+        {
+          "id": "art_history",
+          "name": "Art History / Iconography",
+          "use_for": [
+            "visual transmission",
+            "representation"
+          ],
+          "evidence": [
+            "images",
+            "objects"
+          ],
+          "risk": "decontextualized_iconography"
+        },
+        {
+          "id": "provenance",
+          "name": "Provenance Research",
+          "use_for": [
+            "ownership",
+            "movement",
+            "collection history"
+          ],
+          "evidence": [
+            "accession records",
+            "catalogs",
+            "sale records"
+          ],
+          "risk": "missing_chain_assumed_complete"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Social / Lived Practice",
+      "methods": [
+        {
+          "id": "ethnography",
+          "name": "Ethnography",
+          "use_for": [
+            "lived practice",
+            "community meaning"
+          ],
+          "evidence": [
+            "field observation",
+            "notes"
+          ],
+          "risk": "local_case_overgeneralized"
+        },
+        {
+          "id": "oral_history",
+          "name": "Oral History",
+          "use_for": [
+            "memory",
+            "experience"
+          ],
+          "evidence": [
+            "recorded interviews"
+          ],
+          "risk": "memory_equals_event"
+        },
+        {
+          "id": "interview",
+          "name": "Expert / Practitioner Interview",
+          "use_for": [
+            "tacit knowledge",
+            "practice"
+          ],
+          "evidence": [
+            "interviews"
+          ],
+          "risk": "prestige_bias"
+        },
+        {
+          "id": "sociology",
+          "name": "Sociology",
+          "use_for": [
+            "groups",
+            "institutions",
+            "population patterns"
+          ],
+          "evidence": [
+            "surveys",
+            "networks"
+          ],
+          "risk": "category_bias"
+        },
+        {
+          "id": "digital_ethnography",
+          "name": "Digital Ethnography",
+          "use_for": [
+            "online communities",
+            "platform practice"
+          ],
+          "evidence": [
+            "posts",
+            "interactions"
+          ],
+          "risk": "context_collapse"
+        }
+      ]
+    },
+    {
+      "id": "quantitative",
+      "label": "Quantitative / Computational",
+      "methods": [
+        {
+          "id": "gis",
+          "name": "GIS",
+          "use_for": [
+            "spatial transmission",
+            "regional change"
+          ],
+          "evidence": [
+            "coordinates",
+            "routes"
+          ],
+          "risk": "false_precision"
+        },
+        {
+          "id": "network_analysis",
+          "name": "Network Analysis",
+          "use_for": [
+            "people-text-place relationships"
+          ],
+          "evidence": [
+            "typed graph edges"
+          ],
+          "risk": "edge_equals_causality"
+        },
+        {
+          "id": "bibliometrics",
+          "name": "Bibliometrics",
+          "use_for": [
+            "field structure",
+            "citation networks"
+          ],
+          "evidence": [
+            "citation metadata"
+          ],
+          "risk": "popularity_equals_quality"
+        },
+        {
+          "id": "nlp",
+          "name": "NLP / Text Mining",
+          "use_for": [
+            "large corpus patterns",
+            "alignment"
+          ],
+          "evidence": [
+            "OCR/HTR/text corpora"
+          ],
+          "risk": "model_or_ocr_error"
+        },
+        {
+          "id": "computer_vision",
+          "name": "Computer Vision / Image Matching",
+          "use_for": [
+            "fragment matching",
+            "visual similarity"
+          ],
+          "evidence": [
+            "images"
+          ],
+          "risk": "similarity_equals_identity"
+        },
+        {
+          "id": "3d",
+          "name": "3D / Photogrammetry",
+          "use_for": [
+            "objects",
+            "sites",
+            "material study"
+          ],
+          "evidence": [
+            "image sets",
+            "laser scans"
+          ],
+          "risk": "surrogate_equals_original"
+        }
+      ]
+    },
+    {
+      "id": "open_web",
+      "label": "Open Web / Public / KOL",
+      "methods": [
+        {
+          "id": "osint",
+          "name": "OSINT Verification",
+          "use_for": [
+            "web-native claims",
+            "event verification"
+          ],
+          "evidence": [
+            "public records",
+            "media",
+            "archives"
+          ],
+          "risk": "duplicate_source_illusion"
+        },
+        {
+          "id": "claim_tracing",
+          "name": "Reverse Source Tracing",
+          "use_for": [
+            "KOL claims",
+            "viral claims"
+          ],
+          "evidence": [
+            "source chain"
+          ],
+          "risk": "stopping_at_secondary"
+        },
+        {
+          "id": "content_analysis",
+          "name": "Content Analysis",
+          "use_for": [
+            "media narratives",
+            "KOL framing"
+          ],
+          "evidence": [
+            "coded sample"
+          ],
+          "risk": "cherry_picking"
+        },
+        {
+          "id": "community_signal",
+          "name": "Community Signal Mining",
+          "use_for": [
+            "terminology",
+            "edge cases",
+            "reception"
+          ],
+          "evidence": [
+            "forums",
+            "comments"
+          ],
+          "risk": "frequency_equals_prevalence"
+        },
+        {
+          "id": "longitudinal_web",
+          "name": "Longitudinal Web Capture",
+          "use_for": [
+            "changing claims",
+            "corrections"
+          ],
+          "evidence": [
+            "dated snapshots",
+            "edits"
+          ],
+          "risk": "publication_date_equals_event_date"
+        }
+      ]
+    }
+  ],
+  "triangulation_rule": "For consequential conclusions, combine at least two independent method families where feasible."
+}
