@@ -2,7 +2,7 @@
   "version": "0.3",
   "updated_at": "2026-09-19",
   "total": 100,
-  "note_zh": "前32条继承v0.2已建立的crosswalk；新增68条先完成作品级导航。新增条目若未完成版本ID核验，会明确标needs_id_crosswalk，不冒充已完成校勘。",
+  "note_zh": "100部代表作品母索引。前32条继承v0.2较强crosswalk；新增巴利经号中22条已完成SuttaCentral路由存在性核验；其余新增作品仍明确标needs_id_crosswalk，不冒充完整校勘。",
   "works": [
     {
       "id": "DA-W-0001",
@@ -867,9 +867,10 @@
         "views",
         "early Buddhism"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0034",
@@ -890,9 +891,10 @@
         "ethics",
         "meditation"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0035",
@@ -913,9 +915,10 @@
         "knowledge",
         "cosmology"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0036",
@@ -935,9 +938,10 @@
         "dependent arising",
         "consciousness"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0037",
@@ -957,9 +961,10 @@
         "mindfulness",
         "meditation"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0038",
@@ -980,9 +985,10 @@
         "raft simile",
         "not-self"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0039",
@@ -1003,9 +1009,10 @@
         "faith",
         "practice"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0040",
@@ -1026,9 +1033,10 @@
         "asceticism",
         "awakening"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0041",
@@ -1049,9 +1057,10 @@
         "ethics",
         "meditation"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0042",
@@ -1072,9 +1081,10 @@
         "ethics",
         "reflection"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0043",
@@ -1094,9 +1104,10 @@
         "unanswered questions",
         "practice"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0044",
@@ -1117,9 +1128,10 @@
         "violence",
         "karma"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0045",
@@ -1139,9 +1151,10 @@
         "breath meditation",
         "mindfulness"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0046",
@@ -1162,9 +1175,10 @@
         "rebirth",
         "ethics"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0047",
@@ -1185,9 +1199,10 @@
         "not-self",
         "meditation"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0048",
@@ -1208,9 +1223,10 @@
         "middle way",
         "views"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0049",
@@ -1231,9 +1247,10 @@
         "path",
         "liberation"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0050",
@@ -1253,9 +1270,10 @@
         "sense bases",
         "dispassion"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0051",
@@ -1275,9 +1293,10 @@
         "solitude",
         "renunciation"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0052",
@@ -1297,9 +1316,10 @@
         "protective chanting",
         "three jewels"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0053",
@@ -1320,9 +1340,10 @@
         "householder life",
         "blessing"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0054",
@@ -1342,9 +1363,10 @@
         "direct seeing",
         "liberation"
       ],
-      "metadata_status": "core_id_present_needs_crosscheck",
+      "metadata_status": "suttacentral_id_url_verified_2026-09-19",
       "why_it_matters": "代表性作品，用于Dharma Atlas的100部核心作品导航；后续继续补多语题名、版本ID、写本与bibliography。",
-      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified."
+      "relation_note": "This record is a work-level discovery entry. Exact version/recension links must be added through the source-check workflow before being labelled verified.",
+      "verification_note": "Canonical SuttaCentral route resolved in web QA; title/translation metadata should still be compared against source page/API when building detailed Work records."
     },
     {
       "id": "DA-W-0055",
