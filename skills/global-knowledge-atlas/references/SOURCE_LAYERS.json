@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "layers": [
+    {
+      "level": "A",
+      "name": "Direct / Primary / Authority",
+      "examples": [
+        "original object",
+        "official dataset",
+        "original paper/data",
+        "institutional archive record",
+        "direct interview/field observation"
+      ],
+      "use": "verification"
+    },
+    {
+      "level": "B",
+      "name": "Critical / Scholarly",
+      "examples": [
+        "critical edition",
+        "peer-reviewed article",
+        "scholarly monograph",
+        "institutional research project"
+      ],
+      "use": "interpretation_and_reconstruction"
+    },
+    {
+      "level": "C",
+      "name": "Professional / Institutional",
+      "examples": [
+        "museum essay",
+        "university explainer",
+        "professional association",
+        "reference work"
+      ],
+      "use": "orientation"
+    },
+    {
+      "level": "D",
+      "name": "Practitioner / Community",
+      "examples": [
+        "oral tradition",
+        "lineage record",
+        "community archive",
+        "practitioner publication"
+      ],
+      "use": "lived_practice_and_insider_context"
+    },
+    {
+      "level": "E",
+      "name": "Public / KOL / Media",
+      "examples": [
+        "YouTube",
+        "podcast",
+        "blog",
+        "forum",
+        "social post",
+        "journalism"
+      ],
+      "use": "discovery_reception_and_claim_leads"
+    }
+  ],
+  "rule": "Source level depends on the claim and research question. A Level E post can be primary evidence for a question about that post's reception, but not automatically primary evidence for an ancient historical claim."
+}
