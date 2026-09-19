@@ -13,6 +13,7 @@ on:
 permissions:
   contents: write
   pages: write
+  id-token: write
 concurrency:
   group: quantum-bilingual-site
   cancel-in-progress: false
@@ -20,6 +21,9 @@ jobs:
   build-publish-verify:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -48,31 +52,25 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-      - name: Request existing branch-based Pages publication
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh api "repos/$GITHUB_REPOSITORY/pages" > /tmp/pages.json
-          python - <<'PY'
-          import json,os
-          p=json.load(open('/tmp/pages.json'))
-          assert p.get('source',{}).get('branch') == 'main', 'Unexpected Pages branch; refusing to alter settings'
-          assert p.get('source',{}).get('path') == '/docs', 'Unexpected Pages directory; refusing to alter settings'
-          url=p['html_url'].rstrip('/')+'/quantum/'
-          with open(os.environ['GITHUB_ENV'],'a') as f:
-              f.write('QUANTUM_URL='+url+'\n')
-          print('Publishing quantum subdirectory at '+url)
-          PY
-          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
+      - name: Upload the complete existing docs site, including quantum
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy to the existing GitHub Pages site
+        id: deployment
+        uses: actions/deploy-pages@v4
       - name: Wait for the exact generated page to be served
         env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
           PYTHONUNBUFFERED: '1'
         run: |
           python - <<'PY'
           import hashlib,os,time,urllib.request
           from pathlib import Path
           expected=hashlib.sha256(Path('docs/quantum/index.html').read_bytes()).hexdigest()
-          url=os.environ['QUANTUM_URL']
+          url=os.environ['PAGE_URL'].rstrip('/')+'/quantum/'
+          with open(os.environ['GITHUB_ENV'],'a') as f:
+              f.write('QUANTUM_URL='+url+'\n')
           for attempt in range(50):
               try:
                   req=urllib.request.Request(url+'?release_check='+str(time.time_ns()),headers={'Cache-Control':'no-cache'})
@@ -80,6 +78,7 @@ jobs:
                       body=r.read()
                       if r.status==200 and hashlib.sha256(body).hexdigest()==expected:
                           print('Public HTTP 200; exact generated SHA256 verified:',expected)
+                          print('Public URL:',url)
                           break
                   print('Awaiting current deployed bytes; attempt',attempt+1)
               except Exception as e:
