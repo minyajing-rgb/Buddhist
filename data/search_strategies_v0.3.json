@@ -1,0 +1,262 @@
+{
+  "version": "0.3",
+  "updated_at": "2026-09-19",
+  "purpose_zh": "将查佛典从“搜中文经名”升级为多层检索：作品名→规范ID→语言版本→写本/版本→现代研究→实体馆藏。",
+  "workflows": [
+    {
+      "id": "unknown_title",
+      "title_zh": "只知道一个中文经名",
+      "steps": [
+        {
+          "step": 1,
+          "action": "先在CBETA / DILA佛经目录规范库查标准经名、异名、T号、译者。",
+          "sources": [
+            "cbeta",
+            "dila_catalog"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "有T号后到SAT核对大正藏正文与版本位置。",
+          "sources": [
+            "sat"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "把梵文/巴利/藏文题名加入检索，再到SuttaCentral、84000、BDRC、GRETIL、DSBC找平行或相关版本。",
+          "sources": [
+            "suttacentral",
+            "84000",
+            "bdrc",
+            "gretil",
+            "dsbc"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "若怀疑有敦煌/旧写本，转IDP、BnF、NLC等写本库查shelfmark。",
+          "sources": [
+            "idp",
+            "bnf_gallica",
+            "nlc_ancient"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "最后用NTU DLBS / INBUDS查现代论文，确认版本史与争议。",
+          "sources": [
+            "ntu_dlbs",
+            "inbuds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pali_sutta",
+      "title_zh": "知道一个巴利经号（如 MN 10 / SN 22.59）",
+      "steps": [
+        {
+          "step": 1,
+          "action": "SuttaCentral直达经号，先看原文、译文和parallels。",
+          "sources": [
+            "suttacentral"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "Tipitaka.org / TipitakaPali核对第六次结集巴利本和注释链。",
+          "sources": [
+            "tipitaka_org",
+            "tipitakapali"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "PTS查校勘本、译本和研究出版信息。",
+          "sources": [
+            "pts"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "沿SuttaCentral parallel进入汉阿含、藏文或梵文残片，不把“相似”自动当“完全相同”。",
+          "sources": [
+            "suttacentral"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tibetan_toh",
+      "title_zh": "知道Toh编号或藏文经名",
+      "steps": [
+        {
+          "step": 1,
+          "action": "84000按Toh编号查导言、英译、Kangyur/Tengyur分区。",
+          "sources": [
+            "84000"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "BDRC定位Work / Version / scan与相关人物地点。",
+          "sources": [
+            "bdrc"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "Adarshah比较Dege / Lhasa / Jiang等可用版本。",
+          "sources": [
+            "adarshah"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "需要跨语种时用BuddhaNexus/OpenPecha发现相似段落，再回原典人工确认。",
+          "sources": [
+            "buddhanexus",
+            "openpecha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sanskrit_work",
+      "title_zh": "找梵文佛典",
+      "steps": [
+        {
+          "step": 1,
+          "action": "用标准梵文题名同时查GRETIL和DSBC。",
+          "sources": [
+            "gretil",
+            "dsbc"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "Gandhāran/早期残片另外查Gandhari.org，不把Gāndhārī等同于Classical Sanskrit。",
+          "sources": [
+            "gandhari"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "查现代编辑史与书目：NTU DLBS / WorldCat / 学术论文。",
+          "sources": [
+            "ntu_dlbs",
+            "worldcat"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "如果电子文本来自现代校勘本，继续追它引用的manuscript sigla和实体馆藏。",
+          "sources": [
+            "cambridge_ul",
+            "british_library",
+            "bnf_gallica",
+            "loc_asian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manuscript_hunt",
+      "title_zh": "想看真正的古写本/刻本",
+      "steps": [
+        {
+          "step": 1,
+          "action": "先问：要找的是作品、某语言版本，还是某一件实体witness？"
+        },
+        {
+          "step": 2,
+          "action": "敦煌/中亚：IDP按pressmark、find site、holding institution。",
+          "sources": [
+            "idp"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "犍陀罗：Gandhari.org / EBMP找到catalog和出版，再转BL/LOC/UW等持有机构。",
+          "sources": [
+            "gandhari",
+            "ebmp",
+            "loc_asian"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "汉文历史大藏经：NLC、KABC、NDL、寺院/博物馆数字资源先查影像。",
+          "sources": [
+            "nlc_ancient",
+            "kabc_dongguk",
+            "ndl_search"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "线上无图时用WorldCat/馆藏目录定位，再按library_holdings里的预约方式申请。",
+          "sources": [
+            "worldcat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disputed_text",
+      "title_zh": "判断‘伪经/后出/来源不明’",
+      "steps": [
+        {
+          "step": 1,
+          "action": "先记录传统归属：经典自己和历代目录怎么说。",
+          "sources": [
+            "cbeta",
+            "dila_catalog"
+          ]
+        },
+        {
+          "step": 2,
+          "action": "查最早目录记录、最早可见版本、译者归属与语言特征。",
+          "sources": [
+            "dila_catalog",
+            "sat"
+          ]
+        },
+        {
+          "step": 3,
+          "action": "查是否存在可靠Indic/Tibetan parallel或早期引用。",
+          "sources": [
+            "84000",
+            "bdrc",
+            "gretil",
+            "dsbc",
+            "buddhanexus"
+          ]
+        },
+        {
+          "step": 4,
+          "action": "用NTU DLBS / INBUDS查现代研究，不把某一篇论文直接当最终裁决。",
+          "sources": [
+            "ntu_dlbs",
+            "inbuds"
+          ]
+        },
+        {
+          "step": 5,
+          "action": "输出结论必须是：traditional attribution / evidence / scholarly positions / confidence / unknowns。"
+        }
+      ]
+    }
+  ],
+  "query_templates": [
+    "title_zh:\"心经\" -> aliases -> T-number -> Sanskrit title -> Toh -> manuscripts",
+    "id:T08n0251",
+    "id:Toh113",
+    "pali:SN22.59",
+    "concept:śūnyatā AND lang:sanskrit",
+    "findspot:Dunhuang AND subject:Buddhism",
+    "holding:BnF AND shelfmark:\"Pelliot chinois\"",
+    "person:玄奘 AND role:translator"
+  ]
+}
