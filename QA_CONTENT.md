@@ -101,3 +101,20 @@
 - 只有JSON schema没有data
 - 有data但没有source
 - 有网页卡片但点进去是空的
+
+
+## F. Crosswalk Gate v0.6
+
+- [x] **100 / 100 L3 deep Crosswalk**
+- [x] 100 / 100 direct authority routes
+- [x] 100 / 100 typed Version / Edition routes
+- [x] 100 / 100 physical/material access contexts
+- [x] explicit relation/gap tracking on all records
+- [x] SuttaCentral official typed parallel extraction attached to Pāli sutta batch
+- [x] checked Chinese Taishō/CBETA version IDs added where verified
+- [ ] L4 chronology review for 100 / 100
+- [ ] L4 item-level witness / shelfmark where available
+- [ ] L4 paper/book bibliography per priority work
+- [ ] L4 attributed scholarly positions and controversy matrices
+
+**Rule:** L3 is sufficient for evidence-navigation and public atlas linking. L4 is required before claiming scholar-grade reconstruction for a specific work.
