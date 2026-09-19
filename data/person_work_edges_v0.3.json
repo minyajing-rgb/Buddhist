@@ -1,0 +1,224 @@
+{
+  "version": "0.3",
+  "updated_at": "2026-09-19",
+  "relation_types": [
+    "translator",
+    "author",
+    "attributed_author",
+    "commentator",
+    "associated_tradition",
+    "compiler_or_synthesizer"
+  ],
+  "edges": [
+    {
+      "person_id": "kumarajiva",
+      "work_id": "DA-W-0013",
+      "relation": "translator",
+      "confidence": "high",
+      "note": "Influential Chinese Diamond Sūtra translation T235."
+    },
+    {
+      "person_id": "kumarajiva",
+      "work_id": "DA-W-0015",
+      "relation": "translator",
+      "confidence": "high",
+      "note": "Influential Chinese Lotus Sūtra translation T262."
+    },
+    {
+      "person_id": "kumarajiva",
+      "work_id": "DA-W-0016",
+      "relation": "translator",
+      "confidence": "high",
+      "note": "Influential Chinese Vimalakīrti translation T475."
+    },
+    {
+      "person_id": "xuanzang",
+      "work_id": "DA-W-0014",
+      "relation": "translator",
+      "confidence": "high",
+      "note": "T251 Heart Sūtra is traditionally/catalogically associated with Xuanzang; provenance questions should remain visible in the research dossier."
+    },
+    {
+      "person_id": "xuanzang",
+      "work_id": "DA-W-0024",
+      "relation": "translator",
+      "confidence": "high",
+      "note": "Major translator/compiler of the 600-fascicle Great Prajñāpāramitā collection T220."
+    },
+    {
+      "person_id": "xuanzang",
+      "work_id": "DA-W-0027",
+      "relation": "translator",
+      "confidence": "high",
+      "note": "Chinese Yogācārabhūmi translation tradition."
+    },
+    {
+      "person_id": "xuanzang",
+      "work_id": "DA-W-0028",
+      "relation": "compiler_or_synthesizer",
+      "confidence": "high",
+      "note": "Cheng Weishi Lun is Xuanzang's Chinese scholastic synthesis drawing on Indian Yogācāra commentaries."
+    },
+    {
+      "person_id": "nagarjuna",
+      "work_id": "DA-W-0025",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Mūlamadhyamakakārikā."
+    },
+    {
+      "person_id": "nagarjuna",
+      "work_id": "DA-W-0095",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Vigrahavyāvartanī."
+    },
+    {
+      "person_id": "nagarjuna",
+      "work_id": "DA-W-0096",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Ratnāvalī."
+    },
+    {
+      "person_id": "vasubandhu",
+      "work_id": "DA-W-0026",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Abhidharmakośabhāṣya."
+    },
+    {
+      "person_id": "vasubandhu",
+      "work_id": "DA-W-0085",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Triṃśikā."
+    },
+    {
+      "person_id": "vasubandhu",
+      "work_id": "DA-W-0086",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Viṃśatikā."
+    },
+    {
+      "person_id": "asanga",
+      "work_id": "DA-W-0087",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Mahāyānasaṃgraha."
+    },
+    {
+      "person_id": "asanga",
+      "work_id": "DA-W-0088",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Abhidharmasamuccaya."
+    },
+    {
+      "person_id": "asanga",
+      "work_id": "DA-W-0089",
+      "relation": "associated_tradition",
+      "confidence": "medium",
+      "note": "Bodhisattvabhūmi is part of the Yogācārabhūmi corpus associated with Asaṅga; composition history is layered."
+    },
+    {
+      "person_id": "buddhaghosa",
+      "work_id": "DA-W-0059",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Visuddhimagga."
+    },
+    {
+      "person_id": "atisa",
+      "work_id": "DA-W-0098",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Bodhipathapradīpa."
+    },
+    {
+      "person_id": "asvaghosa",
+      "work_id": "DA-W-0076",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Buddhacarita."
+    },
+    {
+      "person_id": "aryasura",
+      "work_id": "DA-W-0080",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Jātakamālā."
+    },
+    {
+      "person_id": "santideva",
+      "work_id": "DA-W-0081",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Śikṣāsamuccaya."
+    },
+    {
+      "person_id": "santideva",
+      "work_id": "DA-W-0082",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Bodhicaryāvatāra."
+    },
+    {
+      "person_id": "dignaga",
+      "work_id": "DA-W-0091",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Pramāṇasamuccaya."
+    },
+    {
+      "person_id": "dharmakirti",
+      "work_id": "DA-W-0092",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Pramāṇavārttika."
+    },
+    {
+      "person_id": "candrakirti",
+      "work_id": "DA-W-0093",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Madhyamakāvatāra."
+    },
+    {
+      "person_id": "aryadeva",
+      "work_id": "DA-W-0094",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Catuḥśataka."
+    },
+    {
+      "person_id": "tsongkhapa",
+      "work_id": "DA-W-0099",
+      "relation": "author",
+      "confidence": "high",
+      "note": "Lamrim Chenmo."
+    },
+    {
+      "person_id": "karma_lingpa",
+      "work_id": "DA-W-0100",
+      "relation": "associated_tradition",
+      "confidence": "high",
+      "note": "Bardo Thödol materials belong to the Karma Lingpa revealed cycle; do not reduce the tradition family to one fixed book."
+    },
+    {
+      "person_id": "paramartha",
+      "work_id": "DA-W-0029",
+      "relation": "attributed_author",
+      "confidence": "contested",
+      "note": "Traditional attribution/translation history of Awakening of Faith is disputed in modern scholarship."
+    },
+    {
+      "person_id": "dharmaraksa",
+      "work_id": "DA-W-0015",
+      "relation": "translator",
+      "confidence": "high",
+      "note": "Earlier Chinese Lotus Sūtra translation tradition exists alongside Kumārajīva's later influential version."
+    }
+  ]
+}
