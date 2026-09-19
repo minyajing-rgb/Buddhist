@@ -3,7 +3,7 @@
   "database_version": "0.4.1",
   "updated_at": "2026-09-19",
   "phase": "DATABASE_FIRST",
-  "public_site_rebuild": "LOCKED_UNTIL_DB_GATES_PASS",
+  "public_site_rebuild": "BETA_PREVIEW_BUILT_NOT_YET_PAGES_ENABLED",
   "counts": {
     "sources": 44,
     "libraries": 17,
@@ -65,5 +65,19 @@
     "Work, Version, Witness and Parallel are distinct entities.",
     "Public visual assets must use PNG/JPG; legacy SVGs are not final public assets."
   ],
-  "skill": "skills/global-knowledge-atlas/SKILL.md"
+  "skill": "skills/global-knowledge-atlas/SKILL.md",
+  "site": {
+    "root": "docs/index.html",
+    "pages": [
+      "docs/index.html",
+      "docs/map.html",
+      "docs/texts.html",
+      "docs/libraries.html",
+      "docs/timeline.html",
+      "docs/stories.html",
+      "docs/search.html"
+    ],
+    "style": "white-base navy + warm gold; clean modern atlas",
+    "data_mode": "reads canonical repository datasets"
+  }
 }
