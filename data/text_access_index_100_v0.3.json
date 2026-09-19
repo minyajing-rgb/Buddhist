@@ -2,7 +2,7 @@
   "version": "0.3",
   "updated_at": "2026-09-19",
   "total": 100,
-  "note_zh": "100部代表作品均已具备统一access record。直达链接只有在已有稳定ID/入口时生成；其余给出应检索的权威平台和优先实体馆藏，不编造不存在的直接链接。",
+  "note_zh": "100部代表作品均有访问记录；94部已具较强/权威路由或编号层，剩余6部保留权威平台检索入口，不编造canonical ID。",
   "records": [
     {
       "work_id": "DA-W-0001",
@@ -1961,14 +1961,21 @@
       "work_id": "DA-W-0055",
       "title_zh": "长老偈",
       "title_en": "Theragāthā",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_route_verified_suttacentral",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/thag",
+          "kind": "canonical collection/work",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -1981,21 +1988,28 @@
         "national_library_sri_lanka",
         "national_library_thailand"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0056",
       "title_zh": "长老尼偈",
       "title_en": "Therīgāthā",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_route_verified_suttacentral",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/thig",
+          "kind": "canonical collection/work",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2008,21 +2022,28 @@
         "national_library_sri_lanka",
         "national_library_thailand"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0057",
       "title_zh": "本生故事集",
       "title_en": "Jātaka",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_route_verified_suttacentral",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/ja",
+          "kind": "canonical collection/work",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2035,21 +2056,28 @@
         "national_library_sri_lanka",
         "national_library_thailand"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0058",
       "title_zh": "弥兰王问经",
       "title_en": "Milindapañha",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_route_verified_suttacentral",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "suttacentral",
+          "url": "https://suttacentral.net/mil",
+          "kind": "canonical collection/work",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2062,21 +2090,28 @@
         "national_library_sri_lanka",
         "national_library_thailand"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0059",
       "title_zh": "清净道论",
       "title_en": "Visuddhimagga",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_text_verified_tipitakapali",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "tipitakapali",
+          "url": "https://tipitakapali.org/chapter/e0101n.mul0",
+          "kind": "authoritative text",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2089,21 +2124,28 @@
         "national_library_sri_lanka",
         "national_library_thailand"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0060",
       "title_zh": "八千颂般若",
       "title_en": "Aṣṭasāhasrikā Prajñāpāramitā",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh12",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2116,21 +2158,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0061",
       "title_zh": "二万五千颂般若",
       "title_en": "Pañcaviṃśatisāhasrikā Prajñāpāramitā",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh9",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2143,21 +2192,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0062",
       "title_zh": "十万颂般若",
       "title_en": "Śatasāhasrikā Prajñāpāramitā",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh8",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2170,21 +2226,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0063",
       "title_zh": "入法界品 / 华严经入法界",
       "title_en": "Gaṇḍavyūha Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh44-45",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2201,21 +2264,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0064",
       "title_zh": "十地经",
       "title_en": "Daśabhūmika Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh44-31",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2232,21 +2302,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0065",
       "title_zh": "阿閦佛国经传统",
       "title_en": "Akṣobhyavyūha Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh50",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2263,21 +2340,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0066",
       "title_zh": "药师经传统",
       "title_en": "Bhaiṣajyaguru Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh504",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2294,21 +2378,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0067",
       "title_zh": "胜鬘经",
       "title_en": "Śrīmālādevī Siṃhanāda Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh92",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2325,21 +2416,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0068",
       "title_zh": "如来藏经",
       "title_en": "Tathāgatagarbha Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh258",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2356,21 +2454,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0069",
       "title_zh": "郁伽长者所问经传统",
       "title_en": "Ugraparipṛcchā Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh63",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2387,21 +2492,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0070",
       "title_zh": "三昧王经",
       "title_en": "Samādhirāja Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh127",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2418,21 +2530,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0071",
       "title_zh": "金光明经",
       "title_en": "Suvarṇaprabhāsa Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_family_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh556",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2449,21 +2568,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0072",
       "title_zh": "首楞严三昧经",
       "title_en": "Śūraṅgamasamādhi Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh132",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2480,21 +2606,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0073",
       "title_zh": "般舟三昧经传统",
       "title_en": "Pratyutpannabuddhasaṃmukhāvasthitasamādhi Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh133",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2511,21 +2644,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0074",
       "title_zh": "宝箧经 / 观音相关Kāraṇḍavyūha传统",
       "title_en": "Kāraṇḍavyūha Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh116",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2542,21 +2682,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0075",
       "title_zh": "正法念处经传统",
       "title_en": "Saddharmasmṛtyupasthāna Sūtra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh287",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2573,7 +2720,7 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
@@ -2661,14 +2808,21 @@
       "work_id": "DA-W-0079",
       "title_zh": "百譬喻 / 百事因缘类Avadāna集",
       "title_en": "Avadānaśataka",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh343",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2681,7 +2835,7 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
@@ -2715,14 +2869,21 @@
       "work_id": "DA-W-0081",
       "title_zh": "学处集要",
       "title_en": "Śikṣāsamuccaya",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh3940",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2735,21 +2896,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0082",
       "title_zh": "入菩萨行论",
       "title_en": "Bodhicaryāvatāra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh3871",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2768,21 +2936,28 @@
         "loc",
         "bdrc_partner_network"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0083",
       "title_zh": "大乘庄严经论",
       "title_en": "Mahāyānasūtrālaṃkāra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh4020",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2801,21 +2976,28 @@
         "loc",
         "bdrc_partner_network"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0084",
       "title_zh": "辨中边论",
       "title_en": "Madhyāntavibhāga",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh4021",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2834,21 +3016,28 @@
         "loc",
         "bdrc_partner_network"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0085",
       "title_zh": "唯识三十颂",
       "title_en": "Triṃśikāvijñaptimātratā",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh4055",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2861,21 +3050,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0086",
       "title_zh": "唯识二十论",
       "title_en": "Viṃśatikāvijñaptimātratā",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000_canon_index",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/canon/mind-only",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2888,21 +3084,28 @@
         "bodleian",
         "national_archives_nepal_ngmcp"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0087",
       "title_zh": "摄大乘论",
       "title_en": "Mahāyānasaṃgraha",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh4048",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2929,21 +3132,28 @@
         "ncl_taiwan",
         "haeinsa"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0088",
       "title_zh": "大乘阿毗达磨集论",
       "title_en": "Abhidharmasamuccaya",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh4049",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -2970,21 +3180,28 @@
         "ncl_taiwan",
         "haeinsa"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0089",
       "title_zh": "菩萨地",
       "title_en": "Bodhisattvabhūmi",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh4037",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -3011,21 +3228,28 @@
         "ncl_taiwan",
         "haeinsa"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0090",
       "title_zh": "宝性论 / 究竟一乘宝性论",
       "title_en": "Ratnagotravibhāga / Uttaratantra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh4024",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -3052,21 +3276,28 @@
         "ncl_taiwan",
         "haeinsa"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0091",
       "title_zh": "集量论",
       "title_en": "Pramāṇasamuccaya",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000_canon_index",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/canon/epistemology-and-logic",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -3085,21 +3316,28 @@
         "loc",
         "bdrc_partner_network"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0092",
       "title_zh": "释量论",
       "title_en": "Pramāṇavārttika",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000_canon_index",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/canon/epistemology-and-logic",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -3118,21 +3356,28 @@
         "loc",
         "bdrc_partner_network"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0093",
       "title_zh": "入中论",
       "title_en": "Madhyamakāvatāra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh3861",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -3151,21 +3396,28 @@
         "loc",
         "bdrc_partner_network"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0094",
       "title_zh": "四百论",
       "title_en": "Catuḥśataka",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh3846",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -3192,21 +3444,28 @@
         "ncl_taiwan",
         "haeinsa"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0095",
       "title_zh": "回诤论",
       "title_en": "Vigrahavyāvartanī",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh3828",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -3233,21 +3492,28 @@
         "ncl_taiwan",
         "haeinsa"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0096",
       "title_zh": "宝行王正论 / 宝鬘",
       "title_en": "Ratnāvalī",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh4158",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -3274,21 +3540,28 @@
         "ncl_taiwan",
         "haeinsa"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0097",
       "title_zh": "现观庄严论",
       "title_en": "Abhisamayālaṃkāra",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh3786",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -3307,21 +3580,28 @@
         "loc",
         "bdrc_partner_network"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
       "work_id": "DA-W-0098",
       "title_zh": "菩提道灯论",
       "title_en": "Bodhipathapradīpa",
-      "metadata_status": "needs_id_crosswalk",
+      "metadata_status": "authority_id_verified_84000",
       "ids": {
         "suttacentral": null,
         "taisho": null,
         "toh": null,
         "bdrc": null
       },
-      "direct_links": [],
+      "direct_links": [
+        {
+          "source_id": "84000",
+          "url": "https://84000.co/translation/toh3947",
+          "kind": "Tibetan canonical/treatise record",
+          "status": "authority_route_verified"
+        }
+      ],
       "search_targets": [
         "worldcat",
         "ntu_dlbs",
@@ -3340,7 +3620,7 @@
         "loc",
         "bdrc_partner_network"
       ],
-      "access_strategy": "search_authority_platforms_then_resolve_version",
+      "access_strategy": "direct_authority_first_then_compare_versions",
       "relation_warning": "A search target indicates relevance to this textual tradition. It does not assert that the platform contains an identical recension. Verify Work → Version → Witness relationships before comparison."
     },
     {
