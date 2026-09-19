@@ -1,0 +1,46 @@
+{
+  "version": "0.3",
+  "run_at": "2026-09-19",
+  "json_parse": "PASS",
+  "counts": {
+    "online_sources": 32,
+    "physical_libraries": 15,
+    "geo_points": 27,
+    "people": 20,
+    "learning_paths": 5,
+    "search_workflows": 6,
+    "text_access_records": 32,
+    "full_corpus_entrypoints": 15,
+    "key_works": 100,
+    "concepts": 20,
+    "landmark_witnesses": 20,
+    "research_dossiers": 12,
+    "media_assets": 12,
+    "season1_episodes_full": 12
+  },
+  "required_field_checks": {
+    "source_registry": {
+      "status": "PASS",
+      "missing": []
+    },
+    "library_holdings": {
+      "status": "PASS",
+      "missing": []
+    },
+    "manuscript_witnesses": {
+      "status": "PASS",
+      "missing": []
+    }
+  },
+  "season1_full_content": {
+    "status": "PASS",
+    "episode_count": 12,
+    "bytes": 7806
+  },
+  "limitations": [
+    "JSON/required-field QA does not equal external link-health QA.",
+    "68 of the 100 key-work records are discovery-level and still require source-ID crosswalk verification before being labelled verified.",
+    "The 12 research dossiers are issue maps; paper/book-level bibliographies still need expansion.",
+    "Media registry records rights posture but individual image reuse must be rechecked at publication time."
+  ]
+}
