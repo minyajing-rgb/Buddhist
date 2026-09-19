@@ -1,0 +1,726 @@
+{
+  "version": "0.5",
+  "records": [
+    {
+      "work_id": "DA-W-0033",
+      "title_zh": "梵网经（巴利长部第一经）",
+      "suttacentral_id": "DN 1",
+      "relations": {
+        "full": [
+          "da21",
+          "sf41",
+          "sf48",
+          "sht-sutta16",
+          "t1548.126",
+          "t21",
+          "up3.050"
+        ],
+        "resembling": [
+          "da21",
+          "sf41",
+          "sf48",
+          "sht-sutta16",
+          "t1548.126",
+          "t21",
+          "up3.050"
+        ],
+        "mentions": [
+          "sn41.3"
+        ],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0034",
+      "title_zh": "沙门果经",
+      "suttacentral_id": "DN 2",
+      "relations": {
+        "full": [
+          "da27",
+          "ea43.7",
+          "sa154-163",
+          "sf1",
+          "sf288",
+          "sht-sutta58",
+          "t1442.13",
+          "t1444.1",
+          "t1450.10",
+          "t22"
+        ],
+        "resembling": [
+          "da27",
+          "ea43.7",
+          "sa154-163",
+          "sf1",
+          "sf288",
+          "sht-sutta58",
+          "t1442.13",
+          "t1444.1",
+          "t1450.10",
+          "t22"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0035",
+      "title_zh": "坚固经",
+      "suttacentral_id": "DN 11",
+      "relations": {
+        "full": [
+          "da24",
+          "sht-sutta81",
+          "up2.027",
+          "up7.025"
+        ],
+        "resembling": [],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0036",
+      "title_zh": "大缘经",
+      "suttacentral_id": "DN 15",
+      "relations": {
+        "full": [
+          "da13",
+          "ma97",
+          "sf138",
+          "sf240",
+          "sht-sutta23",
+          "t14",
+          "t52"
+        ],
+        "resembling": [
+          "da13",
+          "ma97",
+          "sf138",
+          "sf240",
+          "sht-sutta23",
+          "t14",
+          "t52"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0037",
+      "title_zh": "大念处经",
+      "suttacentral_id": "DN 22",
+      "relations": {
+        "full": [
+          "ea12.1",
+          "ma81",
+          "ma98",
+          "mn10",
+          "mn119",
+          "sht-sutta11"
+        ],
+        "resembling": [
+          "ea12.1",
+          "ma31",
+          "ma81",
+          "ma98",
+          "mn10",
+          "mn119",
+          "sht-sutta11",
+          "t32"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0038",
+      "title_zh": "蛇喻经",
+      "suttacentral_id": "MN 22",
+      "relations": {
+        "full": [
+          "ea43.5",
+          "ea50.8",
+          "ma200",
+          "t1442.39",
+          "up8.029"
+        ],
+        "resembling": [
+          "ea43.5",
+          "ea50.8",
+          "lzh-dg-bu-vb-pc68",
+          "lzh-mg-bu-vb-pc46",
+          "lzh-sarv-bu-vb-pc55",
+          "ma193",
+          "ma200",
+          "mn21",
+          "t1442.39",
+          "up8.029"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0039",
+      "title_zh": "象迹喻小经",
+      "suttacentral_id": "MN 27",
+      "relations": {
+        "full": [
+          "ma146"
+        ],
+        "resembling": [],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0040",
+      "title_zh": "萨遮迦大经",
+      "suttacentral_id": "MN 36",
+      "relations": {
+        "full": [
+          "da20",
+          "da22",
+          "divy27",
+          "dn3",
+          "dn4",
+          "ea31.8",
+          "lal17a",
+          "mn100",
+          "san-lo-mvu47",
+          "sf287",
+          "sf5",
+          "sf64",
+          "sht-sutta26",
+          "sht-sutta28",
+          "sht-sutta40",
+          "sht-sutta56",
+          "t20"
+        ],
+        "resembling": [
+          "da20",
+          "da21",
+          "da22",
+          "divy27",
+          "ea31.8",
+          "lal16",
+          "lal17a",
+          "mn100",
+          "mn12",
+          "mn85",
+          "san-lo-mvu47",
+          "sf287",
+          "sf42",
+          "sf43",
+          "sf5",
+          "sf63",
+          "sf64",
+          "sht-sutta28",
+          "sht-sutta33",
+          "sht-sutta36",
+          "sht-sutta40"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0041",
+      "title_zh": "马城大经",
+      "suttacentral_id": "MN 39",
+      "relations": {
+        "full": [
+          "ea49.8",
+          "ma182",
+          "sht-sutta9"
+        ],
+        "resembling": [],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0042",
+      "title_zh": "教诫罗睺罗经",
+      "suttacentral_id": "MN 61",
+      "relations": {
+        "full": [
+          "ma14",
+          "sht-sutta49",
+          "t1442.24",
+          "t1509.13",
+          "t211.31",
+          "t212.14"
+        ],
+        "resembling": [
+          "ma14",
+          "sht-sutta49",
+          "t1442.24",
+          "t1509.13",
+          "t211.31",
+          "t212.14"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0043",
+      "title_zh": "摩罗迦小经",
+      "suttacentral_id": "MN 63",
+      "relations": {
+        "full": [
+          "ma221",
+          "t1509.15",
+          "t94"
+        ],
+        "resembling": [],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0044",
+      "title_zh": "央掘魔罗经（巴利）",
+      "suttacentral_id": "MN 86",
+      "relations": {
+        "full": [
+          "ea38.6",
+          "sa-2.16",
+          "sa1077",
+          "sf19",
+          "sf66",
+          "sht-sutta2",
+          "t118",
+          "t119",
+          "t200.99",
+          "t212.17"
+        ],
+        "resembling": [
+          "ea38.6",
+          "sa-2.16",
+          "sa1077",
+          "sf19",
+          "sf66",
+          "sht-sutta2",
+          "t118",
+          "t119",
+          "t200.99",
+          "t212.17"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0045",
+      "title_zh": "入出息念经",
+      "suttacentral_id": "MN 118",
+      "relations": {
+        "full": [
+          "sa810-812",
+          "sa815",
+          "sht-sutta84",
+          "sn54.13-16"
+        ],
+        "resembling": [
+          "sa803",
+          "sa810-812",
+          "sa815",
+          "sht-sutta84",
+          "sn54.13-16"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0046",
+      "title_zh": "业分别小经",
+      "suttacentral_id": "MN 135",
+      "relations": {
+        "full": [
+          "d338",
+          "kf10",
+          "ma152",
+          "ma170",
+          "mn99",
+          "sf76",
+          "sf85",
+          "sf87",
+          "sf88",
+          "sf98",
+          "sht-sutta67",
+          "t755",
+          "t78",
+          "t79",
+          "t80",
+          "t81"
+        ],
+        "resembling": [
+          "d338",
+          "kf10",
+          "ma152",
+          "ma170",
+          "mn99",
+          "sf76",
+          "sf85",
+          "sf87",
+          "sf88",
+          "sf98",
+          "sht-sutta67",
+          "t755",
+          "t78",
+          "t79",
+          "t80",
+          "t81"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0047",
+      "title_zh": "界分别经",
+      "suttacentral_id": "MN 140",
+      "relations": {
+        "full": [
+          "ma162",
+          "t511",
+          "up1.041"
+        ],
+        "resembling": [],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0048",
+      "title_zh": "迦旃延氏经",
+      "suttacentral_id": "SN 12.15",
+      "relations": {
+        "full": [
+          "sa262",
+          "sa301",
+          "sf168",
+          "sn22.90"
+        ],
+        "resembling": [
+          "sa262",
+          "sa301",
+          "sf168",
+          "sn22.90"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0049",
+      "title_zh": "近因经",
+      "suttacentral_id": "SN 12.23",
+      "relations": {
+        "full": [],
+        "resembling": [],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0050",
+      "title_zh": "燃烧经",
+      "suttacentral_id": "SN 35.28",
+      "relations": {
+        "full": [
+          "sa197",
+          "sf270",
+          "sn22.61"
+        ],
+        "resembling": [
+          "sa197",
+          "sf270",
+          "sn22.61"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0051",
+      "title_zh": "犀角经",
+      "suttacentral_id": "Snp 1.3",
+      "relations": {
+        "full": [
+          "gf5b",
+          "san-lo-mvu33"
+        ],
+        "resembling": [
+          "gf5b",
+          "ja12",
+          "san-lo-mvu33"
+        ],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0052",
+      "title_zh": "宝经",
+      "suttacentral_id": "Snp 2.1",
+      "relations": {
+        "full": [
+          "kp6",
+          "san-lo-mvu29"
+        ],
+        "resembling": [],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0053",
+      "title_zh": "吉祥经",
+      "suttacentral_id": "Snp 2.4",
+      "relations": {
+        "full": [
+          "kp5"
+        ],
+        "resembling": [],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    },
+    {
+      "work_id": "DA-W-0054",
+      "title_zh": "婆醯迦经",
+      "suttacentral_id": "Ud 1.10",
+      "relations": {
+        "full": [],
+        "resembling": [],
+        "mentions": [],
+        "retells": []
+      },
+      "source": {
+        "source_id": "suttacentral_parallel_data",
+        "repository": "suttacentral/sc-data",
+        "path": "relationship/parallels.json",
+        "ref": "master",
+        "blob_sha": "431a1b1c02e2c94c7864f13a8f495c98c56033a7",
+        "source_url": "https://github.com/suttacentral/sc-data/blob/master/relationship/parallels.json",
+        "methodology_url": "https://suttacentral.net/methodology"
+      },
+      "rule": "full != resembling; mentions/retells are separate; section-level parallels are not promoted to whole-work equivalence."
+    }
+  ]
+}
