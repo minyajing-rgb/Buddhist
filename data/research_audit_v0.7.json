@@ -1,0 +1,1706 @@
+{
+  "version": "0.7",
+  "generated_at": "2026-09-19T09:18:59.865994+00:00",
+  "counts": {
+    "works": 100,
+    "sources": 44,
+    "libraries": 17,
+    "places": 28,
+    "people": 32,
+    "witness_records": 24,
+    "stories": 12,
+    "methods": 33,
+    "imported_works": 0,
+    "import_records": 0,
+    "placeholder_records": 0,
+    "works_with_bibliography": 2,
+    "bibliography_records": 2,
+    "unique_bibliographic_citations_across_works": 2,
+    "reviewed_item_works": 2,
+    "dated_events": 7,
+    "parallel_classification_conflict_works": 18,
+    "new_work_specific_learning_prompts": 68,
+    "scholar_certified_L4_works": 0
+  },
+  "legacy_claim": "100 L3",
+  "review_result": "Legacy L3 claims not certified by actual chronology/bibliography/item fields.",
+  "parallel_conflicts": [
+    {
+      "work_id": "DA-W-0005",
+      "overlap": [
+        "d31",
+        "ea19.2",
+        "lal26",
+        "ma204",
+        "sa379",
+        "san-lo-mvu95",
+        "sf260",
+        "sn56.12",
+        "t109",
+        "t110",
+        "t1450.6"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0006",
+      "overlap": [
+        "sa33",
+        "sa34",
+        "san-lo-mvu95",
+        "t102"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0007",
+      "overlap": [
+        "an8.68-70",
+        "avs100",
+        "avs40",
+        "gf20",
+        "sf268",
+        "sf272",
+        "sf285",
+        "sf289",
+        "sf54",
+        "sht-sutta5",
+        "t1451.35",
+        "ud8.5"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0008",
+      "overlap": [
+        "dn22",
+        "ea12.1",
+        "ma31",
+        "ma81",
+        "ma98",
+        "mn119",
+        "sht-sutta11",
+        "t32"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0010",
+      "overlap": [
+        "da16",
+        "ma135",
+        "sf100",
+        "sht-sutta43",
+        "t16",
+        "t17"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0033",
+      "overlap": [
+        "da21",
+        "sf41",
+        "sf48",
+        "sht-sutta16",
+        "t1548.126",
+        "t21",
+        "up3.050"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0034",
+      "overlap": [
+        "da27",
+        "ea43.7",
+        "sa154-163",
+        "sf1",
+        "sf288",
+        "sht-sutta58",
+        "t1442.13",
+        "t1444.1",
+        "t1450.10",
+        "t22"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0036",
+      "overlap": [
+        "da13",
+        "ma97",
+        "sf138",
+        "sf240",
+        "sht-sutta23",
+        "t14",
+        "t52"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0037",
+      "overlap": [
+        "ea12.1",
+        "ma81",
+        "ma98",
+        "mn10",
+        "mn119",
+        "sht-sutta11"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0038",
+      "overlap": [
+        "ea43.5",
+        "ea50.8",
+        "ma200",
+        "t1442.39",
+        "up8.029"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0040",
+      "overlap": [
+        "da20",
+        "da22",
+        "divy27",
+        "ea31.8",
+        "lal17a",
+        "mn100",
+        "san-lo-mvu47",
+        "sf287",
+        "sf5",
+        "sf64",
+        "sht-sutta28",
+        "sht-sutta40"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0042",
+      "overlap": [
+        "ma14",
+        "sht-sutta49",
+        "t1442.24",
+        "t1509.13",
+        "t211.31",
+        "t212.14"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0044",
+      "overlap": [
+        "ea38.6",
+        "sa-2.16",
+        "sa1077",
+        "sf19",
+        "sf66",
+        "sht-sutta2",
+        "t118",
+        "t119",
+        "t200.99",
+        "t212.17"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0045",
+      "overlap": [
+        "sa810-812",
+        "sa815",
+        "sht-sutta84",
+        "sn54.13-16"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0046",
+      "overlap": [
+        "d338",
+        "kf10",
+        "ma152",
+        "ma170",
+        "mn99",
+        "sf76",
+        "sf85",
+        "sf87",
+        "sf88",
+        "sf98",
+        "sht-sutta67",
+        "t755",
+        "t78",
+        "t79",
+        "t80",
+        "t81"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0048",
+      "overlap": [
+        "sa262",
+        "sa301",
+        "sf168",
+        "sn22.90"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0050",
+      "overlap": [
+        "sa197",
+        "sf270",
+        "sn22.61"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    },
+    {
+      "work_id": "DA-W-0051",
+      "overlap": [
+        "gf5b",
+        "san-lo-mvu33"
+      ],
+      "action": "retain raw classifications; require source-level resolution"
+    }
+  ],
+  "dangling_edges": [],
+  "records": [
+    {
+      "work_id": "DA-W-0001",
+      "title": "长阿含经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0002",
+      "title": "中阿含经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0003",
+      "title": "杂阿含经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0004",
+      "title": "增壹阿含经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0005",
+      "title": "转法轮经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0006",
+      "title": "无我相经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0007",
+      "title": "大般涅槃经（巴利长部）",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0008",
+      "title": "念处经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0009",
+      "title": "迦摩罗经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0010",
+      "title": "善生经 / 教授尸伽罗越经（巴利对应）",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0011",
+      "title": "慈经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0012",
+      "title": "法句经 / 法句",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0013",
+      "title": "金刚般若波罗蜜经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "已取得书目记录；多数为目录元数据，未读全文，不代表已完成文献综述。"
+      ],
+      "bibliography_records": 1,
+      "reviewed_items": 1
+    },
+    {
+      "work_id": "DA-W-0014",
+      "title": "般若波罗蜜多心经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0015",
+      "title": "妙法莲华经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0016",
+      "title": "维摩诘所说经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0017",
+      "title": "大方广佛华严经（八十华严）",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0018",
+      "title": "佛说阿弥陀经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0019",
+      "title": "佛说无量寿经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0020",
+      "title": "大般涅槃经（大乘）",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0021",
+      "title": "楞伽经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0022",
+      "title": "解深密经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0023",
+      "title": "大宝积经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0024",
+      "title": "大般若波罗蜜多经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0025",
+      "title": "中论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0026",
+      "title": "阿毗达磨俱舍论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0027",
+      "title": "瑜伽师地论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0028",
+      "title": "成唯识论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0029",
+      "title": "大乘起信论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0030",
+      "title": "大佛顶首楞严经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0031",
+      "title": "六祖大师法宝坛经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0032",
+      "title": "方广大庄严经 / 普曜经（相关汉译）",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0033",
+      "title": "梵网经（巴利长部第一经）",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0034",
+      "title": "沙门果经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0035",
+      "title": "坚固经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0036",
+      "title": "大缘经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0037",
+      "title": "大念处经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0038",
+      "title": "蛇喻经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0039",
+      "title": "象迹喻小经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0040",
+      "title": "萨遮迦大经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0041",
+      "title": "马城大经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0042",
+      "title": "教诫罗睺罗经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0043",
+      "title": "摩罗迦小经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0044",
+      "title": "央掘魔罗经（巴利）",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0045",
+      "title": "入出息念经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0046",
+      "title": "业分别小经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0047",
+      "title": "界分别经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0048",
+      "title": "迦旃延氏经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0049",
+      "title": "近因经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0050",
+      "title": "燃烧经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0051",
+      "title": "犀角经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "完整/近似平行列表有重叠，分类待复核；原列表保留，不自动判定全文相同。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0052",
+      "title": "宝经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0053",
+      "title": "吉祥经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0054",
+      "title": "婆醯迦经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0055",
+      "title": "长老偈",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0056",
+      "title": "长老尼偈",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0057",
+      "title": "本生故事集",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0058",
+      "title": "弥兰王问经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0059",
+      "title": "清净道论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0060",
+      "title": "八千颂般若",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "已取得书目记录；多数为目录元数据，未读全文，不代表已完成文献综述。"
+      ],
+      "bibliography_records": 1,
+      "reviewed_items": 1
+    },
+    {
+      "work_id": "DA-W-0061",
+      "title": "二万五千颂般若",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0062",
+      "title": "十万颂般若",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0063",
+      "title": "入法界品 / 华严经入法界",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0064",
+      "title": "十地经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0065",
+      "title": "阿閦佛国经传统",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0066",
+      "title": "药师经传统",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0067",
+      "title": "胜鬘经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0068",
+      "title": "如来藏经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0069",
+      "title": "郁伽长者所问经传统",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0070",
+      "title": "三昧王经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0071",
+      "title": "金光明经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0072",
+      "title": "首楞严三昧经",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0073",
+      "title": "般舟三昧经传统",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0074",
+      "title": "宝箧经 / 观音相关Kāraṇḍavyūha传统",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0075",
+      "title": "正法念处经传统",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0076",
+      "title": "佛所行赞 / 佛陀传记诗",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0077",
+      "title": "大事",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "含平台/分类/检索入口，不能计为已经读到作品全文。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0078",
+      "title": "天譬喻 / Divyāvadāna故事集",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0079",
+      "title": "百譬喻 / 百事因缘类Avadāna集",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "中文复合标题“百譬喻/百事”仍需规范化，暂不与《百喻经》合并。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0080",
+      "title": "本生鬘",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "含平台/分类/检索入口，不能计为已经读到作品全文。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0081",
+      "title": "学处集要",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0082",
+      "title": "入菩萨行论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0083",
+      "title": "大乘庄严经论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0084",
+      "title": "辨中边论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0085",
+      "title": "唯识三十颂",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0086",
+      "title": "唯识二十论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "含平台/分类/检索入口，不能计为已经读到作品全文。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0087",
+      "title": "摄大乘论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0088",
+      "title": "大乘阿毗达磨集论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0089",
+      "title": "菩萨地",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0090",
+      "title": "宝性论 / 究竟一乘宝性论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0091",
+      "title": "集量论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "含平台/分类/检索入口，不能计为已经读到作品全文。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0092",
+      "title": "释量论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "含平台/分类/检索入口，不能计为已经读到作品全文。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0093",
+      "title": "入中论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0094",
+      "title": "四百论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0095",
+      "title": "回诤论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0096",
+      "title": "宝行王正论 / 宝鬘",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0097",
+      "title": "现观庄严论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0098",
+      "title": "菩提道灯论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0099",
+      "title": "菩提道次第广论",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "含平台/分类/检索入口，不能计为已经读到作品全文。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    },
+    {
+      "work_id": "DA-W-0100",
+      "title": "中阴闻教得度传统（俗称《西藏度亡经》）",
+      "reported_level_legacy": "L3",
+      "assessed_level": "not_scholar_certified; dimension_review_required",
+      "review_flags": [
+        "成书年代仍需逐部论证；实体纪年与现代出版日期均不能代替。",
+        "旧版L3标签保留供比较，但本轮不据此认证研究完成。",
+        "本轮未核实具体作品—实体见证关系；馆藏背景不是持有证明。",
+        "没有已定位的条目级书目，仍需补专著、论文与署名立场。",
+        "含平台/分类/检索入口，不能计为已经读到作品全文。",
+        "这是传统/文集导航层，非已证实的单一古典作品；现代选译与仪轨版本必须分拆。"
+      ],
+      "bibliography_records": 0,
+      "reviewed_items": 0
+    }
+  ],
+  "release_gate": "RESEARCH_PREVIEW_ONLY",
+  "limits": [
+    "100 records are representative entries, not the entirety of Buddhist literature.",
+    "Imported metadata and bibliography are not full scholarly review.",
+    "Collection-level contexts are not specific item holdings.",
+    "No official public deployment is certified by this build.",
+    "The base 100 records were present before this review; they are not 100 newly researched works."
+  ]
+}
