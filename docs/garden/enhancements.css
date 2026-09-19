@@ -4,3 +4,123 @@
   .hero-wash{background:linear-gradient(#fff9ee66 0%,#fff9eeaa 30%,#fff9ee18 55%,transparent 78%)}
   .hero-copy p,.hero-foot{text-shadow:0 1px 6px #fff9ee,0 0 14px #fff9ee}
 }
+
+/* === Sacred World v2: documentary + game encyclopedia + museum atlas === */
+:root{
+  --cream:#fff7e8;--paper:#fffdf7;--ink:#322438;--muted:#76675f;
+  --jade:#197b70;--jade-dark:#135e57;--coral:#d75a43;--gold:#d89b2f;
+  --lavender:#7654a0;--saffron:#f0a025;--lotus:#e75f8d;--peacock:#168494;
+  --line:#ead2a7;--shadow:0 20px 58px rgba(111,65,21,.10)
+}
+body{
+  background:
+    radial-gradient(circle at 8% 4%,rgba(255,203,79,.16),transparent 24%),
+    radial-gradient(circle at 94% 10%,rgba(231,95,141,.10),transparent 20%),
+    linear-gradient(180deg,#fffdf8 0,#fff5e5 48%,#fffaf1 100%);
+}
+.site-header{
+  background:rgba(255,250,239,.92);
+  border-bottom:1px solid rgba(214,163,72,.32);
+  box-shadow:0 10px 34px rgba(105,60,18,.06)
+}
+.brand-lotus{
+  color:#d28d22;
+  filter:drop-shadow(0 3px 9px rgba(213,146,34,.18))
+}
+.site-header nav a[aria-current=page]{color:#ad4e31;border-color:#d7972a}
+.garden-hero{
+  min-height:790px;height:min(850px,calc(100svh - 20px));
+  background:#f8e8c8;
+}
+.hero-scene{
+  transform:scale(1.015);
+  filter:saturate(1.30) brightness(1.07) contrast(1.03);
+  background-position:center 63%;
+}
+.hero-wash{
+  background:
+    radial-gradient(ellipse at 50% 19%,rgba(255,253,235,.93) 0%,rgba(255,249,222,.72) 17%,rgba(255,239,191,.16) 39%,transparent 64%),
+    linear-gradient(180deg,rgba(255,247,217,.18),transparent 50%,rgba(113,54,15,.08));
+}
+.garden-hero:before{
+  content:"";position:absolute;z-index:-1;left:0;right:0;bottom:0;height:55%;
+  background:linear-gradient(180deg,transparent,rgba(255,172,58,.10));
+}
+.garden-hero:after{
+  content:"";position:absolute;z-index:0;inset:0;pointer-events:none;
+  background:
+    radial-gradient(circle at 82% 15%,rgba(255,245,186,.42),transparent 17%),
+    radial-gradient(circle at 14% 76%,rgba(239,92,134,.13),transparent 18%);
+  mix-blend-mode:screen
+}
+.hero-copy{position:relative;z-index:3;max-width:790px;padding-top:66px}
+.hero-copy .kicker{color:#b96a2e;font-weight:700;text-shadow:0 1px 10px #fff8e4}
+.hero-copy h1{
+  font-size:clamp(46px,5.05vw,76px);line-height:1.36;
+  color:#3e291f;text-shadow:0 2px 16px rgba(255,250,228,.9)
+}
+.hero-copy h1 em{color:#ba4f34}
+.hero-copy p{font-size:17px;color:#67584f}
+.button.primary{
+  background:linear-gradient(135deg,#e7a12d,#c15832);
+  border-color:#cc722c;box-shadow:0 12px 25px rgba(174,82,35,.19)
+}
+.button.primary:hover{background:linear-gradient(135deg,#f1ac31,#ad482d)}
+.button.porcelain{background:rgba(255,252,242,.93);border-color:#d9b779}
+.hanging{z-index:3;color:#dc9b2d}
+.hanging:after{content:"✦";display:block;color:#efb64b;font-size:13px;animation:sacredFloat 5s ease-in-out infinite}
+@keyframes sacredFloat{50%{transform:translateY(12px) rotate(12deg)}}
+.sacred-place-badges{
+  position:absolute;z-index:5;left:50%;transform:translateX(-50%);bottom:58px;
+  width:min(910px,86vw);display:grid;grid-template-columns:repeat(5,1fr);
+  gap:5px;padding:8px;background:rgba(255,251,239,.84);backdrop-filter:blur(15px);
+  border:1px solid rgba(222,183,111,.72);border-radius:18px;
+  box-shadow:0 16px 40px rgba(91,52,18,.13)
+}
+.sacred-place-badges a{
+  color:#624a36;text-align:center;padding:8px 6px;border-right:1px solid rgba(218,181,113,.55);
+  font:14px/1.25 var(--serif)
+}
+.sacred-place-badges a:last-child{border-right:0}
+.sacred-place-badges small{display:block;font:10px/1.4 var(--sans);color:#9a7b5f;margin-top:3px}
+.hero-bottom{bottom:16px;z-index:5;color:#795b42}
+.welcome-ribbon{background:linear-gradient(90deg,transparent,#fff7df 18%,#fff3eb 50%,#eef9f1 82%,transparent);border-radius:20px}
+.path-card,.featured-book,.visual-panel{
+  box-shadow:0 16px 40px rgba(99,61,24,.07);
+  border-color:#e8d1a7
+}
+.path-card{background:linear-gradient(180deg,#fff,#fff9ee)}
+.path-card.coral .path-art{filter:saturate(1.20) brightness(1.05)}
+.path-card.jade .path-art{background:radial-gradient(ellipse at top,#fff3bd,#91cbb6 86%)}
+.path-card.saffron .path-art{background:radial-gradient(circle,#fff4c8,#e9ae42)}
+.path-card:after,.featured-book:after,.visual-panel:after{
+  content:"";position:absolute;left:0;right:0;top:0;height:4px;
+  background:linear-gradient(90deg,#efa72b,#dc5c78,#258c7b,#7757a5)
+}
+.featured-book{position:relative;overflow:hidden}
+.story-feature{
+  background:linear-gradient(135deg,#fff1d0,#f7e7d6 45%,#e9efe3);
+  border-color:#e6c58c;box-shadow:0 24px 60px rgba(99,61,24,.10)
+}
+.story-vista{filter:saturate(1.25) brightness(1.04)}
+.garden-invite{
+  background:
+    radial-gradient(circle at 20% 20%,rgba(255,224,132,.22),transparent 25%),
+    radial-gradient(circle at 82% 75%,rgba(231,95,141,.13),transparent 20%),
+    linear-gradient(135deg,#fff6dc,#f9e7e8 52%,#eaf5e8);
+  border:1px solid #e8c98d;
+  box-shadow:0 20px 55px rgba(98,58,19,.08)
+}
+.inner-page{background:linear-gradient(180deg,rgba(255,253,246,.62),rgba(255,248,234,.78))}
+.cards article,.card,.timeline-card,.map-frame{
+  border-color:#e6d1ac!important;box-shadow:0 12px 34px rgba(91,58,23,.06)!important
+}
+.tag.gold{background:#fff0c9!important;color:#986025!important}
+.tag.purple{background:#f3e6f3!important;color:#7e4e80!important}
+@media(max-width:620px){
+  .garden-hero{min-height:760px}
+  .hero-scene{filter:saturate(1.22) brightness(1.08);background-size:780px auto;background-position:center bottom}
+  .hero-copy{padding-top:52px}
+  .sacred-place-badges{bottom:55px;grid-template-columns:repeat(3,1fr);width:92vw}
+  .sacred-place-badges a:nth-child(n+4){display:none}
+}
