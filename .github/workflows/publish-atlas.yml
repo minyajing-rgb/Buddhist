@@ -1,0 +1,125 @@
+name: Publish Dharma Atlas living beta
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'scripts/build_atlas.py'
+      - 'scripts/finalize_review.py'
+      - 'scripts/prepare_public_beta.py'
+      - 'data/**'
+      - 'skills/global-knowledge-atlas/**'
+      - 'docs/stories/**'
+      - 'docs/infographics/**'
+      - 'docs/updates.html'
+      - 'tests/atlas_public_smoke.py'
+      - '.github/workflows/publish-atlas.yml'
+  workflow_run:
+    workflows: ['Import authority metadata', 'Build complete research preview']
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: shared-github-pages-site
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Install renderer and HTTP browser test dependencies
+        run: |
+          python -m pip install 'CairoSVG==2.8.2' 'playwright==1.57.0'
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          python -m playwright install --with-deps chromium
+      - name: Build current content and promote to public beta
+        run: |
+          python scripts/build_atlas.py
+          python scripts/finalize_review.py
+          python scripts/prepare_public_beta.py
+      - name: Check public candidate on real local HTTP
+        run: |
+          python -m http.server 8080 --directory docs > /tmp/atlas-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          python tests/atlas_public_smoke.py --url http://127.0.0.1:8080/ --out build/atlas-local
+      - name: Archive public homepage and preserve quantum subsite
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/index.html docs/review/ docs/archive/pre-public-beta/ docs/release.json docs/.nojekyll data/CURRENT.json data/public_beta_manifest.json data/deep_crosswalk_100_v0.7.review.json data/research_audit_v0.7.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'release: archive current Dharma Atlas public beta and visible research gaps'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+      - name: Publish the complete site without deleting subdirectories
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify exact homepage bytes over public HTTPS
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,pathlib,time,urllib.request,datetime
+          expected=hashlib.sha256(pathlib.Path('docs/index.html').read_bytes()).hexdigest()
+          url=os.environ['PAGE_URL']
+          for attempt in range(36):
+              try:
+                  req=urllib.request.Request(url+'?release_check='+str(time.time_ns()),headers={'Cache-Control':'no-cache'})
+                  with urllib.request.urlopen(req,timeout=25) as r:
+                      body=r.read()
+                      if r.status==200 and hashlib.sha256(body).hexdigest()==expected:
+                          print('Public HTTPS 200 and exact homepage SHA256 verified:',url)
+                          break
+              except Exception as e: print(type(e).__name__,str(e)[:180])
+              time.sleep(5)
+          else: raise SystemExit('Public homepage does not yet match this build')
+          pathlib.Path('build/atlas-public').mkdir(parents=True,exist_ok=True)
+          report={'url':url,'status':'published_and_https_hash_verified','http_status':200,'homepage_sha256':expected,'verified_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'workflow_run':os.environ['GITHUB_RUN_ID'],'source_commit':os.environ['GITHUB_SHA'],'research_complete':False,'custom_dns_modified':False}
+          pathlib.Path('build/atlas-public/deployment.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          PY
+      - name: Run interaction and mobile checks on public website
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python tests/atlas_public_smoke.py --url "$PAGE_URL" --out build/atlas-public
+      - name: Record successful public deployment
+        run: |
+          cp build/atlas-public/deployment.json docs/public_deployment.json
+          cp build/atlas-public/qa.json data/public_beta_qa.json
+          git add docs/public_deployment.json data/public_beta_qa.json
+          git commit -m 'qa: verify live Dharma Atlas HTTPS and browser interactions'
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo '## Dharma Atlas public beta' >> "$GITHUB_STEP_SUMMARY"
+          cat docs/public_deployment.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Save public screenshots, reports and release bundle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dharma-atlas-live-beta
+          path: |
+            build/atlas-local/
+            build/atlas-public/
+            docs/index.html
+            docs/release.json
+            docs/public_deployment.json
+            data/public_beta_manifest.json
+            data/public_beta_qa.json
+          retention-days: 30
+          if-no-files-found: warn
