@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#FBF8F2"/>
+<style>.t{font-family:Arial,'Noto Sans SC',sans-serif;fill:#1E2A44}.h{font-size:52px;font-weight:800}.s{font-size:22px;fill:#667085}.b{font-size:20px;font-weight:800}.m{font-size:15px;fill:#667085}.n{fill:#fff;stroke:#E0D7C9;stroke-width:2}.a{stroke:#C8953E;stroke-width:5;fill:none}</style>
+<text x="70" y="80" class="t h">How Do We Approach an Earlier Text?</text><text x="70" y="120" class="t s">“找真经” → 转化为可审计的 Evidence Chain｜证据链</text>
+<g transform="translate(100,210)"><rect width="260" height="160" rx="24" class="n"/><text x="130" y="48" text-anchor="middle" class="t b">1. Traditional claim</text><text x="130" y="82" text-anchor="middle" class="t b">传统归属</text><text x="28" y="120" class="t m">经文/宗派如何描述来源？</text><text x="28" y="145" class="t m">≠ automatically historical fact</text></g>
+<path d="M360 290H420" class="a"/>
+<g transform="translate(420,210)"><rect width="260" height="160" rx="24" class="n"/><text x="130" y="48" text-anchor="middle" class="t b">2. Work identity</text><text x="130" y="82" text-anchor="middle" class="t b">作品识别</text><text x="28" y="120" class="t m">异名、经号、引用、目录</text><text x="28" y="145" class="t m">Which work are we tracing?</text></g>
+<path d="M680 290H740" class="a"/>
+<g transform="translate(740,210)"><rect width="260" height="160" rx="24" class="n"/><text x="130" y="48" text-anchor="middle" class="t b">3. Versions</text><text x="130" y="82" text-anchor="middle" class="t b">版本家族</text><text x="28" y="120" class="t m">Pāli / Chinese / Sanskrit</text><text x="28" y="145" class="t m">Gāndhārī / Tibetan …</text></g>
+<path d="M1000 290H1060" class="a"/>
+<g transform="translate(1060,210)"><rect width="260" height="160" rx="24" class="n"/><text x="130" y="48" text-anchor="middle" class="t b">4. Physical witnesses</text><text x="130" y="82" text-anchor="middle" class="t b">实体见证</text><text x="28" y="120" class="t m">manuscript · fragment · print</text><text x="28" y="145" class="t m">date / script / material / provenance</text></g>
+<path d="M1190 370V455H300V520" class="a"/>
+<g transform="translate(170,520)"><rect width="300" height="170" rx="24" class="n"/><text x="150" y="48" text-anchor="middle" class="t b">5. Parallel comparison</text><text x="150" y="82" text-anchor="middle" class="t b">跨传统对读</text><text x="28" y="120" class="t m">agreement / omission / addition</text><text x="28" y="147" class="t m">sequence / wording / speaker</text></g>
+<path d="M470 605H550" class="a"/>
+<g transform="translate(550,520)"><rect width="300" height="170" rx="24" class="n"/><text x="150" y="48" text-anchor="middle" class="t b">6. Philological model</text><text x="150" y="82" text-anchor="middle" class="t b">语文学重建</text><text x="28" y="120" class="t m">translation technique / source language</text><text x="28" y="147" class="t m">shared errors / inherited formulas</text></g>
+<path d="M850 605H930" class="a"/>
+<g transform="translate(930,520)"><rect width="350" height="170" rx="24" class="n"/><text x="175" y="48" text-anchor="middle" class="t b">7. Confidence statement</text><text x="175" y="82" text-anchor="middle" class="t b">证据置信度</text><text x="28" y="120" class="t m">Consensus · probable · disputed · unknown</text><text x="28" y="147" class="t m">把“不知道”也明确写出来</text></g>
+<rect x="120" y="790" width="1360" height="120" rx="26" fill="#1E2A44"/><text x="800" y="835" text-anchor="middle" fill="#fff" font-family="Arial,'Noto Sans SC',sans-serif" font-size="24" font-weight="800">OUTPUT｜输出不是“真/假二选一”，而是一条带置信度、可复核、可更新的证据链。</text><text x="800" y="875" text-anchor="middle" fill="#D5DBEA" font-family="Arial,'Noto Sans SC',sans-serif" font-size="19">Every conclusion should remain traceable to texts, versions, witnesses, catalog IDs and scholarship.</text>
+</svg>
