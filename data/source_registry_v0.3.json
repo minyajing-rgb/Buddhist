@@ -536,32 +536,33 @@
       "verified_from": "https://github.com/OpenPecha"
     },
     {
-      "id": "buddhanexus",
-      "name": "BuddhaNexus",
-      "name_en": "BuddhaNexus",
+      "id": "dharmanexus",
+      "name": "DharmaNexus（BuddhaNexus 后继）",
+      "name_en": "DharmaNexus / Dharmamitra",
       "authority_level": "scholarly_project",
       "access": "open",
-      "url": "https://buddhanexus.net/",
-      "search_url": "https://buddhanexus.net/",
+      "url": "https://dharmamitra.org/nexus",
+      "search_url": "https://dharmamitra.org/db",
       "languages": [
-        "Tibetan",
+        "Pāli",
         "Sanskrit",
-        "Chinese",
-        "Pāli"
+        "Tibetan",
+        "Chinese"
       ],
       "traditions": [
         "Cross-canonical Buddhist texts"
       ],
       "content_types": [
         "parallel_alignment",
-        "canon_text"
+        "canon_text",
+        "digital_humanities"
       ],
-      "strengths_zh": "面向跨语种文本相似性与平行段落发现，适合做文本复用和版本关系探索。",
-      "limitations_zh": "机器辅助匹配不是自动等于历史学结论，需人工文献学复核。",
-      "query_how_zh": "按文本库、段落、相似性和语言浏览。",
+      "strengths_zh": "BuddhaNexus的当前维护后继系统；用于发现巴利、梵文、藏文、汉文佛典中的平行段落与互文关系。",
+      "limitations_zh": "机器辅助相似性发现不是历史学结论；所有parallel需要回到原文、版本和文献学证据人工复核。",
+      "query_how_zh": "按语言数据库、文本、段落与parallel passage进行探索；Dharmamitra Database提供多语文本浏览。",
       "downloadable": false,
-      "api_or_data": "研究型数字人文平台",
-      "verified_from": "https://buddhanexus.net/"
+      "api_or_data": "研究型数字人文平台；legacy BuddhaNexus已停止在线服务",
+      "verified_from": "https://dharmamitra.org/pub/sunset.html"
     },
     {
       "id": "inbuds",
