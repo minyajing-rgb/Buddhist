@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/build_atlas.py'
+      - 'scripts/finalize_review.py'
       - 'site/**'
       - 'skills/global-knowledge-atlas/**'
       - 'data/CURRENT.json'
@@ -23,8 +24,15 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Build all 100 records, 12 stories and source-linked review modules
-        run: python scripts/build_atlas.py
+      - name: Prepare PNG conversion and Chinese text rendering
+        run: |
+          python -m pip install 'CairoSVG==2.8.2'
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Build all 100 records, 12 stories, six diagrams and source-linked review modules
+        run: |
+          python scripts/build_atlas.py
+          python scripts/finalize_review.py
       - name: Check generated documents and input coverage
         shell: python
         run: |
@@ -32,11 +40,12 @@ jobs:
           data=json.loads(pathlib.Path('data/deep_crosswalk_100_v0.7.review.json').read_text())
           assert len(data['records'])==100
           assert len(list(pathlib.Path('docs/review/work-dossiers').glob('*.md')))==100
+          assert len(list(pathlib.Path('docs/review/assets').glob('*.png')))==6
           html=pathlib.Path('docs/review/index.html').read_text()
           assert '__ATLAS_DATA__' not in html
           for route in ['home','stories','works','atlas','people','library','research']:
               assert 'id="'+route+'"' in html
-          print('100 unique dossiers and all seven website modules compiled. Browser tests remain separate.')
+          print('100 unique dossiers, six PNG diagrams and all seven website modules compiled. Browser tests remain separate.')
       - name: Archive derived preview files without touching existing website
         shell: bash
         run: |
@@ -44,7 +53,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add docs/review/ data/deep_crosswalk_100_v0.7.review.json data/research_audit_v0.7.json
           if ! git diff --cached --quiet; then
-            git commit -m 'build: archive 100 review dossiers and functional website (not scholarly release)'
+            git commit -m 'build: archive 100 dossiers, six PNGs and complete research website (not scholarly release)'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
