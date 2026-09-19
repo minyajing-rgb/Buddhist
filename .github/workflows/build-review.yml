@@ -1,0 +1,66 @@
+name: Build complete research preview
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_atlas.py'
+      - 'site/**'
+      - 'skills/global-knowledge-atlas/**'
+      - 'data/CURRENT.json'
+      - 'data/authority_metadata_v0.7.json'
+      - 'data/review_addendum_v0.7.json'
+      - 'data/learning_notes_0033_0100_v0.7.tsv'
+      - '.github/workflows/build-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: atlas-research-preview
+  cancel-in-progress: false
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build all 100 records, 12 stories and source-linked review modules
+        run: python scripts/build_atlas.py
+      - name: Check generated documents and input coverage
+        shell: python
+        run: |
+          import json,pathlib
+          data=json.loads(pathlib.Path('data/deep_crosswalk_100_v0.7.review.json').read_text())
+          assert len(data['records'])==100
+          assert len(list(pathlib.Path('docs/review/work-dossiers').glob('*.md')))==100
+          html=pathlib.Path('docs/review/index.html').read_text()
+          assert '__ATLAS_DATA__' not in html
+          for route in ['home','stories','works','atlas','people','library','research']:
+              assert 'id="'+route+'"' in html
+          print('100 unique dossiers and all seven website modules compiled. Browser tests remain separate.')
+      - name: Archive derived preview files without touching existing website
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/review/ data/deep_crosswalk_100_v0.7.review.json data/research_audit_v0.7.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'build: archive 100 review dossiers and functional website (not scholarly release)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dharma-atlas-complete-research-preview
+          include-hidden-files: true
+          path: |
+            data/
+            docs/
+            skills/global-knowledge-atlas/
+            scripts/
+            site/
+            build/
+            README.md
+            DATABASE_STATUS.md
+            .github/
+          retention-days: 30
+          if-no-files-found: error
