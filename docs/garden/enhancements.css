@@ -1,0 +1,6 @@
+/* Mobile art direction: preserve the surrounding garden and a clear title area. */
+@media(max-width:620px){
+  .hero-scene{background-size:640px auto;background-position:center bottom;background-repeat:no-repeat;background-color:#fff6e5}
+  .hero-wash{background:linear-gradient(#fff9ee66 0%,#fff9eeaa 30%,#fff9ee18 55%,transparent 78%)}
+  .hero-copy p,.hero-foot{text-shadow:0 1px 6px #fff9ee,0 0 14px #fff9ee}
+}
