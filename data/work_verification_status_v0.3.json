@@ -1,0 +1,13 @@
+{
+  "version": "0.3",
+  "updated_at": "2026-09-19",
+  "total": 100,
+  "status_counts": {
+    "verified_core_v0.2": 32,
+    "suttacentral_id_url_verified_2026-09-19": 22,
+    "needs_id_crosswalk": 46
+  },
+  "strong_or_route_verified": 54,
+  "remaining_discovery_level": 46,
+  "rule": "A resolved route verifies the canonical identifier route, not every title/date/parallel relationship. Version-level crosswalk requires separate evidence."
+}
