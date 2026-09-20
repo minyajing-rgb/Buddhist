@@ -1,3 +1,7 @@
+> **MOVED TO QURIATLAS / 已迁移**  
+> 量子物理项目的独立主仓库现为 **https://github.com/minyajing-rgb/QuriAtlas**。此目录保留为迁移前历史快照，不再作为新的产品主库。  
+> Standalone canonical repository: **minyajing-rgb/QuriAtlas**.
+
 # 量子漫游 / QuriAtlas
 
 > 从一束光，走进量子世界。  
