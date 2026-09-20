@@ -1,4 +1,4 @@
-"""Rebuild the bilingual cosmic site from the canonical corpus pointer.
+"""Rebuild the bilingual Atlantis site from the canonical corpus pointer.
 Generated HTML is a reproducible snapshot, not a separate content master.
 """
 import hashlib
@@ -24,10 +24,10 @@ css = (ROOT / 'site/style.css').read_text(encoding='utf-8') + (ROOT / 'site/mobi
 js = (ROOT / 'site/app.js').read_text(encoding='utf-8')
 page = '''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="dark"><meta name="theme-color" content="#070b18">
+<meta name="color-scheme" content="light"><meta name="theme-color" content="#f7faff">
 <title>量子漫游 QuriAtlas | Interactive Quantum Physics</title>
 <meta name="description" content="A bilingual quantum learning atlas with stories, interactive experiments, and traceable sources.">
-<meta name="quri-build" content="0.2.0-cosmic-bilingual">
+<meta name="quri-build" content="0.3.0-atlantis-bilingual">
 <style>''' + css + '''</style></head><body>
 <div id="app"></div><dialog id="entryDialog"></dialog>
 <noscript>This interactive atlas requires JavaScript. 本互动知识地图需要启用 JavaScript。</noscript>
@@ -37,6 +37,6 @@ page = '''<!doctype html>
 for out in (ROOT / 'index.html', ROOT.parent / 'docs/quantum/index.html'):
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page, encoding='utf-8')
-print(json.dumps({'build': '0.2.0-cosmic-bilingual', 'concepts': len(data['entries']),
+print(json.dumps({'build': '0.3.0-atlantis-bilingual', 'concepts': len(data['entries']),
                   'sources': len(data['sources']), 'bytes': len(page.encode()),
                   'sha256': hashlib.sha256(page.encode()).hexdigest()}))
