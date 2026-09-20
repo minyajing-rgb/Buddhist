@@ -17,13 +17,13 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Retrieve the exact approved image-only render
+      - name: Retrieve the approved high-resolution image-only scene
         run: |
           python -m pip install Pillow
           python - <<'PY'
           import io,pathlib,urllib.request,hashlib,json
           from PIL import Image
-          url='https://s3.amazonaws.com/document-export-us1.canva.com/fY3n0/DAHVsefY3n0/1/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHVZ3RB6IW%2F20260919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260919T114623Z&X-Amz-Expires=53507&X-Amz-Signature=34858f09d49813d78209a3508afc96a9dd4e1f162d721d8d921a85cb46b175c7&X-Amz-SignedHeaders=host&response-expires=Sun%2C%2020%20Sep%202026%2002%3A38%3A10%20GMT'
+          url='https://export-download.canva.com/349f5ca7-37de-4fe7-9101-329bd9d7bc89/0/0001-4946594725239773093.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260919T101646Z&X-Amz-Expires=60983&X-Amz-Signature=58a69031826605085c949f664569fa3c789ff1f8f4bc135901c16c1eaeeefa87&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2020%20Sep%202026%2003%3A13%3A09%20GMT'
           with urllib.request.urlopen(url,timeout=40) as r:raw=r.read()
           image=Image.open(io.BytesIO(raw)).convert('RGB');image.load()
           print('Approved image-only render dimensions:',image.size,'bytes:',len(raw))
@@ -33,7 +33,7 @@ jobs:
           image.save(out/'sacred-world.webp',quality=94,method=6)
           mobile=image.crop((0,0,round(image.width*0.527),image.height))
           mobile.save(out/'sacred-world-mobile.webp',quality=92,method=6)
-          info={'source':'approved image-only background master','dimensions':list(image.size),'sha256':hashlib.sha256(raw).hexdigest(),'contains_navigation_or_text':False}
+          info={'source':'approved no-text cinematic background master','dimensions':list(image.size),'sha256':hashlib.sha256(raw).hexdigest(),'contains_navigation_or_text':False}
           (out/'art-provenance.json').write_text(json.dumps(info,indent=2))
           PY
       - name: Save permanent assets in the existing repository
