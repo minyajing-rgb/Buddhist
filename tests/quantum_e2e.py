@@ -31,12 +31,12 @@ with sync_playwright() as pw:
         check('HTTP 200', response.status == 200)
     else:
         page.set_content((ROOT/'quantum/index.html').read_text(encoding='utf-8'), wait_until='load')
-    check('Expected build', page.evaluate('window.QURI_BUILD') == '0.2.0-cosmic-bilingual')
+    check('Expected build', page.evaluate('window.QURI_BUILD') == '0.3.0-atlantis-bilingual')
     page.locator('[data-lang=zh]').click()
     check('Chinese document language', page.locator('html').get_attribute('lang') == 'zh-CN')
     check('24 concepts', page.locator('.concept').count() == 24)
     check('20 sources', page.locator('.source').count() == 20)
-    check('Dark background', page.evaluate("getComputedStyle(document.body).backgroundColor") == 'rgb(7, 11, 24)')
+    check('Light Atlantis background', page.evaluate("getComputedStyle(document.body).backgroundColor") == 'rgb(247, 250, 255)')
     page.screenshot(path=str(out/'desktop-zh.png'))
     page.locator('.concept[data-entry=Q004]').click()
     page.locator('[data-read=Q004]').click()
@@ -129,7 +129,7 @@ CanvasRenderingContext2D.prototype.fillText=function(s,...a){window.canvasText.p
         check('SVG download English filename', download.suggested_filename=='QuriAtlas-map-en.svg')
     check('No JS errors', not errors)
     browser.close()
-report={'build':'0.2.0-cosmic-bilingual','mode':'HTTP' if a.url else 'offline DOM snapshot','url':a.url,
+report={'build':'0.3.0-atlantis-bilingual','mode':'HTTP' if a.url else 'offline DOM snapshot','url':a.url,
         'passed':len(checks),'checks':checks,'javascript_errors':errors,
         'not_claimed':['exhaustive research coverage','independent physics review','DNS or custom-domain verification']}
 (out/'qa.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
