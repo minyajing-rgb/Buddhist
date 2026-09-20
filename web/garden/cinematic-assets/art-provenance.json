@@ -1,0 +1,20 @@
+{
+  "source": "approved no-text cinematic background and existing portal images",
+  "hero_dimensions": [
+    1776,
+    888
+  ],
+  "transfer": "spatial tiles reassembled in original row-major order",
+  "contains_navigation_or_text": false,
+  "files": {
+    "sacred-world.webp": "898be3e3c4513b7636fc2a338105b3af5279eeca8e986e52c7db564d35aca26e",
+    "garden.png": "07041d79a81423253de25c94f8b2ca9b91cc57b804705f795cc05318da4c8e86",
+    "places.webp": "92288f354efddd6d2529a5ffd4278eb8e65cb8d4fe21d65c74e5ea0081286360",
+    "texts.webp": "29b4f79849cf1e33a71472ee259d3fd069e2b9c322c6b71340e7263057beca49",
+    "sacred-world-mobile.webp": "f0b1fb21a20bc213dd756b4c7a18b720cf1cec609d2cccdb42a8ec95d34b0ab4",
+    "people.webp": "d0642c65cb692a83a7b98382a1357d6d84171db81467132cd28faeb29e3cabeb",
+    "library.webp": "094c190a80968bf4f35c754cf4251c1ae4e1b870124d902f83a837eecde20827",
+    "map.webp": "a413b707563ff9cb5aa96146d82a05f913fcbe8bbdb1a1200da4a575f484ffd7",
+    "timeline.webp": "40f8e79e9bd3ce85adb986e34ca3db2b5164804f8a8dcf7b5bc77fc2a6902cbb"
+  }
+}
