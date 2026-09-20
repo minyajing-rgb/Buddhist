@@ -1,6 +1,6 @@
 {
-  "built_at": "2026-09-19T12:44:57.088787+00:00",
-  "ui_release": "garden-1.0.1",
+  "built_at": "2026-09-20T01:58:51.789074+00:00",
+  "ui_release": "cinematic-4.0",
   "counts": {
     "works": 100,
     "stories": 12,
@@ -25,8 +25,8 @@
   "preserved_subsites": [
     "quantum"
   ],
-  "homepage_sha256": "6723827043199fd1c13a8989a363b07a00429c7e6e1fb4c2679c4944b3281cfc",
-  "garden_html_bytes": 547143,
+  "homepage_sha256": "9d83f70f6fe3bda9874bef9dbc4e226423f335a25a0f1aaa11bf7a0e2bd7414c",
+  "garden_html_bytes": 547309,
   "public_files": [
     ".nojekyll",
     "404.html",
@@ -37,7 +37,15 @@
     "assets/05_learning_map.png",
     "assets/06_crosswalk.png",
     "assets/garden.png",
+    "assets/library.webp",
     "assets/lotus.png",
+    "assets/map.webp",
+    "assets/people.webp",
+    "assets/places.webp",
+    "assets/sacred-world-mobile.webp",
+    "assets/sacred-world.webp",
+    "assets/texts.webp",
+    "assets/timeline.webp",
     "enhancements.css",
     "enhancements.js",
     "garden.css",
@@ -45,16 +53,34 @@
     "index.html",
     "quantum/index.html"
   ],
+  "cinematic_asset_sha256": {
+    "sacred-world.webp": "898be3e3c4513b7636fc2a338105b3af5279eeca8e986e52c7db564d35aca26e",
+    "sacred-world-mobile.webp": "f0b1fb21a20bc213dd756b4c7a18b720cf1cec609d2cccdb42a8ec95d34b0ab4",
+    "garden.png": "07041d79a81423253de25c94f8b2ca9b91cc57b804705f795cc05318da4c8e86",
+    "map.webp": "a413b707563ff9cb5aa96146d82a05f913fcbe8bbdb1a1200da4a575f484ffd7",
+    "texts.webp": "29b4f79849cf1e33a71472ee259d3fd069e2b9c322c6b71340e7263057beca49",
+    "places.webp": "92288f354efddd6d2529a5ffd4278eb8e65cb8d4fe21d65c74e5ea0081286360",
+    "people.webp": "d0642c65cb692a83a7b98382a1357d6d84171db81467132cd28faeb29e3cabeb",
+    "timeline.webp": "40f8e79e9bd3ce85adb986e34ca3db2b5164804f8a8dcf7b5bc77fc2a6902cbb",
+    "library.webp": "094c190a80968bf4f35c754cf4251c1ae4e1b870124d902f83a837eecde20827"
+  },
   "ux_refinements": [
-    "mobile art composition retains flowering trees",
-    "in-page anchors do not reset the route",
-    "reduced-motion respected"
+    "independent no-text cinematic raster artwork",
+    "live multilingual HTML interface",
+    "cross-entity search",
+    "scene hotspots and guided journey",
+    "native accessible journey dialog",
+    "local learning progress",
+    "quiet view and motion controls",
+    "mobile scene art direction",
+    "no fallback to the old vector garden",
+    "versioned CSS and JavaScript URLs"
   ],
   "url": "https://minyajing-rgb.github.io/Buddhist/",
   "status": "published_and_https_hash_verified",
   "http_status": 200,
-  "verified_at": "2026-09-19T12:45:16.705908+00:00",
-  "workflow_run": "35443720453",
-  "source_commit": "ec7d6516a3e946694e9d94162d501019a717bada",
+  "verified_at": "2026-09-20T01:59:15.749432+00:00",
+  "workflow_run": "35482738682",
+  "source_commit": "f116a422bd018ab7b5a398f70757b1ae6060d3cb",
   "quantum_preserved": true
 }

@@ -1,7 +1,7 @@
 {
   "url": "https://minyajing-rgb.github.io/Buddhist/",
-  "passed": 59,
-  "total": 59,
+  "passed": 98,
+  "total": 98,
   "checks": [
     {
       "name": "Homepage visible",
@@ -19,12 +19,210 @@
       "detail": null
     },
     {
-      "name": "Journey drawer opens",
+      "name": "Accessible journey dialog opens",
       "passed": true,
       "detail": null
     },
     {
       "name": "Garden PNG loaded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic v4 release marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset served: sacred-world.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset decoded: sacred-world.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero retained at full resolution",
+      "passed": true,
+      "detail": [
+        1776,
+        888
+      ]
+    },
+    {
+      "name": "Exact published image bytes: sacred-world.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset served: sacred-world-mobile.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset decoded: sacred-world-mobile.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exact published image bytes: sacred-world-mobile.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset served: map.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset decoded: map.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exact published image bytes: map.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset served: texts.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset decoded: texts.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exact published image bytes: texts.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset served: places.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset decoded: places.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exact published image bytes: places.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset served: people.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset decoded: people.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exact published image bytes: people.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset served: timeline.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset decoded: timeline.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exact published image bytes: timeline.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset served: library.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cinematic asset decoded: library.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exact published image bytes: library.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Actual hero uses cinematic raster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cross-entity search opens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Search includes real people",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Search opens a real person record",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scene hotspot opens Buddha record",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "A discovery lights a stamp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Daily learning card renders",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Real guided tour opens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tour advances to next step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Quiet view reveals artwork",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Escape restores the interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exploration and daily card persist",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Motion can be paused",
       "passed": true,
       "detail": null
     },
@@ -300,7 +498,7 @@
     }
   ],
   "javascript_errors": [],
-  "tested_at": "2026-09-19T12:45:28Z",
+  "tested_at": "2026-09-20T01:59:28Z",
   "limits": [
     "UI and serving-boundary tests are not scholarly certification.",
     "Public repository visibility is unchanged.",
