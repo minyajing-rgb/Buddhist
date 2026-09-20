@@ -2,7 +2,8 @@
 """Browser checks over real HTTP; also test the public serving boundary.
 UI correctness is not a certification of scholarly content or repository privacy.
 """
-import argparse,hashlib,json,pathlib,time,urllib.error,urllib.request
+import argparse,hashlib,io,json,pathlib,time,urllib.error,urllib.request
+from PIL import Image
 from playwright.sync_api import sync_playwright
 
 def main():
@@ -20,8 +21,47 @@ def main():
         check('Homepage visible',page.locator('.hero-copy h1').is_visible())
         check('Six visual exploration portals',page.locator('#heroPortalDeck .portal-card').count()==6)
         check('Gamified journey entry visible',page.locator('#journeyButton').is_visible())
-        page.locator('#journeyButton').click();page.wait_for_timeout(80);check('Journey drawer opens',page.locator('#journeyDrawer').get_attribute('aria-hidden')=='false' and page.locator('.stamp-grid .stamp').count()==6);page.locator('[data-close-journey]').click();page.wait_for_timeout(40)
+        page.locator('#journeyButton').click();page.wait_for_timeout(80);check('Accessible journey dialog opens',page.locator('#journeyDialog').evaluate('e=>e.open') and page.locator('.stamp-grid .stamp').count()==6);page.locator('[data-close-journey]').click();page.wait_for_timeout(40)
         check('Garden PNG loaded',page.request.get(args.url+'assets/garden.png').status==200)
+        check('Cinematic v4 release marker',page.locator('meta[name="dharma-ui-release"]').get_attribute('content')=='cinematic-4.0')
+        expected_assets=json.loads(pathlib.Path('build/garden-release.json').read_text()).get('cinematic_asset_sha256',{}) if pathlib.Path('build/garden-release.json').exists() else {}
+        for name in ['sacred-world.webp','sacred-world-mobile.webp','map.webp','texts.webp','places.webp','people.webp','timeline.webp','library.webp']:
+            response=page.request.get(args.url+'assets/'+name)
+            check('Cinematic asset served: '+name,response.status==200)
+            raw_image=response.body()
+            im=Image.open(io.BytesIO(raw_image));im.load()
+            check('Cinematic asset decoded: '+name,im.width>=200 and im.height>=100)
+            if name=='sacred-world.webp':check('Hero retained at full resolution',im.width>=1700 and im.height>=850,list(im.size))
+            if name in expected_assets:check('Exact published image bytes: '+name,hashlib.sha256(raw_image).hexdigest()==expected_assets[name])
+        check('Actual hero uses cinematic raster', 'sacred-world.webp' in page.locator('.hero-scene').evaluate('e=>getComputedStyle(e).backgroundImage'))
+        page.locator('#heroDiscoveryQuery').fill('Buddha');page.locator('#heroSearchButton').click()
+        check('Cross-entity search opens',page.locator('#discoveryDialog').evaluate('e=>e.open'))
+        check('Search includes real people',page.locator('#discoveryResults [data-record="person"]').count()>0)
+        page.locator('#discoveryResults [data-record="person"]').first.click()
+        check('Search opens a real person record',page.locator('#modal').evaluate('e=>e.open') and len(page.locator('#modalTitle').inner_text())>0)
+        page.locator('#closeModal').click()
+        page.locator('.scene-hotspots [data-record="person"]').click()
+        check('Scene hotspot opens Buddha record',page.locator('#modal').evaluate('e=>e.open') and '释迦' in page.locator('#modalTitle').inner_text())
+        page.locator('#closeModal').click()
+        page.locator('#journeyButton').click()
+        check('A discovery lights a stamp',page.locator('.stamp.earned').count()>=1)
+        page.locator('[data-draw-card]').click();card_title=page.locator('.explore-card h3').inner_text()
+        check('Daily learning card renders',bool(card_title))
+        page.locator('[data-close-journey]').click()
+        page.locator('.journey-orb').click()
+        check('Real guided tour opens',page.locator('#modal .guide-step').inner_text().endswith('1 / 4'))
+        page.locator('#modal [data-guide="1"]').click()
+        check('Tour advances to next step',page.locator('#modal .guide-step').inner_text().endswith('2 / 4'))
+        page.locator('#closeModal').click()
+        page.locator('#quietButton').click()
+        check('Quiet view reveals artwork',page.locator('.garden-hero').evaluate('e=>e.classList.contains("quiet-view")'))
+        page.keyboard.press('Escape')
+        check('Escape restores the interface',not page.locator('.garden-hero').evaluate('e=>e.classList.contains("quiet-view")'))
+        page.reload(wait_until='networkidle');page.locator('#journeyButton').click()
+        check('Exploration and daily card persist',page.locator('.stamp.earned').count()>=1 and page.locator('.explore-card h3').inner_text()==card_title)
+        page.locator('[data-toggle-motion]').click()
+        check('Motion can be paused',page.locator('body').evaluate('e=>e.classList.contains("no-motion")'))
+        page.locator('[data-toggle-motion]').click();page.locator('[data-close-journey]').click()
         content=page.eval_on_selector('#public-content','e=>JSON.parse(e.textContent)')
         check('100 texts preserved',len(content['works'])==100)
         check('12 bilingual stories',len(content['stories'])==12 and all(len(s['body_en'])>350 and len(s['body_zh'])>100 for s in content['stories']))
@@ -64,7 +104,7 @@ def main():
             page.locator('#menuToggle').click();page.locator('#nav').wait_for(state='visible');check('Mobile navigation opens '+str(width),page.locator('#nav').is_visible())
             page.locator('#nav a[href="#works"]').click();page.locator('#works').wait_for(state='visible');check('Mobile navigation works '+str(width),page.locator('#works').is_visible())
             page.locator('#workQuery').fill('');page.locator('#workGrid [data-act="work"]').first.click();check('Mobile dialog fits '+str(width),page.locator('#modal').bounding_box()['width']<=width);close();route('atlas');check('Mobile map no overflow '+str(width),page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
-        page.set_viewport_size({'width':390,'height':844});route('home');page.screenshot(path=str(dest/'mobile-home.png'),full_page=True)
+        page.set_viewport_size({'width':390,'height':844});route('home');page.screenshot(path=str(dest/'mobile-home.png'),full_page=True);page.screenshot(path=str(dest/'mobile-first-screen.png'))
         check('No JavaScript errors',not errors,errors)
         check('No backend/export links added by interactions',page.locator('a[href*="github"],a[href$=".json"]').count()==0)
         if not args.skip_boundary:
