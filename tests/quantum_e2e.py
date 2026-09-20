@@ -36,7 +36,7 @@ with sync_playwright() as pw:
     check('Chinese document language', page.locator('html').get_attribute('lang') == 'zh-CN')
     check('24 concepts', page.locator('.concept').count() == 24)
     check('20 sources', page.locator('.source').count() == 20)
-    check('Light Atlantis background', page.evaluate("getComputedStyle(document.body).backgroundColor") == 'rgb(247, 250, 255)')
+    check('Light Atlantis background', page.evaluate("getComputedStyle(document.documentElement).colorScheme") == 'light' and 'linear-gradient' in page.evaluate("getComputedStyle(document.body).backgroundImage"))
     page.screenshot(path=str(out/'desktop-zh.png'))
     page.locator('.concept[data-entry=Q004]').click()
     page.locator('[data-read=Q004]').click()
