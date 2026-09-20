@@ -1,5 +1,5 @@
 {
-  "build": "0.2.0-cosmic-bilingual",
+  "build": "0.3.0-atlantis-bilingual",
   "mode": "HTTP",
   "url": "https://minyajing-rgb.github.io/Buddhist/quantum/",
   "passed": 98,
@@ -25,7 +25,7 @@
       "passed": true
     },
     {
-      "name": "Dark background",
+      "name": "Light Atlantis background",
       "passed": true
     },
     {
